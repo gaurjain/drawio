@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-21T22:40:06.458Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="KlMKs91QhIhwJH_WT9eF" version="12.1.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-21T22:42:29.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Focy8yaGCYS9RCr5c4eS" version="12.1.3" type="github" pages="1">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2729" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -566,7 +566,7 @@
           <mxGeometry x="-147" y="-480" width="110" height="10" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-165" value="&lt;h1&gt;Istio Service Mesh&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(34 , 38 , 53) ; font-size: 19px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;encapsulates all the complexities related to the infrastructure away from the services by implementing an interface.The application code becomes lightweight and less complicated since this code no longer need to embed multiple third-party libraries to implement the required features. It is made up of a data plane and a control plane.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="415.5" y="-667.5" width="419" height="253" as="geometry"/>
+          <mxGeometry x="416" y="-667" width="465" height="253" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;strokeColor=#10739E;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YfsyUW3J8C4D2k8uaty3-184" target="YfsyUW3J8C4D2k8uaty3-204" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1053,8 +1053,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SGfTEjiCVZeylYpdb7E6-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#B5739D;fillColor=#333333;gradientColor=none;size=0.6777790069580079;strokeWidth=4;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="-250" width="120" height="1120" as="geometry"/>
+        <mxCell id="SGfTEjiCVZeylYpdb7E6-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#B5739D;fillColor=#333333;gradientColor=none;size=0.7083332061767578;strokeWidth=4;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="-246" width="120" height="1120" as="geometry"/>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/computing-technology/74/Computer_error_404-RAD-128.png;strokeColor=#B5739D;strokeWidth=8;fillColor=#333333;gradientColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="1239" y="-907.5" width="50" height="50" as="geometry"/>
@@ -1160,6 +1160,9 @@
             <mxPoint x="1147" y="-226" as="targetPoint"/>
             <Array as="points"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SGfTEjiCVZeylYpdb7E6-101" value="Text" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-757" y="-325" width="40" height="10" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
