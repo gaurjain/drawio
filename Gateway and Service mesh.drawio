@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-22T20:48:25.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="h_Eu94q2zQn1OMTZ_jXK" version="12.1.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-22T21:01:35.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="ZwzQRDotgM0ytf-i2ou4" version="12.1.3" type="github" pages="1">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2729" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="552" y="-1095.5" width="178" height="132" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-30" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Side Car Proxy (Envoy)&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 18px&quot; color=&quot;#666666&quot;&gt;Is an intelligent (proxy) application deployed in its own container, &lt;i&gt;alongside each service instance and provides interface to handle infrastructure functionalities&lt;/i&gt; like service discovery, TLS termination, authentication and authorization, http/2 and gRPC proxies,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(102 , 102 , 102) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;request tracing, traffic splitting, load balancing, health checks, metrics, circuit breaking, failover, retries, fault injection, rate limiting related to mediating inter-services communication and monitoring. It intercepts all network traffic flowing between applications.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="737" y="-1090" width="583" height="240" as="geometry"/>
+          <mxGeometry x="737" y="-1090" width="573" height="240" as="geometry"/>
         </mxCell>
         <mxCell id="-t0SxdGJJtxUaenTJ9r5-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#7ea6e0&quot;&gt;The Internet&lt;/font&gt;&lt;/b&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#A9C4EB;shape=mxgraph.mscae.enterprise.internet;comic=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="-1010" width="769" height="475" as="geometry"/>
@@ -343,7 +343,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G8baYWpvVq2G7eu6TOwq-537" value="" style="group;fillColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="79.77783203125" y="269.9447021484375" width="245" height="240" as="geometry"/>
+          <mxGeometry x="79.77783203125" y="309.9447021484375" width="245" height="240" as="geometry"/>
         </mxCell>
         <mxCell id="G8baYWpvVq2G7eu6TOwq-538" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#10739E;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;comic=1;gradientDirection=south;shadow=0;" parent="G8baYWpvVq2G7eu6TOwq-537" vertex="1">
           <mxGeometry width="245" height="240" as="geometry"/>
@@ -497,16 +497,16 @@
           <mxGeometry x="35" y="59" width="70" height="92" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/circuit-board-128.png" parent="1" vertex="1">
-          <mxGeometry x="1331.5" y="-968" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1321" y="-970.5" width="45" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/107-128.png" parent="1" vertex="1">
-          <mxGeometry x="1394" y="-915.5" width="60" height="60" as="geometry"/>
+          <mxGeometry x="1383.5" y="-915.5" width="60" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="YfsyUW3J8C4D2k8uaty3-17" value="&lt;h1&gt;Galley&lt;/h1&gt;&lt;font style=&quot;font-size: 18px&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;is centralized configuration management and distribution. It i&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;nsulates the rest of the &lt;i&gt;Istio&lt;/i&gt; components from the underlying platform, like Kubernetes.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-478.5" y="446.5" width="320" height="160" as="geometry"/>
+        <mxCell id="YfsyUW3J8C4D2k8uaty3-17" value="&lt;h1&gt;Galley&lt;/h1&gt;&lt;font style=&quot;font-size: 18px&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;is centralized configuration management and distribution. It i&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;nsulates the rest of the &lt;i&gt;Istio&lt;/i&gt; components from the underlying platform, like Kubernetes, Nomad.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-480" y="496" width="320" height="174" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-18" value="&lt;h1&gt;Mixer&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; face=&quot;Verdana&quot;&gt;is the general purpose policy and telemetry hub, an Istio Component responsible for access control and usage Policy Enforcement and Telemetry Collection. &lt;b&gt;Side-car envoy logically calls Mixer before each request&lt;/b&gt; to perform pre-condition checks, and after each request to report telemetry. Mixer sends the metrics to Prometheus.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-481" y="620" width="325" height="290" as="geometry"/>
+          <mxGeometry x="-485" y="700" width="325" height="290" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-19" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="G8baYWpvVq2G7eu6TOwq-531" target="YfsyUW3J8C4D2k8uaty3-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -515,7 +515,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-21" value="&lt;h1&gt;Citadel&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 19px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;provides strong service-to-service and end-user authentication using mutual TLS, with built-in identity and credential management. Pushes TLS certificates to sidecar proxies.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-481" y="-269" width="320" height="200" as="geometry"/>
+          <mxGeometry x="-482.5" y="-226" width="320" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-22" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G8baYWpvVq2G7eu6TOwq-528" target="YfsyUW3J8C4D2k8uaty3-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -530,7 +530,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-23" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot;&gt;Pilot&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; margin: 5px 0px 15px ; padding-top: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;configures all the Envoy proxy instances deployed in the Istio service mesh. It provides &lt;i&gt;service discovery&lt;/i&gt; for the &lt;i&gt;Envoy sidecars&lt;/i&gt; and is&amp;nbsp;the core component used for traffic management for intelligent routing (Canary, Dark, etc.) and resiliency (timeouts, retries, circuit breaker etc.) in Istio.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; margin: 5px 0px 15px ; padding-top: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: medium&quot;&gt;It fetches the configuration from Galley and let user specify which rules they want to use to route traffic between Envoy proxies and configure &lt;i&gt;failure recovery&lt;/i&gt; features such as &lt;/span&gt;&lt;i style=&quot;font-size: medium&quot;&gt;timeouts, retries, and circuit breakers&lt;/i&gt;&lt;span style=&quot;font-size: medium&quot;&gt;. It helps to keep configuration in sync.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-485" y="-49" width="333" height="471" as="geometry"/>
+          <mxGeometry x="-485" y="-6" width="333" height="471" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-24" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="G8baYWpvVq2G7eu6TOwq-530" target="YfsyUW3J8C4D2k8uaty3-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -550,20 +550,20 @@
             <mxPoint x="685" y="260.7600000000002" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YfsyUW3J8C4D2k8uaty3-37" value="&lt;h1&gt;Istio Control Plane&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 19px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;responsibility is primarily the administration and configuration of the sidecar proxies to enforce infrastructure policies and collect telemetry.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;font-family: cambria, serif; font-size: 19px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-836" y="294" width="256" height="216" as="geometry"/>
+        <mxCell id="YfsyUW3J8C4D2k8uaty3-37" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Istio Control Plane&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 19px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#666666&quot;&gt;responsibility is primarily the administration and configuration of the sidecar proxies to enforce infrastructure policies and collect telemetry.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;font-family: &amp;#34;cambria&amp;#34; , serif ; font-size: 19px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="362" width="256" height="216" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-39" value="" style="verticalLabelPosition=bottom;html=1;fillColor=#333333;verticalAlign=top;points=[[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.855,0],[0.145,0.855,0],[0.5,0,0], [1,0.5,0], [0.5,1,0],[0,0.5,0]];pointerEvents=1;align=center;shape=mxgraph.cisco_safe.capability.identity_authorization;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1261.5" y="-1092" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1250" y="-1092" width="45" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/cc_mono_icon_set/blacks/48x48/key.png" parent="1" vertex="1">
-          <mxGeometry x="1192.5" y="-1091" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1180" y="-1092" width="45" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-49" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Istio Data plane&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 18px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;is composed of a set of intelligent proxies (Envoy) deployed as sidecars. Data plane intercepts all incoming (ingress) and outgoing (egress) network traffic.&amp;nbsp; The Data plane touches every packet/request in the system.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="141" y="-1081" width="378" height="162" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-52" value="" style="verticalLabelPosition=bottom;html=1;fillColor=#333333;verticalAlign=top;points=[[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.855,0],[0.145,0.855,0],[0.5,0,0], [1,0.5,0], [0.5,1,0],[0,0.5,0]];pointerEvents=1;align=center;shape=mxgraph.cisco_safe.capability.load_balancer;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1331.5" y="-1025" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1321" y="-1029.5" width="45" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-162" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#808080;entryX=0.365;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.004;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YfsyUW3J8C4D2k8uaty3-110" target="G8baYWpvVq2G7eu6TOwq-246" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -650,7 +650,7 @@
           <mxGeometry x="-694.5" y="-727" width="30" height="33" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-236" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519895-013_MagnifyingGlass-128.png;strokeColor=#808080;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1038.5" y="-1089" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1038.5" y="-1092" width="45" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-242" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48x48-free-object-icons/48/Red_ball.png;shadow=0;strokeColor=#808080;fillColor=#ffffff;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1102.5" y="-284" width="48" height="48" as="geometry"/>
@@ -1001,7 +1001,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-35" value="" style="shape=mxgraph.gcp.management_tools.trace;html=1;fillColor=#333333;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1401.5" y="-1092" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1391" y="-1092" width="45" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-37" value="" style="shape=mxgraph.gcp.management_tools.monitoring;html=1;fillColor=#333333;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="678.5" y="-957" width="50" height="50" as="geometry"/>
@@ -1065,8 +1065,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SGfTEjiCVZeylYpdb7E6-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#B5739D;fillColor=#333333;gradientColor=none;size=0.7833338056291853;strokeWidth=4;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-610.5" y="-284" width="140" height="1190" as="geometry"/>
+        <mxCell id="SGfTEjiCVZeylYpdb7E6-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#B5739D;fillColor=#333333;gradientColor=none;size=0.6984129769461496;strokeWidth=4;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-610" y="-230" width="140" height="1220" as="geometry"/>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-49" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#4387FD;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;comic=1;gradientDirection=south;shadow=0;opacity=20;" parent="1" vertex="1">
           <mxGeometry x="1215" y="-246" width="245" height="240" as="geometry"/>
@@ -1158,7 +1158,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-99" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-832.5" y="200" width="62" height="94" as="geometry"/>
+          <mxGeometry x="-827.5" y="252" width="62" height="94" as="geometry"/>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-100" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" parent="1" vertex="1">
           <mxGeometry x="70" y="-1081" width="62" height="94" as="geometry"/>
@@ -1180,18 +1180,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png" vertex="1" parent="1">
-          <mxGeometry x="1397" y="-969.5" width="50" height="50" as="geometry"/>
+          <mxGeometry x="1386" y="-972" width="50" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-4" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#333333;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.failover_plan;" vertex="1" parent="1">
-          <mxGeometry x="1467.5" y="-966.5" width="33" height="44" as="geometry"/>
+          <mxGeometry x="1461.5" y="-970.5" width="33" height="44" as="geometry"/>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/medical-healthcare-set-outline/32/injection_injector_medical_vaccine_medicine-128.png;fillColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1327.5" y="-911.5" width="52" height="52" as="geometry"/>
+          <mxGeometry x="1321" y="-911.5" width="52" height="52" as="geometry"/>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/health_sources-128.png;fillColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1399" y="-1027.5" width="50" height="50" as="geometry"/>
+          <mxGeometry x="1389" y="-1029" width="49" height="49" as="geometry"/>
         </mxCell>
-        <mxCell id="Ia0qKd9SbuNCRsNMpkPh-15" value="" style="endArrow=classic;html=1;entryX=0.059;entryY=1.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ia0qKd9SbuNCRsNMpkPh-24">
+        <mxCell id="Ia0qKd9SbuNCRsNMpkPh-15" value="" style="endArrow=classic;html=1;entryX=0.524;entryY=1.108;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ia0qKd9SbuNCRsNMpkPh-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411" y="796" as="sourcePoint"/>
             <mxPoint x="140" y="660" as="targetPoint"/>
@@ -1230,20 +1230,20 @@
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-24" value="Configuration data&amp;nbsp;&lt;br&gt;to Proxies (at runtime)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="535" width="130" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="Ia0qKd9SbuNCRsNMpkPh-25" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="G8baYWpvVq2G7eu6TOwq-557" target="Ia0qKd9SbuNCRsNMpkPh-24">
+        <mxCell id="Ia0qKd9SbuNCRsNMpkPh-25" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.862;entryY=1.141;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8baYWpvVq2G7eu6TOwq-557" target="Ia0qKd9SbuNCRsNMpkPh-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="421" y="806" as="sourcePoint"/>
             <mxPoint x="342.0799999999999" y="667.5799999999999" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/seo-outline-colored-free/128/Server_Proxy_Hosting_Url_link_window-128.png;fillColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1330.5" y="-1091" width="47" height="47" as="geometry"/>
+          <mxGeometry x="1320" y="-1093" width="47" height="47" as="geometry"/>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands-2/461/120_Expedited_Ssl_logo_logos-128.png;fillColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1114.5" y="-1095" width="51" height="51" as="geometry"/>
+          <mxGeometry x="1106" y="-1095" width="51" height="51" as="geometry"/>
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-communication/16/call-split-128.png;fillColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1461.5" y="-1091" width="45" height="45" as="geometry"/>
+          <mxGeometry x="1461.5" y="-1092" width="45" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
