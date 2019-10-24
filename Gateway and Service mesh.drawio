@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T16:07:57.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="0YmiVAlVGoOgPGkmvFpr" version="12.1.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-24T16:08:15.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MxLOL-jm9moFK_lqKxiI" version="12.1.3" type="github" pages="2">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2196" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="545" y="-1090" width="196" height="146" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-30" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Side Car Proxy (Envoy)&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 18px&quot; color=&quot;#666666&quot;&gt;Is an intelligent (proxy) application deployed in its own container, &lt;i&gt;alongside each service instance and provides interface to handle infrastructure functionalities&lt;/i&gt; like service discovery, TLS termination, authentication and authorization, http/2 and gRPC proxies,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(102 , 102 , 102) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;request tracing, traffic splitting, load balancing, health checks, metrics, circuit breaking, failover, retries, fault injection, rate limiting related to mediating inter-services communication and monitoring. It intercepts all network traffic flowing between applications.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="715" y="-1081" width="575" height="260" as="geometry"/>
+          <mxGeometry x="715" y="-1081" width="575" height="241" as="geometry"/>
         </mxCell>
         <mxCell id="-t0SxdGJJtxUaenTJ9r5-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#7ea6e0&quot;&gt;The Internet&lt;/font&gt;&lt;/b&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#A9C4EB;shape=mxgraph.mscae.enterprise.internet;comic=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="-1010" width="769" height="475" as="geometry"/>
