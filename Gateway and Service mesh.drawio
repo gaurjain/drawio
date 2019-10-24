@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T17:17:49.425Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="vaIeLJIxCWgo3oEI7RwZ" version="12.1.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-24T17:27:07.626Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="i5tVbAh7_IOA0s_3fGvm" version="12.1.3" type="github" pages="2">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2729" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -406,7 +406,7 @@
         <mxCell id="YfsyUW3J8C4D2k8uaty3-23" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot;&gt;Pilot&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; margin: 5px 0px 15px ; padding-top: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;configures all the Envoy proxy instances deployed in the Istio service mesh. It provides &lt;i&gt;service discovery&lt;/i&gt; for the &lt;i&gt;Envoy sidecars&lt;/i&gt; and is&amp;nbsp;the core component used for traffic management for intelligent routing (Canary, Dark, etc.) and resiliency (timeouts, retries, circuit breaker etc.) in Istio.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; margin: 5px 0px 15px ; padding-top: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: medium&quot;&gt;It fetches the configuration from Galley and let user specify which rules they want to use to route traffic between Envoy proxies and configure &lt;i&gt;failure recovery&lt;/i&gt; features such as &lt;/span&gt;&lt;i style=&quot;font-size: medium&quot;&gt;timeouts, retries, and circuit breakers&lt;/i&gt;&lt;span style=&quot;font-size: medium&quot;&gt;. It helps to keep configuration in sync.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-490" y="1" width="333" height="471" as="geometry"/>
         </mxCell>
-        <mxCell id="YfsyUW3J8C4D2k8uaty3-24" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="G8baYWpvVq2G7eu6TOwq-530" target="YfsyUW3J8C4D2k8uaty3-23" edge="1">
+        <mxCell id="YfsyUW3J8C4D2k8uaty3-24" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="G8baYWpvVq2G7eu6TOwq-530" target="YfsyUW3J8C4D2k8uaty3-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="262" y="61.9457142857143" as="sourcePoint"/>
             <mxPoint x="-143" y="310.5" as="targetPoint"/>
@@ -1214,8 +1214,8 @@
         <mxCell id="G8baYWpvVq2G7eu6TOwq-306" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#B5739D;strokeWidth=16;startAngle=0.4968173254495136;endAngle=0.04113438066400665;rounded=0;comic=1;shadow=0;fillColor=none;" parent="SGfTEjiCVZeylYpdb7E6-15" vertex="1">
           <mxGeometry x="56" y="45" width="133" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="G8baYWpvVq2G7eu6TOwq-307" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/3D-shapes-psd/128/ball-1x1.png;rounded=0;comic=1;strokeWidth=10;" parent="SGfTEjiCVZeylYpdb7E6-15" vertex="1">
-          <mxGeometry x="98" y="86.5" width="48" height="48" as="geometry"/>
+        <mxCell id="G8baYWpvVq2G7eu6TOwq-307" value="Service A" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/3D-shapes-psd/128/ball-1x1.png;rounded=0;comic=1;strokeWidth=10;" parent="SGfTEjiCVZeylYpdb7E6-15" vertex="1">
+          <mxGeometry x="98.5" y="84" width="48" height="48" as="geometry"/>
         </mxCell>
         <mxCell id="G8baYWpvVq2G7eu6TOwq-309" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#B266FF;exitX=0.002;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;" parent="SGfTEjiCVZeylYpdb7E6-15" source="G8baYWpvVq2G7eu6TOwq-305" target="G8baYWpvVq2G7eu6TOwq-306" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1255,7 +1255,7 @@
             <mxPoint x="292.2498320312502" y="-405.3699999999999" as="sourcePoint"/>
             <mxPoint x="353.1778320312501" y="-188.70299999999997" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="329" y="-370"/>
+              <mxPoint x="340" y="-370"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1264,7 +1264,7 @@
             <mxPoint x="351.4898322610293" y="-187" as="sourcePoint"/>
             <mxPoint x="444.05499999999984" y="46.07999999999993" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="360" y="-390"/>
+              <mxPoint x="360" y="-370"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1376,7 +1376,7 @@
           <mxGeometry x="1085.5" y="-830.5" width="65" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="ETOzjRqInynFKvaDvVst-50" value="" style="group" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-1090" width="490" height="250" as="geometry"/>
+          <mxGeometry x="999" y="-1090" width="490" height="250" as="geometry"/>
         </mxCell>
         <mxCell id="ETOzjRqInynFKvaDvVst-48" value="" style="group" connectable="0" vertex="1" parent="ETOzjRqInynFKvaDvVst-50">
           <mxGeometry width="489.99999999999994" height="249.99999999999994" as="geometry"/>
@@ -1441,7 +1441,7 @@
         <mxCell id="ETOzjRqInynFKvaDvVst-51" value="&lt;b&gt;Service Entry&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="870" y="-469.5" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="ETOzjRqInynFKvaDvVst-52" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#B266FF;exitX=0.533;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="ETOzjRqInynFKvaDvVst-39">
+        <mxCell id="ETOzjRqInynFKvaDvVst-52" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;exitX=0.533;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="ETOzjRqInynFKvaDvVst-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="353.41583251953125" y="-191.5" as="sourcePoint"/>
             <mxPoint x="444.05499999999984" y="46.07999999999993" as="targetPoint"/>
@@ -1450,8 +1450,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ETOzjRqInynFKvaDvVst-54" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/api_management.svg;fillColor=none;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="915.5" y="-405.5" width="43" height="43" as="geometry"/>
+        <mxCell id="ETOzjRqInynFKvaDvVst-54" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/api_management.svg;fillColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="910.5" y="-405.5" width="43" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="SGfTEjiCVZeylYpdb7E6-191" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;exitX=0.131;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="ETOzjRqInynFKvaDvVst-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354.26583203124983" y="-191.63100000000009" as="sourcePoint"/>
+            <mxPoint x="873.5999999999999" y="-371.20000000000005" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="350" y="-130"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETOzjRqInynFKvaDvVst-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/3D-shapes-psd/128/ball-1x1.png;rounded=0;comic=1;strokeWidth=10;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="313" y="-156.5" width="48" height="48" as="geometry"/>
         </mxCell>
         <mxCell id="ETOzjRqInynFKvaDvVst-10" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#B266FF;entryX=0.139;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="G8baYWpvVq2G7eu6TOwq-76">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1470,18 +1482,6 @@
               <mxPoint x="330" y="-130"/>
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="SGfTEjiCVZeylYpdb7E6-191" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#B266FF;exitX=0.131;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="ETOzjRqInynFKvaDvVst-39">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="354.26583203124983" y="-191.63100000000009" as="sourcePoint"/>
-            <mxPoint x="873.5999999999999" y="-371.20000000000005" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="350" y="-130"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ETOzjRqInynFKvaDvVst-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/3D-shapes-psd/128/ball-1x1.png;rounded=0;comic=1;strokeWidth=10;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="313" y="-156.5" width="48" height="48" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
