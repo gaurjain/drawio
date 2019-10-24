@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T16:12:24.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Fs_aSx2xuPXqqmQIjbKO" version="12.1.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-24T16:22:36.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3fGKHEqglfArsI-vLInS" version="12.1.3" type="github" pages="2">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2196" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1378,10 +1378,10 @@
         <mxCell id="SGfTEjiCVZeylYpdb7E6-186" value="" style="group" connectable="0" vertex="1" parent="1">
           <mxGeometry x="-839.5" y="-180.5" width="316" height="254" as="geometry"/>
         </mxCell>
-        <mxCell id="ETOzjRqInynFKvaDvVst-39" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 0px&quot;&gt;S&lt;/span&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#B5739D;strokeWidth=16;startAngle=0.4753945589899212;endAngle=0.0182831795977167;rounded=0;comic=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ETOzjRqInynFKvaDvVst-39" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 0px&quot;&gt;SER&lt;/span&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#B5739D;strokeWidth=16;startAngle=0.606576348291282;endAngle=0.959516066116559;rounded=0;comic=1;shadow=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="867" y="-454" width="136" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="ETOzjRqInynFKvaDvVst-40" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/api_management.svg;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ETOzjRqInynFKvaDvVst-40" value="External&amp;nbsp;&lt;br&gt;Service" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/api_management.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="906" y="-772.5" width="75" height="75" as="geometry"/>
         </mxCell>
         <mxCell id="ETOzjRqInynFKvaDvVst-43" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#336600;strokeWidth=1;dashed=1;dashPattern=1 1;exitX=0.266;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-39" target="ETOzjRqInynFKvaDvVst-40">
@@ -1455,6 +1455,21 @@
         </mxCell>
         <mxCell id="Ia0qKd9SbuNCRsNMpkPh-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands-2/461/120_Expedited_Ssl_logo_logos-128.png;fillColor=#333333;" vertex="1" parent="ETOzjRqInynFKvaDvVst-45">
           <mxGeometry x="70.14846235418875" width="51.0540827147402" height="51.0540827147402" as="geometry"/>
+        </mxCell>
+        <mxCell id="ETOzjRqInynFKvaDvVst-51" value="&lt;b&gt;Service Entry&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="878" y="-318.5" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ETOzjRqInynFKvaDvVst-52" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#B266FF;exitX=0.533;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="ETOzjRqInynFKvaDvVst-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.41583251953125" y="-191.5" as="sourcePoint"/>
+            <mxPoint x="444.05499999999984" y="46.07999999999993" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="344" y="-136"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETOzjRqInynFKvaDvVst-54" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/api_management.svg;fillColor=none;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="913.5" y="-405.5" width="43" height="43" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
