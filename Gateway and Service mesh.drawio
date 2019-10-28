@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T23:18:28.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yCEFJ8VaJr0RAapa6Sre" version="12.1.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-28T23:19:15.859Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="prYJPa2RlGyQqPllUe1A" version="12.1.3" type="github" pages="4">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2163" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1202,9 +1202,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ETOzjRqInynFKvaDvVst-25" value="Ingress Gateway" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#7EA6E0;strokeWidth=16;startAngle=0.5960070129135606;endAngle=0.9635855327829047;rounded=0;comic=1;shadow=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="264.27783203125" y="-445" width="136" height="131" as="geometry"/>
-        </mxCell>
         <mxCell id="-t0SxdGJJtxUaenTJ9r5-10" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#FF3333;exitX=0.035;exitY=0.227;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.584;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-t0SxdGJJtxUaenTJ9r5-8" target="G8baYWpvVq2G7eu6TOwq-306" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="664.7000187899321" y="4.031018591557768" as="sourcePoint"/>
@@ -1488,7 +1485,7 @@
           <mxGeometry x="1211.5" y="-251" width="245" height="240" as="geometry"/>
         </mxCell>
         <mxCell id="CKJCxFbHIJSd_ZNODcAF-1" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#4387FD;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;comic=1;gradientDirection=south;shadow=0;opacity=20;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-505.5" width="245" height="240" as="geometry"/>
+          <mxGeometry x="230" y="-500" width="245" height="240" as="geometry"/>
         </mxCell>
         <mxCell id="CKJCxFbHIJSd_ZNODcAF-6" value="Service Entry" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#67AB9F;strokeWidth=16;startAngle=0.6656548027773324;endAngle=0.0314164790945006;rounded=0;comic=1;shadow=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="862.77783203125" y="-445" width="136" height="131" as="geometry"/>
@@ -1510,6 +1507,9 @@
               <mxPoint x="344" y="-136"/>
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ETOzjRqInynFKvaDvVst-25" value="Ingress Gateway" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#7EA6E0;strokeWidth=16;startAngle=0.5648765690535722;endAngle=0.13423089012537623;rounded=0;comic=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="273.77783203125" y="-445" width="136" height="131" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
