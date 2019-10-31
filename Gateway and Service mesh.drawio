@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T00:14:19.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="6Duh9o9m68NqfPKDlmig" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-31T00:16:01.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="f5WaCMO-RGcnu3TBYqUn" version="12.1.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="1816" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2768,7 +2768,7 @@
             <mxPoint x="-22" y="1" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--76" value="Invoke&lt;br&gt;API Method and&lt;br&gt;Pass the JWT&lt;br&gt;in the Authorization Header&lt;br&gt;while invoking&lt;br&gt;the Mesh hosted&lt;br&gt;virtual service&lt;br&gt;endpoint" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--74">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--76" value="Invoke&lt;br&gt;API Method request &lt;br&gt;and&lt;br&gt;Pass the access token JWT&lt;br&gt;in the Authorization Header&lt;br&gt;while invoking&lt;br&gt;the Mesh hosted&lt;br&gt;virtual service&lt;br&gt;endpoint" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--74">
           <mxGeometry x="-0.6853" relative="1" as="geometry">
             <mxPoint x="29" y="50" as="offset"/>
           </mxGeometry>
@@ -2819,7 +2819,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--83" value="Validate JWT &lt;br&gt;Access_Token" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--79">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--83" value="Intercept request&lt;br&gt;&amp;amp; Validate JWT &lt;br&gt;Access_Token" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--79">
           <mxGeometry x="-0.2319" relative="1" as="geometry">
             <mxPoint x="7" as="offset"/>
           </mxGeometry>
