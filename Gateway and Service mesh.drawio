@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T21:21:33.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="ULDvAZF8zKqmihk2aTFW" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-31T21:23:05.581Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="bDYD7_d76O0bW8LhCBYx" version="12.1.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="1816" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2543,7 +2543,7 @@
         <mxCell id="YKSJSbMrfPx757fsrLlj-12" value="Fetch id_token&lt;br&gt;access_token" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;strokeColor=#36393d;strokeWidth=1;comic=1;shadow=1;fillColor=#cdeb8b;width=120;height=60;swimlaneFillColor=#ffffff;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1680" y="470" width="1320" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--3" value=":User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--3" value=":User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1550" y="30" width="100" height="1030" as="geometry"/>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--14" value="Clicks the App&lt;br&gt;or &lt;br&gt;Accesses using &lt;br&gt;the application URL" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#80FF00;startArrow=oval;startFill=1;" edge="1" parent="suJ4oR9amXtHyb2F0-I--3" target="suJ4oR9amXtHyb2F0-I--4">
@@ -2595,16 +2595,16 @@
         <mxCell id="suJ4oR9amXtHyb2F0-I--52" value="/token" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#67AB9F;strokeWidth=2;fillColor=#B3FF66;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--6">
           <mxGeometry x="45" y="460" width="10" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--7" value=": Mesh ingress gateway application URI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--7" value=": Mesh ingress gateway application URI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-850" y="30" width="100" height="1030" as="geometry"/>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--9" value=": Mesh Microservice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--9" value=": Mesh Microservice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-470" y="30" width="100" height="1030" as="geometry"/>
         </mxCell>
         <mxCell id="YKSJSbMrfPx757fsrLlj-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--9">
           <mxGeometry x="45" y="795" width="10" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--21" value="&lt;b&gt;no&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#80FF00;" edge="1" source="suJ4oR9amXtHyb2F0-I--20" parent="suJ4oR9amXtHyb2F0-I--1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--21" value="&lt;b&gt;no&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#80FF00;dashed=1;" edge="1" source="suJ4oR9amXtHyb2F0-I--20" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="-993" y="210" as="targetPoint"/>
             <Array as="points">
@@ -2617,7 +2617,7 @@
             <mxPoint x="-21" y="-1" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--8" value=": Mesh Microservice Sidecar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--8" value=": Mesh Microservice Sidecar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-730" y="30" width="100" height="1030" as="geometry"/>
         </mxCell>
         <mxCell id="mp1Hp_91BOnVHncRY8qq-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--8">
@@ -2688,7 +2688,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--55" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.436;entryY=-0.009;strokeColor=#80FF00;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="YKSJSbMrfPx757fsrLlj-18" parent="suJ4oR9amXtHyb2F0-I--1" source="suJ4oR9amXtHyb2F0-I--28">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--55" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.436;entryY=-0.009;strokeColor=#80FF00;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" target="YKSJSbMrfPx757fsrLlj-18" parent="suJ4oR9amXtHyb2F0-I--1" source="suJ4oR9amXtHyb2F0-I--28">
           <mxGeometry x="-0.0086" y="10" relative="1" as="geometry">
             <mxPoint x="-1167" y="460" as="sourcePoint"/>
             <mxPoint x="-1227" y="420" as="targetPoint"/>
@@ -2765,10 +2765,10 @@
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--76" value="Invoke&lt;br&gt;the API endpoint&lt;br&gt;for the protected resource&amp;nbsp;&amp;nbsp;&lt;br&gt;and&lt;br&gt;Pass the access token JWT&lt;br&gt;in the Authorization Header" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--74">
           <mxGeometry x="-0.6853" relative="1" as="geometry">
-            <mxPoint x="27" y="4" as="offset"/>
+            <mxPoint x="27" y="14" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--82" value=": Mesh Mixer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--82" value=": Mesh Mixer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-590" y="30" width="100" height="1030" as="geometry"/>
         </mxCell>
         <mxCell id="YKSJSbMrfPx757fsrLlj-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--82">
