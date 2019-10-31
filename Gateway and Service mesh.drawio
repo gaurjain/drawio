@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T17:30:53.198Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="NKb3ssMs_wk85Cy_Suty" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-31T17:35:49.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="NOr37TdL9ss3kRyuCUIO" version="12.1.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="1816" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2549,12 +2549,15 @@
         <mxCell id="suJ4oR9amXtHyb2F0-I--3" value=":User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1550" y="30" width="100" height="1030" as="geometry"/>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--14" value="Clicks the App link&lt;br&gt;or &lt;br&gt;Accesses using &lt;br&gt;the application URL" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#80FF00;" edge="1" parent="suJ4oR9amXtHyb2F0-I--3" target="suJ4oR9amXtHyb2F0-I--4">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--14" value="Clicks the App link&lt;br&gt;or &lt;br&gt;Accesses using &lt;br&gt;the application URL" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#80FF00;startArrow=oval;startFill=1;" edge="1" parent="suJ4oR9amXtHyb2F0-I--3" target="suJ4oR9amXtHyb2F0-I--4">
           <mxGeometry x="0.0072" y="-30" width="80" relative="1" as="geometry">
             <mxPoint x="50" y="100" as="sourcePoint"/>
             <mxPoint x="130" y="100" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mp1Hp_91BOnVHncRY8qq-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;rounded=1;shadow=0;comic=0;strokeColor=#67AB9F;strokeWidth=1;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--3">
+          <mxGeometry x="80" y="10" width="10" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--4" value=":Mobile App/&lt;br&gt;Web View" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1420" y="30" width="120" height="1030" as="geometry"/>
@@ -2614,12 +2617,6 @@
         <mxCell id="suJ4oR9amXtHyb2F0-I--24" value="Redirect to&amp;nbsp;&lt;br&gt;IdP OAuth2/Authorize&lt;br&gt;URL with&lt;br&gt;ClientID, &lt;br&gt;response_type=code,&lt;br&gt;Scope=open_id profile,&lt;br&gt;redirect_uri,&amp;nbsp;&lt;br&gt;state,&lt;br&gt;code_challenge_method,&lt;br&gt;code_challenge&amp;nbsp;&lt;br&gt;querystring params" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--21">
           <mxGeometry x="-0.0327" y="-1" relative="1" as="geometry">
             <mxPoint x="-8.5" y="-11" as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--26" value="render&lt;br&gt;basic web view" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#80FF00;exitX=-0.055;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="suJ4oR9amXtHyb2F0-I--4" parent="suJ4oR9amXtHyb2F0-I--1">
-          <mxGeometry x="0.02" y="14" relative="1" as="geometry">
-            <mxPoint x="-1237.55" y="155.60000000000002" as="sourcePoint"/>
-            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--8" value=": Mesh Microservice Sidecar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
@@ -2824,9 +2821,9 @@
             <mxPoint x="7" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKSJSbMrfPx757fsrLlj-16" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#80FF00;" edge="1" parent="suJ4oR9amXtHyb2F0-I--1" source="suJ4oR9amXtHyb2F0-I--4" target="YKSJSbMrfPx757fsrLlj-15">
+        <mxCell id="YKSJSbMrfPx757fsrLlj-16" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#80FF00;exitX=1.018;exitY=0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="suJ4oR9amXtHyb2F0-I--1" source="YKSJSbMrfPx757fsrLlj-17" target="YKSJSbMrfPx757fsrLlj-15">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-1330" y="110" as="sourcePoint"/>
+            <mxPoint x="-1350" y="140" as="sourcePoint"/>
             <mxPoint x="-1270" y="110" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="-1340" y="140"/>
@@ -2871,6 +2868,13 @@
           <mxGeometry x="-0.576" relative="1" as="geometry">
             <mxPoint x="-1500" y="959.5" as="targetPoint"/>
             <mxPoint x="-732.5" y="959.5" as="sourcePoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="suJ4oR9amXtHyb2F0-I--26" value="render&lt;br&gt;basic web view" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#80FF00;exitX=-0.055;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.918;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="YKSJSbMrfPx757fsrLlj-17" parent="suJ4oR9amXtHyb2F0-I--1">
+          <mxGeometry x="0.02" y="14" relative="1" as="geometry">
+            <mxPoint x="-1237.55" y="155.60000000000002" as="sourcePoint"/>
+            <mxPoint x="-1350" y="156" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
