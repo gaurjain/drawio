@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T18:09:04.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="GNU_wIkCT_Z0KtvwkP5F" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-31T20:30:52.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="StjxaMI62ZGpl_FKYRac" version="12.1.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="1816" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2527,7 +2527,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UQr1P_5jogGMmOyXtOqs" name="Page-6">
-    <mxGraphModel dx="2755" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3191" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="suJ4oR9amXtHyb2F0-I--0"/>
         <mxCell id="suJ4oR9amXtHyb2F0-I--1" parent="suJ4oR9amXtHyb2F0-I--0"/>
@@ -2553,7 +2553,7 @@
           <mxGeometry x="53" y="390" width="10" height="240" as="geometry"/>
         </mxCell>
         <mxCell id="YKSJSbMrfPx757fsrLlj-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;comic=0;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--5">
-          <mxGeometry x="53" y="100" width="10" height="260" as="geometry"/>
+          <mxGeometry x="53" y="100" width="10" height="270" as="geometry"/>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--20" value="Access&amp;nbsp;&lt;br&gt;token &lt;br&gt;present" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#80FF00;rounded=1;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--5">
           <mxGeometry x="7.5" y="130" width="100" height="60" as="geometry"/>
@@ -2718,7 +2718,7 @@
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--47" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#80FF00;" edge="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-0.471" y="10" width="60" relative="1" as="geometry">
-            <mxPoint x="-1232.5" y="390.01" as="sourcePoint"/>
+            <mxPoint x="-1220" y="390" as="sourcePoint"/>
             <mxPoint x="-990" y="390" as="targetPoint"/>
             <Array as="points"/>
             <mxPoint as="offset"/>
@@ -2802,7 +2802,7 @@
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--76" value="Invoke&lt;br&gt;API Method request &lt;br&gt;and&lt;br&gt;Pass the access token JWT&lt;br&gt;in the Authorization Header&lt;br&gt;while invoking&lt;br&gt;the Mesh hosted&lt;br&gt;virtual service&lt;br&gt;endpoint" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" connectable="0" parent="suJ4oR9amXtHyb2F0-I--74">
           <mxGeometry x="-0.6853" relative="1" as="geometry">
-            <mxPoint x="29" y="50" as="offset"/>
+            <mxPoint x="31" y="30" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--82" value=": Mesh Mixer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
