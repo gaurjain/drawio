@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-03T21:55:49.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="ct-ZtGskEkfPJe7dfAm2" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-03T21:59:27.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="OCbcSPGZoMVIbgXTBQdx" version="12.1.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="1905" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -406,7 +406,7 @@
             <mxPoint x="-143" y="310.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YfsyUW3J8C4D2k8uaty3-32" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SGfTEjiCVZeylYpdb7E6-12" target="-t0SxdGJJtxUaenTJ9r5-8" edge="1">
+        <mxCell id="YfsyUW3J8C4D2k8uaty3-32" value="" style="endArrow=none;dashed=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YfsyUW3J8C4D2k8uaty3-30" target="-t0SxdGJJtxUaenTJ9r5-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-240" y="800" as="sourcePoint"/>
             <mxPoint x="-190" y="750" as="targetPoint"/>
@@ -422,7 +422,7 @@
           <mxGeometry x="-830" y="362" width="274" height="198" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-49" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Istio Data plane&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 18px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;is composed of a set of intelligent proxies (Envoy) deployed as sidecars. Data plane intercepts all incoming (ingress) and outgoing (egress) network traffic.&amp;nbsp; The Data plane touches every packet/request in the system.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320.5" y="-1036" width="378" height="162" as="geometry"/>
+          <mxGeometry x="321" y="-1066" width="360" height="206" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-164" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; API Gateway&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="1" vertex="1">
           <mxGeometry x="-147" y="-480" width="110" height="10" as="geometry"/>
@@ -1459,19 +1459,6 @@
             <mxPoint x="997" y="-657.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0yjTWlCcr1iN94ahhk6V-2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#336600;strokeWidth=1;dashed=1;dashPattern=1 1;exitX=0.809;exitY=0.089;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SGfTEjiCVZeylYpdb7E6-50" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1394" y="-179.433" as="sourcePoint"/>
-            <mxPoint x="950" y="-440" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="1375" y="-270"/>
-              <mxPoint x="1450" y="-270"/>
-              <mxPoint x="1450" y="-530"/>
-              <mxPoint x="1060" y="-530"/>
-              <mxPoint x="1060" y="-440"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ETOzjRqInynFKvaDvVst-24" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#4387FD;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;comic=1;gradientDirection=south;shadow=0;opacity=20;" parent="1" vertex="1">
           <mxGeometry x="264.5" y="-516" width="245" height="240" as="geometry"/>
         </mxCell>
@@ -1484,7 +1471,7 @@
         <mxCell id="CKJCxFbHIJSd_ZNODcAF-1" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#4387FD;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;comic=1;gradientDirection=south;shadow=0;opacity=20;" parent="1" vertex="1">
           <mxGeometry x="230" y="-500" width="245" height="240" as="geometry"/>
         </mxCell>
-        <mxCell id="CKJCxFbHIJSd_ZNODcAF-6" value="Service Entry" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#67AB9F;strokeWidth=16;startAngle=0.6656548027773324;endAngle=0.0314164790945006;rounded=0;comic=1;shadow=0;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="CKJCxFbHIJSd_ZNODcAF-6" value="Service Entry" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;strokeColor=#67AB9F;strokeWidth=16;startAngle=0.6656548027773324;endAngle=0.09400015593046457;rounded=0;comic=1;shadow=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="862.77783203125" y="-445" width="136" height="131" as="geometry"/>
         </mxCell>
         <mxCell id="SGfTEjiCVZeylYpdb7E6-191" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;exitX=0.131;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.041;entryY=0.699;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ETOzjRqInynFKvaDvVst-8" target="CKJCxFbHIJSd_ZNODcAF-6" edge="1">
@@ -1511,11 +1498,23 @@
         <mxCell id="G8baYWpvVq2G7eu6TOwq-509" value="Service C" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/iconshock_developer/api.png;rounded=0;shadow=0;comic=1;strokeColor=#FF9933;strokeWidth=6;fillColor=#001933;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="903" y="-149.5" width="52" height="52" as="geometry"/>
         </mxCell>
+        <mxCell id="0yjTWlCcr1iN94ahhk6V-2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#336600;strokeWidth=1;dashed=1;dashPattern=1 1;exitX=0.809;exitY=0.089;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0.78;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SGfTEjiCVZeylYpdb7E6-50" edge="1" target="CKJCxFbHIJSd_ZNODcAF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1394" y="-179.433" as="sourcePoint"/>
+            <mxPoint x="950" y="-440" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1375" y="-270"/>
+              <mxPoint x="1450" y="-270"/>
+              <mxPoint x="1450" y="-530"/>
+              <mxPoint x="969" y="-530"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="AuthN and AuthZ" id="MspRayup9_NCO9eIA4gH">
-    <mxGraphModel dx="2341" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1905" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="8B-ovLP6gEPS5ZtEMsVF-0"/>
         <mxCell id="8B-ovLP6gEPS5ZtEMsVF-1" parent="8B-ovLP6gEPS5ZtEMsVF-0"/>
