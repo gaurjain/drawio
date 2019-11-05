@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T22:38:04.367Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="xZpKHccQHkcCLLH2nZRy" version="12.2.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-05T22:46:05.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="F-UQNm17SlCUXYQlCGl8" version="12.2.0" type="github" pages="7">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2502" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2642,9 +2642,9 @@
             <mxPoint x="-1232.5" y="420" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--44" value="Initiates 2FA Authentication" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="suJ4oR9amXtHyb2F0-I--43" vertex="1" connectable="0">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--44" value="Initiates Consent flow &lt;br&gt;and 2FA Authentication" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="suJ4oR9amXtHyb2F0-I--43" vertex="1" connectable="0">
           <mxGeometry x="0.1901" y="-1" relative="1" as="geometry">
-            <mxPoint x="101" y="1" as="offset"/>
+            <mxPoint x="87" y="-2" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--45" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#FF0000;entryX=0;entryY=0.858;entryDx=0;entryDy=0;entryPerimeter=0;" parent="suJ4oR9amXtHyb2F0-I--1" source="suJ4oR9amXtHyb2F0-I--3" target="suJ4oR9amXtHyb2F0-I--28" edge="1">
@@ -3080,6 +3080,9 @@
         </mxCell>
         <mxCell id="HkULVWURzre3JxRg3Bjr-79" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2640/1*oaSj7tzkHIRDzdIGggPthw.jpeg;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1673" y="-695" width="419" height="238" as="geometry"/>
+        </mxCell>
+        <mxCell id="cghAR-3X2zW-CzT37-zE-0" value="User consent required&lt;br&gt;to share their &lt;br&gt;profile details" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/gdpr-family/368/Asset_1340-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#FF8000;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+          <mxGeometry x="-1605" y="416" width="35" height="35" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
