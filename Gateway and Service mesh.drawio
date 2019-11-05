@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T23:13:04.485Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="39Ekwa5BMj9UGhM3-A3o" version="12.2.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-05T23:16:30.518Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="kKCiV5gP90HcxV9_eS9I" version="12.2.0" type="github" pages="7">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2502" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2526,7 +2526,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UQr1P_5jogGMmOyXtOqs" name="Open Connect Implicit Flow">
-    <mxGraphModel dx="3352" dy="1830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3112" dy="1830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="suJ4oR9amXtHyb2F0-I--0"/>
         <mxCell id="suJ4oR9amXtHyb2F0-I--1" parent="suJ4oR9amXtHyb2F0-I--0"/>
@@ -2534,7 +2534,7 @@
           <mxGeometry x="-1680" y="130" width="1663" height="380" as="geometry"/>
         </mxCell>
         <mxCell id="YKSJSbMrfPx757fsrLlj-12" value="Fetch id_token +&amp;nbsp;&lt;br&gt;access_token" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;strokeColor=#36393d;strokeWidth=1;comic=1;shadow=1;fillColor=#cdeb8b;width=120;height=60;swimlaneFillColor=#ffffff;" parent="suJ4oR9amXtHyb2F0-I--1" vertex="1">
-          <mxGeometry x="-1680" y="520" width="1665" height="140" as="geometry"/>
+          <mxGeometry x="-1680" y="520" width="1665" height="144" as="geometry"/>
         </mxCell>
         <mxCell id="YKSJSbMrfPx757fsrLlj-13" value="Establish&lt;br&gt;Authenticated Session" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;strokeColor=#36393d;strokeWidth=1;comic=1;shadow=1;fillColor=#ffcccc;width=120;height=50;swimlaneFillColor=#ffffff;" parent="suJ4oR9amXtHyb2F0-I--1" vertex="1">
           <mxGeometry x="-1680" y="680" width="1666" height="80" as="geometry"/>
@@ -2668,7 +2668,7 @@
             <mxPoint x="-1233.18" y="540.28" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--58" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Calls IdP&#39;s&lt;br&gt;OAuth2//token API Endpoint&lt;br&gt;with payload having&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="suJ4oR9amXtHyb2F0-I--56" vertex="1" connectable="0">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--58" value="&lt;font style=&quot;font-size: 12px&quot;&gt;make a POST request to IdP&#39;s&lt;br&gt;OAuth2//token API Endpoint&lt;br&gt;with payload having&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="suJ4oR9amXtHyb2F0-I--56" vertex="1" connectable="0">
           <mxGeometry x="-0.1967" relative="1" as="geometry">
             <mxPoint x="19.5" y="22" as="offset"/>
           </mxGeometry>
@@ -2814,7 +2814,7 @@
         <mxCell id="suJ4oR9amXtHyb2F0-I--20" value="Access&amp;nbsp;&lt;br&gt;token &lt;br&gt;present" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#FF0000;rounded=1;" parent="suJ4oR9amXtHyb2F0-I--5" vertex="1">
           <mxGeometry x="7.5" y="150" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--66" value="Validate ID_Token&lt;br&gt;creates session cookie" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="suJ4oR9amXtHyb2F0-I--5" source="suJ4oR9amXtHyb2F0-I--67" edge="1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--66" value="Validate ID_Token,&lt;br&gt;creates session cookie" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="suJ4oR9amXtHyb2F0-I--5" source="suJ4oR9amXtHyb2F0-I--67" edge="1">
           <mxGeometry x="-0.1111" y="5" relative="1" as="geometry">
             <mxPoint x="60" y="580" as="sourcePoint"/>
             <Array as="points">
@@ -2899,7 +2899,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--57" value="Post AuthN, redirected to the &lt;br&gt;application&amp;nbsp;provided &lt;i&gt;redirect_uri&amp;nbsp;&lt;/i&gt;&lt;br&gt;with &lt;i&gt;Authorization_code, state&lt;/i&gt;&lt;br&gt;as querystring params" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="suJ4oR9amXtHyb2F0-I--55" vertex="1" connectable="0">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--57" value="redirected to the &lt;br&gt;application&amp;nbsp;provided &lt;i&gt;redirect_uri&amp;nbsp;&lt;/i&gt;&lt;br&gt;with &lt;i&gt;Authorization_code, state&lt;/i&gt;&lt;br&gt;as querystring params" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="suJ4oR9amXtHyb2F0-I--55" vertex="1" connectable="0">
           <mxGeometry x="0.1967" y="1" relative="1" as="geometry">
             <mxPoint x="27" y="11" as="offset"/>
           </mxGeometry>
@@ -3073,7 +3073,7 @@
           <mxGeometry x="69" y="954" width="59" height="59" as="geometry"/>
         </mxCell>
         <mxCell id="HkULVWURzre3JxRg3Bjr-73" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.stack.imgur.com/tnmLE.png;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
-          <mxGeometry x="-740" y="-1063" width="723" height="214" as="geometry"/>
+          <mxGeometry x="-738.5" y="-1085" width="720" height="213" as="geometry"/>
         </mxCell>
         <mxCell id="HkULVWURzre3JxRg3Bjr-75" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://apicrazy.files.wordpress.com/2014/08/saml-openid-connect-comparison.png;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-730" y="-839" width="703" height="399" as="geometry"/>
@@ -3085,7 +3085,13 @@
           <mxGeometry x="-1405" y="1043" width="38" height="38" as="geometry"/>
         </mxCell>
         <mxCell id="cghAR-3X2zW-CzT37-zE-3" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot;&gt;When to use What ?&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px&quot;&gt;If the application already supports SAML: use SAML.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 14px&quot;&gt;SAML is yet most popular federation protocol for web browser SSO and for COTS products.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; size=&quot;3&quot;&gt;Mobile applications: no question–use OpenID Connect.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; size=&quot;3&quot;&gt;If planning to have both mobile apps and web clients, use OpenID Connect.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; size=&quot;3&quot;&gt;If looking for GDPR compliance by having a user consent flow, use OIDC.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; size=&quot;3&quot;&gt;If writing a new application, use OpenID Connect&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Verdana&quot; size=&quot;3&quot;&gt;If you need to protect API’s, or you need to create an API Gateway… use OIDC as is built on top of OAuth 2.0 protocol&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#FF8000;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
-          <mxGeometry x="-442" y="-421.5" width="425" height="351" as="geometry"/>
+          <mxGeometry x="-567" y="-421" width="550" height="351" as="geometry"/>
+        </mxCell>
+        <mxCell id="cghAR-3X2zW-CzT37-zE-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.saml_token;fillColor=#D2D3D3;gradientColor=none;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#CC6600;strokeWidth=1;fontColor=#FF8000;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+          <mxGeometry x="-699" y="-414" width="69" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="cghAR-3X2zW-CzT37-zE-6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.token_service;dashPattern=1 1;labelBackgroundColor=none;fontColor=#FF8000;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
+          <mxGeometry x="-1271" y="-335" width="54" height="53" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
