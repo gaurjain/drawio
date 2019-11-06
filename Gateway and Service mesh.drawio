@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T21:15:51.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="BjqR0-GHqPDUYaXJRDma" version="12.2.0" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-06T21:17:22.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yVFShj6R-O0XjOBvQS56" version="12.2.0" type="github" pages="7">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2502" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2584,7 +2584,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--40" value="&lt;font style=&quot;font-size: 12px&quot;&gt;idP&#39;s Active&lt;br&gt;Directory/LDAP&lt;br&gt;agent&lt;br&gt;Validates&lt;br&gt;User&lt;br&gt;Credentials&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;strokeColor=#FF0000;exitX=1.3;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=oval;startFill=1;labelBackgroundColor=none;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--6" source="suJ4oR9amXtHyb2F0-I--28" target="suJ4oR9amXtHyb2F0-I--28" edge="1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--40" value="&lt;font style=&quot;font-size: 12px&quot;&gt;idP&lt;br&gt;Validates&lt;br&gt;User&lt;br&gt;Credentials&lt;br&gt;(using an Active&lt;br&gt;Directory/LDAP&lt;br&gt;agent )&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;strokeColor=#FF0000;exitX=1.3;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=oval;startFill=1;labelBackgroundColor=none;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--6" source="suJ4oR9amXtHyb2F0-I--28" target="suJ4oR9amXtHyb2F0-I--28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="65" y="216" as="sourcePoint"/>
             <Array as="points">
@@ -2639,10 +2639,10 @@
             <mxPoint x="-56" y="-15" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="suJ4oR9amXtHyb2F0-I--43" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;strokeColor=#FF0000;endFill=1;entryX=1.25;entryY=0.739;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=oval;startFill=1;" parent="suJ4oR9amXtHyb2F0-I--1" target="vkYypGxm9am_BIzrIoBo-11" edge="1">
+        <mxCell id="suJ4oR9amXtHyb2F0-I--43" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;strokeColor=#FF0000;endFill=1;entryX=0.75;entryY=0.783;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=oval;startFill=1;" parent="suJ4oR9amXtHyb2F0-I--1" target="vkYypGxm9am_BIzrIoBo-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1000" y="418" as="sourcePoint"/>
-            <mxPoint x="-1232.5" y="420" as="targetPoint"/>
+            <mxPoint x="-1000" y="425" as="sourcePoint"/>
+            <mxPoint x="-1357" y="426.9850000000001" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--44" value="Initiates Consent flow &lt;br&gt;and 2FA Authentication" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--43" vertex="1" connectable="0">
@@ -2662,7 +2662,7 @@
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--46" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 10px&quot;&gt;User provides consent&amp;nbsp;&lt;br&gt;&amp;amp; completes&amp;nbsp;&lt;br&gt;2FA Authentication&lt;br&gt;(Enters OTP&lt;br&gt;Token or answers&lt;br&gt;secret&lt;br&gt;question etc.)&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--45" vertex="1" connectable="0">
           <mxGeometry x="-0.5225" y="1" relative="1" as="geometry">
-            <mxPoint x="-56" y="-9" as="offset"/>
+            <mxPoint x="-51" y="5" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="suJ4oR9amXtHyb2F0-I--56" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;exitX=0.382;exitY=1.004;strokeColor=#FF0000;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" parent="suJ4oR9amXtHyb2F0-I--1" target="suJ4oR9amXtHyb2F0-I--52" edge="1">
