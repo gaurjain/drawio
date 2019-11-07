@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T02:39:49.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="9bQupWWpKokG-a5Wi9_X" version="12.2.2" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-07T02:41:00.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="NhBEshZap88FnzaUojwf" version="12.2.2" type="github" pages="7">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2086" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3030,10 +3030,10 @@
           <mxGeometry x="-1590.5" y="353" width="35" height="35" as="geometry"/>
         </mxCell>
         <mxCell id="cghAR-3X2zW-CzT37-zE-3" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot;&gt;When to use What ?&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If the application already supports SAML: use SAML.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;SAML is yet most popular federation protocol for web browser SSO and for COTS products.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;Mobile applications: no question–use OpenID Connect.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If planning to have both mobile apps and web clients, use OpenID Connect.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If looking for GDPR compliance by having a user consent flow, use OIDC.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If writing a new application, use OpenID Connect&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If you need to protect API’s, or you need to create an API Gateway… use OIDC as is built on top of OAuth 2.0 protocol&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--1" vertex="1">
-          <mxGeometry x="-500" y="-451" width="476" height="328" as="geometry"/>
+          <mxGeometry x="-475" y="-432" width="450" height="348" as="geometry"/>
         </mxCell>
         <mxCell id="cghAR-3X2zW-CzT37-zE-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.saml_token;fillColor=#FF8000;gradientColor=none;dashPattern=1 1;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--1" vertex="1">
-          <mxGeometry x="-582" y="-451" width="82" height="80" as="geometry"/>
+          <mxGeometry x="-570" y="-451" width="82" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="cghAR-3X2zW-CzT37-zE-6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.token_service;dashPattern=1 1;labelBackgroundColor=none;fontColor=#FF8000;" parent="suJ4oR9amXtHyb2F0-I--1" vertex="1">
           <mxGeometry x="-1271" y="-335" width="54" height="53" as="geometry"/>
@@ -3060,7 +3060,7 @@
           <mxGeometry x="-1089.5" y="975" width="67" height="67" as="geometry"/>
         </mxCell>
         <mxCell id="ya5BSXGP3eE_PbkceRZX-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blendr-datasource-logo.s3.us-east-2.amazonaws.com/okta.png;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
-          <mxGeometry x="-1490" y="-1081" width="97" height="97" as="geometry"/>
+          <mxGeometry x="-1472.5" y="-1081" width="97" height="97" as="geometry"/>
         </mxCell>
         <mxCell id="ya5BSXGP3eE_PbkceRZX-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-512/vuejs-1175052.png;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-1219.5" y="983.5" width="75" height="75" as="geometry"/>
@@ -3098,7 +3098,7 @@
           <mxGeometry x="-1321" y="969.5" width="75" height="75" as="geometry"/>
         </mxCell>
         <mxCell id="ya5BSXGP3eE_PbkceRZX-43" value="&lt;h1 style=&quot;white-space: normal ; color: rgb(0 , 127 , 255) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;IdP (Identity Provider)&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;white-space: normal ; color: rgb(0 , 127 , 255) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 14px ; color: rgb(126 , 166 , 224)&quot;&gt;is a special type of OAuth 2.0 authz server system that&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 14px ; color: rgb(126 , 166 , 224)&quot;&gt;creates, maintains, and manages identity information for&amp;nbsp;&lt;i&gt;principals&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 14px ; color: rgb(126 , 166 , 224)&quot;&gt;&amp;nbsp;(users, services, or systems) and provides principal authentication to other service providers (applications) within a federation or distributed network. It is a trusted third party that can be relied upon by users and servers when users and servers are establishing a dialog that must be authenticated.&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 14px ; color: rgb(126 , 166 , 224)&quot;&gt;The IdP sends an attribute assertion containing trusted information about the user to the RP (JWT identity and access tokens) via a RESTful HTTP API.&lt;/b&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#4D4D4D;strokeColor=#FF8000;fontColor=#333333;comic=1;align=left;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
-          <mxGeometry x="-937.5" y="-335" width="424" height="264" as="geometry"/>
+          <mxGeometry x="-937" y="-335" width="424" height="248" as="geometry"/>
         </mxCell>
         <mxCell id="ya5BSXGP3eE_PbkceRZX-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.stackshare.io/service/10044/aws-app-mesh.png;" vertex="1" parent="suJ4oR9amXtHyb2F0-I--1">
           <mxGeometry x="-425" y="1027.5" width="69" height="69" as="geometry"/>
