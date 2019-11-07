@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T17:09:06.935Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="7cqHi1lCbeXcKJjGbreJ" version="12.2.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-07T17:11:02.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="XRKxaMwwHk3AtSnJahxh" version="12.2.2" type="github" pages="9">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2502" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2546,10 +2546,10 @@
           <mxGeometry x="-1687" y="-175.5" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-80" value="Authorized Party" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
-          <mxGeometry x="-1303.5" y="-130.5" width="120" height="30" as="geometry"/>
+          <mxGeometry x="-1303.5" y="-134" width="120" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="zvFwS4DevEUUR2Ft2ytN-81" value="Service" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.17;size=41;position=0.2;base=24;fontStyle=1" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
-          <mxGeometry x="-740" y="-92.5" width="490" height="92" as="geometry"/>
+        <mxCell id="zvFwS4DevEUUR2Ft2ytN-81" value="Service" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.15;size=41;position=0.2;base=24;fontStyle=1" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
+          <mxGeometry x="-740" y="-92" width="490" height="88" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-82" value="Authenticated&lt;br&gt;End-User" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.41;fontStyle=1" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
           <mxGeometry x="-1556" y="-94" width="120" height="90" as="geometry"/>
@@ -2567,13 +2567,13 @@
           <mxGeometry x="-1680" y="-1085" width="198" height="105" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-116" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.stack.imgur.com/tnmLE.png;" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
-          <mxGeometry x="-726" y="-1069" width="720" height="213" as="geometry"/>
+          <mxGeometry x="-740" y="-1076.5" width="720" height="213" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-117" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://apicrazy.files.wordpress.com/2014/08/saml-openid-connect-comparison.png;" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
-          <mxGeometry x="-723" y="-856" width="714" height="405" as="geometry"/>
+          <mxGeometry x="-740" y="-856" width="714" height="405" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-119" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot;&gt;When to use What ?&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If the application already supports SAML: use SAML.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;SAML is yet most popular federation protocol for web browser SSO and for COTS products.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;Mobile applications: no question–use OpenID Connect.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If planning to have both mobile apps and web clients, use OpenID Connect.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If looking for GDPR compliance by having a user consent flow, use OIDC.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If writing a new application, use OpenID Connect&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If you need to protect API’s, or you need to create an API Gateway… use OIDC as is built on top of OAuth 2.0 protocol&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#FF8000;" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
-          <mxGeometry x="-475" y="-449" width="450" height="348" as="geometry"/>
+          <mxGeometry x="-490" y="-449" width="465" height="348" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-120" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.saml_token;fillColor=#FF8000;gradientColor=none;dashPattern=1 1;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fontColor=#FF8000;" vertex="1" parent="zvFwS4DevEUUR2Ft2ytN-1">
           <mxGeometry x="-570" y="-451" width="82" height="80" as="geometry"/>
@@ -2948,16 +2948,16 @@
           <mxGeometry x="-1065.5" y="17.5" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-75" value="Audience" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" vertex="1" parent="AocdqmYdjLdiny_uNzjx-1">
-          <mxGeometry x="-1318" width="130" height="30" as="geometry"/>
+          <mxGeometry x="-1318" y="2.5" width="130" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-76" value="Subject" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" vertex="1" parent="AocdqmYdjLdiny_uNzjx-1">
           <mxGeometry x="-1561" y="15" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-77" value="Security Principals" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#cdeb8b;fontStyle=1" vertex="1" parent="AocdqmYdjLdiny_uNzjx-1">
-          <mxGeometry x="-1695" y="65" width="120" height="60" as="geometry"/>
+          <mxGeometry x="-1695" y="65" width="120" height="51" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-78" value="Claims" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#cdeb8b;fontStyle=1" vertex="1" parent="AocdqmYdjLdiny_uNzjx-1">
-          <mxGeometry x="-1695" width="120" height="60" as="geometry"/>
+          <mxGeometry x="-1695" y="5" width="120" height="55" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-79" value="Authorized Party" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" vertex="1" parent="AocdqmYdjLdiny_uNzjx-1">
           <mxGeometry x="-1313" y="32.5" width="120" height="30" as="geometry"/>
