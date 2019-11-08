@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T07:28:17.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="EmCdfO1fvEua2KpqJN5x" version="12.2.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-08T07:31:58.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="p-cOJaFo2GWHmH3aSMPQ" version="12.2.2" type="github" pages="9">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2142" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2738,7 +2738,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-24" value="make a&lt;br style=&quot;font-size: 10px;&quot;&gt;GET authZ request to&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;IdP&#39;s OAuth2/authorize&lt;br style=&quot;font-size: 10px;&quot;&gt;URL endpoint with" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-23" vertex="1" connectable="0">
           <mxGeometry x="-0.0327" y="-1" relative="1" as="geometry">
-            <mxPoint x="-88" y="-42" as="offset"/>
+            <mxPoint x="-94" y="-42" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-25" value=": Mesh Microservice Sidecar Envoy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1;fillColor=#E6E6E6;gradientColor=none;size=80;verticalAlign=top;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
@@ -2769,9 +2769,9 @@
             <mxPoint x="-1366" y="470.9850000000001" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-30" value="Initiates &lt;br&gt;Consent flow &lt;br style=&quot;font-size: 10px&quot;&gt;and 2FA Authentication" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-29" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-30" value="Initiates &lt;br&gt;Consent flow &lt;br style=&quot;font-size: 10px&quot;&gt;and 2FA Authentication" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-29" vertex="1" connectable="0">
           <mxGeometry x="0.1901" y="-1" relative="1" as="geometry">
-            <mxPoint x="107" y="-3.5" as="offset"/>
+            <mxPoint x="33.5" y="-20" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-31" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#FF0000;entryX=-0.048;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-6" target="AocdqmYdjLdiny_uNzjx-16" edge="1">
@@ -2795,9 +2795,9 @@
             <mxPoint x="-1242.18" y="584.28" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-34" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;make a POST request to IdP&#39;s&lt;br style=&quot;font-size: 10px;&quot;&gt;OAuth2//token API Endpoint&lt;br style=&quot;font-size: 10px;&quot;&gt;with payload having&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-33" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-34" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;make a POST request to IdP&#39;s&lt;br style=&quot;font-size: 10px;&quot;&gt;OAuth2//token API Endpoint&lt;br style=&quot;font-size: 10px;&quot;&gt;with payload having&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-33" vertex="1" connectable="0">
           <mxGeometry x="-0.1967" relative="1" as="geometry">
-            <mxPoint x="26.5" y="3" as="offset"/>
+            <mxPoint x="-42.5" y="3" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-35" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;strokeColor=#FF0000;dashed=1;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-19" edge="1">
@@ -2806,9 +2806,9 @@
             <mxPoint x="-1236" y="684.0000000000005" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-36" value="idP API respond &lt;br style=&quot;font-size: 10px;&quot;&gt;with token type, &lt;br style=&quot;font-size: 10px;&quot;&gt;JWT ID_token, &lt;br style=&quot;font-size: 10px;&quot;&gt;Access_token, refresh_token" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-35" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-36" value="idP API respond &lt;br style=&quot;font-size: 10px;&quot;&gt;with token type, &lt;br style=&quot;font-size: 10px;&quot;&gt;JWT ID_token, &lt;br style=&quot;font-size: 10px;&quot;&gt;Access_token, refresh_token" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-35" vertex="1" connectable="0">
           <mxGeometry x="-0.0016" y="-1" relative="1" as="geometry">
-            <mxPoint x="-6.5" y="-14" as="offset"/>
+            <mxPoint x="-71.5" y="-13" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-37" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;strokeColor=#80FF00;endFill=1;startArrow=oval;startFill=1;" parent="AocdqmYdjLdiny_uNzjx-1" edge="1">
@@ -2856,9 +2856,9 @@
             <mxPoint x="-559" y="949" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-45" value="resource request &lt;br style=&quot;font-size: 10px;&quot;&gt;routed&lt;br style=&quot;font-size: 10px;&quot;&gt;to Service" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-44" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-45" value="resource request &lt;br style=&quot;font-size: 10px;&quot;&gt;routed&lt;br style=&quot;font-size: 10px;&quot;&gt;to Service" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-44" vertex="1" connectable="0">
           <mxGeometry x="-0.5332" y="-1" relative="1" as="geometry">
-            <mxPoint x="21" y="18" as="offset"/>
+            <mxPoint x="-23.5" y="17" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-46" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;strokeColor=#80FF00;endFill=1;entryX=1.1;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.1;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-41" target="AocdqmYdjLdiny_uNzjx-26" edge="1">
@@ -2872,7 +2872,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-47" value="JWT Validated" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-46" vertex="1" connectable="0">
           <mxGeometry x="-0.2036" y="-1" relative="1" as="geometry">
-            <mxPoint x="-22.5" y="9" as="offset"/>
+            <mxPoint x="-26.5" y="9.5" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;strokeColor=#80FF00;startArrow=oval;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.3;exitY=0.073;exitDx=0;exitDy=0;exitPerimeter=0;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-26" target="AocdqmYdjLdiny_uNzjx-41" edge="1">
@@ -2885,9 +2885,9 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-49" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Intercept request&lt;br style=&quot;font-size: 10px;&quot;&gt;Extract JWT &lt;br style=&quot;font-size: 10px;&quot;&gt;from Cookie&lt;br style=&quot;font-size: 10px;&quot;&gt;&amp;amp; Validate JWT &lt;br style=&quot;font-size: 10px;&quot;&gt;Access_Token&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-48" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-49" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Intercept request&lt;br style=&quot;font-size: 10px;&quot;&gt;Extract JWT &lt;br style=&quot;font-size: 10px;&quot;&gt;from Cookie&lt;br style=&quot;font-size: 10px;&quot;&gt;&amp;amp; Validate JWT &lt;br style=&quot;font-size: 10px;&quot;&gt;Access_Token&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-48" vertex="1" connectable="0">
           <mxGeometry x="-0.2319" relative="1" as="geometry">
-            <mxPoint x="25" y="-9" as="offset"/>
+            <mxPoint x="-22" y="-9" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-50" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#FF0000;" parent="AocdqmYdjLdiny_uNzjx-1" target="AocdqmYdjLdiny_uNzjx-55" edge="1">
@@ -2974,7 +2974,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-66" value="&lt;span style=&quot;font-size: 11px&quot;&gt;Show Login Page/Widget&lt;/span&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;" parent="AocdqmYdjLdiny_uNzjx-65" vertex="1" connectable="0">
           <mxGeometry x="0.164" y="-1" relative="1" as="geometry">
-            <mxPoint x="100.5" y="-10" as="offset"/>
+            <mxPoint x="87.5" y="-10" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-67" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#80FF00;entryX=0.255;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AocdqmYdjLdiny_uNzjx-1" edge="1">
@@ -2995,8 +2995,8 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-70" value="Send resource in&lt;br style=&quot;font-size: 10px;&quot;&gt;Response" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;exitX=0.809;exitY=0.984;strokeColor=#80FF00;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;fontColor=#FF8000;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-114" edge="1">
-          <mxGeometry x="0.2175" y="-8" relative="1" as="geometry">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-70" value="Send resource in&lt;br style=&quot;font-size: 10px&quot;&gt;Response" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;exitX=0.809;exitY=0.984;strokeColor=#80FF00;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;fontColor=#FF8000;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;align=left;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-114" edge="1">
+          <mxGeometry x="0.3236" y="-15" relative="1" as="geometry">
             <mxPoint x="-1235" y="995" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="-889" y="995"/>
@@ -3011,9 +3011,9 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-72" value="Redirected to the &lt;br style=&quot;font-size: 10px;&quot;&gt;application&amp;nbsp;provided &lt;i style=&quot;font-size: 10px;&quot;&gt;redirect_uri&amp;nbsp;&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;with &lt;i style=&quot;font-size: 10px;&quot;&gt;Authorization_code, state&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;to prevent cross site scripting attacks" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-71" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-72" value="Redirected to the &lt;br style=&quot;font-size: 10px;&quot;&gt;application&amp;nbsp;provided &lt;i style=&quot;font-size: 10px;&quot;&gt;redirect_uri&amp;nbsp;&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;with &lt;i style=&quot;font-size: 10px;&quot;&gt;Authorization_code, state&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;to prevent cross site scripting attacks" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-71" vertex="1" connectable="0">
           <mxGeometry x="0.1967" y="1" relative="1" as="geometry">
-            <mxPoint x="36" y="7" as="offset"/>
+            <mxPoint x="-39.5" y="7" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-88" value="Access_token&amp;nbsp;&lt;br&gt;present" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#80FF00;rounded=1;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
@@ -3053,7 +3053,7 @@
           <mxGeometry x="-1162" y="719" width="30" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-104" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_1_green-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#999999;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1508.5" y="841" width="33" height="33" as="geometry"/>
+          <mxGeometry x="-1515.5" y="839.5" width="33" height="33" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-105" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_3_green-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#999999;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
           <mxGeometry x="-927.5" y="829" width="31" height="31" as="geometry"/>
@@ -3083,7 +3083,7 @@
           <mxGeometry x="-280.5" y="125" width="130.5" height="965" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=none;strokeWidth=2;fillColor=#000099;" parent="AocdqmYdjLdiny_uNzjx-113" vertex="1">
-          <mxGeometry x="52" y="820" width="10" height="55" as="geometry"/>
+          <mxGeometry x="60.5" y="820" width="10" height="55" as="geometry"/>
         </mxCell>
         <mxCell id="OyYWciij8tmK_4DwgwE0-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.stackshare.io/service/10044/aws-app-mesh.png;" parent="AocdqmYdjLdiny_uNzjx-113" vertex="1">
           <mxGeometry x="17" y="38" width="40" height="40" as="geometry"/>
@@ -3109,9 +3109,9 @@
             <mxPoint x="-36" y="-10" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-131" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Invoke&lt;br style=&quot;font-size: 10px;&quot;&gt;the API endpoint&lt;br style=&quot;font-size: 10px;&quot;&gt;for the protected resource&amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;and&lt;br style=&quot;font-size: 10px;&quot;&gt;Presents the access token JWT&lt;br style=&quot;font-size: 10px;&quot;&gt;in the Authorization Header&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-129" vertex="1" connectable="0">
+        <mxCell id="AocdqmYdjLdiny_uNzjx-131" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Invoke&lt;br style=&quot;font-size: 10px;&quot;&gt;the API endpoint&lt;br style=&quot;font-size: 10px;&quot;&gt;for the protected resource&amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;and&lt;br style=&quot;font-size: 10px;&quot;&gt;Presents the access token JWT&lt;br style=&quot;font-size: 10px;&quot;&gt;in the Authorization Header&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-129" vertex="1" connectable="0">
           <mxGeometry x="-0.6853" relative="1" as="geometry">
-            <mxPoint x="260" y="-4" as="offset"/>
+            <mxPoint x="196" y="-3" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="OyYWciij8tmK_4DwgwE0-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-512/vuejs-1175052.png;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
