@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T07:11:00.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="oH8Uc05S9hkbce439vWz" version="12.2.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-08T07:12:14.496Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="Q2KR8Cxbq4dphEZLPvNd" version="12.2.2" type="github" pages="9">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2142" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2736,7 +2736,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-24" value="make a&lt;br style=&quot;font-size: 10px;&quot;&gt;GET authZ request to&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;IdP&#39;s OAuth2/authorize&lt;br style=&quot;font-size: 10px;&quot;&gt;URL endpoint with" style="text;html=1;resizable=0;points=[];align=left;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-23" vertex="1" connectable="0">
           <mxGeometry x="-0.0327" y="-1" relative="1" as="geometry">
-            <mxPoint x="-71" y="-42" as="offset"/>
+            <mxPoint x="-88" y="-42" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-25" value=": Mesh Microservice Sidecar Envoy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;strokeWidth=2;strokeColor=#67AB9F;fontStyle=1;fillColor=#E6E6E6;gradientColor=none;size=80;verticalAlign=top;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
@@ -2769,7 +2769,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-30" value="Initiates Consent flow &lt;br style=&quot;font-size: 10px;&quot;&gt;and 2FA Authentication" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontSize=10;fontFamily=Verdana;" parent="AocdqmYdjLdiny_uNzjx-29" vertex="1" connectable="0">
           <mxGeometry x="0.1901" y="-1" relative="1" as="geometry">
-            <mxPoint x="91" y="-2" as="offset"/>
+            <mxPoint x="110" y="2.5" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-31" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#FF0000;entryX=-0.048;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AocdqmYdjLdiny_uNzjx-1" source="AocdqmYdjLdiny_uNzjx-6" target="AocdqmYdjLdiny_uNzjx-16" edge="1">
@@ -2972,7 +2972,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-66" value="&lt;span style=&quot;font-size: 11px&quot;&gt;Show Login Page/Widget&lt;/span&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;" parent="AocdqmYdjLdiny_uNzjx-65" vertex="1" connectable="0">
           <mxGeometry x="0.164" y="-1" relative="1" as="geometry">
-            <mxPoint x="84.5" y="-9.5" as="offset"/>
+            <mxPoint x="100.5" y="-10" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-67" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;strokeColor=#80FF00;entryX=0.255;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AocdqmYdjLdiny_uNzjx-1" edge="1">
@@ -3011,7 +3011,7 @@
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-72" value="Redirected to the &lt;br style=&quot;font-size: 10px;&quot;&gt;application&amp;nbsp;provided &lt;i style=&quot;font-size: 10px;&quot;&gt;redirect_uri&amp;nbsp;&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;with &lt;i style=&quot;font-size: 10px;&quot;&gt;Authorization_code, state&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;to prevent cross site scripting attacks" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontColor=#FF8000;fontFamily=Verdana;fontSize=10;" parent="AocdqmYdjLdiny_uNzjx-71" vertex="1" connectable="0">
           <mxGeometry x="0.1967" y="1" relative="1" as="geometry">
-            <mxPoint x="26" y="11" as="offset"/>
+            <mxPoint x="36" y="7" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-88" value="Access_token&amp;nbsp;&lt;br&gt;present" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#80FF00;rounded=1;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
@@ -3021,13 +3021,13 @@
           <mxGeometry x="-1553" y="111" width="34" height="34" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-90" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_2_blue-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#999999;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1215" y="139.5" width="31" height="31" as="geometry"/>
+          <mxGeometry x="-1202.5" y="139.5" width="31" height="31" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-91" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_3_blue-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#999999;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
           <mxGeometry x="-919" y="228" width="32" height="32" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-92" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_4_blue-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#999999;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1213.5" y="244" width="35" height="35" as="geometry"/>
+          <mxGeometry x="-1202.5" y="244" width="35" height="35" as="geometry"/>
         </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-93" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_5_blue-128.png;dashed=1;dashPattern=1 1;strokeColor=#CC6600;strokeWidth=1;fillColor=#000099;gradientColor=none;fontColor=#999999;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
           <mxGeometry x="-1553" y="288.5" width="34" height="34" as="geometry"/>
