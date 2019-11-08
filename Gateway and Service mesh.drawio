@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T06:53:17.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="c7h_elkOTTUGZf48TrVC" version="12.2.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-08T06:55:23.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="bB6axfDwXNt-hIGqjoxM" version="12.2.2" type="github" pages="9">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2142" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2573,16 +2573,16 @@
           <mxGeometry x="-646.5" y="-895" width="614" height="349" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-119" value="&lt;h1&gt;&lt;font face=&quot;Verdana&quot;&gt;When to use What ?&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If the application already supports SAML: use SAML.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;SAML is yet most popular federation protocol for web browser SSO and for COTS products.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;Mobile applications: no question–use OpenID Connect.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If planning to have both mobile apps and web clients, use OpenID Connect.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If looking for GDPR compliance by having a user consent flow, use OIDC.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If writing a new application, use OpenID Connect&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;If you need to protect API’s, or you need to create an API Gateway… use OIDC as is built on top of OAuth 2.0 protocol&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#FF8000;" parent="zvFwS4DevEUUR2Ft2ytN-1" vertex="1">
-          <mxGeometry x="-613.5" y="-531.5" width="607" height="294" as="geometry"/>
+          <mxGeometry x="-580" y="-529.5" width="555" height="294" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-120" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.saml_token;fillColor=#FF8000;gradientColor=none;dashPattern=1 1;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fontColor=#FF8000;" parent="zvFwS4DevEUUR2Ft2ytN-1" vertex="1">
-          <mxGeometry x="-685" y="-515" width="62" height="58" as="geometry"/>
+          <mxGeometry x="-646.5" y="-518" width="62" height="58" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-128" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blendr-datasource-logo.s3.us-east-2.amazonaws.com/okta.png;" parent="zvFwS4DevEUUR2Ft2ytN-1" vertex="1">
           <mxGeometry x="-1472.5" y="-1081" width="97" height="97" as="geometry"/>
         </mxCell>
         <mxCell id="zvFwS4DevEUUR2Ft2ytN-137" value="&lt;h1 style=&quot;text-align: justify; white-space: normal; color: rgb(0, 127, 255); font-family: verdana; font-size: 10px;&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 10px;&quot;&gt;IdP (Identity Provider)&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;white-space: normal; color: rgb(0, 127, 255); font-family: verdana; font-size: 10px;&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10px; color: rgb(126, 166, 224);&quot;&gt;&lt;div style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;is a special type of OAuth 2.0 authZ server system that&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;creates, maintains, and manages identity information for&amp;nbsp;&lt;i style=&quot;font-size: 10px;&quot;&gt;principals&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;(users, services, or systems) and provides principal authentication to other service providers (applications) within a federation or distributed network. It is a trusted third party that can be relied upon by users and servers when users and servers are establishing a dialog that must be authenticated.&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;The IdP sends an attribute assertion containing trusted information about the user to the RP (JWT identity and access tokens) via a RESTful HTTP API.&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;font-size: 10px;&quot;&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#4D4D4D;strokeColor=#FF8000;fontColor=#333333;comic=1;align=left;gradientColor=none;fontSize=10;" parent="zvFwS4DevEUUR2Ft2ytN-1" vertex="1">
-          <mxGeometry x="-932" y="-407" width="289" height="157" as="geometry"/>
+          <mxGeometry x="-879.5" y="-410" width="289" height="157" as="geometry"/>
         </mxCell>
         <mxCell id="JTGjklgDRk4ZWt4FAcXq-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://suppliers.ehotelier.com/wp-content/sabai/sites/5/File/thumbnails/4b808940a3f8128aed9af2e0a4a0935e.png;" parent="zvFwS4DevEUUR2Ft2ytN-1" vertex="1">
           <mxGeometry x="-1030.5" y="-136.5" width="40" height="40" as="geometry"/>
@@ -2998,27 +2998,6 @@
             <mxPoint x="26" y="11" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-74" value="Issuer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1065.5" y="17.5" width="120" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-75" value="Audience" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1318" y="17.5" width="130" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-76" value="Subject" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#B3FF66;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1561" y="15" width="120" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-77" value="Security Principals" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#cdeb8b;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1695" y="72" width="120" height="24" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-78" value="Claims" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#cdeb8b;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1695" y="18.5" width="120" height="23" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-81" value="Authenticated&lt;br&gt;End-User" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.41;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1564" y="61" width="120" height="75" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-83" value="OpenID provider(OP)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.4;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1007.5" y="61" width="120" height="80" as="geometry"/>
-        </mxCell>
         <mxCell id="AocdqmYdjLdiny_uNzjx-88" value="Access_token&amp;nbsp;&lt;br&gt;present" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#80FF00;rounded=1;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
           <mxGeometry x="-1293" y="842" width="100" height="60" as="geometry"/>
         </mxCell>
@@ -3131,12 +3110,6 @@
         </mxCell>
         <mxCell id="OyYWciij8tmK_4DwgwE0-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-512/vuejs-1175052.png;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
           <mxGeometry x="-1225" y="112.5" width="34" height="34" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-82" value="Relying Party (RP)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.43;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-1248" y="61" width="120" height="79" as="geometry"/>
-        </mxCell>
-        <mxCell id="AocdqmYdjLdiny_uNzjx-80" value="Service" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#eeeeee;position2=0.17;size=41;position=0.2;base=24;fontStyle=1" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
-          <mxGeometry x="-746" y="60.5" width="490" height="92" as="geometry"/>
         </mxCell>
         <mxCell id="OyYWciij8tmK_4DwgwE0-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mfery.gallerycdn.vsassets.io/extensions/mfery/sf-mesh-tools/0.8.0/1537444673326/Microsoft.VisualStudio.Services.Icons.Default;" parent="AocdqmYdjLdiny_uNzjx-1" vertex="1">
           <mxGeometry x="-371.5" y="107.5" width="40" height="40" as="geometry"/>
