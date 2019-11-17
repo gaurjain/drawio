@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T14:59:05.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="5a9tESvxZut8CUqNjCq5" version="12.2.6" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-17T15:03:02.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="HWyfq40yKVE56fEqo_66" version="12.2.6" type="github" pages="6">
   <diagram name="AuthN and AuthZ" id="MspRayup9_NCO9eIA4gH">
     <mxGraphModel dx="1926" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -837,10 +837,10 @@
           <mxGeometry x="334" y="414" width="164" height="314" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC6600;fillColor=none;strokeColor=#7EA6E0;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="639" y="414" width="164" height="317" as="geometry"/>
+          <mxGeometry x="614" y="414" width="164" height="317" as="geometry"/>
         </mxCell>
         <mxCell id="CXA4tPwaJuJbdf96haAv-3" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;&lt;font&gt;Identity and Access Management&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Is the umbrella term for all the core logic around identity and the complete suite of practices needed to manage users and data in an enterprise environment.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Provisioning :&lt;/font&gt;&amp;nbsp; Entities in the world has an assignment of an identity consisting of Attributes and identifiers. Prepare for situations where actor and users are not the same and for faceless entities like (Robots, VUI, IoTs)&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Account Management :&lt;/font&gt; How to maintain and save identities, use encryption algorithms and define the entity lifecycle.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Identity Governance : &lt;/font&gt;Assign identities to groups and roles and adjusting permissions as needed, Implement RBAC, define p&lt;/font&gt;assword and account recovery policies.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px ; background-color: rgb(51 , 51 , 51)&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Authentication :&amp;nbsp;&lt;/font&gt;&lt;b&gt; Are you what you are claiming to be : &lt;/b&gt;MFA, SSO, Password-less, Federated identities. Factors :&amp;nbsp;&lt;i&gt;What you Know, what you Possess, what you Are.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px ; background-color: rgb(51 , 51 , 51)&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Authorization : &lt;/font&gt;&lt;b&gt;Do you have permission to access a certain piece of data.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px ; background-color: rgb(51 , 51 , 51)&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Federated Identity :&lt;/font&gt;&lt;b&gt; Can you use identification data from one domain to access resources on another domain. &lt;/b&gt;Create a system that can permit two domains to access same information that has been hosted in the cookie and thus allowing user to move freely between the two, by simply triangulating around an external Authorization server and without violating &lt;i&gt;same-origin-policy&lt;/i&gt; of web security.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#CC6600;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="164" y="20" width="655" height="394" as="geometry"/>
+          <mxGeometry x="139" y="13.5" width="655" height="394" as="geometry"/>
         </mxCell>
         <mxCell id="CXA4tPwaJuJbdf96haAv-4" value="" style="shape=mxgraph.gcp.identity_and_security.cloud_iam;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#CC6600;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
           <mxGeometry x="98" y="138" width="48" height="48" as="geometry"/>
@@ -864,25 +864,25 @@
           <mxGeometry x="44.5" y="733" width="163" height="13" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-7" value="&lt;font color=&quot;#ff9933&quot;&gt;Roles&lt;/font&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="711" y="424" width="78" height="44" as="geometry"/>
+          <mxGeometry x="686" y="424" width="78" height="44" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-8" value="&lt;font color=&quot;#ff9933&quot;&gt;Organizational&amp;nbsp;&lt;br&gt;profiles&lt;br&gt;&lt;/font&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
           <mxGeometry x="387.5" y="612" width="64" height="67" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-9" value="&lt;font color=&quot;#ff9933&quot;&gt;Preference&lt;/font&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="732" y="533.5" width="52" height="65" as="geometry"/>
+          <mxGeometry x="707" y="533.5" width="52" height="65" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-12" value="&lt;font face=&quot;Verdana&quot;&gt;Identities (subjects)&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#CC6600;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
           <mxGeometry x="352" y="733" width="132" height="14" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-13" value="&lt;font color=&quot;#ff9933&quot;&gt;Groups&lt;/font&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_organizational_unit;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="727" y="645.5" width="62" height="53" as="geometry"/>
+          <mxGeometry x="702" y="645.5" width="62" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-16" value="&lt;font color=&quot;#ff9933&quot;&gt;Claims&lt;/font&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.addon;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="649" y="475.5" width="78" height="40" as="geometry"/>
+          <mxGeometry x="624" y="475.5" width="78" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-17" value="&lt;font face=&quot;Verdana&quot;&gt;Attributes/Identifiers&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#CC6600;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="655.5" y="731" width="136" height="14" as="geometry"/>
+          <mxGeometry x="630.5" y="731" width="136" height="14" as="geometry"/>
         </mxCell>
         <mxCell id="q3anRkdzthCmz3-Q1EXA-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-network-9/50/35-128.png;strokeColor=#7EA6E0;fillColor=none;fontColor=#CC6600;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
           <mxGeometry x="54" y="562.5" width="58" height="58" as="geometry"/>
@@ -921,7 +921,7 @@
           <mxGeometry x="95" y="495.5" width="66" height="66" as="geometry"/>
         </mxCell>
         <mxCell id="-izclCGImqqkYacDMKor-36" value="Traits" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/flat-round-system/512/redhat-128.png;fontColor=#FF9933;" parent="CXA4tPwaJuJbdf96haAv-1" vertex="1">
-          <mxGeometry x="653" y="582.5" width="63" height="63" as="geometry"/>
+          <mxGeometry x="628" y="582.5" width="63" height="63" as="geometry"/>
         </mxCell>
         <mxCell id="_iQQbOOnN-iPRDSOpk2s-0" value="" style="group" vertex="1" connectable="0" parent="CXA4tPwaJuJbdf96haAv-1">
           <mxGeometry x="24.5" y="764" width="736.5" height="303.5" as="geometry"/>
