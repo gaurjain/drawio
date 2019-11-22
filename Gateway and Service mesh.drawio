@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-17T14:51:42.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="vQqiUB3fkcnBHvF28WAB" version="12.2.6" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-22T17:35:08.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="ltLdLA1K9pj7mhKOjxX1" version="12.2.9" type="github" pages="5">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
-    <mxGraphModel dx="2643" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2715" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -428,7 +428,7 @@
           <mxGeometry x="-147" y="-480" width="110" height="10" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-165" value="&lt;h1&gt;Istio Service Mesh&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(34 , 38 , 53) ; font-size: 19px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;encapsulates all the complexities related to the infrastructure away from the services by implementing an interface.The application code becomes lightweight and less complicated since this code no longer need to embed multiple third-party libraries to implement the required features. It is made up of a data plane and a control plane.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="423" y="-710.5" width="465" height="253" as="geometry"/>
+          <mxGeometry x="426" y="-729" width="465" height="253" as="geometry"/>
         </mxCell>
         <mxCell id="YfsyUW3J8C4D2k8uaty3-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;strokeColor=#10739E;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YfsyUW3J8C4D2k8uaty3-184" target="YfsyUW3J8C4D2k8uaty3-204" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1510,20 +1510,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XsuGWU_yWtjxjlcJNve7-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="XsuGWU_yWtjxjlcJNve7-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1480" y="830" width="90" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="XsuGWU_yWtjxjlcJNve7-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;shadow=0;fillColor=#FF9933;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="XsuGWU_yWtjxjlcJNve7-1">
+        <mxCell id="XsuGWU_yWtjxjlcJNve7-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;shadow=0;fillColor=#FF9933;gradientColor=none;fontColor=#FF0000;" parent="XsuGWU_yWtjxjlcJNve7-1" vertex="1">
           <mxGeometry width="84" height="84" as="geometry"/>
         </mxCell>
-        <mxCell id="XsuGWU_yWtjxjlcJNve7-3" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i style=&quot;font-size: 23px&quot;&gt;GPJ&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#FF0000;" vertex="1" parent="XsuGWU_yWtjxjlcJNve7-1">
+        <mxCell id="XsuGWU_yWtjxjlcJNve7-3" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i style=&quot;font-size: 23px&quot;&gt;GPJ&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#FF0000;" parent="XsuGWU_yWtjxjlcJNve7-1" vertex="1">
           <mxGeometry x="50.439560439560445" y="61.25" width="60" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="AuthN and AuthZ" id="MspRayup9_NCO9eIA4gH">
-    <mxGraphModel dx="1926" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2715" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="8B-ovLP6gEPS5ZtEMsVF-0"/>
         <mxCell id="8B-ovLP6gEPS5ZtEMsVF-1" parent="8B-ovLP6gEPS5ZtEMsVF-0"/>
@@ -2327,20 +2327,20 @@
         <mxCell id="OWCw2tznC2zViABZvnfn-0" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Service Mesh&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#666666&quot;&gt;The Network of microservices that make up the applications and the interactions between them. The Mesh fabric provides a programming model and an integrated environment&amp;nbsp;for managing common problems alongside orchestration, for both, container and application.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="8B-ovLP6gEPS5ZtEMsVF-1" vertex="1">
           <mxGeometry x="-200" y="-1081" width="376" height="141" as="geometry"/>
         </mxCell>
-        <mxCell id="LI7kf2NcO7mbZP2_0m1W-3" value="" style="group" vertex="1" connectable="0" parent="8B-ovLP6gEPS5ZtEMsVF-1">
+        <mxCell id="LI7kf2NcO7mbZP2_0m1W-3" value="" style="group" parent="8B-ovLP6gEPS5ZtEMsVF-1" vertex="1" connectable="0">
           <mxGeometry x="1505" y="800" width="90" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="LI7kf2NcO7mbZP2_0m1W-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;shadow=0;fillColor=#FF9933;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="LI7kf2NcO7mbZP2_0m1W-3">
+        <mxCell id="LI7kf2NcO7mbZP2_0m1W-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;shadow=0;fillColor=#FF9933;gradientColor=none;fontColor=#FF0000;" parent="LI7kf2NcO7mbZP2_0m1W-3" vertex="1">
           <mxGeometry width="84" height="84" as="geometry"/>
         </mxCell>
-        <mxCell id="LI7kf2NcO7mbZP2_0m1W-2" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i style=&quot;font-size: 23px&quot;&gt;GPJ&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#FF0000;" vertex="1" parent="LI7kf2NcO7mbZP2_0m1W-3">
+        <mxCell id="LI7kf2NcO7mbZP2_0m1W-2" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i style=&quot;font-size: 23px&quot;&gt;GPJ&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#FF0000;" parent="LI7kf2NcO7mbZP2_0m1W-3" vertex="1">
           <mxGeometry x="50.439560439560445" y="61.25" width="60" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="X-TjXRHyQKVK8kquEKLo" name="Page-2">
-    <mxGraphModel dx="1076" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="rbUZjsQWKBrPr-3A5sEA-0"/>
         <mxCell id="rbUZjsQWKBrPr-3A5sEA-1" parent="rbUZjsQWKBrPr-3A5sEA-0"/>
@@ -2491,20 +2491,20 @@
         <mxCell id="ppv_2AsmvVSE8EVN--tf-37" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=none;strokeWidth=2;fontColor=#FFFFFF;shape=flexArrow;fillColor=#999999;" parent="rbUZjsQWKBrPr-3A5sEA-1" source="ppv_2AsmvVSE8EVN--tf-0" target="ppv_2AsmvVSE8EVN--tf-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="tchk-G1PvP9wLtlD3Bz9-0" value="" style="group" vertex="1" connectable="0" parent="rbUZjsQWKBrPr-3A5sEA-1">
+        <mxCell id="tchk-G1PvP9wLtlD3Bz9-0" value="" style="group" parent="rbUZjsQWKBrPr-3A5sEA-1" vertex="1" connectable="0">
           <mxGeometry x="740" y="980" width="90" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="tchk-G1PvP9wLtlD3Bz9-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;shadow=0;fillColor=#FF9933;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="tchk-G1PvP9wLtlD3Bz9-0">
+        <mxCell id="tchk-G1PvP9wLtlD3Bz9-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;shadow=0;fillColor=#FF9933;gradientColor=none;fontColor=#FF0000;" parent="tchk-G1PvP9wLtlD3Bz9-0" vertex="1">
           <mxGeometry width="84" height="84" as="geometry"/>
         </mxCell>
-        <mxCell id="tchk-G1PvP9wLtlD3Bz9-2" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i style=&quot;font-size: 23px&quot;&gt;GPJ&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#FF0000;" vertex="1" parent="tchk-G1PvP9wLtlD3Bz9-0">
+        <mxCell id="tchk-G1PvP9wLtlD3Bz9-2" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; face=&quot;Comic Sans MS&quot; size=&quot;1&quot;&gt;&lt;i style=&quot;font-size: 23px&quot;&gt;GPJ&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#FF0000;" parent="tchk-G1PvP9wLtlD3Bz9-0" vertex="1">
           <mxGeometry x="50.439560439560445" y="61.25" width="60" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="oI4EiebS27T0qYjKHXtD" name="Page-4">
-    <mxGraphModel dx="1076" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="xHNhmX6LJcxTynk0w4L2-0"/>
         <mxCell id="xHNhmX6LJcxTynk0w4L2-1" parent="xHNhmX6LJcxTynk0w4L2-0"/>
@@ -2518,7 +2518,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w49oMh9gJmev84IiSC3L" name="Page-5">
-    <mxGraphModel dx="1076" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="7k79UOj4cIdTvJ8aHplB-0"/>
         <mxCell id="7k79UOj4cIdTvJ8aHplB-1" parent="7k79UOj4cIdTvJ8aHplB-0"/>
