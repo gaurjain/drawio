@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-26T22:56:21.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="gdvD99m_ipRmIBCgR-0M" version="12.2.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-26T23:14:17.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="dNYTtRRCPKal4v4lpRta" version="12.2.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2475" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2553,7 +2553,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WbMrx6a9gWMRNodkw9zZ" name="Page-6">
-    <mxGraphModel dx="1598" dy="3054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="3054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="5PIdPyk2QO0NglxfwoVY-0"/>
         <mxCell id="5PIdPyk2QO0NglxfwoVY-1" parent="5PIdPyk2QO0NglxfwoVY-0"/>
@@ -2699,7 +2699,7 @@
           <mxGeometry x="239.5" y="137" width="53" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="x75jxZkCf4gsxd7mnH8o-18" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Modern C++11 code base&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy is written in C++11 native code. (as native you could get)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;native code provides excellent latency properties balancing against tail latencies and&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;C++11 addresses both developer productivity and performance better than C.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="jXmd6_nvxvWj1r1o3TDX-18">
-          <mxGeometry x="293" y="144" width="348" height="144" as="geometry"/>
+          <mxGeometry x="293" y="144" width="317" height="144" as="geometry"/>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-26" value="Configuration data&amp;nbsp;&lt;br&gt;to Proxies (at runtime)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="jXmd6_nvxvWj1r1o3TDX-18">
           <mxGeometry x="521.5" y="42.5" width="130" height="30" as="geometry"/>
@@ -2779,10 +2779,10 @@
         <mxCell id="x75jxZkCf4gsxd7mnH8o-39" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;First class HTTP/2 support&lt;/font&gt;&lt;/h1&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;In HTTP mode, Envoy can operate as a transparent HTTP/1.1 or HTTP/2 proxy in both directions,&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy can be used to bridge between any combination of HTTP/1.1 and HTTP/2 clients and target servers.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;The recommended S2S configuration uses HTTP/2 between all Envoys to create a mesh of persistent connections, that requests and responses can be multiplexed over.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy provides support for gRPC by supporting all HTTP/2 features required to be used as the routing and load balancing substrate for gRPC requests and responses. (remember gRPC uses HTTP/2 as underlying multiplexed substrate.)&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
           <mxGeometry x="521.5" y="-1968.5" width="598" height="170" as="geometry"/>
         </mxCell>
-        <mxCell id="x75jxZkCf4gsxd7mnH8o-42" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Service Discovery and Dynamic configuration&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy &lt;b&gt;consumes a layered set of dynamic configuration APIs&lt;/b&gt;, providing Envoy with dynamic updates about : &lt;i&gt;hosts within a backend cluster, the backend clusters themselves, HTTP routing, listening sockets, and cryptographic material. (Mixer/Pilot/Citadel to Envoy integration uses these APIs)&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
-          <mxGeometry x="950" y="-1736" width="258" height="240" as="geometry"/>
+        <mxCell id="x75jxZkCf4gsxd7mnH8o-42" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Service Discovery and Dynamic configuration&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy &lt;b&gt;consumes a layered set of dynamic configuration APIs&lt;/b&gt;, providing Envoy with dynamic updates about : &lt;i&gt;hosts within a backend cluster, the backend clusters themselves, HTTP routing, listening sockets, and cryptographic material. (Mixer/Pilot/Citadel to Envoy integration uses these APIs)&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(102 , 102 , 102)&quot;&gt;When an upstream cluster is defined in the configuration, Envoy needs to know how to resolve the members of the cluster, This is known as service discovery.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy supports multiple service discovery types, like, Static, Strict DNS, Logical DNS, Original destination, EDS, Custom cluster etc.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;For a simpler deployment, backend host discovery can be done thru DNS resolution (or even skipped entirely), with the further layers replaced by static config files.&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
+          <mxGeometry x="929.5" y="-1777" width="290" height="365" as="geometry"/>
         </mxCell>
-        <mxCell id="Uj4J6Pp8KbGFJahADfEp-0" value="" style="group;fillColor=none;" vertex="1" connectable="0" parent="5PIdPyk2QO0NglxfwoVY-1">
+        <mxCell id="Uj4J6Pp8KbGFJahADfEp-0" value="control" style="group;fillColor=none;" vertex="1" connectable="0" parent="5PIdPyk2QO0NglxfwoVY-1">
           <mxGeometry x="991.77783203125" y="-1364.0552978515625" width="245" height="240" as="geometry"/>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-1" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#10739E;gradientColor=none;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;comic=1;gradientDirection=south;shadow=0;" vertex="1" parent="Uj4J6Pp8KbGFJahADfEp-0">
@@ -2840,7 +2840,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-21" value="TLS Certificates&lt;br&gt;to proxies" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
-          <mxGeometry x="1130" y="-1496" width="100" height="30" as="geometry"/>
+          <mxGeometry x="1125.5" y="-1409" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-22" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.319;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5PIdPyk2QO0NglxfwoVY-1" source="Uj4J6Pp8KbGFJahADfEp-3" target="d3vhTmUz6IG-NRKTR00T-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2848,7 +2848,7 @@
             <mxPoint x="1332" y="-1344" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uj4J6Pp8KbGFJahADfEp-24" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.845;entryY=1.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5PIdPyk2QO0NglxfwoVY-1" source="Uj4J6Pp8KbGFJahADfEp-3" target="Uj4J6Pp8KbGFJahADfEp-25">
+        <mxCell id="Uj4J6Pp8KbGFJahADfEp-24" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="5PIdPyk2QO0NglxfwoVY-1" source="Uj4J6Pp8KbGFJahADfEp-3" target="Uj4J6Pp8KbGFJahADfEp-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1222.52783203125" y="-1274.5552978515625" as="sourcePoint"/>
             <mxPoint x="1365" y="-1326" as="targetPoint"/>
@@ -2927,7 +2927,7 @@
           <mxGeometry x="473.5" y="-1782.5" width="53" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="d3vhTmUz6IG-NRKTR00T-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/all_google_icons_symbols_by_carlosjj-du/64/features.png;fontColor=#999999;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
-          <mxGeometry x="908.5" y="-1780" width="53" height="53" as="geometry"/>
+          <mxGeometry x="876.5" y="-1782.5" width="53" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="d3vhTmUz6IG-NRKTR00T-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/all_google_icons_symbols_by_carlosjj-du/64/features.png;fontColor=#999999;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
           <mxGeometry x="10.5" y="-1544.5" width="53" height="53" as="geometry"/>
@@ -2946,6 +2946,12 @@
         </mxCell>
         <mxCell id="QkBLettrcKxFtfmZhbts-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=15;fontColor=#999999;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
           <mxGeometry x="1450" y="-1674" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="QkBLettrcKxFtfmZhbts-4" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Health Checking&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap ; text-align: justify&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23666666%26quot%3B%26gt%3BService%20Discovery%20and%20Dynamic%20configuration%26amp%3Bnbsp%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bol%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23666666%26quot%3B%26gt%3BEnvoy%20%26lt%3Bb%26gt%3Bconsumes%20a%20layered%20set%20of%20dynamic%20configuration%20APIs%26lt%3B%2Fb%26gt%3B%2C%20providing%20Envoy%20with%20dynamic%20updates%20about%20%3A%20%26lt%3Bi%26gt%3Bhosts%20within%20a%20backend%20cluster%2C%20the%20backend%20clusters%20themselves%2C%20HTTP%20routing%2C%20listening%20sockets%2C%20and%20cryptographic%20material.%20(Mixer%2FPilot%2FCitadel%20to%20Envoy%20integration%20uses%20these%20APIs)%26lt%3B%2Fi%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23666666%26quot%3B%26gt%3BFor%20a%20simpler%20deployment%2C%20backend%20host%20discovery%20can%20be%20done%20thru%20DNS%20resolution%20(or%20even%20skipped%20entirely)%2C%20with%20the%20further%20layers%20replaced%20by%20static%20config%20files.%26amp%3Bnbsp%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fli%26gt%3B%26lt%3B%2Fol%26gt%3B%26lt%3Bp%26gt%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22961.5%22%20y%3D%22-1774.5%22%20width%3D%22258%22%20height%3D%22306%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
+          <mxGeometry x="1470" y="-1546.5" width="258" height="306" as="geometry"/>
+        </mxCell>
+        <mxCell id="QkBLettrcKxFtfmZhbts-6" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fontColor=#999999;align=left;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
+          <mxGeometry x="1000" y="-2192" width="170" height="175" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
