@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-26T19:33:10.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="i4PMEMHNPRK6EdByqbRs" version="12.2.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-26T19:36:10.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="GxvMFaLJCbWSq6FiUdoa" version="12.2.9" type="github" pages="6">
   <diagram id="cBoUNngE9WmwMve642ie" name="Page-1">
     <mxGraphModel dx="2475" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2647,7 +2647,7 @@
             <mxPoint x="835.04" y="-1574.48" as="sourcePoint"/>
             <mxPoint x="859.5" y="-1550.5" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="681" y="-1606"/>
+              <mxPoint x="690" y="-1590"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2696,10 +2696,10 @@
           <mxGeometry x="64" y="-7.5" width="15" height="15" as="geometry"/>
         </mxCell>
         <mxCell id="d3vhTmUz6IG-NRKTR00T-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/all_google_icons_symbols_by_carlosjj-du/64/features.png;fontColor=#999999;" vertex="1" parent="jXmd6_nvxvWj1r1o3TDX-18">
-          <mxGeometry x="270" y="137" width="53" height="53" as="geometry"/>
+          <mxGeometry x="239.5" y="137" width="53" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="x75jxZkCf4gsxd7mnH8o-18" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Modern C++11 code base&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy is written in C++11 native code. (as native you could get)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;native code provides excellent latency properties balancing against tail latencies and&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;C++11 addresses both developer productivity and performance better than C.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="jXmd6_nvxvWj1r1o3TDX-18">
-          <mxGeometry x="323" y="144" width="319" height="144" as="geometry"/>
+          <mxGeometry x="293" y="144" width="348" height="144" as="geometry"/>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-26" value="Configuration data&amp;nbsp;&lt;br&gt;to Proxies (at runtime)" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="jXmd6_nvxvWj1r1o3TDX-18">
           <mxGeometry x="521.5" y="42.5" width="130" height="30" as="geometry"/>
@@ -2741,7 +2741,7 @@
           <mxGeometry x="1318" y="-2190" width="361" height="290" as="geometry"/>
         </mxCell>
         <mxCell id="x75jxZkCf4gsxd7mnH8o-7" value="&lt;h1&gt;&lt;font color=&quot;#666666&quot;&gt;Out of process architecture&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy is a self-contained process that is designed to run alongside every application servers.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;span style=&quot;text-align: justify&quot;&gt;All envoys together forms a transparent communication mesh in which &lt;/span&gt;&lt;b style=&quot;text-align: justify&quot;&gt;each &#39;upstream&#39; application sends and receives messages to and from a localhost and is unaware of the network topology.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy bridges gap between deployed applications which were developed multiple languages and frameworks.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Envoy can be deployed and library upgraded quickly across an entire infrastructure transparently without impacting the application code (services).&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
-          <mxGeometry x="67" y="-1469.5" width="268" height="328" as="geometry"/>
+          <mxGeometry x="71.5" y="-1551.5" width="283" height="309" as="geometry"/>
         </mxCell>
         <mxCell id="jXmd6_nvxvWj1r1o3TDX-33" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#B266FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.324;exitY=0.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="5PIdPyk2QO0NglxfwoVY-1" source="jXmd6_nvxvWj1r1o3TDX-17" target="x75jxZkCf4gsxd7mnH8o-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2840,7 +2840,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-21" value="TLS Certificates&lt;br&gt;to proxies" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
-          <mxGeometry x="1150" y="-1468" width="100" height="30" as="geometry"/>
+          <mxGeometry x="1130" y="-1496" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="Uj4J6Pp8KbGFJahADfEp-22" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.319;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5PIdPyk2QO0NglxfwoVY-1" source="Uj4J6Pp8KbGFJahADfEp-3" target="d3vhTmUz6IG-NRKTR00T-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2930,7 +2930,7 @@
           <mxGeometry x="908.5" y="-1780" width="53" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="d3vhTmUz6IG-NRKTR00T-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/all_google_icons_symbols_by_carlosjj-du/64/features.png;fontColor=#999999;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
-          <mxGeometry x="10.5" y="-1469.5" width="53" height="53" as="geometry"/>
+          <mxGeometry x="10.5" y="-1544.5" width="53" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="d3vhTmUz6IG-NRKTR00T-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/all_google_icons_symbols_by_carlosjj-du/64/features.png;fontColor=#999999;" vertex="1" parent="5PIdPyk2QO0NglxfwoVY-1">
           <mxGeometry x="1250" y="-2190" width="76" height="76" as="geometry"/>
