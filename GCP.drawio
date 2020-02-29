@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-29T02:16:53.922Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Z3r5dwwFvPH-tArvEhTg" version="12.7.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-29T14:47:28.760Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="EdTmhXGxzRXDt823iIOS" version="12.7.9" type="github" pages="2">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
-    <mxGraphModel dx="929" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="776" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -486,10 +486,10 @@
           <mxGeometry x="702" y="10" width="618" height="477" as="geometry" />
         </mxCell>
         <mxCell id="dIbORrY2uORVd-bT4_tn-217" value="Security &amp;amp;&lt;br&gt;Identity" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/simplicio/128x128/security_keyandlock.png;strokeColor=#E6E6E6;fillColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="20" width="67" height="67" as="geometry" />
+          <mxGeometry x="1240" y="20" width="57" height="57" as="geometry" />
         </mxCell>
         <mxCell id="dIbORrY2uORVd-bT4_tn-221" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="240" y="670" width="141" height="230" as="geometry" />
+          <mxGeometry x="240" y="676" width="141" height="221" as="geometry" />
         </mxCell>
         <mxCell id="dIbORrY2uORVd-bT4_tn-16" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="240" y="830" width="140" height="60" as="geometry" />
@@ -513,6 +513,22 @@
         <mxCell id="dIbORrY2uORVd-bT4_tn-90" value="Anthos &lt;br&gt;Config &lt;br&gt;Management&lt;br&gt;(Istio)" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.istio_logo;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="dIbORrY2uORVd-bT4_tn-89">
           <mxGeometry width="20.15" height="40" relative="1" as="geometry">
             <mxPoint x="15" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIbORrY2uORVd-bT4_tn-223" value="" style="shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelBackgroundColor=none;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="726" y="87" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dIbORrY2uORVd-bT4_tn-224" value="Cloud&#xa;IAM" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_iam;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="dIbORrY2uORVd-bT4_tn-223">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIbORrY2uORVd-bT4_tn-227" value="" style="shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelBackgroundColor=none;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="730" y="169" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dIbORrY2uORVd-bT4_tn-228" value="Identity-Aware&#xa;Proxy" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=identity_aware_proxy;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="dIbORrY2uORVd-bT4_tn-227">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
