@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-02T23:20:18.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="dtYMSPb0x-bYFdaoSQ8f" version="12.7.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-02T23:24:08.458Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="O6ozf9aE5h-5kSN1BFwY" version="12.7.9" type="github" pages="3">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
     <mxGraphModel dx="1625" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -908,7 +908,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-1" id="gCw-X3-SiH3NDsM8MQB6">
-    <mxGraphModel dx="316" dy="179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="774" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="szelxLIFsIUmkkrYnHKK-0" />
         <mxCell id="szelxLIFsIUmkkrYnHKK-1" parent="szelxLIFsIUmkkrYnHKK-0" />
@@ -1013,14 +1013,6 @@
           <mxGeometry x="1219.87" y="700" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-31" value="Cloud&#xa;Filestore" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_filestore;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-30">
-          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
-            <mxPoint x="5" y="-19.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-40" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="442.87" y="370" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-41" value="Cloud &#xa;CDN" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_cdn;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-40">
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
@@ -1743,37 +1735,43 @@
           <mxGeometry x="235.99" y="620" width="34.01" height="33" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-246" value="" style="shape=mxgraph.gcp.networking.cloud_dns;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="298.37" y="31.75" width="129" height="113" as="geometry" />
+          <mxGeometry x="277.87" y="32.25" width="129" height="113" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-242" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;span&gt;Service to make cloud-hosted applications and services addressable&amp;nbsp;and accessible to users globally over the network? Network of anycast name servers to translate requests for domain names into IP addresses ?&amp;nbsp;&lt;b&gt;HA, low-latency, scalable, reliable, resilient, programmable, &lt;/b&gt;supports private zoning, DNS forwarding, DNS peering, logging&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="277.87" y="31.75" width="160" height="113.5" as="geometry" />
+          <mxGeometry x="269.37" y="31.75" width="160" height="113.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-248" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=virtual_private_cloud;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="262.87" y="128.25" width="200" height="190" as="geometry" />
+          <mxGeometry x="242.37" y="122.5" width="200" height="190" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-247" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Networking Service to create multi-region, isolated, private or shareable spaces and sub-networks on the cloud? Service to control how workloads connect globally and regionally? &lt;b&gt;supports fine-grained networking policies, GA Firewall, no-external-IP traffic routing, VPC peering, VPN, shared VPC,&amp;nbsp; BYOIP, Private access to google services&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="276.87" y="156.5" width="160" height="133.5" as="geometry" />
+          <mxGeometry x="269.37" y="150.75" width="160" height="133.5" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-250" value="" style="shape=mxgraph.gcp.networking.cloud_partner_interconnect;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="328.87" y="330" width="60" height="60" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-258" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;span&gt;Service to make cloud-hosted applications and services addressable&amp;nbsp;and accessible to users globally over the network? Network of anycast name servers to translate requests for domain names into IP addresses ?&amp;nbsp;&lt;b&gt;HA, low-latency, scalable, reliable, resilient, programmable, &lt;/b&gt;supports private zoning, DNS forwarding, DNS peering, logging&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="442.87" y="156.5" width="160" height="113.5" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-251" value="" style="shape=mxgraph.gcp.networking.cloud_interconnect;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="281.37" y="300.5" width="60" height="60" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-259" value="" style="group" vertex="1" connectable="0" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="257" y="300.5" width="189.13" height="206.25" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-252" value="" style="shape=mxgraph.gcp.networking.cloud_vpn;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="281.37" y="362.5" width="60" height="60" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-250" value="" style="shape=mxgraph.gcp.networking.cloud_partner_interconnect;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry x="66" y="29.5" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-254" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=partner_interconnect;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="312.5" y="377.5" width="97" height="90" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-251" value="" style="shape=mxgraph.gcp.networking.cloud_interconnect;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry x="18.5" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-255" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=partner_interconnect;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="262.87" y="408.5" width="97" height="90" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-252" value="" style="shape=mxgraph.gcp.networking.cloud_vpn;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry x="18.5" y="62" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-256" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_cdn;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="362.87" y="346" width="89.13" height="85" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-254" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=partner_interconnect;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry x="49.629999999999995" y="77" width="97" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-249" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Services to connect on-prem network infrastructure/workloads with Cloud VPCs or locations using HA, secure, high uptime connections with industry leading SLAs and flexible or dedicated bandwidths, directly or indirectly via a peering network.&lt;b&gt;Supports&amp;nbsp;&lt;/b&gt;&lt;br&gt;&amp;nbsp;- extend reach of DC with 10 Gbps or 100 Gbps direct physical connection pipes if can meet at a colocation interconnect facility&amp;nbsp;&lt;br&gt;-&amp;nbsp; extend reach of DC with physical connection 50 Mbps to 10 Gbps via a partner facility if not able to meet&lt;br&gt;- extend reach of DC over internet, securely&amp;nbsp;&lt;br&gt;-&amp;nbsp; connect only to G-suite, via peering&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="276.87" y="297" width="160" height="203" as="geometry" />
+        <mxCell id="szelxLIFsIUmkkrYnHKK-255" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=partner_interconnect;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry y="108" width="97" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-256" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_cdn;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry x="100" y="45.5" width="89.13" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-249" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Services to connect on-prem network infrastructure/workloads with Cloud VPCs or locations using HA, secure, high uptime connections with industry leading SLAs and flexible or dedicated bandwidths, directly or indirectly via a peering network.&lt;b&gt;Supports&amp;nbsp;&lt;/b&gt;&lt;br&gt;&amp;nbsp;- extend reach of DC with 10 Gbps or 100 Gbps direct physical connection pipes if can meet at a colocation interconnect facility&amp;nbsp;&lt;br&gt;-&amp;nbsp; extend reach of DC with physical connection 50 Mbps to 10 Gbps via a partner facility if not able to meet&lt;br&gt;- extend reach of DC over internet, securely&amp;nbsp;&lt;br&gt;-&amp;nbsp; connect only to G-suite, via peering&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-259">
+          <mxGeometry x="12" y="-11.25" width="160" height="214.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
