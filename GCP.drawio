@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-02T22:24:06.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="7Q4MSVw0BMgqkJwM190P" version="12.7.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-02T22:26:05.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="CsEXOX7VLw756OzH9A02" version="12.7.9" type="github" pages="3">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
     <mxGraphModel dx="1625" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1746,22 +1746,22 @@
           <mxGeometry x="298.37" y="31.75" width="129" height="113" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-242" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;span&gt;Service to make cloud-hosted applications and services addressable&amp;nbsp;and accessible to users globally over the network? Network of anycast name servers to translate requests for domain names into IP addresses ?&amp;nbsp;&lt;b&gt;HA, low-latency, scalable, reliable, resilient, programmable, &lt;/b&gt;supports private zoning, DNS forwarding, DNS peering, logging&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="279.87" y="31.75" width="160" height="113.5" as="geometry" />
+          <mxGeometry x="277.87" y="31.75" width="160" height="113.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-248" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=virtual_private_cloud;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="262.87" y="128.25" width="200" height="190" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-247" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Networking Service to create multi-region, isolated, private or shareable spaces and sub-networks on the cloud? Service to control how workloads connect globally and regionally? &lt;b&gt;supports fine-grained networking policies, GA Firewall, no-external-IP traffic routing, VPC peering, VPN, shared VPC,&amp;nbsp; BYOIP, Private access to google services&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="279.87" y="156.5" width="160" height="133.5" as="geometry" />
+          <mxGeometry x="276.87" y="156.5" width="160" height="133.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-250" value="" style="shape=mxgraph.gcp.networking.cloud_partner_interconnect;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="281.37" y="362.5" width="60" height="60" as="geometry" />
+          <mxGeometry x="328.87" y="330" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-251" value="" style="shape=mxgraph.gcp.networking.cloud_interconnect;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="281.37" y="300.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-252" value="" style="shape=mxgraph.gcp.networking.cloud_vpn;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="329.37" y="331" width="60" height="60" as="geometry" />
+          <mxGeometry x="281.37" y="362.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-254" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=partner_interconnect;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="312.5" y="377.5" width="97" height="90" as="geometry" />
@@ -1770,10 +1770,10 @@
           <mxGeometry x="262.87" y="408.5" width="97" height="90" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-256" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_cdn;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="359.5" y="287" width="99.37" height="88" as="geometry" />
+          <mxGeometry x="362.87" y="346" width="89.13" height="85" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-249" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Services to connect on-prem workloads/network infrastructure with Cloud VPCs using HA, secure, high uptime connections with industry leading SLAs and flexible or dedicated bandwidths, directly or indirectly via a peering network.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="279.37" y="297" width="160" height="201.5" as="geometry" />
+          <mxGeometry x="276.87" y="297" width="160" height="201.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
