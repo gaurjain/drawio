@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T19:56:12.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="smEAaHP-kQPjgwAdErIb" version="12.7.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-03T20:03:21.811Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="y7QYsggzrzGXqAhes3PU" version="12.7.9" type="github" pages="3">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
     <mxGraphModel dx="1625" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1142,14 +1142,6 @@
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-94" value="" style="strokeColor=#E6E6E6;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelBackgroundColor=none;fillColor=#FFFFFF;fontColor=#333333;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="905.87" y="524" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-95" value="Cloud&#xa;Memorystore" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_memorystore;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-94">
-          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
-            <mxPoint x="5" y="-19.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-98" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="1219.87" y="524" width="140" height="60" as="geometry" />
         </mxCell>
@@ -1750,6 +1742,12 @@
         </mxCell>
         <mxCell id="noGftu8FjJYx-ex1Aq9h-10" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Column-store Database service for large scale analytical and operational workloads providing low latency reads and high throughput writes, with scalability, and reliability?&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="267.66" y="512.5" width="161.19" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="7fTfGlraw-x0nbgQ7kWU-1" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_memorystore;rounded=1;labelBackgroundColor=none;opacity=30;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="935.87" y="508.44" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7fTfGlraw-x0nbgQ7kWU-2" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;In-memory data store service for Redis to build application caches that provide sub-millisecond data access ?&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="905.87" y="512.5" width="144.94" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
