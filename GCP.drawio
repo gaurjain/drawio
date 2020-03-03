@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T22:24:08.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="pMHT0LMiCT0ZHgK368lD" version="12.7.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-03T22:29:00.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="B2F2CzMa3Eh-V5CYVybf" version="12.7.9" type="github" pages="3">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
     <mxGraphModel dx="1354" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -942,14 +942,6 @@
         <mxCell id="szelxLIFsIUmkkrYnHKK-13" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="199.87" y="930" width="1320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-20" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="600.87" y="619" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-21" value="Cloud&#xa;Functions" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_functions;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-20">
-          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
-            <mxPoint x="5" y="-19.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-24" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="279.87" y="850" width="140" height="60" as="geometry" />
         </mxCell>
@@ -982,14 +974,6 @@
           <mxGeometry x="600.87" y="850" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-65" value="Anthos&lt;br&gt;Kubernetes&lt;br&gt;Applications" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_optimized_os;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-64">
-          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
-            <mxPoint x="5" y="-19.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-66" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="749.87" y="619" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-67" value="Knative" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_run;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-66">
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
@@ -1722,6 +1706,15 @@
         </mxCell>
         <mxCell id="KUF9dMgqKdHIcpXXox9V-4" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_run;rounded=1;labelBackgroundColor=none;opacity=30;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="458.19" y="600" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KUF9dMgqKdHIcpXXox9V-6" value="" style="shape=mxgraph.gcp.compute.cloud_functions;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=30;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="627.44" y="614" width="72" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="KUF9dMgqKdHIcpXXox9V-5" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service offering a event-driven serverless execution platform for building and connecting cloud services and running stateless containers on a fully managed infrastructure or Anthos ?&lt;/font&gt;&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="592.9" y="609.5" width="144.13" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="KUF9dMgqKdHIcpXXox9V-7" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service offering a event-driven serverless execution platform for building and connecting cloud services and running stateless containers on a fully managed infrastructure or Anthos ?&lt;/font&gt;&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="748.81" y="610" width="144.13" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
