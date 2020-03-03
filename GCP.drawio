@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-03T00:36:25.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QLOmsQ4jLAAF5K2FbXh_" version="12.7.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-03T00:43:48.231Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="8c0JKAPSwhTLdMWqk4KD" version="12.7.9" type="github" pages="3">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
-    <mxGraphModel dx="1625" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -908,7 +908,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-1" id="gCw-X3-SiH3NDsM8MQB6">
-    <mxGraphModel dx="1066" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="650" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="szelxLIFsIUmkkrYnHKK-0" />
         <mxCell id="szelxLIFsIUmkkrYnHKK-1" parent="szelxLIFsIUmkkrYnHKK-0" />
@@ -1670,20 +1670,11 @@
         <mxCell id="szelxLIFsIUmkkrYnHKK-241" value="" style="shape=mxgraph.signs.safety.no;html=1;fillColor=#CC0000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="235.99" y="620" width="34.01" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-246" value="" style="shape=mxgraph.gcp.networking.cloud_dns;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#1A1A1A;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="284" y="36.25" width="116.87" height="107.75" as="geometry" />
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-242" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;span&gt;Service to make cloud-hosted applications and services addressable&amp;nbsp;and accessible to users globally over the network? Network of anycast name servers to translate requests for domain names into IP addresses ?&amp;nbsp;&lt;b&gt;HA, low-latency, scalable, reliable, resilient, programmable, &lt;/b&gt;supports private zoning, DNS forwarding, DNS peering, logging&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="269.87" y="33.37" width="160" height="113.5" as="geometry" />
-        </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-248" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=virtual_private_cloud;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="251.26" y="129.5" width="182.37" height="177.5" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-247" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service to create multi-region, isolated, private or shareable spaces and sub-networks on the cloud? Service to control how workloads connect globally and regionally? supports&lt;b&gt; fine-grained networking policies, GA Firewall, no-external-IP traffic routing, VPC peering, VPN, shared VPC,&amp;nbsp; BYOIP, Private access to google services&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+        <mxCell id="szelxLIFsIUmkkrYnHKK-247" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service to create multi-region, isolated, private or shareable spaces and sub-networks on cloud? Service to control how workloads connect globally and regionally? supports&lt;b&gt; fine-grained networking policies, GA Firewall, no-external-IP traffic routing, VPC peering, VPN, shared VPC,&amp;nbsp; BYOIP, Private access to google services&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="269.37" y="151.5" width="160" height="133.5" as="geometry" />
-        </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-258" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;High-performing, low-latency Load balancing Service to scale application workload hosted on the compute engines? supports &lt;b&gt;seamless autoscaling, HTTPs, UDP, TCP/SSL LB, SSL offloading, affinities, logging and health checks, requires no pre-warming&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="433.63" y="151.5" width="144.13" height="138.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-259" value="" style="group" vertex="1" connectable="0" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="257" y="300.5" width="189.13" height="206.25" as="geometry" />
@@ -1715,9 +1706,6 @@
         <mxCell id="szelxLIFsIUmkkrYnHKK-262" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service that works with HTTPs LB and provides always-on attack detection and enterprise-grade defenses against L3/L4 DDoS and web attacks? supports &lt;b&gt;a policy framework with rules, provides flexible rules language, pre-defined rules, logging, visibility and monitoring, IP-based and geo-based access control&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="582.87" y="132" width="157.13" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-263" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service that allows access to internet in a simple, controlled and efficient manner and prevents outside resources from accessing a protected app-instance? Service that&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(102 , 102 , 102) ; font-size: 8px&quot;&gt;provides network address translation enabling provision of instances without IP-addresses ? supports&amp;nbsp;&lt;b&gt;HA, Flexible - works with both GKE and Compute engine workloads, NAT for all, multi NATIP per NAT gateway&lt;/b&gt;&lt;/span&gt;&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="582.87" y="254" width="157.13" height="144.5" as="geometry" />
-        </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-264" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service to identify traffic and access patterns that may impose security or operational risks to the org in a near real time? &lt;b&gt;provides in-depth, responsive VPCflow logs&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(102 , 102 , 102) ; font-size: 8px&quot;&gt;&lt;b&gt;with no performance impact&lt;/b&gt;&lt;/span&gt;&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;b&gt;, firewall logging, TCP/UDP flow monitoring, filtering, annotation support&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="582.87" y="402" width="157.13" height="103" as="geometry" />
         </mxCell>
@@ -1729,6 +1717,38 @@
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-268" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service that provide centralized network monitoring, verification and optimizations improving overall network management efficiencies and user experiences ? &lt;b&gt;Supports connectivity tests, and network topology visualizations.&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="747.24" y="302" width="147.26" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-269" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_load_balancing;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="429.37" y="152.75" width="149" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-270" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_nat;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="582.87" y="259" width="155.87" height="134.5" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-258" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;High-performing, low-latency Load balancing Service to scale application workload hosted on the compute engines? supports &lt;b&gt;seamless autoscaling, HTTPs, UDP, TCP/SSL LB, SSL offloading, affinities, logging and health checks, requires no pre-warming&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="433.63" y="151.5" width="144.13" height="138.5" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-263" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service that allows access to internet in a simple, controlled and efficient manner and prevents outside resources from accessing a protected app-instance? Service that&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(102 , 102 , 102) ; font-size: 8px&quot;&gt;provides network address translation enabling provision of instances without IP-addresses ? supports&amp;nbsp;&lt;b&gt;HA, Flexible - works with both GKE and Compute engine workloads, NAT for all, multi NATIP per NAT gateway&lt;/b&gt;&lt;/span&gt;&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="582.87" y="254" width="157.13" height="144.5" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-271" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_armor;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="595.27" y="134" width="131.07" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-272" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_dns;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="279.87" y="32.22" width="132.63" height="108.44" as="geometry" />
+        </mxCell>
+        <mxCell id="szelxLIFsIUmkkrYnHKK-242" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;&lt;span&gt;Service to make cloud-hosted applications and services addressable&amp;nbsp;and accessible to users globally over the network? Network of anycast name servers to translate requests for domain names into IP addresses ?&amp;nbsp;&lt;b&gt;HA, low-latency, scalable, reliable, resilient, programmable, &lt;/b&gt;supports private zoning, DNS forwarding, DNS peering, logging&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="270.37" y="28" width="160" height="116.87" as="geometry" />
+        </mxCell>
+        <mxCell id="0PuicuyhqQEkMwqYINXD-0" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=standard_network_tier;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="810" y="94" width="66" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0PuicuyhqQEkMwqYINXD-1" value="" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=premium_network_tier;rounded=1;labelBackgroundColor=none;opacity=40;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="835.87" y="128.5" width="66" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bSS4u1xq0rvll8uh8yzn-0" value="" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_cdn;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;opacity=20;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+          <mxGeometry x="430" y="300" width="150" height="140" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
