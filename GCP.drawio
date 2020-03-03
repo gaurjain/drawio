@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T00:32:06.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="20RleGZTk-4NEUvx2XZe" version="12.7.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-03T00:36:25.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QLOmsQ4jLAAF5K2FbXh_" version="12.7.9" type="github" pages="3">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Page-1">
     <mxGraphModel dx="1625" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1682,7 +1682,7 @@
         <mxCell id="szelxLIFsIUmkkrYnHKK-247" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service to create multi-region, isolated, private or shareable spaces and sub-networks on the cloud? Service to control how workloads connect globally and regionally? supports&lt;b&gt; fine-grained networking policies, GA Firewall, no-external-IP traffic routing, VPC peering, VPN, shared VPC,&amp;nbsp; BYOIP, Private access to google services&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="269.37" y="151.5" width="160" height="133.5" as="geometry" />
         </mxCell>
-        <mxCell id="szelxLIFsIUmkkrYnHKK-258" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;High-performing, low-latency Load balancing Service to scale application workload on compute engines, with no pre-warming and with multi-protocol support ? supports &lt;b&gt;seamless autoscaling, HTTPs, UDP, TCP/SSL LB, SSL offloading, affinities, logging and health checks&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
+        <mxCell id="szelxLIFsIUmkkrYnHKK-258" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;High-performing, low-latency Load balancing Service to scale application workload hosted on the compute engines? supports &lt;b&gt;seamless autoscaling, HTTPs, UDP, TCP/SSL LB, SSL offloading, affinities, logging and health checks, requires no pre-warming&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="433.63" y="151.5" width="144.13" height="138.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-259" value="" style="group" vertex="1" connectable="0" parent="szelxLIFsIUmkkrYnHKK-1">
@@ -1710,7 +1710,7 @@
           <mxGeometry x="12" y="-11.25" width="160" height="214.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-261" value="&lt;font color=&quot;#666666&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Cache and delivery service to accelerate&amp;nbsp;content delivery for websites and applications with global scale and reach and reducing the network latency ? &lt;b&gt;Fast, reliable, GD, Optimized for last-mile performance, have logging and monitoring support, provides privacy and data security&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
-          <mxGeometry x="433.63" y="295.5" width="144.13" height="138.5" as="geometry" />
+          <mxGeometry x="433.63" y="300" width="144.13" height="138.5" as="geometry" />
         </mxCell>
         <mxCell id="szelxLIFsIUmkkrYnHKK-262" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 8px&quot;&gt;Service that works with HTTPs LB and provides always-on attack detection and enterprise-grade defenses against L3/L4 DDoS and web attacks? supports &lt;b&gt;a policy framework with rules, provides flexible rules language, pre-defined rules, logging, visibility and monitoring, IP-based and geo-based access control&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#9673a6;fillColor=none;strokeWidth=3;align=left;" vertex="1" parent="szelxLIFsIUmkkrYnHKK-1">
           <mxGeometry x="582.87" y="132" width="157.13" height="118" as="geometry" />
