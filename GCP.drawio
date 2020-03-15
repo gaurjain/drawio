@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-15T18:35:51.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="KNBxRM0FXX4ueuKI7tcj" version="12.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-15T18:39:12.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="VT_hDAyC-cQ_o2qfvikV" version="12.8.4" type="github" pages="6">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Solution space">
     <mxGraphModel dx="1186" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2115,7 +2115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c02Jmd2H6_5rPtpCZUgd" name="GCP VPC">
-    <mxGraphModel dx="1126" dy="177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="xGFF2eYuS6AizmncUc5J-0" />
         <mxCell id="xGFF2eYuS6AizmncUc5J-1" parent="xGFF2eYuS6AizmncUc5J-0" />
@@ -2344,7 +2344,7 @@
             <mxPoint x="153.55999999999995" y="396.94499999999994" as="sourcePoint" />
             <mxPoint x="324.82000000000016" y="336.2499999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="241" y="314" />
+              <mxPoint x="246" y="314" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2368,7 +2368,7 @@
             <mxPoint x="193" y="416" as="sourcePoint" />
             <mxPoint x="324.8240000000005" y="226.25" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="241" y="222" />
+              <mxPoint x="246" y="222" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2440,7 +2440,7 @@
             <mxPoint x="104.05376543209877" y="875.5" as="sourcePoint" />
             <mxPoint x="-106.45310000000018" y="819.26" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="234" y="999" />
+              <mxPoint x="239" y="999" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2450,7 +2450,7 @@
             <mxPoint x="255.50000000000045" y="928" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xUNa_18OGCpo4AQQ4Doi-2" value="&lt;font color=&quot;#00ffff&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Site to Site VPN&lt;br&gt;with IPSec Tunnels&lt;/font&gt;" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.vpn;dashed=1;dashPattern=1 1;fontColor=#FF8000;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+        <mxCell id="xUNa_18OGCpo4AQQ4Doi-2" value="&lt;font color=&quot;#00ffff&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Site to Site VPN&lt;br&gt;with IPSec Tunnels&lt;/font&gt;" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#33FFFF;shape=mxgraph.gcp2.vpn;dashed=1;dashPattern=1 1;fontColor=#FF8000;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
           <mxGeometry x="-300" y="644" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xUNa_18OGCpo4AQQ4Doi-3" value="" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=1;endSize=4;startSize=4;dashed=1;dashPattern=1 2;strokeColor=#00FFFF;exitX=0.34;exitY=0.83;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.856;entryY=0.352;entryDx=0;entryDy=0;startArrow=blockThin;startFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;comic=1;entryPerimeter=0;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1" source="3LDkLgsOTNWz6F0VZCne-9" target="xUNa_18OGCpo4AQQ4Doi-2">
@@ -2502,12 +2502,12 @@
             <mxPoint x="-580.5" y="405.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E36GXRL81ZlIq3I1zdnq-0" value="private google&lt;br&gt;&amp;nbsp;access enabled" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FF0000;entryX=0.825;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;comic=1;exitX=0.5;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1" source="G5-CCa54dMJKhZnl-uxW-0" target="xUNa_18OGCpo4AQQ4Doi-5">
-          <mxGeometry x="0.4783" relative="1" as="geometry">
+        <mxCell id="E36GXRL81ZlIq3I1zdnq-0" value="&#39;private &lt;br&gt;google&lt;br&gt;access&#39;&amp;nbsp;&lt;br&gt;enabled" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;strokeColor=#FF0000;strokeWidth=1;fontColor=#FF0000;entryX=0.825;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;comic=1;exitX=0.5;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;align=left;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1" source="G5-CCa54dMJKhZnl-uxW-0" target="xUNa_18OGCpo4AQQ4Doi-5">
+          <mxGeometry x="0.8074" relative="1" as="geometry">
             <mxPoint x="218.20456790123444" y="399.8499999999999" as="sourcePoint" />
             <mxPoint x="606.46" y="232.25" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="790" y="222" />
+              <mxPoint x="795" y="222" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
