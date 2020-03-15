@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-15T14:10:05.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="GCTPJ7Yb7Qan2s9Bwzdy" version="12.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-15T14:15:25.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="A5w2fIwlcTQI-Jw1WpeR" version="12.8.4" type="github" pages="6">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Solution space">
     <mxGraphModel dx="1186" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2811,7 +2811,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c02Jmd2H6_5rPtpCZUgd" name="GCP VPC">
-    <mxGraphModel dx="1668" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="xGFF2eYuS6AizmncUc5J-0" />
         <mxCell id="xGFF2eYuS6AizmncUc5J-1" parent="xGFF2eYuS6AizmncUc5J-0" />
@@ -2987,8 +2987,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-245.5" y="679.0588235294117" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-681" y="679" />
-              <mxPoint x="-277" y="679" />
+              <mxPoint x="-681" y="676" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3038,8 +3037,7 @@
             <mxPoint x="143" y="396.3599999999999" as="sourcePoint" />
             <mxPoint x="324.8240000000005" y="226.25" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="86" y="226" />
-              <mxPoint x="324" y="226" />
+              <mxPoint x="86" y="227" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3083,7 +3081,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3LDkLgsOTNWz6F0VZCne-11" value="Dedicated&#xa;Interconnect" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=dedicated_interconnect;shadow=0;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-289" y="361" width="66" height="58.5" as="geometry" />
+          <mxGeometry x="-270" y="102" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="82WEJYcZ2TK1E7gNcjK_-5" value="" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=1;endSize=4;startSize=4;dashed=1;dashPattern=1 2;strokeColor=#00FFFF;exitX=0.108;exitY=0.36;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=blockThin;startFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;comic=1;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1" source="xUNa_18OGCpo4AQQ4Doi-2" target="8quyGAiAL4wuvVl3JfYZ-1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -3161,11 +3159,11 @@
         <mxCell id="AHZfzsrwWpLNrBCjktNG-3" value="&lt;b&gt;&lt;font color=&quot;#999999&quot;&gt;Customer&lt;br&gt;Router&lt;/font&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;verticalAlign=top;pointerEvents=1;align=center;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.5,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.5,0],[0.125,0.25,0],[0.125,0.75,0],[0.875,0.25,0],[0.875,0.75,0]];shape=mxgraph.cisco_safe.design.router;rounded=1;strokeColor=#FFFFFF;strokeWidth=3;fontColor=#009900;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
           <mxGeometry x="-603" y="395.5" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="awtO_DQfdr98on8Cko2L-3" value="&lt;b&gt;&lt;font color=&quot;#999999&quot;&gt;Customer&lt;br&gt;Router&lt;/font&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;verticalAlign=top;pointerEvents=1;align=center;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.5,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.5,0],[0.125,0.25,0],[0.125,0.75,0],[0.875,0.25,0],[0.875,0.75,0]];shape=mxgraph.cisco_safe.design.router;rounded=1;strokeColor=#FFFFFF;strokeWidth=3;fontColor=#009900;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
-          <mxGeometry x="-413.5" y="395.5" width="50" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="3LDkLgsOTNWz6F0VZCne-10" value="Partner&#xa;Interconnect" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=partner_interconnect;shadow=0;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-322" y="386" width="66" height="58.5" as="geometry" />
+          <mxGeometry x="-306" y="124" width="66" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="awtO_DQfdr98on8Cko2L-3" value="&lt;b&gt;&lt;font color=&quot;#999999&quot;&gt;Customer&lt;br&gt;Router&lt;br&gt;or Service Provider&lt;br&gt;Peering Edge&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;verticalAlign=top;pointerEvents=1;align=center;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.5,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.5,0],[0.125,0.25,0],[0.125,0.75,0],[0.875,0.25,0],[0.875,0.75,0]];shape=mxgraph.cisco_safe.design.router;rounded=1;strokeColor=#FFFFFF;strokeWidth=3;fontColor=#009900;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
+          <mxGeometry x="-413.5" y="395.5" width="50" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
