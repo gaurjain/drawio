@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-16T01:49:44.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="-O8hJIFnlW478hsythex" version="12.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-16T01:51:03.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Qf-_oqaUlOjY5Iblcaji" version="12.8.4" type="github" pages="6">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Solution space">
     <mxGraphModel dx="1186" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2127,7 +2127,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c02Jmd2H6_5rPtpCZUgd" name="GCP VPC">
-    <mxGraphModel dx="2245" dy="898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="2038" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="xGFF2eYuS6AizmncUc5J-0" />
         <mxCell id="xGFF2eYuS6AizmncUc5J-1" parent="xGFF2eYuS6AizmncUc5J-0" />
@@ -2461,7 +2461,7 @@
             <mxPoint x="104.05376543209877" y="875.5" as="sourcePoint" />
             <mxPoint x="-106.45310000000018" y="819.26" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="239" y="999" />
+              <mxPoint x="231" y="999" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2533,6 +2533,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="H7h6xPOeQuuo5XoP2rGV-3" value="Compute&#xa;Engine" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;rounded=1;shadow=1;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="674.004950617284" y="970" width="70.31851851851853" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kQ6ADvudCyb91ON-y_Wp-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/coronavirus-flat/64/connection-route-spread-virus-global-128.png;shadow=1;dashed=1;dashPattern=1 1;strokeColor=#FF3399;strokeWidth=3;fillColor=#333333;fontColor=#B3B3B3;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="-467" y="709" width="103" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="-lzvMM6-JCcqx6D-nxXF-2" value="" style="dashed=0;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;dashed=0;shadow=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#FF3399;strokeWidth=3;fontColor=#B3B3B3;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="-532" y="16" width="30" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="SbgrIGEEFDW5PbZ8LVZD-0" value="" style="dashed=0;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;dashed=0;shadow=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#FF3399;strokeWidth=3;fontColor=#B3B3B3;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="-91.13" y="19" width="30" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pKhT8BbPNGc7tk3HPKtw-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/UserDefinedRoute.svg;shadow=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#E6E6E6;strokeWidth=3;fillColor=#33FFFF;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="279" y="613" width="50" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="H7h6xPOeQuuo5XoP2rGV-0" value="" style="fontSize=12;html=1;endArrow=oval;endFill=1;rounded=0;strokeWidth=1;endSize=4;startSize=4;dashed=0;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;comic=1;exitX=0.825;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=oval;startFill=1;fillColor=#f8cecc;entryX=1.002;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1" source="H7h6xPOeQuuo5XoP2rGV-3" target="L300q8ErYvCPBuEuvxsf-9">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="706.7853388822828" y="999.25" as="sourcePoint" />
@@ -2547,18 +2562,6 @@
           <mxGeometry x="0.5619" y="2" relative="1" as="geometry">
             <mxPoint x="21.94" y="36.529999999999994" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="H7h6xPOeQuuo5XoP2rGV-3" value="Compute&#xa;Engine" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=compute_engine;rounded=1;shadow=1;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="674.004950617284" y="970" width="70.31851851851853" height="58.5" as="geometry" />
-        </mxCell>
-        <mxCell id="kQ6ADvudCyb91ON-y_Wp-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/coronavirus-flat/64/connection-route-spread-virus-global-128.png;shadow=1;dashed=1;dashPattern=1 1;strokeColor=#FF3399;strokeWidth=3;fillColor=#333333;fontColor=#B3B3B3;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-467" y="709" width="103" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="-lzvMM6-JCcqx6D-nxXF-2" value="" style="dashed=0;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;dashed=0;shadow=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#FF3399;strokeWidth=3;fontColor=#B3B3B3;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-532" y="16" width="30" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="SbgrIGEEFDW5PbZ8LVZD-0" value="" style="dashed=0;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;dashed=0;shadow=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#FF3399;strokeWidth=3;fontColor=#B3B3B3;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-91.13" y="19" width="30" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
