@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-17T19:02:46.733Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="HSWWKT6zftK_Lhb4l_4i" version="12.8.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-17T19:03:41.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="EgpNouIE71O7sl8rEIJR" version="12.8.6" type="github" pages="6">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Solution space">
     <mxGraphModel dx="1426" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2941,7 +2941,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c02Jmd2H6_5rPtpCZUgd" name="GCP VPC">
-    <mxGraphModel dx="2245" dy="898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="2528" dy="898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="xGFF2eYuS6AizmncUc5J-0" />
         <mxCell id="xGFF2eYuS6AizmncUc5J-1" parent="xGFF2eYuS6AizmncUc5J-0" />
@@ -3384,7 +3384,7 @@
         <mxCell id="awtO_DQfdr98on8Cko2L-3" value="&lt;b&gt;&lt;font color=&quot;#999999&quot;&gt;Customer&lt;br&gt;Router&lt;br&gt;or Service Provider&lt;br&gt;Peering Edge&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;verticalAlign=top;pointerEvents=1;align=center;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.5,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.5,0],[0.125,0.25,0],[0.125,0.75,0],[0.875,0.25,0],[0.875,0.75,0]];shape=mxgraph.cisco_safe.design.router;rounded=1;strokeColor=#FFFFFF;strokeWidth=3;fontColor=#009900;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
           <mxGeometry x="-439" y="396.93" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="PNXty8ngtbmgxoagXDWX-0" value="&lt;div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;How Do I connect with GCP Cloud VPC ?&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;Cloud Interconnect (On-prem &amp;lt;--&amp;gt; VPC)&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;Cloud VPN (On-prem/VPC &amp;lt;--&amp;gt; VPC)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;Cloud NAT (VPC --&amp;gt; Internet)&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;VPC Peering (VPC &amp;lt;--&amp;gt; VPC)&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;VPC Sharing (VPC &amp;lt;--&amp;gt; VPC)&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;font size=&quot;3&quot;&gt;private google access enabled (VPC &amp;lt;--&amp;gt; other gcp services)&lt;/font&gt;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCCCCC;fontColor=#4D4D4D;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+        <mxCell id="PNXty8ngtbmgxoagXDWX-0" value="&lt;div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;How Do I connect with GCP Cloud VPC ?&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;Cloud Interconnect (On-prem &amp;lt;--&amp;gt; VPC)&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;Cloud VPN (On-prem/VPC &amp;lt;--&amp;gt; VPC)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;Cloud NAT (VPC --&amp;gt; Internet)&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;VPC Peering (VPC &amp;lt;--&amp;gt; VPC, diff org)&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot; color=&quot;#0000ff&quot;&gt;VPC Sharing (VPC &amp;lt;--&amp;gt; VPC, same org)&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;font size=&quot;3&quot;&gt;private google access enabled (VPC &amp;lt;--&amp;gt; other gcp services)&lt;/font&gt;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCCCCC;fontColor=#4D4D4D;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
           <mxGeometry x="-738" y="882.75" width="674" height="206.25" as="geometry" />
         </mxCell>
         <mxCell id="88AcCchFUSw02kIwIgfm-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;strokeColor=#EA6B66;strokeWidth=1;fontColor=#009900;elbow=vertical;comic=1;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1">
@@ -3407,8 +3407,8 @@
         </mxCell>
         <mxCell id="88AcCchFUSw02kIwIgfm-8" value="" style="fontSize=12;html=1;endArrow=oval;endFill=1;rounded=0;strokeWidth=1;endSize=4;startSize=4;dashed=0;strokeColor=#FFCE9F;comic=1;startArrow=oval;startFill=1;fillColor=#f8cecc;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-200.5" y="1041.75" as="sourcePoint" />
-            <mxPoint x="-309.5" y="1041.75" as="targetPoint" />
+            <mxPoint x="-201.13" y="1037" as="sourcePoint" />
+            <mxPoint x="-310.13" y="1037" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="88AcCchFUSw02kIwIgfm-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;strokeColor=#4284F3;strokeWidth=1;fontColor=#009900;elbow=vertical;comic=1;entryX=0.875;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xGFF2eYuS6AizmncUc5J-1">
