@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-24T17:22:43.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tmPxl-H_HqxAxC-uixDP" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-24T17:27:40.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ATRClonNkRJC--RgAd0c" version="12.8.8" type="github">
   <diagram id="sylalVcgzMzVZW4ac6Ib" name="Page-1">
-    <mxGraphModel dx="1214" dy="823" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#333333" math="0" shadow="0">
+    <mxGraphModel dx="1557" dy="823" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#333333" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
           <mxGeometry x="6.560000000000002" y="24" width="32.5" height="33" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--47" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;dashed=1;opacity=20;" vertex="1" parent="1">
-          <mxGeometry x="847" y="221" width="70" height="452" as="geometry" />
+          <mxGeometry x="847" y="212" width="70" height="452" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--50" value="&lt;font style=&quot;font-size: 32px&quot; color=&quot;#67ab9f&quot;&gt;&quot;Desired State Management&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="325" y="90" width="422" height="25" as="geometry" />
@@ -146,7 +146,7 @@
           <mxGeometry x="22" y="600" width="10" height="42" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--76" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;1. Kube-apiserver&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 10px ; letter-spacing: 0.1px&quot;&gt;validates and configures data for the api objects which include &lt;i&gt;pods, services, replication controllers, and others. The API server&amp;nbsp; services REST operations and provides the frontend to the cluster&#39;s shared state through which all other components interact.&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;comic=1;labelBackgroundColor=none;fontColor=#67AB9F;align=left;" vertex="1" parent="1">
-          <mxGeometry x="244.5" y="604" width="258" height="126" as="geometry" />
+          <mxGeometry x="214" y="581" width="258" height="126" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--77" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;2. Kube-controller-manager&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;roboto, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 10px ; letter-spacing: 0.1px&quot;&gt;is a daemon that embeds the core control loops that regulates the state of the system. This control loop watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired state. The replication controller, endpoints controller, namespace controller, and service accounts controller.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;comic=1;labelBackgroundColor=none;fontColor=#67AB9F;align=center;" vertex="1" parent="1">
           <mxGeometry x="205" y="188" width="263" height="189" as="geometry" />
