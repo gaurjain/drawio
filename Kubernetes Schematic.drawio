@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-25T19:04:19.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="H8N0beCWMwhtq5LLPDpE" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-25T19:07:56.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="PeqLjgP9S2ePOdL2oaE6" version="12.8.8" type="github">
   <diagram id="sylalVcgzMzVZW4ac6Ib" name="Page-1">
     <mxGraphModel dx="1000" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#000000" math="0" shadow="0">
       <root>
@@ -84,8 +84,8 @@
         <mxCell id="zhEII75TTDP8HIT-S5k--44" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;comic=1;" vertex="1" parent="1">
           <mxGeometry x="857" y="309" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="zhEII75TTDP8HIT-S5k--50" value="&lt;font style=&quot;font-size: 32px&quot; color=&quot;#67ab9f&quot;&gt;enforces &quot;Desired State Management&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="303" y="33" width="554" height="24" as="geometry" />
+        <mxCell id="zhEII75TTDP8HIT-S5k--50" value="&lt;font style=&quot;font-size: 32px&quot; color=&quot;#67ab9f&quot;&gt;&lt;i&gt;enforces&lt;/i&gt; &quot;Desired State Management&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="253" y="41" width="554" height="24" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--51" value="A Worker is a &lt;br&gt;&lt;b&gt;container-host &lt;/b&gt;&lt;br&gt;&lt;b&gt;with a kubelet process&lt;/b&gt; &lt;br&gt;that communicates with the Cluster services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="776" y="110" width="244" height="60" as="geometry" />
@@ -133,7 +133,7 @@
           <mxGeometry x="783.5" y="204" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--76" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;1. Kube-apiserver&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 10px ; letter-spacing: 0.1px&quot;&gt;validates and configures data for the api objects which include &lt;i&gt;pods, services, replication controllers, and others. The API server&amp;nbsp; services REST operations and provides the frontend to the cluster&#39;s shared state through which all other components interact.&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;comic=1;labelBackgroundColor=none;fontColor=#67AB9F;align=left;" vertex="1" parent="1">
-          <mxGeometry x="377.5" y="583" width="231" height="164" as="geometry" />
+          <mxGeometry x="377.5" y="578" width="231" height="164" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--77" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;2. Kube-controller-manager&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;roboto, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 10px ; letter-spacing: 0.1px&quot;&gt;is a daemon that embeds the core control loops that regulates the state of the system. This control loop watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired state. The replication controller, endpoints controller, namespace controller, and service accounts controller.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 1;comic=1;labelBackgroundColor=none;fontColor=#67AB9F;align=center;" vertex="1" parent="1">
           <mxGeometry x="209" y="208" width="238" height="189" as="geometry" />
@@ -208,10 +208,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--45" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;comic=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;align=right;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="554" y="503" width="59.87" height="64" as="geometry" />
+          <mxGeometry x="554" y="505" width="59.87" height="64" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--11" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=etcd;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="567.69" y="525.6509523809524" width="32.49999999999999" height="33.523809523809526" as="geometry" />
+          <mxGeometry x="567.6800000000001" y="530.0009523809524" width="32.49999999999999" height="33.523809523809526" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--106" value="&lt;span style=&quot;color: rgb(255 , 128 , 0)&quot;&gt;Fed into&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="293" y="530" width="53" height="18" as="geometry" />
