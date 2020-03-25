@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-25T18:37:07.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tRxRV-QygaxrKpW7P8Gy" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-25T18:59:56.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="uwCG81_yJOv0BUuFKt4W" version="12.8.8" type="github">
   <diagram id="sylalVcgzMzVZW4ac6Ib" name="Page-1">
-    <mxGraphModel dx="908" dy="480" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#333333" math="0" shadow="0">
+    <mxGraphModel dx="1557" dy="823" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#333333" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--5" value="&lt;font color=&quot;#ff8000&quot;&gt;.yaml&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;comic=1;strokeWidth=3;fillColor=none;strokeColor=#006EAF;size=22;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="153" y="446.49" width="56" height="79.75" as="geometry" />
+          <mxGeometry x="153" y="417" width="56" height="79.75" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=7;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;startArrow=classic;startFill=1;fillColor=#dae8fc;comic=1;" edge="1" parent="1" target="zhEII75TTDP8HIT-S5k--38">
           <mxGeometry relative="1" as="geometry">
@@ -88,7 +88,7 @@
           <mxGeometry x="307.5" y="19" width="554" height="24" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--51" value="A Worker is a &lt;br&gt;&lt;b&gt;container-host &lt;/b&gt;&lt;br&gt;&lt;b&gt;with a kubelet process&lt;/b&gt; &lt;br&gt;that communicates with the Cluster services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#67AB9F;" vertex="1" parent="1">
-          <mxGeometry x="776" y="120" width="244" height="60" as="geometry" />
+          <mxGeometry x="776" y="127" width="244" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--52" value="&lt;b&gt;Desired State is here !!!&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="109" y="534" width="144" height="18" as="geometry" />
@@ -148,7 +148,7 @@
           <mxGeometry x="781.5" y="403" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--87" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cncf-branding.netlify.com/img/projects/helm/icon/color/helm-icon-color.png;" vertex="1" parent="1">
-          <mxGeometry x="146.75" y="555.0000000000002" width="68.5" height="79.1" as="geometry" />
+          <mxGeometry x="146.75" y="575.0000000000002" width="68.5" height="79.1" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--90" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=5;dashed=1;dashPattern=1 1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zhEII75TTDP8HIT-S5k--87" target="zhEII75TTDP8HIT-S5k--102">
           <mxGeometry relative="1" as="geometry">
@@ -168,7 +168,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zhEII75TTDP8HIT-S5k--93" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="zhEII75TTDP8HIT-S5k--93" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="728" width="19" height="19" as="geometry" />
         </mxCell>
         <mxCell id="zhEII75TTDP8HIT-S5k--100" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
