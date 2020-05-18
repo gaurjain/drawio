@@ -1,4 +1,4 @@
-<mxfile modified="2020-05-18T19:02:35.793Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="MqIz8ZtJdeH6KZ6uWfVT" version="13.1.2" type="github" pages="6">
+<mxfile modified="2020-05-18T19:07:43.141Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="yk74QG4rSsxkqK3OjhqY" version="13.1.2" type="github" pages="6">
   <diagram id="bdf2a893-cfdd-2118-b845-c5bb8644dd1f" name="Container layers">
     <mxGraphModel dx="2006" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -642,13 +642,13 @@
         <mxCell id="68" value="&lt;div style=&quot;text-align: justify&quot;&gt;A thread is one of many workers which performs a Task, which you want to be done.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A thread&amp;nbsp;&lt;b&gt;is an execution context&lt;/b&gt; that can run a set of instructions within a process aka a running program.&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A&amp;nbsp;&lt;b&gt;thread&amp;nbsp;of execution&lt;/b&gt;&amp;nbsp;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;the smallest sequence of programmed instructions that&amp;nbsp;&lt;b&gt;can&amp;nbsp;be managed independently by a scheduler&lt;/b&gt;, which&amp;nbsp;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;typically a part of the operating system or a (J)Virtual Machine.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="80" y="19" width="440" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-94" value="Task" style="swimlane;fillColor=#0050ef;strokeColor=#001DBC;rounded=1;startSize=23;fontColor=#ffffff;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="13.5" y="580" width="346.5" height="23" as="geometry">
-            <mxRectangle x="13.5" y="580" width="346.5" height="80" as="alternateBounds" />
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-94" value="Task" style="swimlane;fillColor=#0050ef;strokeColor=#001DBC;rounded=1;startSize=23;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="13.5" y="580" width="346.5" height="80" as="geometry">
+            <mxRectangle x="13.5" y="580" width="346.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-96" value="&lt;div style=&quot;text-align: justify&quot;&gt;A task is what you want to be done.&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;It represents an asynchronous operation.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
-          <mxGeometry x="80" y="26" width="240" height="54" as="geometry" />
+          <mxGeometry x="80" y="15" width="240" height="54" as="geometry" />
         </mxCell>
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-97" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/Rounded_32px/32/pool_blue_two_ball.png;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
           <mxGeometry x="20" y="37" width="32" height="32" as="geometry" />
