@@ -1,4 +1,4 @@
-<mxfile modified="2020-05-18T19:22:45.270Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="qwpfgK1BUrELxt7IFX5G" version="13.1.2" type="github" pages="6">
+<mxfile modified="2020-05-18T19:34:54.286Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="VPAv2GUZxaTX-RR0t0gl" version="13.1.2" type="github" pages="6">
   <diagram id="bdf2a893-cfdd-2118-b845-c5bb8644dd1f" name="Container layers">
     <mxGraphModel dx="2006" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -510,12 +510,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="de411bfe-b317-71ce-4578-31d7b845832b" name="Thread concurrency model">
-    <mxGraphModel dx="649" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DPsUhYud49FchwlEQ9zj-93" value="(J)VM Context" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="13.5" y="100" width="806.5" height="450" as="geometry">
+          <mxGeometry x="13.5" y="100" width="806.5" height="430" as="geometry">
             <mxRectangle x="13.5" y="100" width="786.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -551,8 +551,8 @@
         <mxCell id="73" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/Rounded_32px/32/pool_orange_ball.png;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-94" vertex="1">
           <mxGeometry x="668" y="27.999999999999986" width="32" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Thread Pool" style="swimlane;rounded=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#FF3333;gradientColor=none;fontColor=#000000;opacity=40;html=1;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
-          <mxGeometry x="189.5" y="171.33" width="513" height="268.67" as="geometry">
+        <mxCell id="20" value="Thread Pool aka &#39;a group of idle threads&#39;" style="swimlane;rounded=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#FF3333;gradientColor=none;fontColor=#000000;opacity=40;html=1;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
+          <mxGeometry x="196.5" y="160" width="513" height="258.67" as="geometry">
             <mxRectangle x="189.5" y="171.33" width="513" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -604,23 +604,23 @@
         <mxCell id="65" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=13.2;dx=35.13;arrowHead=55;rounded=1;glass=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;rotation=85;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
           <mxGeometry x="181.5" y="70.32999999999998" width="108" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="83" value="&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Life of a Thread&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px&quot;&gt; &lt;i&gt;{&lt;/i&gt;&lt;/span&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;i&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;1. create() or reuse()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;2. Initialize&amp;nbsp;()&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;3. Do this&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;4. Do that&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;5. Reach Barrier(); &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;6. go to Sleep()&amp;nbsp;&amp;nbsp;&lt;br&gt;7. come out of Barrier&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;when asked by the pool&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;8. Task.execute();&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;9. Close this&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;10. Close that&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;11. Go back to the container for reuse&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;}&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
-          <mxGeometry x="9.5" y="200" width="180" height="240" as="geometry" />
+        <mxCell id="83" value="&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Life of a Thread&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px&quot;&gt; &lt;i&gt;{&lt;/i&gt;&lt;/span&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;i&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;1. create() or reuse()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;2. Initialize&amp;nbsp;()&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;3. Do this&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;4. Do that&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;5. &lt;b&gt;Reach Barrier(); &lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;6. &lt;b&gt;go to Sleep()&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;7. come out of Barrier&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;when asked by the pool&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;8. Task.execute();&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;9. Close this&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;10. Close that&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;11. Go back to the container for reuse&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;}&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
+          <mxGeometry x="9.5" y="169.34" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="93" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=13.2;dx=35.13;arrowHead=55;rounded=1;glass=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;rotation=-10;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
           <mxGeometry x="550.27" y="67.17" width="109" height="113" as="geometry" />
         </mxCell>
         <mxCell id="45" value="&lt;h1&gt;Thread Pool&lt;/h1&gt;&lt;span&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;is a group of pre-instantiated, idle threads&lt;/b&gt; which stand ready to be given work.&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span&gt;When the pool is handed a&amp;nbsp;&lt;/span&gt;&lt;code&gt;Task&lt;/code&gt;&lt;span&gt;, it takes a thread from the container (or waits for one to become available if the container is empty), hands it a&amp;nbsp;&lt;/span&gt;&lt;code&gt;Task&lt;/code&gt;&lt;span&gt;, and meets the barrier. This causes the idle thread to resume execution, invoking the&amp;nbsp;&lt;/span&gt;&lt;code&gt;execute()&lt;/code&gt;&lt;span&gt;method of the&amp;nbsp;&lt;/span&gt;&lt;code&gt;Task&amp;nbsp;&lt;/code&gt;&lt;span&gt;it was given.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Once execution is complete, the thread hands itself back to the pool to be put into the container for re-use and then meets its barrier, putting itself to sleep until the cycle repeats.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#4D4D4D;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="561" y="560" width="280" height="256.75" as="geometry" />
+          <mxGeometry x="561" y="600" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="46" value="&lt;h1&gt;Thread Pools&lt;/h1&gt;&lt;p style=&quot;text-align: justify&quot;&gt;are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;This prevents having to incur the overhead of creating a thread a large number of times.&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;Implementation will vary by environment, but in simplified terms, you need the following:&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;b&gt;A way to create threads and hold them&lt;/b&gt; &lt;b&gt;in an idle state.&lt;/b&gt; This can be accomplished by having each thread wait at a barrier until the pool hands it work. (This could be done with mutexes as well.)&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;b&gt;A container to store the created threads&lt;/b&gt;, such as a queue or any other structure that has a way to add a thread to the pool and pull one out.&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;b&gt;A standard interface or abstract class for the threads to use in doing work.&lt;/b&gt; This might be an abstract class called&amp;nbsp;&lt;code&gt;Task&amp;nbsp;&lt;/code&gt;with an&amp;nbsp;&lt;code&gt;execute()&lt;/code&gt;method that does the work and then returns.&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;text-align: justify&quot;&gt;When the thread pool is created, it will either instantiate a certain number of threads to make available OR create new ones as needed depending on the needs of the implementation.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="13.5" y="827" width="706.5" height="273" as="geometry" />
+          <mxGeometry x="13.5" y="810" width="636.5" height="263" as="geometry" />
         </mxCell>
         <mxCell id="81" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Understanding Threads and Thread pools&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="60" y="20" width="730" height="60" as="geometry" />
         </mxCell>
         <mxCell id="89" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="800" y="1040" width="41" height="38" as="geometry" />
+          <mxGeometry x="800" y="1020" width="41" height="38" as="geometry" />
         </mxCell>
         <mxCell id="90" value="" style="group" parent="89" vertex="1" connectable="0">
           <mxGeometry width="41" height="38" as="geometry" />
@@ -632,14 +632,14 @@
           <mxGeometry width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="DPsUhYud49FchwlEQ9zj-96" value="&#39;Thread of Execution&#39; aka Thread" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="13.5" y="650" width="530" height="180" as="geometry">
+          <mxGeometry x="13.5" y="630" width="530" height="180" as="geometry">
             <mxRectangle x="13.5" y="650" width="536.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="69" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;rounded=1;shadow=0;glass=0;dashed=1;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#CC0066;gradientColor=none;fontColor=#000000;opacity=40;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="16.5" y="61" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="68" value="&lt;div style=&quot;text-align: justify&quot;&gt;A thread &lt;b&gt;is one of many workers which performs a Task&lt;/b&gt;, which you want to be done.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A thread&amp;nbsp;&lt;b&gt;is an execution context&lt;/b&gt; that can run a set of instructions within a process aka a running program.&amp;nbsp;&lt;span&gt;A thread&lt;/span&gt;&lt;b&gt; is a basic unit of CPU utilization&lt;/b&gt;&lt;span&gt;, consisting of a process counter, a stack, and a set of registers.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;A&amp;nbsp;&lt;/span&gt;&lt;b&gt;thread&amp;nbsp;of execution&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;the smallest sequence of programmed instructions that&amp;nbsp;&lt;/span&gt;&lt;b&gt;can&amp;nbsp;be managed independently by a scheduler&lt;/b&gt;&lt;span&gt;, which&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;typically a part of the operating system or a (J)Virtual Machine.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
+        <mxCell id="68" value="&lt;div style=&quot;text-align: justify&quot;&gt;A thread &lt;b&gt;is one of many workers which performs a &lt;i&gt;Task&lt;/i&gt;&lt;/b&gt;, which you want to be done.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A thread&amp;nbsp;&lt;b&gt;is an execution context&lt;/b&gt; that can run a set of instructions within a process aka a running program.&amp;nbsp;&lt;span&gt;A thread&lt;/span&gt;&lt;b&gt; is a basic unit of CPU utilization&lt;/b&gt;&lt;span&gt;, consisting of a process counter, a stack, and a set of registers.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;A&amp;nbsp;&lt;/span&gt;&lt;b&gt;thread&amp;nbsp;of execution&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;the smallest sequence of programmed instructions that&amp;nbsp;&lt;/span&gt;&lt;b&gt;can&amp;nbsp;be managed independently by a scheduler&lt;/b&gt;&lt;span&gt;, which&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;typically a part of the operating system or a (J)Virtual Machine.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="76.5" y="22" width="440" height="152" as="geometry" />
         </mxCell>
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-99" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/318_Stack_Overflow_logo-128.png;fontColor=#4D4D4D;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
@@ -651,16 +651,22 @@
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-102" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/memory.png;fontColor=#4D4D4D;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
           <mxGeometry x="44.5" y="110.94000000000007" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-106" value="कर्ता" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF3333;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
+          <mxGeometry x="416.5" width="30" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-94" value="Task" style="swimlane;fillColor=#0050ef;strokeColor=#001DBC;rounded=1;startSize=23;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="13.5" y="560" width="386.5" height="80" as="geometry">
+          <mxGeometry x="13.5" y="540" width="426.5" height="80" as="geometry">
             <mxRectangle x="13.5" y="580" width="346.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-96" value="&lt;div style=&quot;text-align: justify&quot;&gt;A task is what you want to be done.&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;It represents an asynchronous operation, It is &lt;b&gt;a set of instructions that get loaded into memory.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
-          <mxGeometry x="76.5" y="23" width="300" height="54" as="geometry" />
+          <mxGeometry x="76.5" y="23" width="333.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="lZ_eRcYEnkGoCs-2lRhE-97" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/Rounded_32px/32/pool_blue_two_ball.png;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
           <mxGeometry x="18" y="32" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-107" value="कार्य" style="text;whiteSpace=wrap;html=1;fontColor=#FFFF33;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
+          <mxGeometry x="316.5" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
