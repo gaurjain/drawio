@@ -1,4 +1,4 @@
-<mxfile modified="2020-05-18T18:43:35.156Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="-dpzlV1f9SG4UuZBOQcE" version="13.1.2" type="github" pages="6">
+<mxfile modified="2020-05-18T18:45:57.556Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ZK3Z01HOR6HJC0AobI_I" version="13.1.2" type="github" pages="6">
   <diagram id="bdf2a893-cfdd-2118-b845-c5bb8644dd1f" name="Container layers">
     <mxGraphModel dx="2006" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -510,7 +510,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="de411bfe-b317-71ce-4578-31d7b845832b" name="Thread concurrency model">
-    <mxGraphModel dx="1156" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="931" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,9 +519,9 @@
             <mxRectangle x="13.5" y="100" width="786.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DPsUhYud49FchwlEQ9zj-94" value="application PROCESS aka &#39;a running program&#39;" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;startSize=23;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1" collapsed="1">
-          <mxGeometry x="30" y="40.17" width="719" height="23" as="geometry">
-            <mxRectangle x="30" y="40.17" width="726.5" height="99.83" as="alternateBounds" />
+        <mxCell id="DPsUhYud49FchwlEQ9zj-94" value="application PROCESS aka &#39;a running program&#39;" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;startSize=23;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
+          <mxGeometry x="30" y="40.17" width="726.5" height="99.83" as="geometry">
+            <mxRectangle x="30" y="40.17" width="719" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="66" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;rounded=1;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#000033;strokeWidth=1;fillColor=#FF3333;gradientColor=none;fontColor=#000000;opacity=10;" parent="DPsUhYud49FchwlEQ9zj-94" vertex="1">
@@ -551,9 +551,9 @@
         <mxCell id="73" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/Rounded_32px/32/pool_orange_ball.png;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-94" vertex="1">
           <mxGeometry x="668" y="27.999999999999986" width="32" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Thread Pool" style="swimlane;rounded=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#FF3333;gradientColor=none;fontColor=#000000;opacity=40;html=1;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1" collapsed="1">
-          <mxGeometry x="189.5" y="171.33" width="513" height="23" as="geometry">
-            <mxRectangle x="189.5" y="171.33" width="513" height="268.67" as="alternateBounds" />
+        <mxCell id="20" value="Thread Pool" style="swimlane;rounded=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#FF3333;strokeWidth=1;fillColor=#FF3333;gradientColor=none;fontColor=#000000;opacity=40;html=1;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
+          <mxGeometry x="189.5" y="171.33" width="513" height="268.67" as="geometry">
+            <mxRectangle x="189.5" y="171.33" width="513" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="60" value="&lt;b&gt;container&lt;br&gt;(Queue)&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#000033;strokeWidth=1;fillColor=#FF3333;gradientColor=none;fontColor=#000000;opacity=10;" parent="20" vertex="1">
@@ -605,7 +605,7 @@
           <mxGeometry x="181.5" y="70.32999999999998" width="108" height="115" as="geometry" />
         </mxCell>
         <mxCell id="83" value="&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Life of a Thread&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px&quot;&gt; &lt;i&gt;{&lt;/i&gt;&lt;/span&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;i&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;1. create() or reuse()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;2. Initialize&amp;nbsp;()&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;3. Do this&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;4. Do that&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;5. Reach Barrier(); &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;6. go to Sleep()&amp;nbsp;&amp;nbsp;&lt;br&gt;7. come out of Barrier&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;when asked by the pool&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;8. Task.execute();&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;9. Close this&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;10. Close that&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;11. Go back to the container for reuse&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;}&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
-          <mxGeometry x="16.5" y="171.33" width="180" height="240" as="geometry" />
+          <mxGeometry x="9.5" y="200" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="93" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=13.2;dx=35.13;arrowHead=55;rounded=1;glass=0;comic=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;rotation=-10;" parent="DPsUhYud49FchwlEQ9zj-93" vertex="1">
           <mxGeometry x="550.27" y="67.17" width="109" height="113" as="geometry" />
@@ -617,7 +617,7 @@
           <mxGeometry x="20" y="760" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="81" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Understanding Threads and Thread pools&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="63" y="30" width="730" height="60" as="geometry" />
+          <mxGeometry x="60" y="20" width="730" height="60" as="geometry" />
         </mxCell>
         <mxCell id="89" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="760" y="1000" width="41" height="38" as="geometry" />
