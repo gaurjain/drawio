@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-05-28T17:21:12.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="7626WaMys_xJhzfktMRL" version="13.1.5" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-05-28T17:26:15.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="YFzIeOzFKHwB8M72rv7M" version="13.1.5" type="github" pages="2">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Page-1">
     <mxGraphModel dx="1598" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -298,7 +298,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QUspK55rQpI2D1hHw6S9" name="Page-2">
-    <mxGraphModel dx="2013" dy="-362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1861" dy="-443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="v32IavL7R3RMmK3gRyr8-0" />
         <mxCell id="v32IavL7R3RMmK3gRyr8-1" parent="v32IavL7R3RMmK3gRyr8-0" />
@@ -542,7 +542,7 @@
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-128" value="Event-driven&lt;br&gt;Consumer" style="fillColor=#dae8fc;dashed=0;outlineConnect=0;strokeWidth=1;html=1;align=center;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.eip.event_driven_consumer;shadow=0;comic=1;labelBackgroundColor=none;opacity=80;strokeColor=#6c8ebf;flipH=1;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="140" y="1240.75" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-131" value="Closure Activities&lt;br&gt;Event&lt;br&gt;Sub-Process" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;shadow=1;comic=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;opacity=80;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
+        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-131" value="Closure Activities&lt;br&gt;Event&lt;br&gt;Sub-Process&lt;br&gt;(Do nothing and wait OR update case OR Close cases)&amp;nbsp;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;shadow=1;comic=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;opacity=80;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="-120" y="1233" width="165" height="47" as="geometry" />
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-133" value="Event&#xa;Sub-Process" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;opacity=80;fontSize=8;verticalAlign=top;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
@@ -777,12 +777,6 @@
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-270" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;fontSize=8;shape=mxgraph.eip.message_1;fillColor=#1ba1e2;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#FF0000;fontColor=#ffffff;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="72" y="1205.25" width="12" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-272" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;fontSize=8;shape=mxgraph.eip.message_1;fillColor=#f0a30a;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#FF0000;fontColor=#ffffff;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
-          <mxGeometry x="92" y="1205.25" width="12" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-278" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;fontSize=8;shape=mxgraph.eip.message_2;fillColor=#006600;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#00FF00;fontColor=#ffffff;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
-          <mxGeometry x="92" y="1258.75" width="12" height="12" as="geometry" />
-        </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-281" value="" style="strokeWidth=1;dashed=0;align=center;fontSize=8;shape=rect;fillColor=#80FF6C;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#FF0000;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="72" y="1076" width="12" height="12" as="geometry" />
         </mxCell>
@@ -1002,7 +996,7 @@
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-411" value="x" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="-30" y="1388" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-365" value="" style="startArrow=diamondThin;startFill=0;startSize=7;endArrow=classic;endFill=1;endSize=10;dashed=1;html=1;shadow=0;strokeColor=#82b366;strokeWidth=1;fontSize=8;fontColor=#006600;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="v32IavL7R3RMmK3gRyr8-1" source="uSHUIzxZ1qV94MZO6Zg4-131" target="kchTgcUdJesZPRWiT2pt-64" edge="1">
+        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-365" value="" style="startArrow=diamondThin;startFill=0;startSize=7;endArrow=classic;endFill=1;endSize=10;dashed=1;html=1;shadow=0;strokeColor=#006600;strokeWidth=1;fontSize=8;fontColor=#006600;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" parent="v32IavL7R3RMmK3gRyr8-1" source="uSHUIzxZ1qV94MZO6Zg4-131" target="kchTgcUdJesZPRWiT2pt-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-25" y="1223.25" as="sourcePoint" />
             <mxPoint x="80.91999999999962" y="1460.08" as="targetPoint" />
@@ -1015,6 +1009,11 @@
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-366" value="" style="shape=message;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="uSHUIzxZ1qV94MZO6Zg4-365" vertex="1">
           <mxGeometry width="20" height="14" relative="1" as="geometry">
             <mxPoint x="-9.799999999999994" y="-1.2399999999999984" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g29Eh1x7DI6jpdU0T7LK-25" value="Update or close case" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#006600;labelBackgroundColor=none;fontSize=8;" vertex="1" connectable="0" parent="uSHUIzxZ1qV94MZO6Zg4-365">
+          <mxGeometry x="-0.3499" y="1" relative="1" as="geometry">
+            <mxPoint x="15.27" y="27.62" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-413" value="y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
