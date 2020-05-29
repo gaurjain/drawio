@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-05-29T21:59:12.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="I4-N8n2qpyZXXj43vXv6" version="13.1.5" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-05-29T22:09:01.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="8m9mhBLWxSrgkZ-C1WNb" version="13.1.5" type="github" pages="3">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Feedback loop level 1">
-    <mxGraphModel dx="1482" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,7 +298,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QUspK55rQpI2D1hHw6S9" name="feedback loop zoom in level 2">
-    <mxGraphModel dx="2122" dy="-340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2582" dy="-110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="v32IavL7R3RMmK3gRyr8-0" />
         <mxCell id="v32IavL7R3RMmK3gRyr8-1" parent="v32IavL7R3RMmK3gRyr8-0" />
@@ -808,7 +808,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-326" value="CCP/Operations&amp;nbsp; Analyzes" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
-          <mxGeometry x="-520" y="1600" width="110" height="60" as="geometry" />
+          <mxGeometry x="-520" y="1587.38" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-327" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="uSHUIzxZ1qV94MZO6Zg4-326" vertex="1">
           <mxGeometry width="14" height="14" relative="1" as="geometry">
@@ -824,7 +824,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-329" value="CCP/Operations Corrects/Overrides&lt;br&gt;required information" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
-          <mxGeometry x="-330" y="1600" width="110" height="60" as="geometry" />
+          <mxGeometry x="-330" y="1587.38" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-330" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="uSHUIzxZ1qV94MZO6Zg4-329" vertex="1">
           <mxGeometry width="14" height="14" relative="1" as="geometry">
@@ -888,7 +888,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-348" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;dashed=1;dashPattern=1 1;startArrow=dash;startFill=0;strokeColor=#9673a6;strokeWidth=1;fontSize=8;fontColor=#006600;fillColor=#e1d5e7;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="v32IavL7R3RMmK3gRyr8-1" source="uSHUIzxZ1qV94MZO6Zg4-346" target="uSHUIzxZ1qV94MZO6Zg4-326" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-611" y="1574.91" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-346" value="Receive event&lt;br&gt;Check for existing case&lt;br&gt;Setup or update Case&lt;br&gt;Assign to a workbasket" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;fontSize=8;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="-666" y="1518.03" width="110" height="69.5" as="geometry" />
@@ -1341,8 +1343,8 @@
             <mxPoint x="44.5" y="1498.03" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ug9oFO7VZPloh8t0FPO7-0" value="What information they can override and what they cannot ?&lt;br&gt;What happens to the case, if they are not able to correct or provide missing information ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#004C99;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
-          <mxGeometry x="-550" y="1563.03" width="410" height="30" as="geometry" />
+        <mxCell id="Ug9oFO7VZPloh8t0FPO7-0" value="What information they can be overrided and what cannot be?&lt;br&gt;What happens to the case, if CCP are not able to correct or provide missing information for a letter ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#004C99;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
+          <mxGeometry x="-280" y="1650" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ug9oFO7VZPloh8t0FPO7-1" value="3a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontSize=8;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
           <mxGeometry x="260" y="1121" width="20" height="20" as="geometry" />
@@ -1354,7 +1356,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jjRAUJdxj0vb1Wi6q4QG" name="Extended journey zoomed in">
-    <mxGraphModel dx="1235" dy="-278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="-233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="oNEaBfrs4PbqCxxPEtp4-0" />
         <mxCell id="oNEaBfrs4PbqCxxPEtp4-1" parent="oNEaBfrs4PbqCxxPEtp4-0" />
