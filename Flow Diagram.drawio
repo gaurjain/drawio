@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-05-29T21:58:10.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="_W4MWYYW7ZbMadqzNiHx" version="13.1.5" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-05-29T21:59:12.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="I4-N8n2qpyZXXj43vXv6" version="13.1.5" type="github" pages="3">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Feedback loop level 1">
     <mxGraphModel dx="1482" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -298,10 +298,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QUspK55rQpI2D1hHw6S9" name="feedback loop zoom in level 2">
-    <mxGraphModel dx="2122" dy="-377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2122" dy="-340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="v32IavL7R3RMmK3gRyr8-0" />
         <mxCell id="v32IavL7R3RMmK3gRyr8-1" parent="v32IavL7R3RMmK3gRyr8-0" />
+        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-1" value="&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;Distributed Messaging System&lt;br&gt;&lt;/font&gt;(Kafka or RTF or One-stream ?)&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;opacity=80;verticalAlign=top;fontColor=#333333;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
+          <mxGeometry x="250" y="980" width="220" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-20" value="&lt;b&gt;Fulfillment Platform (EFP)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;opacity=80;verticalAlign=top;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="-730" y="880" width="920" height="520" as="geometry" />
         </mxCell>
@@ -318,9 +321,6 @@
               <mxPoint x="-113" y="1070" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-1" value="&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;Distributed Messaging System&lt;br&gt;&lt;/font&gt;(Kafka or RTF or One-stream ?)&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;opacity=80;verticalAlign=top;fontColor=#333333;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
-          <mxGeometry x="250" y="980" width="220" height="360" as="geometry" />
         </mxCell>
         <mxCell id="kchTgcUdJesZPRWiT2pt-24" value="&lt;font color=&quot;#ff8000&quot; style=&quot;font-weight: bold&quot;&gt;enterprise-B&amp;amp;C&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;To Monitor and/or Alert Level-1 support upon failure" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;opacity=80;verticalAlign=top;fontColor=#333333;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="250" y="1370" width="220" height="310" as="geometry" />
