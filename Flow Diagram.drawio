@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-05-29T16:44:12.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="b8k_SvqhU1-5--t1FrUf" version="13.1.5" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-05-29T16:48:28.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="CK-dv2np9YMnt47QjDd5" version="13.1.5" type="github" pages="3">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Page-1">
     <mxGraphModel dx="1482" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1018,7 +1018,7 @@
             <mxPoint x="-11.329999999999997" y="-17.210000000000015" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IDUOrMetxKINp150oWQW-4" value="&lt;span style=&quot;color: rgb(0 , 76 , 153) ; font-size: 8px&quot;&gt;&lt;br&gt;Suppress&lt;br&gt;letter sent&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;labelBackgroundColor=none;" parent="kchTgcUdJesZPRWiT2pt-6" vertex="1" connectable="0">
+        <mxCell id="IDUOrMetxKINp150oWQW-4" value="&lt;span style=&quot;color: rgb(0 , 76 , 153) ; font-size: 8px&quot;&gt;Inform&amp;nbsp;&lt;br&gt;generic letter&lt;br&gt;sent&lt;br&gt;or suppress&lt;br&gt;case&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;labelBackgroundColor=none;" parent="kchTgcUdJesZPRWiT2pt-6" vertex="1" connectable="0">
           <mxGeometry x="0.395" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1483,7 +1483,7 @@
             <mxPoint x="392.41999999999996" y="1196.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eT8eKYQqNBtl1fVxkCnc-8" value="If Xth failure message for same than Suppress" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;fontSize=8;strokeColor=#b85450;" parent="oNEaBfrs4PbqCxxPEtp4-1" vertex="1">
+        <mxCell id="eT8eKYQqNBtl1fVxkCnc-8" value="If Xth failure message for same than Send generic letter" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;fontSize=8;strokeColor=#b85450;" parent="oNEaBfrs4PbqCxxPEtp4-1" vertex="1">
           <mxGeometry x="322.42" y="1300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vqp3kfwiplpuYIR-RQWx-1" value="" style="endArrow=block;endFill=1;endSize=6;html=1;labelBackgroundColor=none;strokeColor=#FF0000;strokeWidth=1;fontSize=8;fontColor=#006600;opacity=80;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;edgeStyle=orthogonalEdgeStyle;" parent="oNEaBfrs4PbqCxxPEtp4-1" source="cVLzPXXb3yioMDUinyik-2" target="eT8eKYQqNBtl1fVxkCnc-8" edge="1">
@@ -1655,7 +1655,7 @@
             <mxPoint x="-9.999999999999996" y="57.289999999999985" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tPFd5zdAMFNaBZQK1nJu-2" value="&lt;span style=&quot;color: rgb(0 , 76 , 153) ; font-size: 8px&quot;&gt;&lt;br&gt;Suppress Letter sent&lt;br&gt;Manual Decision&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;labelBackgroundColor=none;" parent="tPFd5zdAMFNaBZQK1nJu-0" vertex="1" connectable="0">
+        <mxCell id="tPFd5zdAMFNaBZQK1nJu-2" value="&lt;span style=&quot;color: rgb(0 , 76 , 153) ; font-size: 8px&quot;&gt;Close Fulfilment&lt;br&gt;Manual Decision&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;labelBackgroundColor=none;" parent="tPFd5zdAMFNaBZQK1nJu-0" vertex="1" connectable="0">
           <mxGeometry x="0.395" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="162" as="offset" />
           </mxGeometry>
@@ -1721,6 +1721,12 @@
         </mxCell>
         <mxCell id="KeBz86XQVUG73g_XARQn-1" value="" style="strokeWidth=1;dashed=0;align=center;fontSize=8;shape=rect;fillColor=#FFFF33;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#FF0000;" vertex="1" parent="oNEaBfrs4PbqCxxPEtp4-1">
           <mxGeometry x="385.42" y="1221.72" width="12" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="MR1hw4s94fztHKXdjlAM-0" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;fontSize=8;shape=mxgraph.eip.message_2;fillColor=#000000;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#00FF00;" vertex="1" parent="oNEaBfrs4PbqCxxPEtp4-1">
+          <mxGeometry x="397.41999999999996" y="1318" width="12" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="MR1hw4s94fztHKXdjlAM-1" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;fontSize=8;shape=mxgraph.eip.message_2;fillColor=#000000;fontStyle=1;shadow=0;comic=1;labelBackgroundColor=none;strokeColor=#00FF00;" vertex="1" parent="oNEaBfrs4PbqCxxPEtp4-1">
+          <mxGeometry x="412.41999999999996" y="1442" width="12" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
