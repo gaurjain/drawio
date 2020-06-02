@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-06-02T21:58:30.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="E_LLgOMZQPG6nEcQlzM0" version="13.1.8" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-06-02T22:00:18.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="aZaPbVpD2SKxTfddIOyZ" version="13.1.8" type="github" pages="4">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Feedback loop level 1">
     <mxGraphModel dx="1482" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -298,7 +298,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QUspK55rQpI2D1hHw6S9" name="feedback loop zoom in level 2">
-    <mxGraphModel dx="1947" dy="-428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1810" dy="-428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="v32IavL7R3RMmK3gRyr8-0" />
         <mxCell id="v32IavL7R3RMmK3gRyr8-1" parent="v32IavL7R3RMmK3gRyr8-0" />
@@ -340,7 +340,7 @@
         <mxCell id="kchTgcUdJesZPRWiT2pt-49" value="&lt;font style=&quot;font-size: 8px&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Messaging&lt;br&gt;Gateway&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;opacity=80;verticalAlign=bottom;fontStyle=1" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="-730" y="950" width="80" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-293" value="&lt;b&gt;Interactive Case Portal&amp;nbsp;( CSP ...OSCA? )&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;opacity=80;verticalAlign=top;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
+        <mxCell id="uSHUIzxZ1qV94MZO6Zg4-293" value="&lt;b&gt;Interactive Case Portal for procedural steps ( CSP ...OSCA? )&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;comic=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;opacity=80;verticalAlign=top;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
           <mxGeometry x="-730" y="1458.03" width="920" height="221.97" as="geometry" />
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-197" value="&lt;b&gt;Journey fulfillment Full Transaction&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;double=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontSize=8;opacity=60;verticalAlign=top;" parent="v32IavL7R3RMmK3gRyr8-1" vertex="1">
@@ -1140,6 +1140,11 @@
             <mxPoint x="4.289999999999992" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pROYM5S6XO-ZfVAoH5KJ-2" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;via&amp;nbsp;&lt;br&gt;One-stream&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#A680B8;" vertex="1" connectable="0" parent="kchTgcUdJesZPRWiT2pt-57">
+          <mxGeometry x="0.2698" y="107" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kchTgcUdJesZPRWiT2pt-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#99CCFF;strokeWidth=1;fontSize=8;fontColor=#FF0000;opacity=60;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="v32IavL7R3RMmK3gRyr8-1" source="kchTgcUdJesZPRWiT2pt-64" target="uSHUIzxZ1qV94MZO6Zg4-389" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1442,7 +1447,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pROYM5S6XO-ZfVAoH5KJ-1" value="Throw Send &lt;br&gt;Manual Letter&amp;nbsp;" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=throwing;symbol=message;fontSize=8;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#A680B8;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
-          <mxGeometry x="147" y="1616.38" width="30" height="31" as="geometry" />
+          <mxGeometry x="147" y="1589" width="30" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
