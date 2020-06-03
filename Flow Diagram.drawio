@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-03T21:26:54.837Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ZrU4jkWxcncmzP2-URqZ" version="12.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-06-03T21:28:36.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ZHrC8ZeKouzKmZaMqaOv" version="12.9.3" type="github" pages="4">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Feedback loop level 1">
     <mxGraphModel dx="1184" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -749,6 +749,10 @@
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="-157" y="1074" as="sourcePoint" />
             <mxPoint x="-25" y="1200.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1148" />
+              <mxPoint x="600" y="1088" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uSHUIzxZ1qV94MZO6Zg4-247" value="" style="startArrow=dash;startFill=0;startSize=14;endArrow=block;endFill=1;endSize=6;html=1;shadow=0;strokeColor=#d6b656;strokeWidth=1;fontSize=8;fontColor=#006600;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;fillColor=#fff2cc;" parent="v32IavL7R3RMmK3gRyr8-1" source="uSHUIzxZ1qV94MZO6Zg4-133" target="uSHUIzxZ1qV94MZO6Zg4-228" edge="1">
@@ -1493,8 +1497,8 @@
         <mxCell id="3X3yUKAzFp29WMZDw1AC-0" value="Can Raven sends a generic-letter on its own&amp;nbsp;&lt;br&gt;(on third failure (5a) for Generating letter at Raven end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
           <mxGeometry x="697" y="1300" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NYingZU53RxDpK3n6wrP-0" value="/Send" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FF8000;shape=mxgraph.azure.service_endpoint;shadow=0;comic=1;labelBackgroundColor=none;fontSize=8;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
-          <mxGeometry x="610" y="1081" width="30" height="13" as="geometry" />
+        <mxCell id="NYingZU53RxDpK3n6wrP-0" value="/ ..." style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FF8000;shape=mxgraph.azure.service_endpoint;shadow=0;comic=1;labelBackgroundColor=none;fontSize=8;" vertex="1" parent="v32IavL7R3RMmK3gRyr8-1">
+          <mxGeometry x="612" y="1081" width="30" height="13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
