@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-05T21:34:20.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="eNhfMbzpjKqNkTOMT1r_" version="12.9.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-05T21:37:04.657Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="X-BIEP_hGlrvwS90jgAT" version="12.9.3" type="github" pages="5">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Feedback loop level 1">
     <mxGraphModel dx="1006" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -4168,7 +4168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZdCU1-smmQv8JD5zXePd" name="Page-5">
-    <mxGraphModel dx="3289" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4164" dy="2666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="zNn0vNHmTu8M38ShVK7O-0" />
         <mxCell id="zNn0vNHmTu8M38ShVK7O-1" parent="zNn0vNHmTu8M38ShVK7O-0" />
@@ -4178,7 +4178,7 @@
         <mxCell id="zNn0vNHmTu8M38ShVK7O-42" value="&lt;b&gt;&lt;br&gt;IPC 1 data center&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=20;verticalAlign=top;" parent="zNn0vNHmTu8M38ShVK7O-1" vertex="1">
           <mxGeometry x="-980" y="-770" width="1120" height="1320" as="geometry" />
         </mxCell>
-        <mxCell id="zNn0vNHmTu8M38ShVK7O-56" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ePaaS Cloud Dedicated Compute machines&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;strokeWidth=1;fillColor=#b1ddf0;fontSize=20;opacity=60;strokeColor=#10739e;verticalAlign=top;horizontal=1;fontColor=#0000FF;" parent="zNn0vNHmTu8M38ShVK7O-1" vertex="1">
+        <mxCell id="zNn0vNHmTu8M38ShVK7O-56" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ePaaS Cloud Dedicated Compute machines&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;strokeWidth=1;fillColor=#b1ddf0;fontSize=20;opacity=60;strokeColor=#10739e;verticalAlign=top;horizontal=1;fontColor=#0000FF;" parent="zNn0vNHmTu8M38ShVK7O-1" vertex="1">
           <mxGeometry x="-1070" y="-610" width="2140" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="zNn0vNHmTu8M38ShVK7O-10" value="r" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=8;fillColor=none;strokeColor=#6c8ebf;strokeWidth=7;dashed=1;" parent="zNn0vNHmTu8M38ShVK7O-1" vertex="1">
@@ -4300,6 +4300,38 @@
             <Array as="points">
               <mxPoint x="-440" y="-163" />
               <mxPoint x="-440" y="42" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVRyL1TLFe7YAZszwRT0-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#EA6B66;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="zNn0vNHmTu8M38ShVK7O-1" source="zNn0vNHmTu8M38ShVK7O-24" target="zNn0vNHmTu8M38ShVK7O-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-381" y="-152.91666666666674" as="sourcePoint" />
+            <mxPoint x="-395.5" y="-46.789999999999964" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="-116" />
+              <mxPoint x="-300" y="-163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVRyL1TLFe7YAZszwRT0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#EA6B66;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="zNn0vNHmTu8M38ShVK7O-1" source="zNn0vNHmTu8M38ShVK7O-21" target="zNn0vNHmTu8M38ShVK7O-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-149.9999999999959" y="-106.42999999999984" as="sourcePoint" />
+            <mxPoint x="-340" y="-160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="52" />
+              <mxPoint x="-300" y="-163" />
+              <mxPoint x="-341" y="-163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVRyL1TLFe7YAZszwRT0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#EA6B66;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" edge="1" parent="zNn0vNHmTu8M38ShVK7O-1" source="zNn0vNHmTu8M38ShVK7O-26" target="zNn0vNHmTu8M38ShVK7O-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150.00000000000568" y="62.1400000000001" as="sourcePoint" />
+            <mxPoint x="-331" y="-152.86000000000013" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="-40" />
+              <mxPoint x="-300" y="-163" />
+              <mxPoint x="-341" y="-163" />
             </Array>
           </mxGeometry>
         </mxCell>
