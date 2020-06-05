@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-05T19:39:28.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="d8mY4ao5SPs484SqSOj6" version="12.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-06-05T19:43:40.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="YI-DugVLn_yERFGeJR9s" version="12.9.3" type="github" pages="4">
   <diagram id="vb_N3dxTnlGqbVyNe5-i" name="Feedback loop level 1">
     <mxGraphModel dx="1121" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -329,7 +329,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QUspK55rQpI2D1hHw6S9" name="feedback loop zoom in level 2">
-    <mxGraphModel dx="2419" dy="-172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="-274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="v32IavL7R3RMmK3gRyr8-0" />
         <mxCell id="v32IavL7R3RMmK3gRyr8-1" parent="v32IavL7R3RMmK3gRyr8-0" />
@@ -1270,9 +1270,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="idAhQEjehU0Cjw5cJADt-3" value="&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;The information sent&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;should be complete against&amp;nbsp;&lt;br&gt;the message-packet required to&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;retrigger a new fulfillment&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="idAhQEjehU0Cjw5cJADt-2" vertex="1" connectable="0">
+        <mxCell id="idAhQEjehU0Cjw5cJADt-3" value="&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;The information sent to CSP&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;should be complete against&amp;nbsp;&lt;br&gt;the message-packet required for&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; font-size: 8px ; background-color: rgb(248 , 249 , 250)&quot;&gt;re-triggering a new fulfillment.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="idAhQEjehU0Cjw5cJADt-2" vertex="1" connectable="0">
           <mxGeometry x="-0.1254" y="-3" relative="1" as="geometry">
-            <mxPoint x="-7.85" y="-5.110000000000005" as="offset" />
+            <mxPoint x="6.360000000000001" y="48.61999999999999" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-FuXBkV3CmQF48aUQQss-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=gap;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;dashed=1;dashPattern=1 1;startArrow=diamondThin;startFill=0;strokeColor=#9673a6;strokeWidth=1;fontSize=8;fontColor=#006600;fillColor=#e1d5e7;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="v32IavL7R3RMmK3gRyr8-1" source="uSHUIzxZ1qV94MZO6Zg4-326" target="uSHUIzxZ1qV94MZO6Zg4-334" edge="1">
@@ -1497,7 +1497,7 @@
             <mxPoint x="-110" y="1265.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="joU4MrZssn7QaGro6eYc-0" value="post retry &lt;br&gt;on failure&lt;br&gt;&amp;nbsp;(tech or biz rule)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=8;fontColor=#004C99;" vertex="1" connectable="0" parent="af400YZYMZ54PkvlgM5l-67">
+        <mxCell id="joU4MrZssn7QaGro6eYc-0" value="post retry &lt;br&gt;on failure&lt;br&gt;&amp;nbsp;(tech)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=8;fontColor=#004C99;" vertex="1" connectable="0" parent="af400YZYMZ54PkvlgM5l-67">
           <mxGeometry x="0.1774" y="1" relative="1" as="geometry">
             <mxPoint x="58.69000000000001" y="16.739999999999995" as="offset" />
           </mxGeometry>
@@ -1628,7 +1628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jjRAUJdxj0vb1Wi6q4QG" name="Extended journey zoomed in">
-    <mxGraphModel dx="1037" dy="-396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="534" dy="-576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="oNEaBfrs4PbqCxxPEtp4-0" />
         <mxCell id="oNEaBfrs4PbqCxxPEtp4-1" parent="oNEaBfrs4PbqCxxPEtp4-0" />
