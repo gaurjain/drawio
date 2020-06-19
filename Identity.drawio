@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T01:33:10.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="vjSiJNjMgdkPwzhd0gcf" version="13.2.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-06-19T01:51:36.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="1Tl5cEFQRyWJAL9MZo7x" version="13.2.6" type="github" pages="2">
   <diagram id="kmjhnKm2TKJHIyiYtB56" name="Page-1">
     <mxGraphModel dx="486" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -137,10 +137,13 @@
           <mxGeometry x="64.55" y="-1.7500000000000284" width="126.55" height="98.75" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-44" value="Domain &lt;br&gt;name" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#008a00;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;outlineConnect=0;shape=mxgraph.veeam.dns;fontColor=#CC0000;labelBackgroundColor=none;fontSize=4;" vertex="1" parent="qyVIdLSaxjaKyciel1az-37">
-          <mxGeometry x="107.77" y="7" width="20" height="15" as="geometry" />
+          <mxGeometry x="117.83" y="4" width="20" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="qyVIdLSaxjaKyciel1az-45" value="Trusted &lt;br style=&quot;font-size: 4px;&quot;&gt;Secure&lt;br style=&quot;font-size: 4px;&quot;&gt;Credentials" style="outlineConnect=0;fontColor=#CC0000;fillColor=#008a00;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=4;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.long_term_security_credential;shadow=0;labelBackgroundColor=none;labelPosition=left;" vertex="1" parent="qyVIdLSaxjaKyciel1az-37">
-          <mxGeometry x="127.77" y="27" width="18.24" height="24.33" as="geometry" />
+        <mxCell id="qyVIdLSaxjaKyciel1az-45" value="Trusted &lt;br style=&quot;font-size: 4px;&quot;&gt;Secure&lt;br style=&quot;font-size: 4px;&quot;&gt;Credentials" style="outlineConnect=0;fontColor=#CC0000;fillColor=#008a00;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=4;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.long_term_security_credential;shadow=0;labelBackgroundColor=none;labelPosition=right;" vertex="1" parent="qyVIdLSaxjaKyciel1az-37">
+          <mxGeometry x="117.82999999999998" y="27" width="18.24" height="24.33" as="geometry" />
+        </mxCell>
+        <mxCell id="qyVIdLSaxjaKyciel1az-318" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/botcons/100/android-bot-round-happy-eyes-virus-red-128.png;strokeWidth=1;fillColor=none;fontSize=4;fontColor=#CC0000;" vertex="1" parent="qyVIdLSaxjaKyciel1az-37">
+          <mxGeometry x="48.77000000000004" y="39" width="28" height="28" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-46" value="" style="group" vertex="1" connectable="0" parent="qyVIdLSaxjaKyciel1az-36">
           <mxGeometry x="-1" y="101" width="126.55000000000001" height="98.75" as="geometry" />
@@ -217,6 +220,9 @@
         <mxCell id="qyVIdLSaxjaKyciel1az-70" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate;fillColor=#008a00;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fontSize=4;fontColor=#ffffff;" vertex="1" parent="qyVIdLSaxjaKyciel1az-60">
           <mxGeometry x="119.48999999999998" y="37.38" width="18" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="qyVIdLSaxjaKyciel1az-320" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#008a00;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.token;labelBackgroundColor=none;fontSize=4;fontColor=#ffffff;" vertex="1" parent="qyVIdLSaxjaKyciel1az-60">
+          <mxGeometry x="91.99" y="8.5" width="18.01" height="21.5" as="geometry" />
+        </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-71" value="" style="triangle;whiteSpace=wrap;html=1;shadow=0;strokeColor=#005700;fillColor=none;direction=north;fontColor=#ffffff;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
           <mxGeometry x="193.23000000000002" width="126.55" height="98.75" as="geometry" />
         </mxCell>
@@ -226,14 +232,20 @@
         <mxCell id="qyVIdLSaxjaKyciel1az-74" value="Issued&lt;br style=&quot;font-size: 4px;&quot;&gt;Trusted&amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 4px;&quot;&gt;Certificate" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#008a00;shape=mxgraph.azure.certificate;pointerEvents=1;shadow=0;fontSize=4;fontColor=#CC0000;labelBackgroundColor=none;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
           <mxGeometry x="-17.200000000000003" y="19.119999999999976" width="30" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="qyVIdLSaxjaKyciel1az-76" value="Token" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.saml_token;fillColor=#008a00;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fontSize=4;fontColor=#CC0000;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
-          <mxGeometry x="55.95" y="59.5" width="14.66" height="16" as="geometry" />
+        <mxCell id="qyVIdLSaxjaKyciel1az-76" value="SAML&lt;br&gt;Token" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.saml_token;fillColor=#008a00;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=1;fontSize=4;fontColor=#CC0000;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
+          <mxGeometry x="54.95" y="55" width="14.66" height="16" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-77" value="Token" style="outlineConnect=0;fontColor=#CC0000;fillColor=#008a00;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=4;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mfa_token;shadow=0;labelBackgroundColor=none;labelPosition=right;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
-          <mxGeometry x="55.23000000000002" y="31" width="20" height="20" as="geometry" />
+          <mxGeometry x="50.61000000000002" y="31" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qyVIdLSaxjaKyciel1az-283" value="Static IP Address" style="outlineConnect=0;fontColor=#CC0000;strokeColor=none;fillColor=#008a00;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=4;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_ip_address;labelBackgroundColor=none;labelPosition=right;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
-          <mxGeometry x="55.23000000000003" y="3" width="20" height="20" as="geometry" />
+        <mxCell id="qyVIdLSaxjaKyciel1az-283" value="Static IP Address" style="outlineConnect=0;fontColor=#CC0000;strokeColor=none;fillColor=#008a00;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=4;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_ip_address;labelBackgroundColor=none;labelPosition=center;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
+          <mxGeometry x="75.23000000000003" y="1.27" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qyVIdLSaxjaKyciel1az-322" value="Data Encryption&lt;br&gt;key" style="outlineConnect=0;fontColor=#CC0000;fillColor=#008a00;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=6;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_encryption_key;labelBackgroundColor=none;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
+          <mxGeometry x="250" y="18.96" width="16.51" height="20.77" as="geometry" />
+        </mxCell>
+        <mxCell id="qyVIdLSaxjaKyciel1az-333" value="OpenID URLs&lt;br&gt;XRIs" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/239_Openid_logo-128.png;strokeWidth=1;fillColor=none;fontSize=4;fontColor=#CC0000;" vertex="1" parent="qyVIdLSaxjaKyciel1az-36">
+          <mxGeometry x="24.53" width="22.53" height="22.53" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-78" value="&lt;font style=&quot;font-size: 4px;&quot;&gt;Contact&lt;br style=&quot;font-size: 4px;&quot;&gt;&lt;br style=&quot;font-size: 4px;&quot;&gt;&lt;br style=&quot;font-size: 4px;&quot;&gt;&lt;br style=&quot;font-size: 4px;&quot;&gt;&lt;/font&gt;" style="html=1;strokeColor=none;fillColor=#008a00;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=4;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;shape=mxgraph.sitemap.contact;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="378.7" y="152.74999999999997" width="30" height="22" as="geometry" />
