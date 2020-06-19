@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T17:21:57.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="e0-haUFD5RRUpnshbdLa" version="13.3.0" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-06-19T19:52:13.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="KcwUS-ljyyt-EPaYEyRO" version="13.3.0" type="github" pages="2">
   <diagram id="kmjhnKm2TKJHIyiYtB56" name="Page-1">
-    <mxGraphModel dx="369" dy="158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="347" dy="120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,9 +130,6 @@
         <mxCell id="qyVIdLSaxjaKyciel1az-36" value="" style="group" parent="qyVIdLSaxjaKyciel1az-382" vertex="1" connectable="0">
           <mxGeometry x="65.46999999999997" width="320.78000000000003" height="198.7635294117647" as="geometry" />
         </mxCell>
-        <mxCell id="qyVIdLSaxjaKyciel1az-75" value="" style="triangle;whiteSpace=wrap;html=1;shadow=0;strokeColor=#005700;fillColor=none;direction=south;fontColor=#ffffff;" parent="qyVIdLSaxjaKyciel1az-36" vertex="1">
-          <mxGeometry x="-0.9999999999999716" y="-1.0000000000000284" width="126.55" height="98.75" as="geometry" />
-        </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-37" value="" style="group" parent="qyVIdLSaxjaKyciel1az-36" vertex="1" connectable="0">
           <mxGeometry x="64.23000000000002" width="190.1" height="98.75" as="geometry" />
         </mxCell>
@@ -155,7 +152,7 @@
           <mxGeometry x="64.55" y="-0.7500000000000284" width="126.55" height="98.75" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-44" value="Domain &lt;br&gt;name" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#008a00;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;outlineConnect=0;shape=mxgraph.veeam.dns;fontColor=#CC0000;labelBackgroundColor=none;fontSize=4;" parent="qyVIdLSaxjaKyciel1az-37" vertex="1">
-          <mxGeometry x="150.3" y="3.5" width="20.3" height="16" as="geometry" />
+          <mxGeometry x="150.3" y="1.5" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-318" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/botcons/100/android-bot-round-happy-eyes-virus-red-128.png;strokeWidth=1;fillColor=none;fontSize=4;fontColor=#CC0000;" parent="qyVIdLSaxjaKyciel1az-37" vertex="1">
           <mxGeometry x="64.55000000000004" y="39" width="28" height="28" as="geometry" />
@@ -168,6 +165,9 @@
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-283" value="Static IP &lt;br&gt;Address" style="outlineConnect=0;fontColor=#CC0000;strokeColor=none;fillColor=#008a00;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=4;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_ip_address;labelBackgroundColor=none;labelPosition=right;" parent="qyVIdLSaxjaKyciel1az-37" vertex="1">
           <mxGeometry x="85.05000000000001" y="1.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qyVIdLSaxjaKyciel1az-75" value="" style="triangle;whiteSpace=wrap;html=1;shadow=0;strokeColor=#005700;fillColor=none;direction=south;fontColor=#ffffff;" parent="qyVIdLSaxjaKyciel1az-36" vertex="1">
+          <mxGeometry x="-0.9999999999999716" y="-1.0000000000000284" width="126.55" height="98.75" as="geometry" />
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-46" value="" style="group" parent="qyVIdLSaxjaKyciel1az-36" vertex="1" connectable="0">
           <mxGeometry x="-1" y="101" width="126.55000000000001" height="98.75" as="geometry" />
@@ -312,12 +312,6 @@
         </mxCell>
         <mxCell id="qyVIdLSaxjaKyciel1az-510" value="Search &lt;br&gt;History" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#008a00;shape=mxgraph.mscae.oms.log_search;labelBackgroundColor=none;fontSize=4;fontColor=#CC0000;" parent="qyVIdLSaxjaKyciel1az-382" vertex="1">
           <mxGeometry x="247.75" y="252.81" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qyVIdLSaxjaKyciel1az-398" value="&lt;font style=&quot;font-size: 6px&quot; color=&quot;#cc0000&quot;&gt;UserName&lt;/font&gt;" style="fillColor=none;strokeColor=none;html=1;fontSize=11;fontStyle=0;align=left;fontColor=#596780;fontStyle=1;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="180" y="352.5" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qyVIdLSaxjaKyciel1az-399" value="" style="rounded=1;arcSize=9;align=left;spacingLeft=5;strokeColor=#005700;html=1;strokeWidth=1;fontSize=12;labelBackgroundColor=none;fillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="180" y="377.5" width="60" height="12.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
