@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-06-24T22:16:29.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="H4JPDDfgFz4iHw9n0AaC" version="13.3.1" type="github">
+<mxfile host="www.draw.io" modified="2020-06-24T22:22:30.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="AWxu7vfqzoPKfzzOXFkX" version="13.3.1" type="github">
   <diagram id="oSIPXB206Z17o7rBIAnr" name="Page-1">
-    <mxGraphModel dx="3374" dy="1936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3790" dy="2255" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -471,6 +471,15 @@
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-239" value="Players" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="-1075" y="-725" width="152" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9nfB5OpLBUvisxMxhTPH-4" value="Outcome : &lt;span style=&quot;font-weight: normal&quot;&gt;Payment mode is authorized or declined&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: normal&quot;&gt;User submits the payment&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1048" y="-283" width="472" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9nfB5OpLBUvisxMxhTPH-5" value="Outcome : &lt;span style=&quot;font-weight: 400&quot;&gt;Transactions are accepted or declined&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: 400&quot;&gt;Merchant is paid for or decline reason deliberated&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1048" y="825.7500000000001" width="577" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9nfB5OpLBUvisxMxhTPH-6" value="Outcome : &lt;span style=&quot;font-weight: 400&quot;&gt;Merchant receives payment after deducting discounts.&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: 400&quot;&gt;Card member pays back to Issuer bank as per due date&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1035" y="1633" width="632" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
