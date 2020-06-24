@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-06-24T02:22:18.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="4BoVL0VGGX8uALbGdqft" version="13.3.0" type="github">
+<mxfile host="www.draw.io" modified="2020-06-24T02:23:41.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="n3Lwy9sMZ5KovXV0Y339" version="13.3.0" type="github">
   <diagram id="oSIPXB206Z17o7rBIAnr" name="Page-1">
-    <mxGraphModel dx="2893" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2637" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
             <mxPoint x="1060.2499999999995" y="33.99999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1LoRcHpuMIzXkS6uosu-11" value="Payment-card&lt;br&gt;Processing&lt;br&gt;Company&amp;nbsp;&lt;br&gt;(Merchant Acquirer)" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/picons-social/57/social_amex_round-128.png" vertex="1" parent="1">
+        <mxCell id="_1LoRcHpuMIzXkS6uosu-11" value="Prop Acquirer" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/picons-social/57/social_amex_round-128.png" vertex="1" parent="1">
           <mxGeometry x="822.25" y="-79" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-23" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.027;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_1LoRcHpuMIzXkS6uosu-13" target="_1LoRcHpuMIzXkS6uosu-118">
@@ -140,7 +140,7 @@
             <mxPoint x="1030.2499999999995" y="624" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1LoRcHpuMIzXkS6uosu-64" value="Payment-card&lt;br&gt;Processing&lt;br&gt;Company&amp;nbsp;&lt;br&gt;(Merchant Acquirer)" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/picons-social/57/social_amex_round-128.png" vertex="1" parent="1">
+        <mxCell id="_1LoRcHpuMIzXkS6uosu-64" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/picons-social/57/social_amex_round-128.png" vertex="1" parent="1">
           <mxGeometry x="822.25" y="560" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-73" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_1LoRcHpuMIzXkS6uosu-67" target="_1LoRcHpuMIzXkS6uosu-81">
@@ -189,8 +189,8 @@
             <mxPoint x="837.25" y="-471" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1LoRcHpuMIzXkS6uosu-91" value="Merchant&lt;br&gt;Account setup &lt;br&gt;with Amex" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="70" width="90" height="50" as="geometry" />
+        <mxCell id="_1LoRcHpuMIzXkS6uosu-91" value="Merchant&lt;br&gt;Account setup &lt;br&gt;with Amex&lt;br&gt;(SE10)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="65" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-94" value="Acquirer Bank&lt;br&gt;(JPMC)" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_bank-128.png" vertex="1" parent="1">
           <mxGeometry x="822.25" y="-535" width="128" height="128" as="geometry" />
@@ -229,7 +229,7 @@
           <mxGeometry x="12.25" y="-750" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-113" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Cloud_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="240" y="-425" width="400" height="338.5" as="geometry" />
+          <mxGeometry x="270.25" y="-421.75" width="400" height="338.5" as="geometry" />
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-115" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_1LoRcHpuMIzXkS6uosu-13" target="_1LoRcHpuMIzXkS6uosu-113">
           <mxGeometry relative="1" as="geometry">
