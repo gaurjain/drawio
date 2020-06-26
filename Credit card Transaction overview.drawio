@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-06-25T19:00:16.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="evO-6qXqgbedW0fhNB6E" version="13.3.1" type="github">
+<mxfile host="www.draw.io" modified="2020-06-26T16:58:52.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="APDWHB5vJbnn7Ik_A7GH" version="13.3.1" type="github">
   <diagram id="oSIPXB206Z17o7rBIAnr" name="Page-1">
-    <mxGraphModel dx="3790" dy="2255" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,8 +340,8 @@
         <mxCell id="_1LoRcHpuMIzXkS6uosu-168" value="&lt;p class=&quot;p1&quot; style=&quot;font-size: 20px&quot;&gt;The merchant submits authorized transactions to the acquirer either in real time or in batches that have accumulated over a given period of time.&amp;nbsp;&lt;span&gt;The acquirer then sends transaction details to the networks.&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontColor=#666666;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-44" y="665.5" width="540" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="_1LoRcHpuMIzXkS6uosu-169" value="Submissions Flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=40;" parent="1" vertex="1">
-          <mxGeometry x="-1061" y="705.5" width="361" height="52" as="geometry" />
+        <mxCell id="_1LoRcHpuMIzXkS6uosu-169" value="Submissions aka Capture Flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="-1075" y="705.5" width="601" height="52" as="geometry" />
         </mxCell>
         <mxCell id="_1LoRcHpuMIzXkS6uosu-170" value="&lt;p class=&quot;p1&quot;&gt;The card issuers receive the transaction information and process payment back to the merchant.&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontColor=#666666;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1609" y="680.5" width="506" height="102" as="geometry" />
@@ -472,14 +472,20 @@
         <mxCell id="_1LoRcHpuMIzXkS6uosu-239" value="Players" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="-1075" y="-725" width="152" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="9nfB5OpLBUvisxMxhTPH-4" value="Outcome : &lt;span style=&quot;font-weight: normal&quot;&gt;Payment is authorized or declined&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: normal&quot;&gt;User payment is accepted or mode changed&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1061" y="-375" width="531" height="52" as="geometry" />
+        <mxCell id="9nfB5OpLBUvisxMxhTPH-4" value="Outcome : &lt;span style=&quot;font-weight: normal&quot;&gt;Payment is authorized or declined&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: normal&quot;&gt;User payment is accepted or they try with a &lt;br&gt;different mode&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-1050" y="-301" width="522" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="9nfB5OpLBUvisxMxhTPH-5" value="Outcome : &lt;span style=&quot;font-weight: 400&quot;&gt;Transactions are accepted or declined&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: 400&quot;&gt;Merchant is paid for or decline reason deliberated&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1058" y="798.0000000000001" width="577" height="52" as="geometry" />
+        <mxCell id="9nfB5OpLBUvisxMxhTPH-5" value="Outcome : &lt;span style=&quot;font-weight: 400&quot;&gt;Transactions are accepted or declined&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: 400&quot;&gt;Merchant is paid for or decline reason deliberated&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-1068" y="850.0000000000001" width="577" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="9nfB5OpLBUvisxMxhTPH-6" value="Outcome : &lt;span style=&quot;font-weight: 400&quot;&gt;Merchant receives payment after deducting discounts.&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: 400&quot;&gt;Card member pays back to Issuer bank as per due date&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="9nfB5OpLBUvisxMxhTPH-6" value="Outcome : &lt;span style=&quot;font-weight: 400&quot;&gt;Merchant receives payment after deducting discounts.&lt;/span&gt;&lt;br&gt;Next Action : &lt;span style=&quot;font-weight: 400&quot;&gt;Card member pays back to Issuer bank as per due date&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-1058" y="1606" width="632" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5CqYEnhAQLeNjPIikWbO-2" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(28, 49, 65); font-family: scalasansweb, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 22px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;When customers use their cards to make a purchase, the process of checking that the customer has sufficient funds and authorizing the purchase is called authorization.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1055" y="-430" width="540" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="5CqYEnhAQLeNjPIikWbO-3" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(28, 49, 65); font-family: scalasansweb, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 22px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Next, the customer&#39;s bank verifies that the funds are available and places a hold on those funds.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1067.9957142857143" y="762.4971428571429" width="540" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
