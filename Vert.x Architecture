@@ -1,18 +1,9 @@
-<mxfile host="www.draw.io" modified="2020-08-20T16:04:59.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="tbLot2xCRjkLC3ro-rOz" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-21T04:16:30.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="wQj7FP0N3O687FmFnLn_" version="13.3.5" type="github" pages="2">
   <diagram id="n-6Ts9lApfL_Nkq_khbV" name="Page-1">
-    <mxGraphModel dx="2384" dy="3606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2827" dy="4377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-443" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="-3112" width="12" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-444" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="-462" y="-3013.24" width="12" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-425" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3399FF;strokeWidth=12;fillColor=none;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="-3120" width="230" height="153.51" as="geometry" />
-        </mxCell>
         <mxCell id="9hoXlTvfVnLauFPq8Z32-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png" parent="1" vertex="1">
           <mxGeometry x="961.5" y="641.5" width="54" height="54" as="geometry" />
         </mxCell>
@@ -91,7 +82,7 @@
         <mxCell id="NQVyNQurjstaWAvWm9v5-54" value="Internet" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D4D4D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_alt2;" parent="1" vertex="1">
           <mxGeometry x="-764" y="529.5" width="173" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="_XjBo1hRt9lNKMIXuSco-2" value="&lt;h1&gt;HttpServer&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Is an HTTP and WebSockets server.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_XjBo1hRt9lNKMIXuSco-2" value="&lt;h1&gt;&lt;font color=&quot;#cc0000&quot;&gt;HttpServer&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Is an HTTP and WebSockets server.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-521" y="419" width="237" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_XjBo1hRt9lNKMIXuSco-139" value="&lt;h1&gt;Standard Verticles&lt;/h1&gt;&lt;font&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;are assigned an event-loop thread (NiO thread) when they are created, the start method is called with that event-loop thread. &lt;b&gt;A&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;ll the code (callback request handlers) in this verticle instance is always executed on the same event loop&lt;span style=&quot;font-size: 18px&quot;&gt;.&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -815,37 +806,37 @@
           <mxGeometry x="760" y="-1281.5" width="830" height="520" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-17" value="&lt;h1&gt;What are Verticles ?&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: border-box ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;p style=&quot;font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; color: rgb(51 , 51 , 51) ; box-sizing: border-box ; margin: 0px 0px 12.5px&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;are chunks of code that get deployed and run by Vert.x instance.&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Verticle is a unit of deployment &lt;b&gt;(.Jar)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;A Verticle can be thought of as a &lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;bit like an actor in the actor model.&lt;/b&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;A Verticle&#39;s code is organized as having multiple &lt;/font&gt;event-handler methods&lt;font color=&quot;#333333&quot;&gt; performing specific functions like, consuming events from event bus, receiving timing events, handling HTTP server requests, or any other asynchronous operation etc.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;An application would typically be composed of many verticle instances running in the same Vert.x instance at the same time.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Verticles can be written in any of the languages that Vert.x supports and a single application can include verticles written in multiple languages.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;A verticle can be passed on configuration (e.g. credentials and network addresses etc.)&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;A verticle can be deployed several times.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;A verticle-instance (run-time entity) processes incoming events over an event-loop, where &lt;/font&gt;events can be anything like receiving network buffers, timing events, or messages sent by other verticles.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;The different verticle-instances communicate with each other by sending messages on the event bus.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#333333&quot;&gt;A Verticle-instance is always associated with a context.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Any handler registered within a verticle - whether it be an event bus consumer, HTTP server handler, or any other asynchronous operation - will be registered using the verticle’s context.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;When Vert.x provides an event to a handler OR calls the start or stop methods of a Verticle, the execution of that handler or method is associated with a Context.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; color: rgb(51 , 51 , 51)&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-59" y="-1680" width="773.5" height="560" as="geometry" />
+          <mxGeometry x="1050" y="-3200" width="773.5" height="560" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-18" value="Verticle A" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/seo_fun-05-128.png;fontStyle=1;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-163.5" y="-1720" width="97" height="97" as="geometry" />
+          <mxGeometry x="940" y="-3227" width="97" height="97" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-20" value="&lt;h1&gt;When a Verticle is considered started ? and stopped ?&amp;nbsp;&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;p style=&quot;box-sizing: border-box ; margin: 0px 0px 12.5px&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;When Vert.x instance deploys a verticle it will call the start method of the verticle class, and when the start method has completed, the verticle will be considered started (with a context/thread assigned to take on new events and handle them according to the definitions.)&lt;/li&gt;&lt;li&gt;The coder can also optionally override the stop method. This will be called by Vert.x instance when the verticle is undeployed and when the method has completed the verticle will be considered stopped.&lt;/li&gt;&lt;li&gt;Ideally a verticle should have simple start/stop life-cycle; use asynchronous start/stop method if you want elaborate starting and stopping steps.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
           <mxGeometry x="-818.5" y="-1070" width="640" height="271.5" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-26" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;pre style=&quot;box-sizing: border-box ; overflow: auto ; font-size: 17px ; border-radius: 4px ; line-height: 1.42857 ; display: block ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; padding: 12px ; margin: 0px 0px 12.5px ; word-break: break-all ; overflow-wrap: break-word ; background-color: rgb(245 , 245 , 245) ; border: none ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;public class MyVerticle extends AbstractVerticle {&#xa;&#xa; // Called when verticle is deployed&#xa; public void start() {&#xa; }&#xa;&#xa; // Optional - called when verticle is undeployed&#xa; public void stop() {&#xa; }&#xa;&#xa;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-801.5" y="-1661.5" width="591" height="380" as="geometry" />
+          <mxGeometry x="-762.5" y="-2160" width="591" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="U0v5gyqX5EIVxjuESGNk-33" value="&lt;h1&gt;When is Vert.x ?&amp;nbsp;&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;p style=&quot;color: rgb(51 , 51 , 51) ; box-sizing: border-box ; margin: 0px 0px 12.5px&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Eclipse Vert.x is a toolkit for building reactive applications on the JVM.&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Vert.x is NOT a framework but a toolkit: the core library defines the fundamental APIs for writing&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;asynchronous networked applications.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;The coders can pick the useful modules for their application (e.g., database connection, monitoring, authentication, logging, service discovery,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;clustering support, etc).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Vert.x is based on the Netty project, a high-performance asynchronous&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;networking library for the JVM.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;It defines higher-level APIs over Netty while not sacrificing performance compared to raw Netty, however, will let the developer also access the Netty internals if need be.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;Vert.x is JVM-polyglot as it supports a wide range of popular JVM&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;languages: Java, Groovy, Scala, Kotlin, JavaScript, Ruby and Ceylon.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-801.5" y="-2060" width="634" height="340" as="geometry" />
+        <mxCell id="U0v5gyqX5EIVxjuESGNk-33" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;When is Vert.x ?&lt;/font&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: border-box ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 20px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;p style=&quot;color: rgb(51 , 51 , 51) ; box-sizing: border-box ; margin: 0px 0px 12.5px&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;Eclipse Vert.x is a toolkit for building reactive applications on the JVM.&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;Vert.x is NOT a framework but a toolkit: the core library defines the fundamental APIs for writing&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;asynchronous networked applications.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;The coders can pick the useful modules for their application (e.g., database connection, monitoring, authentication, logging, service discovery,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;clustering support, etc).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;Vert.x is based on the Netty project, a high-performance asynchronous&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;networking library for the JVM.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;It defines higher-level APIs over Netty while not sacrificing performance compared to raw Netty, however, will let the developer also access the Netty internals if need be.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;Vert.x is JVM-polyglot as it supports a wide range of popular JVM&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;languages: Java, Groovy, Scala, Kotlin, JavaScript, Ruby and Ceylon.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-3140" width="661" height="469" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-34" value="&lt;h1&gt;When Vert.x ?&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Vert.x is useful for a large range of DEMANDING applications: high volume message / event&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;processing, micro-services, API gateways, HTTP APIs for mobile applications, etc.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Vert.x is designed for asynchronous communications, it can deal with more concurrent network connections with less threads than synchronous APIs such as Java servlets or java.net socket classes.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1283" y="-2160" width="355" height="290" as="geometry" />
+          <mxGeometry x="2080" y="-3240" width="400" height="290" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-56" value="&lt;h1&gt;What is Event Bus ?&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;The Vert.x event bus is the main tool for different verticles to communicate through asynchronous message passing.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;The event-bus allows passing any kind of data.&amp;nbsp;&lt;/font&gt;JSON is a first-class citizen in Vert.x and is the preferred exchange format.&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;Message can be sent to &#39;&lt;i&gt;destinations&lt;/i&gt;&#39; which are free-form strings.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;The event bus supports the following communication patterns:&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;point-to-point messaging, and&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;request-response messaging and&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;publish / subscribe for broadcasting messages&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;ubuntu&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
-          <mxGeometry x="907.83" y="-2550" width="478" height="350" as="geometry" />
+          <mxGeometry x="907.83" y="-2520" width="478" height="350" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-57" value="&lt;h1&gt;Can Event Bus be used for cross-JVM communication ? How ?&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;&lt;span style=&quot;font-size: 0px ; font-family: monospace&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3BWhat%20is%20Event%20Bus%20%3F%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bol%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3BThe%20Vert.x%20event%20bus%20is%20the%20main%20tool%20for%20different%20verticles%20to%20communicate%20through%20asynchronous%20message%20passing.%26amp%3Bnbsp%3B%26amp%3Bnbsp%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3BThe%20event-bus%20allows%20passing%20any%20kind%20of%20data%26amp%3Bnbsp%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3BJSON%20is%20a%20first-class%20citizen%20in%20Vert.x%20and%20is%20the%20preferred%20exchange%20format.%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3BMessage%20can%20be%20sent%20to%20&#39;destinations&#39;%20which%20are%20free-form%20strings.%26amp%3Bnbsp%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3BThe%20event%20bus%20supports%20the%26lt%3Bbr%26gt%3Bfollowing%20communication%20patterns%3A%26amp%3Bnbsp%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bol%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3Bpoint-to-point%20messaging%2C%20and%26amp%3Bnbsp%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3Brequest-response%20messaging%20and%26amp%3Bnbsp%3B%26lt%3B%2Fli%26gt%3B%26lt%3Bli%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3Bpublish%20%2F%20subscribe%20for%20broadcasting%20messages%26lt%3B%2Fli%26gt%3B%26lt%3B%2Fol%26gt%3B%26lt%3B%2Fol%26gt%3B%26lt%3Bp%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%20style%3D%26quot%3Btext-align%3A%20justify%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(51%20%2C%2051%20%2C%2051)%20%3B%20font-family%3A%20%26amp%3B%2334%3Bubuntu%26amp%3B%2334%3B%20%2C%20%26amp%3B%2334%3Bhelvetica%20neue%26amp%3B%2334%3B%20%2C%20%26amp%3B%2334%3Bhelvetica%26amp%3B%2334%3B%20%2C%20%26amp%3B%2334%3Barial%26amp%3B%2334%3B%20%2C%20sans-serif%20%3B%20font-size%3A%2018px%20%3B%20background-color%3A%20rgb(255%20%2C%20255%20%2C%20255)%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3BfontColor%3D%23EA6B66%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22937.5%22%20y%3D%22-1950%22%20width%3D%22452.5%22%20height%3D%22200%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;The event bus allows verticles to transparently communicate not just within the same JVM process.&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;When network clustering is activated,&lt;/b&gt;&lt;span&gt; the event bus is distributed so that messages can be sent to verticles running on other application nodes.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;the event-bus can be accessed through a simple TCP protocol for third-party applications to communicate&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;the event-bus can also be exposed over general-purpose messaging bridges (e.g, AMQP, Stomp)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;a SockJS bridge allows web applications to seamlessly communicate over the event bus from JavaScript running in the browser by receiving and publishing messages just like any verticle would do.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-1720" width="520" height="390" as="geometry" />
+          <mxGeometry x="1720" y="-2400" width="520" height="390" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAVQAAACUCAMAAAD70yGHAAAAnFBMVEX///8CKzdiPJQAJzMAGSkAJTIAIC/U2dtgOZMwRU3o6+wAAx2gqq3k6Or3+flFVV0AECNXKo5ZLo8AFCUhP0pecHe7xMd7YKPJzM5jb3Xk3+xTI4w0T1l+jJG0vcCOmp7WzuLIvdhVZ25sfIGNdbBpRZnu6vOYoqb18/h1VaDQxt0AABSjkL4VOEOXgbaDaaqunsa6rM4AAABMEohJH7X6AAAKTklEQVR4nO2ceXuqOhCHQRYRlKJ08brV2kV7Wruc+/2/21WBZAKTsCXnuefpvP9VA8ivYbZMsCyCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAjiTzOWs5kP4+oBe8URMuZ//r4gR8/J8JKw6THzJD/GSe+tSeQ0JLm9XDBxJaRp4vqr+7Igv2Xj5UTr03GHQVBl9q26sVfkiOWv9qLuUzvHvW96zI1fHBOFJ1HthmSijhzlIM+NjusJvNpb0/Nz/LOo1nYWDMoEy4X8vt5nlfGD2Xt7Ta2QaeI4DQ+JE6bAztIt6vmHuN4amIHOolrf06pIwav0vn5hw587aGpZj2zaZTddz95lR8xNiHrC9TYaRLWeqlN1MPuQ3NYB0zRQTGwFc2HeNeFYyOJcW4ZEtZ1orUHUwzOi6vQBv61PbKzSBCtYeey3TOpHn/4LohU2I+pp9E1/Ua0tMvsG0xfstr4Qgxo8ddTUGrOnuZmrYm7K8UKDotrprr+ouFSYWd0ukYHPh66ihmzmOccmw5kN9i5zyZiodnLfX9RTlFQVC/HohwB7+LddNW3rqkQ3ZVLU/AL9RH1B4qrBtBJ7Yi5t+tVdU2vIZGniqmzmpmxLFNXx1UQlUb3S92mUuB6Q5vTknCOr39i5wDjk24SLaj1gTn1aeq7R4Ouuh6bQVaW1rooHC+5eFNW5noRqYkFU/7b09WQy368iKKt7Fgc91S0z7KNYdqWcD8ysfgo3tcCGBKg/a8y4RVa1YzfthmVRkcS9ChPVHWJfD3cpsA+R7JTDwgg5o9oronHVV+2IDukpJOQPXJ0wE2Z//cf8E72iWtbG5pPVXeNjWomKzUPBCWFzuVN6KtDcVd2X3JQBUa2Jw1TNrCpCG1FxizlgZhW1ut3SU+EnMkPpq11VfF1I4hU3o19Ua8KnaiIp4rUSFU2WWGD/giUIs27pqcA1u41IWQC85W5qnH9kQFRg5H3J899O1AMaV+UpKBbJdk5P8btQuyruppgLMSGqNSqu413hA9qJav1C8qXB9DIbsXpf9/QUEnMrZiuGhSwQL9yUIVHBPxk/aUtRcenOdhOTOwg6p6cCa+aqUoWrAm6KKWJE1JhlFBE+qq2oeLr6oT89FX4kmxrejXwUK/qBp9KIqPz5l4QjrUVdoAbgAa249o6mCq54UC/NqribSsfsQzOisiDPHaPftxYVjasGmAPrmZ5CNtyK7WVjdrxAxfUzIyozR5Jf015UNK7CwMut3WCzUOqqJjyafQSf/i2iouYTMwlNT9iAdW1WtWZuCnqPv+Xxl8RVFYMgW8LqRH0BkGnqrcCnZkRlhbN0g37fRVQ0xy+hIT0V2NW4qg13U/BGDYdUiaaQ6gIWV5Uefg3pKWRTk1Ux0R0bqmc4+Pf1BP8ZCywCEDTVkZ5CYl7Tx+SpFv3yz/+GNLUAjavAw/9Zf4qWqF0VyLkENYCoja7SrqAiK0V0FFUdV4FyoDYmLLNHXFXMs6mVeBQzf8fbuZrL+AaiDtn/r/QPBEM6ivqiiqu69KLVwl3VW6UAyN1UIvpjsJqaJiqibCY3KFL7fG1QJllXUdGGqRx96SkEVEsrTx1PYz3xi8ZL1PkMr19O8UCNGo9Se4iK1quyh1/eutaHWOySgoBsqlQ21izqfJfwhT95HbK7qNK4aqkxPYXwnKnsqoCbKgWx/USNAZPh7dpO4RK1fMWsh6gL3KxqTU8hk1JLDwO4qbIP6yVqGL1FnCTxHXiEGLsJ9BDVesAMgN70VIC7qlRwVZJs6kw/UZUH2PLAt4+oL+gqgP5oqkDmqnYyN2VQVCdRtMv0ERUzqqqu9d7YPJoBn/JiS3V105Sonq/aYtJDVMz99+pFq+UedVXcTUWV2QNE9ZT4mKhCQxrEd1RFrB6ioit9+tNTSMjre9wjxT7yYQEQ9UZNNslF779mCamAk+zUhYTOomKtlSbSU4Ed0qzO61dJtbrZM/e/4ikplzS18Soqp7OoWPJvJD2F3CK1DJZNYYWonlWq+LpkARw/OUpXyRhdRcXa1c2kpwLVrGqobMLpW/qbCKJ6yfGxbpZeflM3UdHOfjPpqUC5/VztpjTUU+eg/9y7CRudpKOo6BYg2It20F2kzgnL+6piV5pNnelfpB6zK54+bLhBrpuoaGc/1PHjX0PxKt95mm0B5hVjNBXXUPl/ZA/H6RqN9nJ1ExXtU4W9aA/L4LnZk9KWeSmrYgub+I4gHcspIASQtvmKdBEVW6ES0tNzBdtUDWAkOPthzdKGDlH58tjJGa4UBzO6NFOgnf1bMOKSvy7NmNW9kFVxN4XvstSy8AcWUGxXXpsCB7QXFVv1F9LTPH/VvUqdEcIOQD6JJJ3relZTN8BZJfVhagdR0c5+2ItWhFuGQizoqoCbwgscmpao76Gq9ZFqa1Ff0OZeUOw/DArrYMaszlk67+6v0LIVQNe6/w0IAXxlMeWMlqZfodgPwi0ziwAjnuXwXiDJQ6lL1HgFLurUvc9FR3u6MCOFcEtnNyVjjNSOXMl9autQCWEIcFVzLg0bKYReNLHRWmPfLwcpc/qyrnV9bT9DUO52FU3yl7H9t/wIW6VK1mFmomj9WCnIpbI6vMZeKiEEkG2gzGgn6l1telq2Dsttk3tpxxDcXs1v19mgtm4cArQSFX09BSz2P1Ssg65dPwJHYa1YtRFAa9ffDiYBqhCgjajYi1SEYj+2kVLP/jSRsquS7hHX3PUHQgDHV4QALURFe/1nWzgCTWD1p6txqa1B7jfAGtU/anYXs6wWdeLx63qKKoBM1JfFovzcNtgqhTYDG0hXRVcl28xsiauprV73IemlAiVrxb+SiQqVX7w/B7PZ4FWYY41eo4ZvXq8VqS1D+Pw7ijnT+cU0Eps5bhQCMFGBP3tfXh70IJg+b9mH2E4/5E0e2HQO9KerwLrBDX4VdIsqrFpHshCgEBXUeO+4jw94oonVUZA0FN+jqj1dha7KU7gM7aIKIYAsPC5E5VHJpxA38Tiz6oTQgkmLd631gT+Giu47E6LGRxAC2PjySiEqW30pWUVe0X8viyrZKtX4XWu94K5Ksj08Q7+osD/d9vC3uuWistg4Lk9I9vbZSj+6zKtjbRba01WWVUkb7y8YEBU0H8pq47mo/j/53xXTySZZObKXxp/4O0G2So3aU3QAqdyUGVGtMThpioUAhajFd5WHfLDMn39efM7Elvei4S+l1ZyubpKsXU9d3Jy8qZv9OHmc6ud/SjZIZjym4DjknzrMfltarEVWSybFHDulS8JLqRUivU+Rl1hrTlfjqwx1vSgcXTVkdPHku+LPlbK8fwMOvK6OHK6ycxR6Vwv77A1oT3eA163qop93VV5N7QX4/1MN3o32Rv8MqgHRzEyryU+iUhIxUbr7cZQ9lfZY6CdSmqq6nfYP5RuWo0xui/pRfC8LCxBMX0lTTSzuprNzvD4NDPVD/0wWXx+fT+8PNE0JgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiBM8x8ivNWlqR/ZWwAAAABJRU5ErkJggg==;" parent="1" vertex="1">
-          <mxGeometry x="-807.38" y="-2180" width="206.76" height="90" as="geometry" />
+          <mxGeometry x="-801" y="-3280" width="275.68" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/entypo/100/arrows3-128.png" parent="1" vertex="1">
           <mxGeometry x="1500" y="-1710" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/entypo/100/arrows3-128.png" parent="1" vertex="1">
-          <mxGeometry x="261.9999999999999" y="-1950" width="60" height="60" as="geometry" />
+          <mxGeometry x="1035.5" y="-2603" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0v5gyqX5EIVxjuESGNk-50" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#EA6B66;align=left;" parent="1" vertex="1">
           <mxGeometry x="1078.51" y="-1267" width="30" height="30" as="geometry" />
@@ -890,7 +881,7 @@
           <mxGeometry x="394.9999999999999" y="-2993" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-54" value="Application&lt;br&gt;Unit" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=SW;callStyle=line;fontSize=17;fontColor=#666666;align=left;verticalAlign=bottom;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="21" y="-2655" width="324" height="205" as="geometry" />
+          <mxGeometry x="26.5" y="-2673" width="324" height="205" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-76" value="ToolMan Verticle" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/seo_fun-05-128.png" parent="1" vertex="1">
           <mxGeometry x="665" y="-2792" width="42" height="42" as="geometry" />
@@ -974,7 +965,7 @@
           <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-210" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="359.9982759921435" y="-2950.001724007857" width="154.4317240078565" height="99.4317240078567" as="geometry" />
+          <mxGeometry x="399.9982759921435" y="-2870.001724007857" width="154.4317240078565" height="99.4317240078567" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-183" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" parent="yupqaZWFcXtJAPB-ohIR-210" vertex="1">
           <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
@@ -1024,8 +1015,8 @@
         <mxCell id="yupqaZWFcXtJAPB-ohIR-239" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-238" vertex="1" connectable="0">
           <mxGeometry width="320.5" height="223" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-263" value="&lt;br&gt;Acceptor-thread&lt;br&gt;Pool&lt;br&gt;accepting&amp;nbsp;&lt;br&gt;Sockets&lt;br&gt;(per port)" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-239" vertex="1">
-          <mxGeometry y="113" width="100" height="80" as="geometry" />
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-263" value="Acceptor-thread&lt;br&gt;Pool&lt;br&gt;accepting&amp;nbsp;&lt;br&gt;Sockets&lt;br&gt;(per port)" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-239" vertex="1">
+          <mxGeometry x="-5" y="118" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-291" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-239" vertex="1" connectable="0">
           <mxGeometry x="17" width="303.5" height="198" as="geometry" />
@@ -1066,11 +1057,11 @@
         <mxCell id="yupqaZWFcXtJAPB-ohIR-254" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1" connectable="0">
           <mxGeometry x="108" y="6" width="72" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-261" value="&lt;br&gt;NiOWorker-thread&lt;br&gt;Pool&lt;br&gt;(Event Loops) &lt;br&gt;Poller threads&lt;br&gt;N threads&amp;nbsp; = 2* CPU cores" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
-          <mxGeometry x="64" y="118" width="160" height="80" as="geometry" />
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-261" value="NiOWorker-thread&lt;br&gt;Pool&lt;br&gt;(Event Loops) &lt;br&gt;Poller threads&lt;br&gt;N threads&amp;nbsp; = 2* CPU cores" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
+          <mxGeometry x="64" y="123" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-262" value="&lt;br&gt;Worker-thread&lt;br&gt;pool" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
-          <mxGeometry x="203.5" y="113" width="100" height="40" as="geometry" />
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-262" value="Worker-thread&lt;br&gt;pool" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
+          <mxGeometry x="203.5" y="118" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-264" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
           <mxGeometry x="61" y="53" width="22" height="22" as="geometry" />
@@ -1129,12 +1120,6 @@
         <mxCell id="yupqaZWFcXtJAPB-ohIR-293" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="275.83" y="-2801" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-310" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-02-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-514" y="-2980" width="15" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-312" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-07-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-532.5" y="-2980" width="15" height="15" as="geometry" />
-        </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-344" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
           <mxGeometry x="288" y="-2878" width="58" height="58" as="geometry" />
         </mxCell>
@@ -1147,121 +1132,7 @@
             <mxPoint x="302.3299999999999" y="-2769" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-359" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Grass-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-573.5" y="-3145" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-364" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/halloween-free-1/64/01_autumn-fall-leaves-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-609" y="-3145" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-327" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-448.0017240078566" y="-3008.001724007857" width="154.4317240078565" height="99.4317240078572" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-330" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" parent="yupqaZWFcXtJAPB-ohIR-327" vertex="1">
-          <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-331" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" parent="yupqaZWFcXtJAPB-ohIR-327" vertex="1">
-          <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-332" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-327" vertex="1" connectable="0">
-          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100" height="50.0000000000005" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-333" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" parent="yupqaZWFcXtJAPB-ohIR-332" vertex="1">
-          <mxGeometry y="2" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-335" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-15-128.png;strokeColor=#000000;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-332" vertex="1">
-          <mxGeometry y="19.570000000000164" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-362" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/tools-33/28/long_nail-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-332" vertex="1">
-          <mxGeometry x="15" y="10" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-383" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-04-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-332" vertex="1">
-          <mxGeometry x="35.00000000000003" y="20.000000000000433" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-391" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-49-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-332" vertex="1">
-          <mxGeometry x="68.00000000000003" y="22.500000000000455" width="25" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-337" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#1ba1e2;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" parent="yupqaZWFcXtJAPB-ohIR-327" vertex="1">
-          <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-20" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="yupqaZWFcXtJAPB-ohIR-327">
-          <mxGeometry x="14.430000000000064" y="8.429999999999836" width="15" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-415" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/entypo/100/arrows3-128.png" parent="1" vertex="1">
-          <mxGeometry x="-624.0000000000001" y="-3073.25" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-416" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-450.0017240078565" y="-3110.001724007857" width="154.43172400785656" height="99.4317240078567" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-417" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" parent="yupqaZWFcXtJAPB-ohIR-416" vertex="1">
-          <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-418" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" parent="yupqaZWFcXtJAPB-ohIR-416" vertex="1">
-          <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-419" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-416" vertex="1" connectable="0">
-          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100.00000000000006" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-420" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" parent="yupqaZWFcXtJAPB-ohIR-419" vertex="1">
-          <mxGeometry y="2" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-421" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/gardening-and-outdoors/250/shears-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-419" vertex="1">
-          <mxGeometry x="36.12000000000002" y="21.5" width="28.5" height="28.5" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-422" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/gardening-and-outdoors/250/longSpade-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-419" vertex="1">
-          <mxGeometry x="5.120000000000021" y="21.320000000000164" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-423" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/gardening-and-outdoors/250/rake-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-419" vertex="1">
-          <mxGeometry x="66.87000000000002" y="21.75" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-448" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/halloween-free-1/64/01_autumn-fall-leaves-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-419" vertex="1">
-          <mxGeometry x="72.00000000000006" y="2" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-424" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#008a00;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" parent="yupqaZWFcXtJAPB-ohIR-416" vertex="1">
-          <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-358" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/eco-flat-2/512/Nature_plant_tree-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-416" vertex="1">
-          <mxGeometry x="5.001724007856524" y="0.0017240078568647732" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-442" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="-745.5" y="-3124.9999999999995" width="12" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-441" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="-499" y="-2964" width="12" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-445" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-510.0017240078565" y="-2940.001724007857" width="152.43172400785647" height="99.43172400785716" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-430" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" parent="yupqaZWFcXtJAPB-ohIR-445" vertex="1">
-          <mxGeometry x="10.431724007856474" y="10.431724007856701" width="57" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-431" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" parent="yupqaZWFcXtJAPB-ohIR-445" vertex="1">
-          <mxGeometry x="29.431724007856474" y="28.4317240078567" width="21" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-432" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-445" vertex="1" connectable="0">
-          <mxGeometry x="52.431724007856474" y="49.4317240078567" width="100" height="50.0000000000005" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-433" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" parent="yupqaZWFcXtJAPB-ohIR-432" vertex="1">
-          <mxGeometry y="2" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-434" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-15-128.png;strokeColor=#000000;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-432" vertex="1">
-          <mxGeometry y="19.570000000000164" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-436" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-04-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-432" vertex="1">
-          <mxGeometry x="35.00000000000003" y="20.000000000000433" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-437" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-49-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-432" vertex="1">
-          <mxGeometry x="68.00000000000003" y="22.500000000000455" width="25" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-439" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-02-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="yupqaZWFcXtJAPB-ohIR-432" vertex="1">
-          <mxGeometry x="81.00000000000006" y="6.5" width="15" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-438" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#1ba1e2;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" parent="yupqaZWFcXtJAPB-ohIR-445" vertex="1">
-          <mxGeometry x="45.431724007856474" y="43.9317240078567" width="18" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-19" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="yupqaZWFcXtJAPB-ohIR-445">
-          <mxGeometry x="17" y="10.43" width="15" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-449" value="" style="endArrow=none;html=1;fontColor=#CCCCCC;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#C73500;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#fa6800;dashed=1;dashPattern=1 2;" parent="1" source="yupqaZWFcXtJAPB-ohIR-253" target="yupqaZWFcXtJAPB-ohIR-172" edge="1">
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-449" value="" style="endArrow=none;html=1;fontColor=#CCCCCC;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#C73500;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#fa6800;dashed=1;dashPattern=1 2;" parent="1" source="yupqaZWFcXtJAPB-ohIR-253" target="yupqaZWFcXtJAPB-ohIR-172" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="324.5" y="-2533" as="sourcePoint" />
             <mxPoint x="332.5" y="-2828" as="targetPoint" />
@@ -1273,203 +1144,343 @@
             <mxPoint x="422.43000000000075" y="-2746.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-452" value="" style="endArrow=none;html=1;fontColor=#CCCCCC;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#C73500;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#fa6800;dashed=1;dashPattern=1 2;" parent="1" source="yupqaZWFcXtJAPB-ohIR-253" target="yupqaZWFcXtJAPB-ohIR-184" edge="1">
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-452" value="" style="endArrow=none;html=1;fontColor=#CCCCCC;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#C73500;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#fa6800;dashed=1;dashPattern=1 2;" parent="1" source="yupqaZWFcXtJAPB-ohIR-253" target="yupqaZWFcXtJAPB-ohIR-184" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="424.50000000000045" y="-2533" as="sourcePoint" />
             <mxPoint x="388.72000000000025" y="-2690.57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-453" value="Tool man" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-2840" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-454" value="Tool man" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-373.5" y="-2908.57" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-455" value="Landscaper" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-298.57" y="-3040" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-15-128.png;strokeColor=#000000;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="1">
+        <mxCell id="7kI5kkd5s3uf468gtkK9-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-15-128.png;strokeColor=#000000;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
           <mxGeometry x="-794.25" y="-2553.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-7" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="-745.5" y="-3028.9999999999995" width="12" height="45" as="geometry" />
+        <mxCell id="zy02qjTCjtsVKAX8_Yuo-2" value="&lt;h1&gt;&lt;font color=&quot;#cc0000&quot;&gt;MyVerticle class&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;This class extends &lt;font color=&quot;#cc0000&quot;&gt;io.vertx.core.AbstractVerticle&lt;/font&gt;, the base class for verticles that mainly provides:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;life-cycle &lt;i&gt;&lt;b&gt;start&lt;/b&gt;&lt;/i&gt; and&lt;b&gt; &lt;i&gt;stop&lt;/i&gt;&lt;/b&gt; methods to override,&lt;/li&gt;&lt;li&gt;a protected field called &lt;b&gt;vertx&lt;/b&gt; that references the Vert.x environment where the verticle is being deployed,&lt;/li&gt;&lt;li&gt;an &lt;b&gt;accessor&lt;/b&gt; to some configuration object that allows passing external configuration to a verticle.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-2030" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-8" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="-532.5" y="-3167.5" width="12" height="45" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SDp9sI-3Bo0p6WqMPgMC" name="Page-2">
+    <mxGraphModel dx="1543" dy="3681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-0" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-1" parent="jXq5LN8suc1_NZNbITRA-0" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-2" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-327" y="-2754.5" width="12" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=60;" vertex="1" parent="1">
-          <mxGeometry x="-811.9300000000001" y="-3109.9999999999995" width="57" height="57" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-3" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-329" y="-2655.74" width="12" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-15" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-900" y="-3092.4999999999995" width="128.81999999999994" height="74.92999999999984" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-4" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3399FF;strokeWidth=12;fillColor=none;comic=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-577.0000000000001" y="-2762.5" width="230" height="153.51" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-10" value="" style="group" vertex="1" connectable="0" parent="7kI5kkd5s3uf468gtkK9-15">
-          <mxGeometry y="24.929999999999836" width="110.31999999999994" height="50" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-02-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-381" y="-2622.5" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-11" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-10">
-          <mxGeometry y="2" width="100" height="50" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-07-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-399.5" y="-2622.5" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-12" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#fa6800;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-10">
-          <mxGeometry x="92.31999999999994" y="-5.429999999999836" width="18" height="18" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Grass-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-439.72" y="-2784" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-15">
-          <mxGeometry x="106.81999999999994" width="22" height="22" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/halloween-free-1/64/01_autumn-fall-leaves-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-476" y="-2787.5" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-900" y="-3030.4317240078562" width="155.5017240078564" height="102.86172400785654" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-9" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-315.0017240078566" y="-2650.501724007857" width="154.4317240078565" height="99.4317240078572" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-348" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=60;" parent="7kI5kkd5s3uf468gtkK9-18" vertex="1">
-          <mxGeometry x="88.06999999999994" y="10.431724007856701" width="57" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-17" value="" style="group" vertex="1" connectable="0" parent="7kI5kkd5s3uf468gtkK9-18">
-          <mxGeometry y="27.9317240078567" width="128.81999999999994" height="74.92999999999984" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-350" value="" style="group" parent="7kI5kkd5s3uf468gtkK9-17" vertex="1" connectable="0">
-          <mxGeometry y="24.929999999999836" width="110.31999999999994" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-351" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" parent="yupqaZWFcXtJAPB-ohIR-350" vertex="1">
-          <mxGeometry y="2" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-356" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#fa6800;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" parent="yupqaZWFcXtJAPB-ohIR-350" vertex="1">
-          <mxGeometry x="92.31999999999994" y="-5.429999999999836" width="18" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-357" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" parent="7kI5kkd5s3uf468gtkK9-17" vertex="1">
-          <mxGeometry x="106.81999999999994" width="22" height="22" as="geometry" />
-        </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-315" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-16-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" parent="1" vertex="1">
-          <mxGeometry x="-463.00000000000006" y="-2997.57" width="15" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-40" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-2965" width="12" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-49" value="Kitchen-hands" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="1">
-          <mxGeometry x="-617.72" y="-2750" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-89" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="-662" y="-2966.49" width="12" height="138.51" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-29" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-650.0017240078565" y="-2940.001724007857" width="154.5717240078565" height="107.4317240078567" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-29">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-9">
           <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-31" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-29">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-9">
           <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-32" value="" style="group" vertex="1" connectable="0" parent="7kI5kkd5s3uf468gtkK9-29">
-          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100.13999999999999" height="58" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-12" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-9">
+          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100" height="50.0000000000005" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-33" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-32">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-13" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-12">
           <mxGeometry y="2" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-114" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-preparing-meal-prepare-chooping_board-knife-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-32">
-          <mxGeometry x="37.56999999999999" y="20.5" width="25" height="25" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-15-128.png;strokeColor=#000000;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-12">
+          <mxGeometry y="19.570000000000164" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-116" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/coronavirus-4/64/Coronavirus_wash_fruits_and_vegetables_14-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-32">
-          <mxGeometry x="68.57000000000005" y="20.5" width="25" height="25" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/tools-33/28/long_nail-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-12">
+          <mxGeometry x="15" y="10" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-210" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/kitchen-tool-set-1/3300/blender-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-32">
-          <mxGeometry x="1.1368683772161603e-13" y="10" width="38" height="38" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-04-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-12">
+          <mxGeometry x="35.00000000000003" y="20.000000000000433" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-219" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/carrot-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-32">
-          <mxGeometry x="44.068275992143526" y="9.998275992143299" width="18.5" height="18.5" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-49-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-12">
+          <mxGeometry x="68.00000000000003" y="22.500000000000455" width="25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-38" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#e51400;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-29">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-18" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#1ba1e2;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-9">
           <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-223" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-29">
-          <mxGeometry x="16.42999999999995" y="10.429999999999836" width="15" height="15" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-19" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-9">
+          <mxGeometry x="14.430000000000064" y="8.429999999999836" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-181" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-730.0017240078565" y="-2770.001724007857" width="157.28172400785652" height="107.4317240078567" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/entypo/100/arrows3-128.png" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-491.0000000000001" y="-2715.75" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-184" value="" style="group" vertex="1" connectable="0" parent="7kI5kkd5s3uf468gtkK9-181">
-          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="102.85000000000002" height="58" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-21" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-317.0017240078565" y="-2752.501724007857" width="154.43172400785656" height="99.4317240078567" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-185" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-184">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-21">
+          <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-21">
+          <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-24" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-21">
+          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100.00000000000006" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-25" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-24">
           <mxGeometry y="2" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-215" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/covid-19-coronavirus-protection-or-prevention-fill/64/HotCovid-19-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-184">
-          <mxGeometry x="36" y="23.999999999999968" width="28" height="28" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/gardening-and-outdoors/250/shears-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-24">
+          <mxGeometry x="36.12000000000002" y="21.5" width="28.5" height="28.5" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-218" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/virus-transmission-outline-color-pack/64/31-Boiling-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-184">
-          <mxGeometry x="65.57" y="26.999999999999936" width="25" height="25" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/gardening-and-outdoors/250/longSpade-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-24">
+          <mxGeometry x="5.120000000000021" y="21.320000000000164" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-217" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-color-halloween-icons/24/Cauldron-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-184">
-          <mxGeometry x="8.000000000000114" y="27" width="25" height="25" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/gardening-and-outdoors/250/rake-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-24">
+          <mxGeometry x="66.87000000000002" y="21.75" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-187" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#e3c800;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-181">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/halloween-free-1/64/01_autumn-fall-leaves-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-24">
+          <mxGeometry x="72.00000000000006" y="2" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-30" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#008a00;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-21">
           <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-213" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/thread.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-181">
-          <mxGeometry x="27.931724007856587" y="27.9317240078567" width="22" height="22" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-31" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/eco-flat-2/512/Nature_plant_tree-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-21">
+          <mxGeometry x="5.001724007856524" y="0.0017240078568647732" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-228" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-181">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-32" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-612.5000000000001" y="-2767.4999999999995" width="12" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-33" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-366" y="-2606.5" width="12" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-34" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-377.0017240078565" y="-2582.501724007857" width="152.43172400785647" height="99.43172400785716" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-34">
           <mxGeometry x="10.431724007856474" y="10.431724007856701" width="57" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-188" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-680.0017240078565" y="-2857.001724007857" width="154.5717240078565" height="107.4317240078567" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-34">
+          <mxGeometry x="29.431724007856474" y="28.4317240078567" width="21" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-189" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-188">
-          <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-37" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-34">
+          <mxGeometry x="52.431724007856474" y="49.4317240078567" width="100" height="50.0000000000005" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-190" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-188">
-          <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-191" value="" style="group" vertex="1" connectable="0" parent="7kI5kkd5s3uf468gtkK9-188">
-          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100.13999999999999" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-192" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-191">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-38" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-37">
           <mxGeometry y="2" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-193" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-preparing-meal-prepare-chooping_board-knife-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-191">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-15-128.png;strokeColor=#000000;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-37">
+          <mxGeometry y="19.570000000000164" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-04-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-37">
+          <mxGeometry x="35.00000000000003" y="20.000000000000433" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-49-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-37">
+          <mxGeometry x="68.00000000000003" y="22.500000000000455" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-02-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-37">
+          <mxGeometry x="81.00000000000006" y="6.5" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-43" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#1ba1e2;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-34">
+          <mxGeometry x="45.431724007856474" y="43.9317240078567" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-44" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-34">
+          <mxGeometry x="17" y="10.43" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-45" value="Tool man" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-307" y="-2482.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-46" value="Tool man" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-240.5" y="-2551.07" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-47" value="Landscaper" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-163.57" y="-2687.75" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-48" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=90;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-612.5000000000001" y="-2671.4999999999995" width="12" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-49" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-399.5" y="-2810" width="12" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=60;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-678.9300000000002" y="-2752.4999999999995" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-51" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-767.0000000000001" y="-2734.9999999999995" width="128.81999999999994" height="74.92999999999984" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-52" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-51">
+          <mxGeometry y="24.929999999999836" width="110.31999999999994" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-53" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-52">
+          <mxGeometry y="2" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-54" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#fa6800;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-52">
+          <mxGeometry x="92.31999999999994" y="-5.429999999999836" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-55" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-51">
+          <mxGeometry x="106.81999999999994" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-56" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-767.0000000000001" y="-2672.9317240078562" width="155.5017240078564" height="102.86172400785654" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-57" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=60;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-56">
+          <mxGeometry x="88.06999999999994" y="10.431724007856701" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-58" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-56">
+          <mxGeometry y="27.9317240078567" width="128.81999999999994" height="74.92999999999984" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-59" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-58">
+          <mxGeometry y="24.929999999999836" width="110.31999999999994" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-60" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-59">
+          <mxGeometry y="2" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-61" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#fa6800;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-59">
+          <mxGeometry x="92.31999999999994" y="-5.429999999999836" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-62" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-58">
+          <mxGeometry x="106.81999999999994" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-63" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/yumminky-tools/100/yummy-tools-16-128.png;strokeColor=#1BA1E2;strokeWidth=1;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-330.00000000000006" y="-2640.07" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-64" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-497" y="-2607.5" width="12" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-65" value="Kitchen-hands" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-484.72" y="-2392.5" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-66" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-529" y="-2608.99" width="12" height="138.51" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-67" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-517.0017240078565" y="-2582.501724007857" width="154.5717240078565" height="107.4317240078567" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-68" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-67">
+          <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-69" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-67">
+          <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-70" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-67">
+          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100.13999999999999" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-71" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-70">
+          <mxGeometry y="2" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-72" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-preparing-meal-prepare-chooping_board-knife-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-70">
           <mxGeometry x="37.56999999999999" y="20.5" width="25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-194" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/coronavirus-4/64/Coronavirus_wash_fruits_and_vegetables_14-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-191">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-73" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/coronavirus-4/64/Coronavirus_wash_fruits_and_vegetables_14-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-70">
           <mxGeometry x="68.57000000000005" y="20.5" width="25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-209" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/kitchen-tool-set-1/3300/blender-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-191">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-74" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/kitchen-tool-set-1/3300/blender-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-70">
           <mxGeometry x="1.1368683772161603e-13" y="10" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-221" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flat-vegetables/32/vegetables_flat_9-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-191">
-          <mxGeometry x="71.00000000000011" y="-1.5" width="28" height="28" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-75" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/carrot-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-70">
+          <mxGeometry x="44.068275992143526" y="9.998275992143299" width="18.5" height="18.5" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-196" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#e51400;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-188">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-76" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#e51400;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-67">
           <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-224" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="7kI5kkd5s3uf468gtkK9-188">
+        <mxCell id="jXq5LN8suc1_NZNbITRA-77" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-67">
+          <mxGeometry x="16.42999999999995" y="10.429999999999836" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-78" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-597.0017240078565" y="-2412.501724007857" width="157.28172400785652" height="107.4317240078567" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-79" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-78">
+          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="102.85000000000002" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-80" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-79">
+          <mxGeometry y="2" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-81" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/covid-19-coronavirus-protection-or-prevention-fill/64/HotCovid-19-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-79">
+          <mxGeometry x="36" y="19.999999999999968" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-82" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/virus-transmission-outline-color-pack/64/31-Boiling-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-79">
+          <mxGeometry x="65.57" y="22.999999999999936" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-83" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-color-halloween-icons/24/Cauldron-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-79">
+          <mxGeometry x="8.000000000000114" y="23" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-84" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#e3c800;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-78">
+          <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-85" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/thread.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-78">
+          <mxGeometry x="27.931724007856587" y="27.9317240078567" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-86" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-78">
+          <mxGeometry x="10.431724007856474" y="10.431724007856701" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-87" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-547.0017240078565" y="-2499.501724007857" width="154.5717240078565" height="107.4317240078567" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-88" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-87">
+          <mxGeometry x="10.431724007856502" y="10.431724007856701" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-89" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#000000;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-87">
+          <mxGeometry x="31.431724007856502" y="28.4317240078567" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-90" value="" style="group" vertex="1" connectable="0" parent="jXq5LN8suc1_NZNbITRA-87">
+          <mxGeometry x="54.4317240078565" y="49.4317240078567" width="100.13999999999999" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-91" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-90">
+          <mxGeometry y="2" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-92" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/household-tasks-flat-1/272/household-chores-preparing-meal-prepare-chooping_board-knife-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-90">
+          <mxGeometry x="37.56999999999999" y="20.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-93" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/coronavirus-4/64/Coronavirus_wash_fruits_and_vegetables_14-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-90">
+          <mxGeometry x="68.57000000000005" y="20.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-94" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/kitchen-tool-set-1/3300/blender-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-90">
+          <mxGeometry x="1.1368683772161603e-13" y="10" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-95" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flat-vegetables/32/vegetables_flat_9-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-90">
+          <mxGeometry x="71.00000000000011" y="-1.5" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-96" value="" style="html=1;aspect=fixed;shadow=0;align=center;verticalAlign=top;fillColor=#e51400;shape=mxgraph.gcp2.gear;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-87">
+          <mxGeometry x="47.4317240078565" y="43.9317240078567" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jXq5LN8suc1_NZNbITRA-97" value="" style="ellipse;whiteSpace=wrap;html=1;direction=west;fontColor=#ffffff;strokeColor=#B20000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-87">
           <mxGeometry x="17.42999999999995" y="10.429999999999836" width="15" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-197" value="Kitchen-hands" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="-2838" width="90" height="20" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-98" value="Kitchen-hands" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-456" y="-2480.5" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-198" value="Soup Chef" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="1">
-          <mxGeometry x="-659" y="-2662.57" width="70" height="20" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-99" value="Soup Chef" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#EA6B66;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-526" y="-2305.07" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-206" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="-2964" width="12" height="214.51" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-100" value="" style="line;strokeWidth=10;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;comic=1;labelBackgroundColor=none;fillColor=none;strokeColor=#3399FF;rotation=-180;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-567.0000000000001" y="-2606.5" width="12" height="214.51" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-212" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/tools-hardwares/36/nail-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-495.43" y="-2956.5" width="11.5" height="11.5" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-101" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/tools-hardwares/36/nail-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-362.43" y="-2599" width="11.5" height="11.5" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-214" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/food-and-drink-free/24/Food_Drink_Foods_Soup_Meal_Vegetable_Dinner-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-752.5" y="-2997.57" width="28" height="28" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-102" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/food-and-drink-free/24/Food_Drink_Foods_Soup_Meal_Vegetable_Dinner-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-612.5000000000001" y="-2683.75" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-222" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flat-vegetables/32/vegetables_flat_11-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-638.63" y="-2957.13" width="29.26" height="29.26" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-103" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/flat-vegetables/32/vegetables_flat_11-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-505.63" y="-2599.63" width="29.26" height="29.26" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-225" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/barista/256/barista-icons_milk-jug-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-709.5" y="-2868" width="18" height="18" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-104" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/barista/256/barista-icons_milk-jug-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-576.5000000000001" y="-2510.5" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-226" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/barista/256/barista-icons_milk-package-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-662" y="-2919" width="18" height="18" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-105" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/barista/256/barista-icons_milk-package-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-529" y="-2561.5" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-227" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/virus-transmission-outline-color-pack/64/33-Vegetables-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="-2901" width="18" height="18" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-106" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/virus-transmission-outline-color-pack/64/33-Vegetables-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-577.0000000000001" y="-2543.5" width="18" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="7kI5kkd5s3uf468gtkK9-229" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/healthy-life-filled-outline-1/64/food_and_restaurant-organic-vegan-healthy_food-diet-vegetarian-vegetables-vegetable-food-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-752.5" y="-3044" width="28" height="28" as="geometry" />
+        <mxCell id="jXq5LN8suc1_NZNbITRA-107" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/healthy-life-filled-outline-1/64/food_and_restaurant-organic-vegan-healthy_food-diet-vegetarian-vegetables-vegetable-food-128.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="jXq5LN8suc1_NZNbITRA-1">
+          <mxGeometry x="-567.0000000000001" y="-2715.75" width="28" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
