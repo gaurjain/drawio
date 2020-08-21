@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T05:38:03.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="Dtik9T1BwjUWu4cUZEHO" version="13.3.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-21T05:40:02.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="4CGfC_CC4l9_KV7waksN" version="13.3.5" type="github" pages="2">
   <diagram id="n-6Ts9lApfL_Nkq_khbV" name="Page-1">
-    <mxGraphModel dx="4239" dy="5146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3553" dy="5146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1009,8 +1009,8 @@
         <mxCell id="yupqaZWFcXtJAPB-ohIR-239" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-238" vertex="1" connectable="0">
           <mxGeometry width="320.5" height="223" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-263" value="Acceptor-thread&lt;br&gt;Pool&lt;br&gt;accepting&amp;nbsp;&lt;br&gt;Sockets&lt;br&gt;(per port)" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-239" vertex="1">
-          <mxGeometry x="-5" y="118" width="110" height="70" as="geometry" />
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-263" value="&lt;font color=&quot;#999999&quot;&gt;Acceptor-thread&lt;br&gt;Pool&lt;br&gt;accepting&amp;nbsp;&lt;br&gt;Sockets&lt;br&gt;(per port)&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-239" vertex="1">
+          <mxGeometry x="-1" y="118" width="103" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-291" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-239" vertex="1" connectable="0">
           <mxGeometry x="17" width="303.5" height="198" as="geometry" />
@@ -1051,11 +1051,11 @@
         <mxCell id="yupqaZWFcXtJAPB-ohIR-254" value="" style="group" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1" connectable="0">
           <mxGeometry x="108" y="6" width="72" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-261" value="NiOWorker-thread&lt;br&gt;Pool&lt;br&gt;(Event Loops) &lt;br&gt;Poller threads&lt;br&gt;N threads&amp;nbsp; = 2* CPU cores" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
-          <mxGeometry x="64" y="123" width="160" height="70" as="geometry" />
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-261" value="&lt;font color=&quot;#999999&quot;&gt;NiOWorker-thread&lt;br&gt;Pool&lt;br&gt;(Event Loops) &lt;br&gt;Poller threads&lt;br&gt;N threads&amp;nbsp; = 2* CPU cores&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
+          <mxGeometry x="65" y="123" width="158" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yupqaZWFcXtJAPB-ohIR-262" value="Worker-thread&lt;br&gt;pool" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
-          <mxGeometry x="203.5" y="118" width="100" height="30" as="geometry" />
+        <mxCell id="yupqaZWFcXtJAPB-ohIR-262" value="&lt;font color=&quot;#999999&quot;&gt;Worker-thread&lt;br&gt;pool&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontStyle=1" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
+          <mxGeometry x="207.5" y="119" width="92" height="28" as="geometry" />
         </mxCell>
         <mxCell id="yupqaZWFcXtJAPB-ohIR-264" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" parent="yupqaZWFcXtJAPB-ohIR-291" vertex="1">
           <mxGeometry x="61" y="53" width="22" height="22" as="geometry" />
@@ -1160,7 +1160,7 @@
           <mxGeometry x="1068" y="-2720" width="773.5" height="503.5" as="geometry" />
         </mxCell>
         <mxCell id="io7bQX6oNVcfl6mGkWei-46" value="&lt;h1&gt;Event&lt;/h1&gt;&lt;p style=&quot;text-align: justify ; font-size: 18px&quot;&gt;&lt;font color=&quot;#666666&quot; face=&quot;arial, helvetica, verdana, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;can be anything like receiving network buffers, timing events, or messages sent by other verticles.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
-          <mxGeometry x="2007" y="-2374.57" width="473" height="140" as="geometry" />
+          <mxGeometry x="2007" y="-2340" width="473" height="140" as="geometry" />
         </mxCell>
         <mxCell id="mXGf3Z79XZ_InjzFkner-25" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="767.2482759921434" y="-2726.501724007857" width="283" height="99.4317240078572" as="geometry" />
