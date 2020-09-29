@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-29T20:21:43.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ofqe0XBh98Vl9KbPJhJL" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-29T20:37:26.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="86qGU6P3GcIMuDxsD40W" version="13.7.5" type="github" pages="3">
   <diagram id="6ERUYAJFeHneVjm3vj2k" name="Page-1">
     <mxGraphModel dx="1290" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -314,12 +314,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-2" id="_QGoxeKkbQJePGr2m56h">
-    <mxGraphModel dx="1055" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="890" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-0" />
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-1" parent="fF6I8bYzJVW3n9t4vVnX-0" />
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-2" value="&lt;b&gt;Google &lt;/b&gt;Cloud Platform" style="fillColor=#F6F6F6;strokeColor=none;shadow=0;gradientColor=none;fontSize=14;align=left;spacing=10;fontColor=#717171;9E9E9E;verticalAlign=top;spacingTop=-4;fontStyle=0;spacingLeft=40;html=1;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-1">
-          <mxGeometry x="60" y="10" width="1030" height="830" as="geometry" />
+          <mxGeometry x="60" y="10" width="1070" height="830" as="geometry" />
         </mxCell>
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-4" value="" style="shape=mxgraph.gcp2.google_cloud_platform;fillColor=#F6F6F6;strokeColor=none;shadow=0;gradientColor=none;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-2">
           <mxGeometry width="23" height="20" relative="1" as="geometry">
@@ -363,6 +363,9 @@
         </mxCell>
         <mxCell id="De8CcCDMj2_4ExNBG5CW-11" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.google_network;rounded=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=8;fontColor=#CC0000;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-2">
           <mxGeometry x="267.0422222222222" y="16.44" width="28.61111111111111" height="28.61111111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="De8CcCDMj2_4ExNBG5CW-18" value="&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Every VM instance has a hostname and a FQDN - [hostname].[zone].c.[project-id].internal&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Hostname aka instance name &amp;lt;----&amp;gt;&amp;nbsp; internal IP address&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;internal IP address can change when instance is deleted and recreated.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;DNS resolution for local network resources is provided by a METADATA SERVER available on each VM Instance&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;at &lt;b&gt;169.254.169.254&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;external address are mapped to ip address and NOT to hostname of the VM Instance.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Domain and servers can be hosted on gcp using Cloud DNS Managed service.&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;fontColor=#CC0000;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-2">
+          <mxGeometry x="310" y="655" width="620" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-19" value="" style="rounded=0;arcSize=10;dashed=1;strokeWidth=1;strokeColor=#d79b00;fillColor=none;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-1">
           <mxGeometry x="90" y="331.14" width="700" height="40" as="geometry" />
