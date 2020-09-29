@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-29T17:56:29.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="XFHJfnVJCRiGqFeJgyb-" version="13.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-29T18:02:02.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="aISGp_WifIfXf6DNE7zT" version="13.7.5" type="github" pages="2">
   <diagram id="6ERUYAJFeHneVjm3vj2k" name="Page-1">
     <mxGraphModel dx="791" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kbSzUDTzoVxjSoaK6zgW" name="Page-2">
-    <mxGraphModel dx="1843" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="614" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="5eAH72VqTq2jtzRYCCka-0" />
         <mxCell id="5eAH72VqTq2jtzRYCCka-1" parent="5eAH72VqTq2jtzRYCCka-0" />
@@ -255,12 +255,12 @@
           <mxGeometry x="390" y="510" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="eSU56a4nx5OAcff5bU7y-140" value="Virtual&#xa;Private Cloud" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=virtual_private_cloud;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;opacity=50;" vertex="1" parent="5eAH72VqTq2jtzRYCCka-1">
-          <mxGeometry x="250" y="510" width="66" height="58.5" as="geometry" />
+          <mxGeometry x="241.34" y="509.01" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="eSU56a4nx5OAcff5bU7y-141" value="Virtual&#xa;Private Cloud" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=virtual_private_cloud;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;opacity=50;" vertex="1" parent="5eAH72VqTq2jtzRYCCka-1">
           <mxGeometry x="537" y="510" width="66" height="58.5" as="geometry" />
         </mxCell>
-        <mxCell id="eSU56a4nx5OAcff5bU7y-139" value="with Pre-populated&lt;br style=&quot;font-size: 8px;&quot;&gt;Firewall-rules" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=8;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_firewall_rules;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;" vertex="1" parent="5eAH72VqTq2jtzRYCCka-1">
+        <mxCell id="eSU56a4nx5OAcff5bU7y-139" value="with Pre-populated&lt;br style=&quot;font-size: 8px&quot;&gt;Firewall-rules&lt;br&gt;&#39;allowing&#39; ingress aka incoming &lt;br&gt;connections&lt;br&gt;to instances&lt;br&gt;(allow-ssh(tcp:22), &lt;br&gt;allow-rdp(tcp:3389), &lt;br&gt;allow-icmp(ping traffic), &lt;br&gt;allow-internal(all protocols:ports))" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=8;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_firewall_rules;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;" vertex="1" parent="5eAH72VqTq2jtzRYCCka-1">
           <mxGeometry x="143" y="519.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eSU56a4nx5OAcff5bU7y-143" value="Virtual&#xa;Private Cloud" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=virtual_private_cloud;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;opacity=50;" vertex="1" parent="5eAH72VqTq2jtzRYCCka-1">
