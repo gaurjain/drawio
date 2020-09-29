@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-29T20:20:58.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="CHUCwPuwTQuIH0YPKdH-" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-29T20:21:43.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ofqe0XBh98Vl9KbPJhJL" version="13.7.5" type="github" pages="3">
   <diagram id="6ERUYAJFeHneVjm3vj2k" name="Page-1">
     <mxGraphModel dx="1290" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -314,7 +314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-2" id="_QGoxeKkbQJePGr2m56h">
-    <mxGraphModel dx="890" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-0" />
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-1" parent="fF6I8bYzJVW3n9t4vVnX-0" />
@@ -362,7 +362,7 @@
           <mxGeometry x="375.75925925925924" y="1.5" width="62.94444444444444" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="De8CcCDMj2_4ExNBG5CW-11" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.google_network;rounded=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=8;fontColor=#CC0000;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-2">
-          <mxGeometry x="314.72222222222223" y="15.75" width="28.61111111111111" height="28.61111111111111" as="geometry" />
+          <mxGeometry x="267.0422222222222" y="16.44" width="28.61111111111111" height="28.61111111111111" as="geometry" />
         </mxCell>
         <mxCell id="fF6I8bYzJVW3n9t4vVnX-19" value="" style="rounded=0;arcSize=10;dashed=1;strokeWidth=1;strokeColor=#d79b00;fillColor=none;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-1">
           <mxGeometry x="90" y="331.14" width="700" height="40" as="geometry" />
@@ -527,7 +527,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fF6I8bYzJVW3n9t4vVnX-87" value="via Google Edge over external IP address&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="fF6I8bYzJVW3n9t4vVnX-84">
+        <mxCell id="fF6I8bYzJVW3n9t4vVnX-87" value="via Google Edge, over external IP address&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="fF6I8bYzJVW3n9t4vVnX-84">
           <mxGeometry x="0.206" y="-2" relative="1" as="geometry">
             <mxPoint x="2.24" y="-10.02" as="offset" />
           </mxGeometry>
@@ -563,7 +563,7 @@
           <mxGeometry x="530" y="510" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="De8CcCDMj2_4ExNBG5CW-3" value="NAT-Gateway" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_nat;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="fF6I8bYzJVW3n9t4vVnX-1">
-          <mxGeometry x="96" y="157.53" width="46" height="43.62" as="geometry" />
+          <mxGeometry x="97" y="157.53" width="46" height="43.62" as="geometry" />
         </mxCell>
         <mxCell id="De8CcCDMj2_4ExNBG5CW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=1;fontSize=8;entryX=0.175;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;labelBackgroundColor=none;" edge="1" parent="fF6I8bYzJVW3n9t4vVnX-1" target="fF6I8bYzJVW3n9t4vVnX-32">
           <mxGeometry x="0.1954" y="-20" relative="1" as="geometry">
