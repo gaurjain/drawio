@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-01T20:32:37.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="U9iPCw_YMEUvvk38XQFT" version="13.7.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-10-01T20:33:47.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="v43_aRN4Jo_r7OfVdAuB" version="13.7.5" type="github" pages="6">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Solution space">
     <mxGraphModel dx="1290" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2669,8 +2669,8 @@
         <mxCell id="DjXB0LWIN10a5qDcPfq_-40" value="Subnet 2 : &lt;br&gt;10.0.2.0/24" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#E6E6E6;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=none;dashPattern=1 2;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
           <mxGeometry x="-649" y="73.06" width="131" height="195.94" as="geometry" />
         </mxCell>
-        <mxCell id="DjXB0LWIN10a5qDcPfq_-42" value="Layer 2 connection use a VLAN that&lt;br&gt;&amp;nbsp;pipes directly into GCP environment&lt;br&gt;10Gbps x8&amp;nbsp; - 100 Gbps for Dedicated - 99.9 - 99.99 % uptime&lt;br&gt;50 Mbps - 10 Bps per connection for Partner -- &lt;br&gt;99.9 or 99.99 % uptime SLA between GCP and service provider" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#B5739D;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-460" y="221" width="349" height="71" as="geometry" />
+        <mxCell id="DjXB0LWIN10a5qDcPfq_-42" value="Layer 2 connection use a VLAN that&lt;br&gt;&amp;nbsp;pipes directly into GCP environment, direct access to RFC 1918 IPs&lt;br&gt;10Gbps x8&amp;nbsp; - 100 Gbps for Dedicated - 99.9 - 99.99 % uptime SLA&lt;br&gt;50 Mbps - 10 Bps per connection for Partner -- &lt;br&gt;99.9 or 99.99 % uptime SLA between GCP and service provider" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#B5739D;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="-472" y="221" width="373" height="71" as="geometry" />
         </mxCell>
         <mxCell id="DjXB0LWIN10a5qDcPfq_-48" value="Cloud&lt;br&gt;Router&lt;br&gt;(Global dynamic &lt;br&gt;routing mode)&lt;br&gt;169.254.10.1" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_router;rounded=1;shadow=1;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
           <mxGeometry x="102.99999999999997" y="319.99899038461535" width="89.84" height="79.61538461538461" as="geometry" />
