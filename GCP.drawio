@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-01T20:27:48.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="FJWmNfowIXNMfjRzblIe" version="13.7.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-10-01T20:32:37.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="U9iPCw_YMEUvvk38XQFT" version="13.7.5" type="github" pages="6">
   <diagram id="CqNianSiM6HBF8cFPdZj" name="Solution space">
     <mxGraphModel dx="1290" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2209,7 +2209,7 @@
           <mxGeometry x="51" y="509" width="790.69" height="514" as="geometry" />
         </mxCell>
         <mxCell id="L300q8ErYvCPBuEuvxsf-8" value="Region" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#666666;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=none;dashPattern=1 2;strokeWidth=3;" parent="L300q8ErYvCPBuEuvxsf-6" vertex="1">
-          <mxGeometry x="50" y="93.53" width="796" height="299.47" as="geometry" />
+          <mxGeometry x="50" y="107" width="796" height="286" as="geometry" />
         </mxCell>
         <mxCell id="L300q8ErYvCPBuEuvxsf-49" value="Project (host). Org-A" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=#FFFF00;gradientColor=none;shadow=0;dashed=1;fontSize=12;fontColor=#FFFF00;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=none;dashPattern=1 1;strokeWidth=2;" parent="L300q8ErYvCPBuEuvxsf-6" vertex="1">
           <mxGeometry x="37" y="38.81" width="740.77" height="852.88" as="geometry" />
@@ -2504,7 +2504,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xUNa_18OGCpo4AQQ4Doi-1" value="Cloud VPN" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_vpn;shadow=1;dashed=1;dashPattern=1 1;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
-          <mxGeometry x="88" y="685" width="81" height="72" as="geometry" />
+          <mxGeometry x="81" y="684" width="81" height="72" as="geometry" />
         </mxCell>
         <mxCell id="xUNa_18OGCpo4AQQ4Doi-5" value="App&#xa;Engine" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=app_engine;shadow=1;comic=0;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
           <mxGeometry x="571.0000000000001" y="193" width="66" height="58.5" as="geometry" />
@@ -2678,8 +2678,8 @@
         <mxCell id="DjXB0LWIN10a5qDcPfq_-50" value="1.5 - 3 Gbps per tunnel&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#00FFFF;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
           <mxGeometry x="-304" y="658.5" width="136" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="DjXB0LWIN10a5qDcPfq_-43" value="Layer 3 , Direct peering and carrier peering, &lt;br&gt;connection provide &lt;br&gt;access to G-suite services, &lt;br&gt;Youtube, Google cloud APIs &lt;br&gt;using Public IP address" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#CCCC00;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
-          <mxGeometry x="-410" y="550" width="242" height="71" as="geometry" />
+        <mxCell id="DjXB0LWIN10a5qDcPfq_-43" value="Layer 3 ,Direct peering and carrier peering, &lt;br&gt;connection provide &lt;br&gt;access to the public IPs of G-suite services, &lt;br&gt;Youtube, Google cloud APIs &lt;br&gt;10 Gbps per link, without SLA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#CCCC00;" vertex="1" parent="xGFF2eYuS6AizmncUc5J-1">
+          <mxGeometry x="-410" y="551" width="242" height="71" as="geometry" />
         </mxCell>
         <mxCell id="awtO_DQfdr98on8Cko2L-3" value="&lt;b&gt;&lt;font color=&quot;#999999&quot;&gt;Customer&lt;br&gt;Router&lt;br&gt;or Service Provider&lt;br&gt;Peering Edge&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;verticalAlign=top;pointerEvents=1;align=center;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.5,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.5,0],[0.125,0.25,0],[0.125,0.75,0],[0.875,0.25,0],[0.875,0.75,0]];shape=mxgraph.cisco_safe.design.router;rounded=1;strokeColor=#FFFFFF;strokeWidth=3;fontColor=#009900;" parent="xGFF2eYuS6AizmncUc5J-1" vertex="1">
           <mxGeometry x="-439" y="396.93" width="50" height="45" as="geometry" />
