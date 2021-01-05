@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T20:09:08.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wArzqKNCUHmQhgMY1FCN" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-05T20:10:12.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oybSXFq_vMxy4I2oUMG0" version="14.1.8" type="github">
   <diagram id="k_AX72Jlf05Sg8vSuUET" name="Page-1">
     <mxGraphModel dx="2212" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-67" value="«class»&lt;br&gt;HashMap&amp;lt;K,V&amp;gt;" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1480" y="838" width="110" height="50" as="geometry" />
+          <mxGeometry x="1470" y="838" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;sketch=1;strokeColor=#00FF00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-68" target="f2Iedu3TyyTI3fCIjMg3-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -198,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-68" value="«class»&lt;br&gt;AbstractMap&amp;lt;K,V&amp;gt;" style="html=1;strokeColor=none;fillColor=#FFCC99;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="475" width="130" height="50" as="geometry" />
+          <mxGeometry x="1460" y="475" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-69" value="«class»&lt;br&gt;TreeMap&amp;lt;K,V&amp;gt;" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1680" y="838" width="110" height="50" as="geometry" />
@@ -253,7 +253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-90" value="«class»&lt;br&gt;Collections" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="2350" y="361" width="110" height="50" as="geometry" />
+          <mxGeometry x="2350" y="355" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-95" value="«interface»&lt;br&gt;Comparator&amp;lt;T&amp;gt;" style="html=1;fillColor=#67AB9F;strokeColor=none;opacity=50;fontStyle=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="2350" y="630" width="110" height="50" as="geometry" />
@@ -321,8 +321,8 @@
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-26" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;An iterator over a collection.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(53 , 56 , 51) ; background-color: rgb(255 , 255 , 255)&quot;&gt;E&lt;/code&gt;&lt;span style=&quot;color: rgb(53 , 56 , 51) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;- the type of elements &lt;br&gt;returned by this iterator&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="355" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ks9ShcCLQltz6Wq35oGR-27" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;An object that maps keys to values. &lt;br&gt;A map cannot contain duplicate keys; &lt;br&gt;each key can map to at most one value.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1544" y="304" width="260" height="50" as="geometry" />
+        <mxCell id="Ks9ShcCLQltz6Wq35oGR-27" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;An object that maps keys to values. &lt;br&gt;A map cannot contain duplicate keys; &lt;br&gt;each key can map to at most one value.&lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="300" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-28" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Map.html&quot; title=&quot;interface in java.util&quot; style=&quot;color: rgb(74 , 103 , 130) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em&quot;&gt;Map&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;that further &lt;br&gt;provides a&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;total ordering&lt;/em&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;br&gt;on its keys.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1643" y="425" width="170" height="50" as="geometry" />
@@ -352,7 +352,7 @@
           <mxGeometry x="2160" y="691" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-38" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;This class consists exclusively of static methods that operate on or return collections. &lt;br&gt;It contains polymorphic algorithms that operate on collections, &quot;wrappers&quot;, &lt;br&gt;which return a new collection backed by a specified collection, and a few other odds and ends.&lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="300" width="590" height="50" as="geometry" />
+          <mxGeometry x="1870" y="290" width="590" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
