@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T19:20:51.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UpaEKu19mSVXVdknEOkb" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-05T19:26:45.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="evODnr3cUjfeSpdyp5Gl" version="14.1.8" type="github">
   <diagram id="k_AX72Jlf05Sg8vSuUET" name="Page-1">
-    <mxGraphModel dx="1106" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="374" dy="194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-6" value="«interface»&lt;br&gt;SortedSet&amp;lt;E&amp;gt;" style="html=1;fillColor=#67AB9F;strokeColor=none;opacity=50;fontStyle=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="595" width="110" height="50" as="geometry" />
+          <mxGeometry x="330" y="630" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;sketch=1;fillColor=#f8cecc;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-7" target="f2Iedu3TyyTI3fCIjMg3-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-8" value="«interface»&lt;br&gt;Deque&amp;lt;E&amp;gt;" style="html=1;fillColor=#67AB9F;strokeColor=none;opacity=50;fontStyle=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="595" width="110" height="50" as="geometry" />
+          <mxGeometry x="560" y="630" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-11" value="«class»&lt;br&gt;Object" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1540" y="75" width="110" height="50" as="geometry" />
@@ -69,30 +69,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-13" value="«class»&lt;br&gt;AbstractSet&amp;lt;E&amp;gt;" style="html=1;strokeColor=none;fillColor=#FFCC99;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="595" width="130" height="50" as="geometry" />
+          <mxGeometry x="800" y="630" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFCC99;sketch=1;strokeColor=#FF0000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-14" target="f2Iedu3TyyTI3fCIjMg3-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-14" value="«class»&lt;br&gt;AbstractQueue&amp;lt;E&amp;gt;" style="html=1;strokeColor=none;fillColor=#FFCC99;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="595" width="130" height="50" as="geometry" />
+          <mxGeometry x="1030" y="630" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#FFCC99;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-15" target="f2Iedu3TyyTI3fCIjMg3-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-15" value="«class»&lt;br&gt;AbstractList&amp;lt;E&amp;gt;" style="html=1;strokeColor=none;fillColor=#FFCC99;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="595" width="130" height="50" as="geometry" />
+          <mxGeometry x="1280" y="630" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-16" value="«interface»&lt;br&gt;Map&amp;lt;K,V&amp;gt;" style="html=1;fillColor=#67AB9F;strokeColor=none;opacity=50;fontStyle=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="355" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f2Iedu3TyyTI3fCIjMg3-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFCC99;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-17" target="f2Iedu3TyyTI3fCIjMg3-15" edge="1">
+        <mxCell id="f2Iedu3TyyTI3fCIjMg3-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFCC99;sketch=1;strokeColor=#FF0000;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-17" target="f2Iedu3TyyTI3fCIjMg3-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-17" value="«class»&lt;br&gt;AbstractSequentialList&amp;lt;E&amp;gt;" style="html=1;strokeColor=none;fillColor=#FFCC99;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="715" width="160" height="50" as="geometry" />
+          <mxGeometry x="1030" y="730" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f2Iedu3TyyTI3fCIjMg3-51" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-19" target="f2Iedu3TyyTI3fCIjMg3-13" edge="1">
+        <mxCell id="f2Iedu3TyyTI3fCIjMg3-51" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-19" target="f2Iedu3TyyTI3fCIjMg3-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-52" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;sketch=1;fillColor=#d5e8d4;strokeColor=#00FF00;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-19" target="f2Iedu3TyyTI3fCIjMg3-7" edge="1">
@@ -101,7 +101,7 @@
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-19" value="«class»&lt;br&gt;TreeSet&amp;lt;E&amp;gt;" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="330" y="833" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f2Iedu3TyyTI3fCIjMg3-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-20" target="f2Iedu3TyyTI3fCIjMg3-14" edge="1">
+        <mxCell id="f2Iedu3TyyTI3fCIjMg3-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-20" target="f2Iedu3TyyTI3fCIjMg3-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="614.9999999999998" y="753" as="targetPoint" />
           </mxGeometry>
@@ -112,9 +112,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-20" value="«class»&lt;br&gt;PriorityQueue&amp;lt;E&amp;gt;" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="690" y="837" width="110" height="50" as="geometry" />
+          <mxGeometry x="660" y="833" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f2Iedu3TyyTI3fCIjMg3-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-21" target="f2Iedu3TyyTI3fCIjMg3-15" edge="1">
+        <mxCell id="f2Iedu3TyyTI3fCIjMg3-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-21" target="f2Iedu3TyyTI3fCIjMg3-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-21" value="«class»&lt;br&gt;Vector&amp;lt;E&amp;gt;" style="html=1;fillColor=#FF8000;strokeColor=none;sketch=1;fontStyle=1" parent="1" vertex="1">
@@ -176,7 +176,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-65" value="«interface»&lt;br&gt;NavigableMap&amp;lt;K,V&amp;gt;" style="html=1;fillColor=#67AB9F;strokeColor=none;opacity=50;fontStyle=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="595" width="110" height="50" as="geometry" />
+          <mxGeometry x="1850" y="635" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="f2Iedu3TyyTI3fCIjMg3-74" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeColor=#FF0000;" parent="1" source="f2Iedu3TyyTI3fCIjMg3-67" target="f2Iedu3TyyTI3fCIjMg3-68" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -271,7 +271,7 @@
           <mxGeometry x="150" y="485" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-7" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Set.html&quot; title=&quot;interface in java.util&quot; style=&quot;color: rgb(74 , 103 , 130) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot; , monospace ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em&quot;&gt;Set&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;that further provides &lt;br&gt;a&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;total ordering&lt;/i&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;on its elements.&lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="605" width="210" height="40" as="geometry" />
+          <mxGeometry x="110" y="640" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-8" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/SortedSet.html&quot; title=&quot;interface in java.util&quot; style=&quot;color: rgb(74 , 103 , 130) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot; , monospace ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em&quot;&gt;SortedSet&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;extended with &lt;br&gt;navigation methods reporting &lt;br&gt;closest matches for given search targets.&lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="715" width="260" height="50" as="geometry" />
@@ -282,14 +282,23 @@
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-10" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A collection designed &lt;br&gt;for holding elements prior to processing.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="445" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ks9ShcCLQltz6Wq35oGR-11" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A linear collection that supports &lt;br&gt;element insertion and removal at both ends.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="660" width="290" height="30" as="geometry" />
+        <mxCell id="Ks9ShcCLQltz6Wq35oGR-11" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A linear collection &lt;br&gt;that supports &lt;br&gt;element insertion and removal at both ends.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="580" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-12" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Doubly-linked list implementation &lt;br&gt;of the&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; background-color: rgb(255 , 255 , 255)&quot;&gt;List&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; background-color: rgb(255 , 255 , 255)&quot;&gt;Deque&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;interfaces. &lt;br&gt;Implements all optional list operations, &lt;br&gt;and permits all elements (including&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; background-color: rgb(255 , 255 , 255)&quot;&gt;null&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;).&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="900" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-13" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;An ordered collection &lt;br&gt;(also known as a&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;sequence&lt;/i&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;). &lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="445" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9ShcCLQltz6Wq35oGR-14" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;An unbounded priority&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Queue.html&quot; title=&quot;interface in java.util&quot; style=&quot;color: rgb(74 , 103 , 130) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;queue&lt;/a&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;br&gt;based on a priority heap.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="900" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9ShcCLQltz6Wq35oGR-15" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;This class provides &lt;br&gt;skeletal implementations &lt;br&gt;of some&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Queue.html&quot; title=&quot;interface in java.util&quot; style=&quot;color: rgb(74 , 103 , 130) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em&quot;&gt;Queue&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;operations.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="580" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9ShcCLQltz6Wq35oGR-17" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;This class provides &lt;br&gt;a skeletal implementation&lt;br&gt;&amp;nbsp;of the&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; background-color: rgb(255 , 255 , 255)&quot;&gt;Collection&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;interface&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="420" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
