@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T18:03:29.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="OYWN7pUm9t9sUdnKon_R" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-06T20:04:46.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HZrZOjR4Sc2hY69IKCXL" version="14.1.8" type="github" pages="2">
   <diagram id="k_AX72Jlf05Sg8vSuUET" name="Page-1">
     <mxGraphModel dx="1928" dy="1012" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -268,7 +268,7 @@
           <mxGeometry x="677.5" y="35" width="242.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-4" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;The root interface in the&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;collection hierarchy&lt;/i&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;. A collection represents a group of objects, known as its&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;elements&lt;/i&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;. Some collections allow duplicate elements and others do not. Some are ordered and others unordered.&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="279" width="320" height="72" as="geometry" />
+          <mxGeometry x="623" y="276" width="320" height="72" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-6" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A collection that contains &lt;br&gt;no duplicate elements.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="485" width="170" height="30" as="geometry" />
@@ -322,7 +322,7 @@
           <mxGeometry x="2342" y="740" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-27" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;quot;dejavu serif&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;An object that maps keys to values. &lt;br&gt;A map cannot contain duplicate keys; &lt;br&gt;each key can map to at most one value.&lt;/span&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="300" width="260" height="50" as="geometry" />
+          <mxGeometry x="1530" y="290" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ks9ShcCLQltz6Wq35oGR-28" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Map.html&quot; title=&quot;interface in java.util&quot; style=&quot;color: rgb(74 , 103 , 130) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;code style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em&quot;&gt;Map&lt;/code&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;that further &lt;br&gt;provides a&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;total ordering&lt;/em&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-family: &amp;#34;dejavu serif&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;br&gt;on its keys.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="1643" y="425" width="170" height="50" as="geometry" />
@@ -361,12 +361,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cpiFSu_QcwFsU_r48Eqi" name="Page-2">
-    <mxGraphModel dx="1157" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="8f6Fgzj79RTRYW3sGPng-0" />
         <mxCell id="8f6Fgzj79RTRYW3sGPng-1" parent="8f6Fgzj79RTRYW3sGPng-0" />
-        <mxCell id="8f6Fgzj79RTRYW3sGPng-10" value="@FunctionalInterface" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;align=left;fillColor=#CDA2BE;strokeColor=none;fontStyle=1;glass=1;shadow=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
-          <mxGeometry x="80" y="80" width="130" height="20" as="geometry" />
+        <mxCell id="-B0C4r3nuanUqrTkphRc-0" value="«interface»&lt;br&gt;Supplier&amp;lt;T&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="120" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-1" value="«interface»&lt;br&gt;Predicate&amp;lt;T&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="120" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-2" value="«interface»&lt;br&gt;Consumer&amp;lt;T&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="120" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-3" value="«interface»&lt;br&gt;BiPredicate&amp;lt;T,U&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="850" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-4" value="«interface»&lt;br&gt;Function&amp;lt;T,R&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="120" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-5" value="«interface»&lt;br&gt;Function&amp;lt;T,U,R&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="850" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-6" value="«interface»&lt;br&gt;BiConsumer&amp;lt;T,U&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="850" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-7" value="«interface»&lt;br&gt;BinaryOperator&amp;lt;T&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="970" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-8" value="«interface»&lt;br&gt;UnaryOperator&amp;lt;T&amp;gt;" style="html=1;strokeColor=none;fillColor=#67AB9F;opacity=50;fontStyle=1;sketch=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="240" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-12" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Represents a supplier of results.&amp;nbsp;&lt;b&gt;Methods&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(53 , 56 , 51) ; font-size: 14px&quot;&gt;&amp;nbsp;&lt;b&gt;T get()&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="240" y="120" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-13" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Represents a predicate (boolean-valued function) &lt;br&gt;of one argument.&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#474747&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;b style=&quot;color: rgb(71 , 71 , 71)&quot;&gt;Methods&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;color: rgb(71 , 71 , 71)&quot;&gt;default &lt;b&gt;Predicate&amp;lt;T&amp;gt;&amp;nbsp;&lt;span style=&quot;color: rgb(53 , 56 , 51)&quot;&gt;and(Predicate&amp;lt;? super T&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(53 , 56 , 51)&quot;&gt;other)&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;color: rgb(71 , 71 , 71)&quot;&gt;static&amp;lt;T&amp;gt; &lt;b&gt;Predicate&amp;lt;T&amp;gt; isEqual(Object targetRef)&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#474747&quot;&gt;default &lt;b&gt;Predicate&amp;lt;T&amp;gt; &lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#353833&quot;&gt;&lt;b&gt;negate()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;color: rgb(71 , 71 , 71)&quot;&gt;default&amp;nbsp;&lt;b&gt;Predicate&amp;lt;T&amp;gt; or&lt;span style=&quot;color: rgb(53 , 56 , 51)&quot;&gt;(Predicate&amp;lt;? super T&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(53 , 56 , 51)&quot;&gt;other)&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#353833&quot;&gt;&lt;b&gt;boolean test(T t)&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="240" y="210" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-B0C4r3nuanUqrTkphRc-14" value="&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Represents an operation that accepts a single input argument and returns no result. &lt;br&gt;Unlike most other functional interfaces,&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 14px ; padding-top: 4px ; margin-top: 8px ; line-height: 1.4em ; color: rgb(71 , 71 , 71) ; background-color: rgb(255 , 255 , 255)&quot;&gt;Consumer&lt;/code&gt;&lt;span style=&quot;color: rgb(71 , 71 , 71) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;is expected to operate via side-effects.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="8f6Fgzj79RTRYW3sGPng-1">
+          <mxGeometry x="240" y="360" width="570" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
