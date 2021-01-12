@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T00:01:18.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aESLU_S3dOsuXS19qx2g" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-12T00:04:15.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6xzQTmrY_mDg8PSjN4jy" version="14.1.8" type="github" pages="4">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="1648" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
           <mxGeometry x="-495" y="95" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-14" value="an object of a new kind&amp;nbsp;&amp;nbsp;&lt;br&gt;WITHOUT ITS OWN IDENTITY" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="-5" y="440" width="210" height="50" as="geometry" />
+          <mxGeometry x="-5" y="440" width="185" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;When JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has overheads&lt;br&gt;&lt;br&gt;&lt;br&gt;Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt; &lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt; &lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt; &lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt; &lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="160" y="300" width="460" height="140" as="geometry" />
@@ -85,7 +85,7 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-7" value="however" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tfWovZTcKI60pbMcjAeG-15">
           <mxGeometry x="-0.2848" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-45.69" y="-1.02" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-19" value="not created/instantiated &lt;br&gt;using &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
@@ -188,10 +188,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-27" value="&amp;nbsp;moved around &lt;br&gt;used at many places" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="355" y="150" width="175" height="40" as="geometry" />
+          <mxGeometry x="420" y="150" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-32" value="do something" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="355" y="100" width="90" height="30" as="geometry" />
+          <mxGeometry x="420" y="100" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TLHB_ZTelBAB6AC7g4ZX-10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="TLHB_ZTelBAB6AC7g4ZX-0" target="TLHB_ZTelBAB6AC7g4ZX-9">
           <mxGeometry relative="1" as="geometry" />
@@ -250,7 +250,7 @@
           <mxGeometry x="-495" y="200" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-2" value="&lt;pre class=&quot;result notranslate&quot; style=&quot;font-family: monospace , monospace ; font-size: 15px ; padding: 5px ; overflow-x: auto ; color: rgba(0 , 0 , 0 , 0.87) ; background: rgb(238 , 238 , 238) ; border: 1px solid rgb(214 , 214 , 214)&quot;&gt;(parameters) -&amp;gt; expression body&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="355" y="30" width="90" height="30" as="geometry" />
+          <mxGeometry x="420" y="30" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
