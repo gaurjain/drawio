@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T00:10:18.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tAluqOYjnpa_ahu9_-Ee" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-12T00:10:49.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="B3lBWuPiVeLkuYIAeLWf" version="14.1.8" type="github" pages="4">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="1648" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -271,8 +271,8 @@
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-10" value="Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt;&amp;nbsp;&lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="360" y="415" width="460" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9M1BDlYYb-8mz-A4pKfN-13" value="&lt;ol style=&quot;font-size: 10px&quot;&gt;&lt;li&gt;type of parameters&lt;/li&gt;&lt;li&gt;parentheses around the parameters&lt;/li&gt;&lt;li&gt;curly braces&lt;/li&gt;&lt;li&gt;return keyword&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="640" y="95" width="190" height="80" as="geometry" />
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-13" value="&lt;ol style=&quot;font-size: 10px&quot;&gt;&lt;li&gt;type of parameters&lt;/li&gt;&lt;li&gt;parentheses around the parameters&lt;/li&gt;&lt;li&gt;curly braces around expression body&lt;/li&gt;&lt;li&gt;return keyword&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
+          <mxGeometry x="640" y="95" width="190" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
