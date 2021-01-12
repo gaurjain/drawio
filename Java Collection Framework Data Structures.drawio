@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T23:51:34.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ZQPIz-Kxv3Y760kdQaBS" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-12T00:01:18.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aESLU_S3dOsuXS19qx2g" version="14.1.8" type="github" pages="4">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
-    <mxGraphModel dx="1482" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1648" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-0" />
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-1" parent="lKMH8qdmvzPEWP_gQ9WU-0" />
@@ -31,6 +31,16 @@
         <mxCell id="tfWovZTcKI60pbMcjAeG-12" value="another way of&lt;br&gt;writing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tfWovZTcKI60pbMcjAeG-11">
           <mxGeometry x="0.3012" y="-8" relative="1" as="geometry">
             <mxPoint x="34" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="lKMH8qdmvzPEWP_gQ9WU-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="49.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-3" value="defines the inline &lt;br&gt;implementation of&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9M1BDlYYb-8mz-A4pKfN-1">
+          <mxGeometry x="0.0537" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-10" value="expression" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;gradientColor=none;fillColor=#007FFF;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
@@ -65,7 +75,7 @@
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-14" value="an object of a new kind&amp;nbsp;&amp;nbsp;&lt;br&gt;WITHOUT ITS OWN IDENTITY" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="-5" y="440" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;when JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has overheads&lt;br&gt;&lt;br&gt;&lt;br&gt;Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt; &lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt; &lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt; &lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt; &lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
+        <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;When JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has overheads&lt;br&gt;&lt;br&gt;&lt;br&gt;Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt; &lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt; &lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt; &lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt; &lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="160" y="300" width="460" height="140" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-19" target="lKMH8qdmvzPEWP_gQ9WU-18">
@@ -73,7 +83,12 @@
             <mxPoint x="275" y="335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lKMH8qdmvzPEWP_gQ9WU-19" value="not created using &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-7" value="however" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tfWovZTcKI60pbMcjAeG-15">
+          <mxGeometry x="-0.2848" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKMH8qdmvzPEWP_gQ9WU-19" value="not created/instantiated &lt;br&gt;using &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="5" y="230" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-0" target="tfWovZTcKI60pbMcjAeG-3">
@@ -98,6 +113,11 @@
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-10" target="lKMH8qdmvzPEWP_gQ9WU-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-8" value="are" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tfWovZTcKI60pbMcjAeG-13">
+          <mxGeometry x="-0.4459" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-10" value="&amp;nbsp;anonymous classes" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="15" y="160" width="120" height="30" as="geometry" />
@@ -145,6 +165,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-23" target="9M1BDlYYb-8mz-A4pKfN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-6" value="writtern&lt;br&gt;as" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9M1BDlYYb-8mz-A4pKfN-5">
+          <mxGeometry x="-0.0193" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-23" value="&amp;nbsp;piece of code" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="5" y="100" width="90" height="30" as="geometry" />
         </mxCell>
@@ -160,7 +188,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-27" value="&amp;nbsp;moved around &lt;br&gt;used at many places" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="355" y="140" width="175" height="40" as="geometry" />
+          <mxGeometry x="355" y="150" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-32" value="do something" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="355" y="100" width="90" height="30" as="geometry" />
@@ -220,6 +248,9 @@
         </mxCell>
         <mxCell id="TLHB_ZTelBAB6AC7g4ZX-18" value="single abstract method" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=1" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
           <mxGeometry x="-495" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9M1BDlYYb-8mz-A4pKfN-2" value="&lt;pre class=&quot;result notranslate&quot; style=&quot;font-family: monospace , monospace ; font-size: 15px ; padding: 5px ; overflow-x: auto ; color: rgba(0 , 0 , 0 , 0.87) ; background: rgb(238 , 238 , 238) ; border: 1px solid rgb(214 , 214 , 214)&quot;&gt;(parameters) -&amp;gt; expression body&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
+          <mxGeometry x="355" y="30" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -586,7 +617,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cpiFSu_QcwFsU_r48Eqi" name="functional interface util">
-    <mxGraphModel dx="1079" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="8f6Fgzj79RTRYW3sGPng-0" />
         <mxCell id="8f6Fgzj79RTRYW3sGPng-1" parent="8f6Fgzj79RTRYW3sGPng-0" />
