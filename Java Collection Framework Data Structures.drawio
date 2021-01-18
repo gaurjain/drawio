@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T17:07:31.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ZuSLpCldpclWnLuHUvHK" version="14.1.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-01-18T17:09:29.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="CF2EUW9BPqjAO2IQE3Iw" version="14.1.9" type="github" pages="5">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="5478" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -761,7 +761,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-1AfTiYnxFIZpUbg5_gs" name="Java 8 Streams">
-    <mxGraphModel dx="3743" dy="2533" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2211" dy="1774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="ewwIQB8g05IKBa3snC7f-0" />
         <mxCell id="ewwIQB8g05IKBa3snC7f-1" parent="ewwIQB8g05IKBa3snC7f-0" />
@@ -1438,8 +1438,8 @@
         <mxCell id="CJ1GhVh6iefHjJ4lbRpC-64" value="&lt;span&gt;stream() or parallelStream() &lt;br&gt;method from collection interface&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
           <mxGeometry x="206.75" y="-2.9099999999999966" width="216.5" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="CJ1GhVh6iefHjJ4lbRpC-66" value="&lt;span&gt;consumer&amp;lt;T&amp;gt; as argument&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
-          <mxGeometry x="1305" y="-412" width="256.75" height="26" as="geometry" />
+        <mxCell id="CJ1GhVh6iefHjJ4lbRpC-66" value="&lt;b&gt;consumer&amp;lt;T&amp;gt;&lt;/b&gt; as argument" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
+          <mxGeometry x="1305" y="-394" width="256.75" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ob4wHC6zxX7ECtjwWnmV-0" value="&lt;span&gt;filter instance of Predicate&amp;lt;T&amp;gt; as argument&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
           <mxGeometry x="1290.875" y="-675.75" width="285" height="30" as="geometry" />
@@ -1480,7 +1480,7 @@
             <mxPoint x="985" y="-706" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1685" y="-768" />
-              <mxPoint x="1685" y="-399" />
+              <mxPoint x="1685" y="-381" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1561,7 +1561,7 @@
           <mxGeometry x="892.25" y="-380" width="150" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ob4wHC6zxX7ECtjwWnmV-34" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;identity element&lt;/b&gt; of reduction operation,&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;reduction operation &lt;/b&gt;instance of BinaryOperation&amp;lt;T&amp;gt;&amp;nbsp;as arguments&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;align=left;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
-          <mxGeometry x="1298.375" y="-377" width="270" height="81" as="geometry" />
+          <mxGeometry x="1292.495" y="-356" width="270" height="81" as="geometry" />
         </mxCell>
         <mxCell id="wbjDRHSiC09Pm0L7o7al-9" value="to" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;labelBackgroundColor=#ffffff;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" source="PruGrxIT49htZgD6uQmU-61" target="CJ1GhVh6iefHjJ4lbRpC-34" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1669,7 +1669,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wbjDRHSiC09Pm0L7o7al-57" value="&lt;span&gt;instances of &lt;br&gt;functional interfaces&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
-          <mxGeometry x="435.75" y="-181" width="178.5" height="43" as="geometry" />
+          <mxGeometry x="435.75" y="-174" width="178.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="wbjDRHSiC09Pm0L7o7al-67" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" source="CJ1GhVh6iefHjJ4lbRpC-37" target="wbjDRHSiC09Pm0L7o7al-65" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1768,14 +1768,14 @@
         </mxCell>
         <mxCell id="Uy39ODteKfwvOMO_x2kF-43" value="takes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;" vertex="1" connectable="0" parent="Uy39ODteKfwvOMO_x2kF-42">
           <mxGeometry x="-0.2625" y="-6" relative="1" as="geometry">
-            <mxPoint x="0.89" y="19" as="offset" />
+            <mxPoint x="4.71" y="41.1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uy39ODteKfwvOMO_x2kF-40" value="&lt;span&gt;min, max&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" vertex="1" parent="ewwIQB8g05IKBa3snC7f-1">
           <mxGeometry x="892.25" y="-344" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Uy39ODteKfwvOMO_x2kF-41" value="&lt;span&gt;Comparator&amp;lt;? super T&amp;gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;fontColor=#1A1A1A;" vertex="1" parent="ewwIQB8g05IKBa3snC7f-1">
-          <mxGeometry x="1298.3700000000001" y="-273.25" width="263" height="33" as="geometry" />
+          <mxGeometry x="1298.3700000000001" y="-247" width="263" height="33" as="geometry" />
         </mxCell>
         <mxCell id="Uy39ODteKfwvOMO_x2kF-44" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;" edge="1" parent="ewwIQB8g05IKBa3snC7f-1" source="PruGrxIT49htZgD6uQmU-68" target="Uy39ODteKfwvOMO_x2kF-40">
           <mxGeometry relative="1" as="geometry">
@@ -1852,7 +1852,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ajjgIFvNMpcNvXE2Ditm-8" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;A supplier&amp;lt;R&amp;gt;&amp;nbsp; &lt;/b&gt;to construct new instance of result container&lt;/li&gt;&lt;li&gt;&lt;b&gt;A BiConsumer&amp;lt;R,T&amp;gt; &lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;accumulator&lt;/span&gt;&amp;nbsp;function to incorporate an input element into a result container&lt;/li&gt;&lt;li&gt;&lt;b&gt;A BiConsumer&amp;lt;R,R&amp;gt; &lt;/b&gt;combining&amp;nbsp;function to merge the result of one result container with another&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;align=left;fontColor=#1A1A1A;" vertex="1" parent="ewwIQB8g05IKBa3snC7f-1">
+        <mxCell id="ajjgIFvNMpcNvXE2Ditm-8" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;A Supplier&amp;lt;R&amp;gt;&amp;nbsp; &lt;/b&gt;to construct new instance of result container&lt;/li&gt;&lt;li&gt;&lt;b&gt;A BiConsumer&amp;lt;R,T&amp;gt; &lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;accumulator&lt;/span&gt;&amp;nbsp;function to incorporate an input element into a result container&lt;/li&gt;&lt;li&gt;&lt;b&gt;A BiConsumer&amp;lt;R,R&amp;gt; &lt;/b&gt;combining&amp;nbsp;function to merge the result of one result container with another&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=0;align=left;fontColor=#1A1A1A;" vertex="1" parent="ewwIQB8g05IKBa3snC7f-1">
           <mxGeometry x="1224.875" y="-540" width="417" height="119.5" as="geometry" />
         </mxCell>
         <mxCell id="ajjgIFvNMpcNvXE2Ditm-9" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;" edge="1" parent="ewwIQB8g05IKBa3snC7f-1" source="PruGrxIT49htZgD6uQmU-68" target="ajjgIFvNMpcNvXE2Ditm-5">
