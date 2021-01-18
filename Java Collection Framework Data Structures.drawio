@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T20:34:04.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="xn5AAOV1AUf7Xaaupfl6" version="14.1.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-01-18T20:42:43.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="TxO6LkoSXR-PETR-BC7I" version="14.1.9" type="github" pages="5">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="5478" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -761,7 +761,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-1AfTiYnxFIZpUbg5_gs" name="Java 8 Streams">
-    <mxGraphModel dx="2007" dy="1673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4156" dy="2737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="ewwIQB8g05IKBa3snC7f-0" />
         <mxCell id="ewwIQB8g05IKBa3snC7f-1" parent="ewwIQB8g05IKBa3snC7f-0" />
@@ -918,7 +918,7 @@
         <mxCell id="s13Y8rw1foKXNZnGAtaA-15" value="structuring programs &lt;br&gt;&lt;b&gt;generically&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#fa6800;labelBackgroundColor=none;fontStyle=0;fontColor=#ffffff;strokeColor=#C73500;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
           <mxGeometry x="-15" y="261" width="175" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s13Y8rw1foKXNZnGAtaA-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#1A1A1A;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="ewwIQB8g05IKBa3snC7f-1" source="s13Y8rw1foKXNZnGAtaA-30" target="s13Y8rw1foKXNZnGAtaA-27" edge="1">
+        <mxCell id="s13Y8rw1foKXNZnGAtaA-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" source="s13Y8rw1foKXNZnGAtaA-18" target="s13Y8rw1foKXNZnGAtaA-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s13Y8rw1foKXNZnGAtaA-44" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" source="s13Y8rw1foKXNZnGAtaA-18" target="s13Y8rw1foKXNZnGAtaA-30" edge="1">
@@ -947,8 +947,8 @@
         <mxCell id="IlJqO09wDecoQGgB4yKn-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;fontSize=14;fontColor=#1A1A1A;" edge="1" parent="ewwIQB8g05IKBa3snC7f-1" source="s13Y8rw1foKXNZnGAtaA-27" target="IlJqO09wDecoQGgB4yKn-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s13Y8rw1foKXNZnGAtaA-27" value="&lt;b&gt;examples of the type structures&lt;br&gt;&lt;/b&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;templates in C++&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Generics in Java, Ada, Delphi&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Parametric polymorphism in ML, Scala, Haskell&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;fontStyle=0;verticalAlign=top;strokeColor=#C73500;fillColor=#fa6800;labelBackgroundColor=none;fontColor=#ffffff;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
-          <mxGeometry x="-270" y="665.5" width="225" height="95" as="geometry" />
+        <mxCell id="s13Y8rw1foKXNZnGAtaA-27" value="&lt;b&gt;examples of the &quot;types to-be-specified-later&quot; structures&lt;br&gt;&lt;/b&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;templates in C++&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Generics in Java, Ada, Delphi&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Parametric polymorphism in ML, Scala, Haskell&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;fontStyle=0;verticalAlign=top;strokeColor=#C73500;fillColor=#fa6800;labelBackgroundColor=none;fontColor=#ffffff;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
+          <mxGeometry x="-270" y="665.5" width="225" height="104.5" as="geometry" />
         </mxCell>
         <mxCell id="s13Y8rw1foKXNZnGAtaA-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" source="s13Y8rw1foKXNZnGAtaA-30" target="s13Y8rw1foKXNZnGAtaA-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -984,7 +984,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s13Y8rw1foKXNZnGAtaA-30" value="an own data type &lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(one for each monad)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#fa6800;labelBackgroundColor=none;strokeColor=#C73500;fontStyle=1;fontColor=#ffffff;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
+        <mxCell id="s13Y8rw1foKXNZnGAtaA-30" value="its own data type &lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(one for each monad)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#fa6800;labelBackgroundColor=none;strokeColor=#C73500;fontStyle=1;fontColor=#ffffff;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
           <mxGeometry x="165" y="496" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PruGrxIT49htZgD6uQmU-32" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="ewwIQB8g05IKBa3snC7f-1" source="U7_EOiPrlvf_37m23bWq-15" target="PruGrxIT49htZgD6uQmU-12" edge="1">
@@ -1058,7 +1058,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PruGrxIT49htZgD6uQmU-16" value="declarative way&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;(without describing control flow)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#fa6800;labelBackgroundColor=none;fontStyle=1;fontColor=#ffffff;strokeColor=#C73500;" parent="ewwIQB8g05IKBa3snC7f-1" vertex="1">
-          <mxGeometry x="355" y="261" width="290" height="40" as="geometry" />
+          <mxGeometry x="414.75" y="261" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PruGrxIT49htZgD6uQmU-37" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#1A1A1A;" parent="ewwIQB8g05IKBa3snC7f-1" source="s13Y8rw1foKXNZnGAtaA-48" target="PruGrxIT49htZgD6uQmU-21" edge="1">
           <mxGeometry relative="1" as="geometry">
