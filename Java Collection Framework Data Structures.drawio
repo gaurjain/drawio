@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T22:15:08.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-GBAm11vCQLv0HVQI7hr" version="14.1.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-21T16:09:41.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="nkQIbY4QNfbGabT3XS6X" version="14.1.9" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="1511" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2307,7 +2307,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DctBXkcmyMlu875YBnh3-22" value="pure Function or Method" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=18;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" vertex="1" parent="na-qCZkzK9colA36dIbv-1">
-          <mxGeometry x="-530" y="670" width="270" height="70" as="geometry" />
+          <mxGeometry x="-530" y="660" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DctBXkcmyMlu875YBnh3-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#1A1A1A;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="DctBXkcmyMlu875YBnh3-25" target="DctBXkcmyMlu875YBnh3-27">
           <mxGeometry relative="1" as="geometry" />
@@ -2520,7 +2520,7 @@
           <mxGeometry x="-475" y="240" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kJ1LM8gJ_ms9huZAM1eS-4" value="block of code that is executed sequentially" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" vertex="1" parent="na-qCZkzK9colA36dIbv-1">
-          <mxGeometry x="-790" y="570" width="200" height="40" as="geometry" />
+          <mxGeometry x="-790" y="590" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kJ1LM8gJ_ms9huZAM1eS-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#1A1A1A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="kJ1LM8gJ_ms9huZAM1eS-4" target="DctBXkcmyMlu875YBnh3-17">
           <mxGeometry relative="1" as="geometry">
@@ -2552,7 +2552,7 @@
         </mxCell>
         <mxCell id="kJ1LM8gJ_ms9huZAM1eS-11" value="means" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#1A1A1A;" vertex="1" connectable="0" parent="kJ1LM8gJ_ms9huZAM1eS-10">
           <mxGeometry x="-0.1967" y="-1" relative="1" as="geometry">
-            <mxPoint x="18.79" y="-1" as="offset" />
+            <mxPoint x="-11.23" y="19.98" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kJ1LM8gJ_ms9huZAM1eS-12" value="for same inputs it always&amp;nbsp;&lt;br&gt;returns the same output" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3A5431;fontSize=12;fontColor=#ffffff;align=center;fillColor=#6d8764;fontStyle=1" vertex="1" parent="na-qCZkzK9colA36dIbv-1">
@@ -2565,7 +2565,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kJ1LM8gJ_ms9huZAM1eS-9" value="Do not &lt;br&gt;mutate their arguments or anything outside the function" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3A5431;fontSize=12;fontColor=#ffffff;align=center;fillColor=#6d8764;fontStyle=1" vertex="1" parent="na-qCZkzK9colA36dIbv-1">
-          <mxGeometry x="150" y="480" width="200" height="65" as="geometry" />
+          <mxGeometry x="145" y="477.5" width="200" height="65" as="geometry" />
         </mxCell>
         <mxCell id="kJ1LM8gJ_ms9huZAM1eS-15" value="maintains" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#1A1A1A;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="DctBXkcmyMlu875YBnh3-22" target="q9o-3PZZZJFaaUVYTfNN-70">
           <mxGeometry x="-0.0928" y="-3" relative="1" as="geometry">
