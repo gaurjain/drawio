@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T19:10:01.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="QV6zTHg-qTBwjHfe0KeP" version="14.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-26T20:07:56.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="8VbIjB1DSpU4Z_bY9TVb" version="14.2.7" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2007" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2571,10 +2571,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F3l7_TrrnALfrfdZdJu-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="SPjIJstFhx6_Z3emK5Ho-0" target="_F3l7_TrrnALfrfdZdJu-0">
+        <mxCell id="_F3l7_TrrnALfrfdZdJu-1" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="SPjIJstFhx6_Z3emK5Ho-0" target="_F3l7_TrrnALfrfdZdJu-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_F3l7_TrrnALfrfdZdJu-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="SPjIJstFhx6_Z3emK5Ho-0" target="_F3l7_TrrnALfrfdZdJu-2">
+        <mxCell id="_F3l7_TrrnALfrfdZdJu-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="_F3l7_TrrnALfrfdZdJu-0" target="_F3l7_TrrnALfrfdZdJu-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SPjIJstFhx6_Z3emK5Ho-0" value="composable" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" parent="na-qCZkzK9colA36dIbv-1" vertex="1">
@@ -2634,7 +2634,7 @@
           <mxGeometry x="10" y="1372.5" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SPjIJstFhx6_Z3emK5Ho-19" value="Composing &lt;br&gt;the &#39;application of methods&#39; and not the methods themselves" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" parent="na-qCZkzK9colA36dIbv-1" vertex="1">
-          <mxGeometry x="990" y="2002.42" width="230" height="60" as="geometry" />
+          <mxGeometry x="980" y="2020" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SPjIJstFhx6_Z3emK5Ho-22" value="except Consumer&amp;lt;T&amp;gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" parent="na-qCZkzK9colA36dIbv-1" vertex="1">
           <mxGeometry x="10" y="1478.75" width="200" height="40" as="geometry" />
@@ -2667,8 +2667,13 @@
         <mxCell id="_F3l7_TrrnALfrfdZdJu-0" value="passing result of one function as input to next" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" vertex="1" parent="na-qCZkzK9colA36dIbv-1">
           <mxGeometry x="350" y="2125" width="165" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="_F3l7_TrrnALfrfdZdJu-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="na-qCZkzK9colA36dIbv-1" source="_F3l7_TrrnALfrfdZdJu-2" target="SPjIJstFhx6_Z3emK5Ho-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="2147.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_F3l7_TrrnALfrfdZdJu-2" value="f over g (x) = f (g(x))" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" vertex="1" parent="na-qCZkzK9colA36dIbv-1">
-          <mxGeometry x="610" y="2120" width="170" height="50" as="geometry" />
+          <mxGeometry x="585" y="2122.5" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
