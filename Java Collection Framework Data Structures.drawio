@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T17:00:22.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="lEOZmgqvXTZ9F9YcdRz7" version="14.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-27T17:01:19.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="P-vHFjAYwT8G9vWIgqE7" version="14.2.7" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2007" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-3" value="defines the inline &lt;br&gt;implementation of&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9M1BDlYYb-8mz-A4pKfN-1" vertex="1" connectable="0">
           <mxGeometry x="0.0537" y="-1" relative="1" as="geometry">
-            <mxPoint x="28.3" y="1" as="offset" />
+            <mxPoint x="12.3" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-10" value="expression" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;gradientColor=none;fillColor=#007FFF;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -75,7 +75,7 @@
         </mxCell>
         <mxCell id="98gqtwJEUlFUjyfmCKwA-2" value="specifies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="98gqtwJEUlFUjyfmCKwA-1" vertex="1" connectable="0">
           <mxGeometry x="0.2913" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-11" value="functional &lt;br&gt;Interface" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=1" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -121,15 +121,14 @@
             <mxPoint x="-165" y="490" as="sourcePoint" />
             <mxPoint x="-15" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-202" y="450" />
-              <mxPoint x="-230" y="450" />
+              <mxPoint x="-230" y="355" />
               <mxPoint x="-230" y="845" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-2" value="can be used to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-1" vertex="1" connectable="0">
           <mxGeometry x="0.2621" y="-17" relative="1" as="geometry">
-            <mxPoint x="37" y="-80" as="offset" />
+            <mxPoint x="44.5" y="-33.5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-3" value="collection.foreach(lambda expression)" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -162,15 +161,14 @@
             <mxPoint x="-190" y="465" as="sourcePoint" />
             <mxPoint x="-15" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-202" y="450" />
-              <mxPoint x="-180" y="450" />
+              <mxPoint x="-180" y="355" />
               <mxPoint x="-180" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-18" value="Should not &lt;br&gt;be used as" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-17" vertex="1" connectable="0">
           <mxGeometry x="0.2621" y="-17" relative="1" as="geometry">
-            <mxPoint x="57" y="-21.669999999999987" as="offset" />
+            <mxPoint x="117" y="-4.499999999999986" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-19" value="calling methods of object class on lambda expression" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -323,7 +321,7 @@
         </mxCell>
         <mxCell id="aqYm7EIJxIcVXxtQWmbp-14" value="represents&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aqYm7EIJxIcVXxtQWmbp-13">
           <mxGeometry x="-0.1714" y="-4" relative="1" as="geometry">
-            <mxPoint x="28" y="-4" as="offset" />
+            <mxPoint x="49.5" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aqYm7EIJxIcVXxtQWmbp-17" value="are instances of&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="aqYm7EIJxIcVXxtQWmbp-0" target="lKMH8qdmvzPEWP_gQ9WU-11">
