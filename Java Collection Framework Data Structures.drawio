@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T19:29:20.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="iLByzgdX1uLlgAZQuxsr" version="14.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-27T19:48:54.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="4rFtG5-JcsoELTmaosTX" version="14.2.7" type="github" pages="7">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
-    <mxGraphModel dx="2211" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-0" />
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-1" parent="lKMH8qdmvzPEWP_gQ9WU-0" />
@@ -2739,6 +2739,17 @@
         </mxCell>
         <mxCell id="_F3l7_TrrnALfrfdZdJu-2" value="f over g (x) = f (g(x))" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontSize=12;fontColor=#ffffff;align=center;fillColor=#f0a30a;fontStyle=1" parent="na-qCZkzK9colA36dIbv-1" vertex="1">
           <mxGeometry x="505" y="2122.5" width="170" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zHAG3MMFGxFwBHy4DjtE" name="Page-7">
+    <mxGraphModel dx="917" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-0" />
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-1" parent="Kq4hBo5fGYP4w6Vc1hsV-0" />
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-2" value="&lt;h1&gt;Effective Java&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Using Anonymous class instance as a function object is obsolete! rather use lambda expression or method reference.&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Collections.sort(words,&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;(s1, s2) -&amp;gt; Integer.compare(s1.length(), s2.length())&lt;/font&gt;&lt;/b&gt;);&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Omit the types of all lambda parameters unless their&lt;br/&gt;presence makes your program clearer.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Item 26 tells you not&lt;br/&gt;to use raw types, Item 29 tells you to favor generic types, and Item 30 tells you to&lt;br/&gt;favor generic methods.&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-1">
+          <mxGeometry x="20" y="41" width="820" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
