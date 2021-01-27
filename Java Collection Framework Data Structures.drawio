@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T18:32:08.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="bABIyOwL5Ds-eYeo1zup" version="14.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-27T18:34:40.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="MT-ziXrfMXKE0dup1v3Y" version="14.2.7" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2211" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-110" y="305" />
-              <mxPoint x="-110" y="440" />
+              <mxPoint x="-110" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;When JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has overheads&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="200" y="535" width="360" height="50" as="geometry" />
+          <mxGeometry x="200" y="480" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-19" target="lKMH8qdmvzPEWP_gQ9WU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-19" value="not created/instantiated &lt;br&gt;using &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-40" y="420" width="210" height="40" as="geometry" />
+          <mxGeometry x="-40" y="400" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-0" target="tfWovZTcKI60pbMcjAeG-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -153,7 +153,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-16" value="a regular object" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="5" y="710" width="120" height="40" as="geometry" />
+          <mxGeometry y="710" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="tfWovZTcKI60pbMcjAeG-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -232,15 +232,15 @@
         </mxCell>
         <mxCell id="TLHB_ZTelBAB6AC7g4ZX-12" value="allows" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="TLHB_ZTelBAB6AC7g4ZX-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1801" relative="1" as="geometry">
-            <mxPoint x="17" y="14.48" as="offset" />
+            <mxPoint x="-24.880000000000003" y="-12.530000000000001" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLHB_ZTelBAB6AC7g4ZX-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="TLHB_ZTelBAB6AC7g4ZX-0" target="TLHB_ZTelBAB6AC7g4ZX-14" edge="1">
+        <mxCell id="TLHB_ZTelBAB6AC7g4ZX-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="TLHB_ZTelBAB6AC7g4ZX-0" target="TLHB_ZTelBAB6AC7g4ZX-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TLHB_ZTelBAB6AC7g4ZX-16" value="user does not have to&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="TLHB_ZTelBAB6AC7g4ZX-15" vertex="1" connectable="0">
+        <mxCell id="TLHB_ZTelBAB6AC7g4ZX-16" value="user does not &lt;br&gt;have to&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="TLHB_ZTelBAB6AC7g4ZX-15" vertex="1" connectable="0">
           <mxGeometry x="0.0454" y="-4" relative="1" as="geometry">
-            <mxPoint x="6.029999999999999" y="25.97" as="offset" />
+            <mxPoint x="-2.3500000000000014" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TLHB_ZTelBAB6AC7g4ZX-0" value="default methods" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -283,7 +283,7 @@
           <mxGeometry x="-810" y="530" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TLHB_ZTelBAB6AC7g4ZX-9" value="changing old interfaces &lt;br&gt;without breaking the existing implementations" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-605" y="770" width="180" height="50" as="geometry" />
+          <mxGeometry x="-660" y="700" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TLHB_ZTelBAB6AC7g4ZX-14" value="provide implementation&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-425" y="710" width="160" height="40" as="geometry" />
