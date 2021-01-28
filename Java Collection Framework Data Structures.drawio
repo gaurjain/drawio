@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T18:55:19.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="y7-FuaRw-2nFiXBBdbjx" version="14.2.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-28T20:17:31.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="hlPMIY02Rj88n65xyBOs" version="14.2.7" type="github" pages="7">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2744,12 +2744,87 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zHAG3MMFGxFwBHy4DjtE" name="Page-7">
-    <mxGraphModel dx="964" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="764" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-0" />
         <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-1" parent="Kq4hBo5fGYP4w6Vc1hsV-0" />
         <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-2" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Effective Java&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Using an Anonymous class instance as a &lt;i&gt;function object&lt;/i&gt; is obsolete! rather use lambda expression or method reference.&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;&lt;font color=&quot;#666666&quot;&gt;Collections.sort(words,&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;(s1, s2) -&amp;gt; Integer.compare(s1.length(), s2.length())&lt;/font&gt;);&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Omit the types of all lambda parameters unless their presence makes your program clearer.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;DO NOT USE RAW TYPES, instead use GENERIC TYPES(Classes or interfaces) OR GENERIC METHODS.&amp;nbsp;&lt;/font&gt;&amp;nbsp;If you use raw types, you lose all the &lt;span&gt;safety and expressiveness benefits of generics.&lt;/span&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot; color=&quot;#007fff&quot;&gt;&lt;b&gt;List&amp;lt;String&amp;gt; Versus List. List of String versus List&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;//Generic method&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;font-size: medium&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;public static &amp;lt;E&amp;gt; Set&amp;lt;E&amp;gt; union(Set&amp;lt;E&amp;gt; s1, Set&amp;lt;E&amp;gt; s2) { Set&amp;lt;E&amp;gt; result = new HashSet&amp;lt;&amp;gt;(s1); result.addAll(s2); return result; }&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Each generic type defines a set of parameterized types,&lt;/b&gt;&lt;span&gt; which consist of the class or interface name followed by an angle-bracketed list of actual type parameters corresponding to the generic type’s formal type parameters.&amp;nbsp;&lt;/span&gt;&lt;b&gt;Parameterized collection type are typesafe.&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Parameterized types are invariant. In other words, for any two distinct types Type1 and Type2, List&amp;lt;Type1&amp;gt; is neither a subtype nor a supertype of List&amp;lt;Type2&amp;gt;, event when Type1 is sub type or super type of Type 2.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;To ensure that the parameterized types are NOT invariant and respects the subtype/supertype principles, use the bounded wildcard types on actual type parameters (mentioned within the &amp;lt;...&amp;gt; angled brackets).&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: medium ; text-align: justify&quot;&gt;For maximum flexibility of the API,&amp;nbsp;use bounded wildcard types on input parameters that represent producers or consumers.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&lt;b style=&quot;font-size: medium ; text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;PECS stands for producer-extends, consumer-super.&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;i style=&quot;font-size: medium ; text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Iterable&amp;lt;? extends producer&amp;gt;,collection&amp;lt;? super consumer&amp;gt;&lt;/font&gt;&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#666666&quot;&gt;Do not use bounded wildcard types as return types.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;If the user of a class has to think about &lt;i&gt;wildcard types&lt;/i&gt;, there is probably something wrong with its API.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Lambdas lack names and documentation; if a computation isn’t self-explanatory, or exceeds a few lines, don’t put it in a lambda.&amp;nbsp;&lt;i&gt;&lt;font color=&quot;#ff8000&quot;&gt;One line is ideal for a lambda, and three lines is a reasonable maximum.&lt;/font&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Don’t use anonymous classes for function objects unless you have to create instances of types that aren’t functional interfaces.&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;You should rarely, if ever, serialize/deserialize a lambda (or an anonymous class instance). Use an instance of a &#39;&lt;i&gt;private static nested&#39;&lt;/i&gt; class.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Where method references are shorter and clearer, use them; where they aren’t, stick with lambdas.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;If one of the standard functional interfaces does the job, use it in preference to a purpose-built functional interface.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Don’t be tempted to use basic functional interfaces with boxed primitives instead of primitive functional interfaces.&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font size=&quot;3&quot;&gt;Always annotate your functional interfaces with the &lt;i&gt;@FunctionalInterface&lt;/i&gt; annotation.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-1">
           <mxGeometry x="20" y="40" width="810" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-3" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=8;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-1">
+          <mxGeometry x="80" y="840" width="680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-4" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-3">
+          <mxGeometry width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-5" value="Method Ref Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;fontStyle=1" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-4">
+          <mxGeometry width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-6" value="Example" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;fontStyle=1" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-4">
+          <mxGeometry x="227" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-7" value="Lambda equivalent" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;fontStyle=1" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-4">
+          <mxGeometry x="453" width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-8" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-3">
+          <mxGeometry y="40" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-9" value="Static" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-8">
+          <mxGeometry width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-10" value="Integer::parseInt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-8">
+          <mxGeometry x="227" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-11" value="str --&amp;gt; Integer.parseInt(str)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-8">
+          <mxGeometry x="453" width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-3">
+          <mxGeometry y="80" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-13" value="Bound" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-12">
+          <mxGeometry width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-14" value="Instant.now()::isAfter" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-12">
+          <mxGeometry x="227" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-15" value="Instant then = Instant.now();&lt;br&gt;t --&amp;gt; then.isAfter(t)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-12">
+          <mxGeometry x="453" width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-3">
+          <mxGeometry y="120" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-17" value="Unbound" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-16">
+          <mxGeometry width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-18" value="String::toLowerCase" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-16">
+          <mxGeometry x="227" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-19" value="str --&amp;gt; Str.toLowerCase()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-16">
+          <mxGeometry x="453" width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-3">
+          <mxGeometry y="160" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-21" value="Class Constructor" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-20">
+          <mxGeometry width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-22" value="TreeMap&amp;lt;K,V&amp;gt;::new" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-20">
+          <mxGeometry x="227" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-23" value="() --&amp;gt; new TreeMap&amp;lt;K,V&amp;gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-20">
+          <mxGeometry x="453" width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-24" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-3">
+          <mxGeometry y="200" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-25" value="Array Constructor" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=12;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-24">
+          <mxGeometry width="227" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-26" value="int[] :: new" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-24">
+          <mxGeometry x="227" width="226" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-27" value="len --&amp;gt; new int[len]" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Kq4hBo5fGYP4w6Vc1hsV-24">
+          <mxGeometry x="453" width="227" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
