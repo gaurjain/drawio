@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T19:14:54.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="hs_Rgh0i0kvRqyqKVhMf" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T19:18:04.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="hh49PjAkQN_GEpGdC-tb" version="14.2.7" type="github">
   <diagram id="Td9-mndeDh_23hXxGDzK" name="Page-1">
-    <mxGraphModel dx="2893" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,7 +197,7 @@
           <mxGeometry x="1370" y="565.75" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-88" value="Persisted" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;fontColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="670" width="230" height="30" as="geometry" />
+          <mxGeometry x="1520" y="670" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-89" value="" style="shape=link;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#006600;dashed=1;dashPattern=1 2;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -227,7 +227,7 @@
           <mxGeometry x="867.5" y="200" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-98" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.azure.sql_reporting;dashed=1;dashPattern=1 2;labelBackgroundColor=none;sketch=1;fontColor=#ffffff;strokeColor=#C73500;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="562.25" width="40" height="50" as="geometry" />
+          <mxGeometry x="1615" y="561" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-99" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;All BLUE -- AS IS&lt;/font&gt;&lt;br&gt;ALL ORANGE --&amp;gt; Envisioned&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="40" y="930" width="260" height="80" as="geometry" />
@@ -250,8 +250,8 @@
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-103" value="Cloud Infrastructure ????" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontColor=#FF8000;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1590" y="790" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AzFJETMl0v4Ij8P8jwY9-104" value="&lt;font style=&quot;font-size: 32px&quot;&gt;HIGH LEVEL-0 DATA FLOW &lt;br&gt;( Batch-Oriented&amp;nbsp;AS-IS and Envisioned )&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontColor=#EA6B66;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="630" height="60" as="geometry" />
+        <mxCell id="AzFJETMl0v4Ij8P8jwY9-104" value="&lt;font style=&quot;font-size: 32px&quot;&gt;HIGH LEVEL-0 DATA FLOW &lt;br&gt;(Batch-Oriented&amp;nbsp;AS-IS and Envisioned )&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="620" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-105" value="Data sources" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=none;fontColor=#3399FF;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="30" y="670" width="210" height="30" as="geometry" />
@@ -319,7 +319,7 @@
           <mxGeometry x="45" y="790" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-122" value="Accessed" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;fontColor=#FF8000;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1749" y="670" width="300" height="30" as="geometry" />
+          <mxGeometry x="1790" y="670" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-123" value="Data referred" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;fontColor=#FF8000;direction=west;" vertex="1" parent="1">
           <mxGeometry x="2040" y="670" width="220" height="30" as="geometry" />
@@ -353,10 +353,9 @@
             <mxPoint x="2175" y="606" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2175" y="510" />
-              <mxPoint x="1650" y="510" />
-              <mxPoint x="1650" y="660" />
+              <mxPoint x="1630" y="510" />
+              <mxPoint x="1630" y="660" />
               <mxPoint x="2175" y="660" />
-              <mxPoint x="2175" y="606" />
             </Array>
           </mxGeometry>
         </mxCell>
