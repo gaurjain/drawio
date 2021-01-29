@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T19:20:06.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="p2xua0Ior06KO4o1aZkf" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T19:21:25.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ugbphP3Py1mfDFweK6OK" version="14.2.7" type="github">
   <diagram id="Td9-mndeDh_23hXxGDzK" name="Page-1">
     <mxGraphModel dx="1361" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -226,9 +226,6 @@
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-96" value="CS - realtime Infrastructure&lt;br&gt;MapR-DB +" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="867.5" y="200" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AzFJETMl0v4Ij8P8jwY9-98" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.azure.sql_reporting;dashed=1;dashPattern=1 2;labelBackgroundColor=none;sketch=1;fontColor=#ffffff;strokeColor=#C73500;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1615" y="561" width="40" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-99" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;All BLUE -- AS IS&lt;/font&gt;&lt;br&gt;ALL ORANGE --&amp;gt; Envisioned&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="40" y="930" width="260" height="80" as="geometry" />
         </mxCell>
@@ -352,10 +349,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2175" y="606" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2175" y="510" />
-              <mxPoint x="1630" y="510" />
-              <mxPoint x="1630" y="660" />
-              <mxPoint x="2175" y="660" />
+              <mxPoint x="2175" y="520" />
+              <mxPoint x="1630" y="520" />
+              <mxPoint x="1630" y="650" />
+              <mxPoint x="2175" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -373,9 +370,9 @@
             <mxPoint x="2515" y="552" as="sourcePoint" />
             <mxPoint x="2515" y="608" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2515" y="512" />
-              <mxPoint x="2200" y="512" />
-              <mxPoint x="2200" y="662" />
+              <mxPoint x="2515" y="490" />
+              <mxPoint x="2100" y="490" />
+              <mxPoint x="2100" y="662" />
               <mxPoint x="2515" y="662" />
             </Array>
           </mxGeometry>
@@ -384,7 +381,7 @@
           <mxGeometry x="2125" y="550" width="100" height="61" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-147" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;fillColor=#fa6800;shape=mxgraph.azure.virtual_network;pointerEvents=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;sketch=0;fontSize=18;fontColor=#ffffff;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="2310" y="565.75" width="80" height="45.5" as="geometry" />
+          <mxGeometry x="2310" y="560.13" width="80" height="45.5" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-148" value="" style="shape=link;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#006600;dashed=1;dashPattern=1 2;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -394,6 +391,9 @@
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-149" value="via Network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="2350" y="795" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AzFJETMl0v4Ij8P8jwY9-98" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.azure.sql_reporting;dashed=1;dashPattern=1 2;labelBackgroundColor=none;sketch=1;fontColor=#ffffff;strokeColor=#C73500;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="561" width="40" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
