@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T18:01:31.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="sCbhvn-I_eUUqV4MuCq-" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T18:04:08.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="U9l0EKit8NLdFeM7KAaV" version="14.2.7" type="github">
   <diagram id="Td9-mndeDh_23hXxGDzK" name="Page-1">
     <mxGraphModel dx="1361" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,14 +23,14 @@
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-7" value="Extracted-Loaded" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=none;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="130" y="670" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AzFJETMl0v4Ij8P8jwY9-8" value="CS Ingestion :Formatted, &lt;br&gt;Quality Checked and Ingested" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;fontStyle=1;strokeColor=none;fontColor=#3399FF;" vertex="1" parent="1">
+        <mxCell id="AzFJETMl0v4Ij8P8jwY9-8" value="CS Ingested :Formatted, &lt;br&gt;Quality Checked and Ingested" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;fontStyle=1;strokeColor=none;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="270" y="670" width="248.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-9" value="Stored" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=none;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="507.5" y="670" width="192.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-10" value="&lt;span&gt;Transformed : &lt;br&gt;Blending, Filtering, Rollups&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=none;fontStyle=0;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="870" y="670" width="240" height="30" as="geometry" />
+          <mxGeometry x="880" y="670" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-13" value="" style="shape=link;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontColor=#3399FF;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-56" value="Risk-ODL usecase space" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="930" y="730" width="160" height="20" as="geometry" />
+          <mxGeometry x="915" y="730" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="AzFJETMl0v4Ij8P8jwY9-58" target="AzFJETMl0v4Ij8P8jwY9-54">
           <mxGeometry relative="1" as="geometry" />
@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-68" value="Replicated" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=none;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="687.5" y="670" width="192.5" height="30" as="geometry" />
+          <mxGeometry x="687.5" y="670" width="202.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-71" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;fillColor=#1ba1e2;shape=mxgraph.azure.code_file;pointerEvents=1;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="820" y="418.5" width="27.5" height="35" as="geometry" />
@@ -182,9 +182,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-82" value="CS - realtime Infrastructure&lt;br&gt;MapR-DB +" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="695" y="765" width="170" height="30" as="geometry" />
+          <mxGeometry x="687.5" y="770" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AzFJETMl0v4Ij8P8jwY9-83" value="RDM 2.0 Ingestion :Formatted, &lt;br&gt;Quality Checked and Ingested" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="AzFJETMl0v4Ij8P8jwY9-83" value="Ingested :Formatted, &lt;br&gt;Quality Checked and Ingested" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1100" y="670" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-87" value="" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=#EA6B66;fillColor=#fa6800;dashed=1;dashPattern=1 2;strokeColor=#C73500;" edge="1" parent="1" source="AzFJETMl0v4Ij8P8jwY9-84" target="AzFJETMl0v4Ij8P8jwY9-85">
@@ -196,7 +196,7 @@
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-85" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;fillColor=#fa6800;shape=mxgraph.azure.code_file;pointerEvents=1;labelBackgroundColor=none;fontColor=#ffffff;dashed=1;dashPattern=1 2;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="1430" y="616.25" width="27.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="AzFJETMl0v4Ij8P8jwY9-88" value="Persisted" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="AzFJETMl0v4Ij8P8jwY9-88" value="Persisted" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;fontStyle=1;dashed=1;dashPattern=1 2;sketch=1;strokeColor=none;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1330" y="670" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-89" value="" style="shape=link;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#006600;dashed=1;dashPattern=1 2;" edge="1" parent="1">
@@ -212,10 +212,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-91" value="??? Inbound Ingestion framework&lt;br&gt;aRTi or RTF or ????" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1115" y="765" width="210" height="30" as="geometry" />
+          <mxGeometry x="1115" y="770" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AzFJETMl0v4Ij8P8jwY9-92" value="RDM 2.0 Persistence layer&lt;br&gt;Cassendra or PostGres or both" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF8000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1355" y="725" width="190" height="30" as="geometry" />
+          <mxGeometry x="1355" y="730" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
