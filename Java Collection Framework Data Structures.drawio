@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T04:59:43.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="I58Iu_FAtlJtYMzbuo2O" version="14.2.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-30T05:00:19.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Auzg0quWG14K4XsA3ACq" version="14.2.8" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="3061" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,20 +115,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-0" value="process each data object stored &lt;br&gt;in a collection instance&lt;br&gt;&amp;nbsp;in parallel" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-739.97" y="805" width="210" height="50" as="geometry" />
+          <mxGeometry x="-744.97" y="880" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="tfWovZTcKI60pbMcjAeG-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-845" y="550" as="sourcePoint" />
             <mxPoint x="-695" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-882" y="830" />
+              <mxPoint x="-883" y="905" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-2" value="can be &lt;br&gt;used to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-1" vertex="1" connectable="0">
           <mxGeometry x="0.2621" y="-17" relative="1" as="geometry">
-            <mxPoint x="129.5" y="41" as="offset" />
+            <mxPoint x="89.52000000000001" y="58.53" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-3" value="collection.foreach(lambda expression)" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
