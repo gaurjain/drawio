@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T23:02:05.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="N-JFD2RrEaYwPDBmn9nU" version="14.2.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-31T23:06:14.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="iZ1943fZSs4cEZrj7cNB" version="14.2.8" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2857" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;When JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has &lt;b&gt;overheads&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-662.5" y="570" width="360" height="50" as="geometry" />
+          <mxGeometry x="-680" y="610" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-19" target="lKMH8qdmvzPEWP_gQ9WU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -145,7 +145,12 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-8" value="are" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-13" vertex="1" connectable="0">
           <mxGeometry x="-0.4459" y="-5" relative="1" as="geometry">
-            <mxPoint x="29.970000000000006" y="20" as="offset" />
+            <mxPoint x="5.470000000000006" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R70HRJWxTWlQcT9ja0lC-0" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-410" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-10" value="&amp;nbsp;anonymous classes" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;fontStyle=1" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -785,7 +790,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cpiFSu_QcwFsU_r48Eqi" name="functional interface util">
-    <mxGraphModel dx="917" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="8f6Fgzj79RTRYW3sGPng-0" />
         <mxCell id="8f6Fgzj79RTRYW3sGPng-1" parent="8f6Fgzj79RTRYW3sGPng-0" />
@@ -2781,7 +2786,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zHAG3MMFGxFwBHy4DjtE" name="Page-7">
-    <mxGraphModel dx="917" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-0" />
         <mxCell id="Kq4hBo5fGYP4w6Vc1hsV-1" parent="Kq4hBo5fGYP4w6Vc1hsV-0" />
