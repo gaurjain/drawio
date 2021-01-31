@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T21:45:47.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="h9bBlGpjWUZ-rNVD472E" version="14.2.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-31T22:00:29.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="I5cv07hEuyf58afN9XZ_" version="14.2.8" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2617" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-21" value="is&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lKMH8qdmvzPEWP_gQ9WU-15" vertex="1" connectable="0">
           <mxGeometry x="-0.0378" y="-3" relative="1" as="geometry">
-            <mxPoint x="52.94" y="86.18" as="offset" />
+            <mxPoint x="3" y="26.000000000000007" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="lKMH8qdmvzPEWP_gQ9WU-19" edge="1">
@@ -27,7 +27,7 @@
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-23" value="is" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lKMH8qdmvzPEWP_gQ9WU-20" vertex="1" connectable="0">
           <mxGeometry x="0.2185" y="-3" relative="1" as="geometry">
-            <mxPoint x="52.94" y="7" as="offset" />
+            <mxPoint x="43" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="tfWovZTcKI60pbMcjAeG-10" edge="1">
@@ -88,13 +88,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-40" y="620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-195" y="590" />
-              <mxPoint x="-293" y="590" />
+              <mxPoint x="-310" y="630" />
+              <mxPoint x="-283" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;When JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has &lt;b&gt;overheads&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-534.97" y="540" width="360" height="50" as="geometry" />
+          <mxGeometry x="-650" y="540" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-19" target="lKMH8qdmvzPEWP_gQ9WU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -103,7 +103,7 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-7" value="however" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-15" vertex="1" connectable="0">
           <mxGeometry x="-0.2848" y="-1" relative="1" as="geometry">
-            <mxPoint x="43.53" y="9" as="offset" />
+            <mxPoint x="-8.5" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-19" value="not created/instantiated &lt;br&gt;using &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -139,7 +139,7 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-8" value="are" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-13" vertex="1" connectable="0">
           <mxGeometry x="-0.4459" y="-5" relative="1" as="geometry">
-            <mxPoint x="82.65" y="30" as="offset" />
+            <mxPoint x="21.000000000000007" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-10" value="&amp;nbsp;anonymous classes" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;fontStyle=1" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -302,7 +302,7 @@
           <mxGeometry x="-337.5" y="170" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-10" value="Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt;&amp;nbsp;&lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-470" y="620" width="460" height="70" as="geometry" />
+          <mxGeometry x="-460" y="660" width="460" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-13" value="&lt;ol style=&quot;font-size: 10px&quot;&gt;&lt;li&gt;type of parameters&lt;/li&gt;&lt;li&gt;parentheses around the parameters&lt;/li&gt;&lt;li&gt;curly braces around expression body&lt;/li&gt;&lt;li&gt;return keyword&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-212.5" y="237.5" width="145" height="90" as="geometry" />
@@ -402,16 +402,16 @@
         <mxCell id="aUvrAJm_RpZUEBPQVyBH-16" value="" style="outlineConnect=0;fontColor=#ffffff;fillColor=#e51400;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;strokeColor=#B20000;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-1074" y="45.22999999999999" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="83GscW87KHQAXeTJHFA0-2" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;.... &lt;br&gt;&lt;b&gt;new ParentClassName (list of constructor arguments)&lt;/b&gt; { &lt;br&gt;non-static or static-final variables; &lt;br&gt;&lt;font color=&quot;#ffff00&quot;&gt;@override&lt;br&gt;return-type&amp;nbsp;constructor-methods(arguments) {.... return x; }&lt;/font&gt;&lt;br&gt;};&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
-          <mxGeometry x="-250" y="415" width="240" height="115" as="geometry" />
+        <mxCell id="83GscW87KHQAXeTJHFA0-2" value="&lt;font&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;.... &lt;/span&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;new ParentClassName (list of constructor arguments)&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt; { &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;non-static or static-final variables; &lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#ffff00&quot; style=&quot;font-size: 12px&quot;&gt;@override&lt;br&gt;return-type&amp;nbsp;constructor-method(arguments {.... return x; } &lt;br&gt;return-type other-method(arguments)&lt;br&gt;{ ...return x; }&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;};&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;....&lt;/span&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;new InterfaceName ()&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt; { &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; color: rgb(255 , 255 , 0) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;@override return-type other-method(arguments)&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 0) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;&lt;span style=&quot;font-size: 12px ; color: rgb(255 , 255 , 0) ; font-family: &amp;#34;verdana&amp;#34;&quot;&gt;{ ...return x; }&lt;br&gt;&lt;/span&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 12px&quot;&gt;};&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#1ba1e2;align=left;rounded=0;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
+          <mxGeometry x="-250" y="415" width="242.5" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="83GscW87KHQAXeTJHFA0-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-10" target="83GscW87KHQAXeTJHFA0-2">
+        <mxCell id="83GscW87KHQAXeTJHFA0-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-10" target="83GscW87KHQAXeTJHFA0-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-545" y="435" as="sourcePoint" />
             <mxPoint x="-345" y="535" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-320" y="425" />
-              <mxPoint x="-320" y="473" />
+              <mxPoint x="-400" y="425" />
+              <mxPoint x="-400" y="454" />
             </Array>
           </mxGeometry>
         </mxCell>
