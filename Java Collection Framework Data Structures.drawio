@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T20:58:49.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="yRSQDPC578q5hKGObOst" version="14.2.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-31T21:45:47.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="h9bBlGpjWUZ-rNVD472E" version="14.2.8" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
-    <mxGraphModel dx="2857" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2617" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-0" />
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-1" parent="lKMH8qdmvzPEWP_gQ9WU-0" />
@@ -94,7 +94,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-18" value="Anonymous classes are instantiated using a &amp;lt;&amp;lt;new&amp;gt;&amp;gt; keyword.&lt;br&gt;When JVM processes an expression with a &#39;new&#39; keyword, &lt;br&gt;a new object instance is created and this process has &lt;b&gt;overheads&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-535" y="525" width="360" height="50" as="geometry" />
+          <mxGeometry x="-534.97" y="540" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-19" target="lKMH8qdmvzPEWP_gQ9WU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -139,7 +139,7 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-8" value="are" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-13" vertex="1" connectable="0">
           <mxGeometry x="-0.4459" y="-5" relative="1" as="geometry">
-            <mxPoint x="82.65" y="19.98" as="offset" />
+            <mxPoint x="82.65" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-10" value="&amp;nbsp;anonymous classes" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;fontStyle=1" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -295,7 +295,7 @@
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-15" value="all optional" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9M1BDlYYb-8mz-A4pKfN-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0093" relative="1" as="geometry">
-            <mxPoint x="23.45" y="8" as="offset" />
+            <mxPoint x="-41.5" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-2" value="&lt;pre class=&quot;result notranslate&quot; style=&quot;font-family: monospace , monospace ; font-size: 15px ; padding: 5px ; overflow-x: auto ; color: rgba(0 , 0 , 0 , 0.87) ; background: rgb(238 , 238 , 238) ; border: 1px solid rgb(214 , 214 , 214)&quot;&gt;(parameters) -&amp;gt; expression body&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
@@ -305,7 +305,7 @@
           <mxGeometry x="-470" y="620" width="460" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-13" value="&lt;ol style=&quot;font-size: 10px&quot;&gt;&lt;li&gt;type of parameters&lt;/li&gt;&lt;li&gt;parentheses around the parameters&lt;/li&gt;&lt;li&gt;curly braces around expression body&lt;/li&gt;&lt;li&gt;return keyword&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-195" y="237.5" width="145" height="90" as="geometry" />
+          <mxGeometry x="-212.5" y="237.5" width="145" height="90" as="geometry" />
         </mxCell>
         <mxCell id="98gqtwJEUlFUjyfmCKwA-0" value="&lt;span style=&quot;font-weight: normal&quot;&gt;exact behavior of the operation &lt;br&gt;or Actions&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;labelBackgroundColor=none;strokeColor=none;fontStyle=1" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-730" y="220" width="160" height="50" as="geometry" />
@@ -371,9 +371,10 @@
             <mxPoint x="-872.5" y="325" as="sourcePoint" />
             <mxPoint x="-992" y="235" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-10" y="425" />
-              <mxPoint x="-10" y="120" />
+              <mxPoint x="-40" y="425" />
+              <mxPoint x="-40" y="120" />
               <mxPoint x="-1179" y="120" />
+              <mxPoint x="-1179" y="234" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -400,6 +401,19 @@
         </mxCell>
         <mxCell id="aUvrAJm_RpZUEBPQVyBH-16" value="" style="outlineConnect=0;fontColor=#ffffff;fillColor=#e51400;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;strokeColor=#B20000;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-1074" y="45.22999999999999" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="83GscW87KHQAXeTJHFA0-2" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;.... &lt;br&gt;&lt;b&gt;new ParentClassName (list of constructor arguments)&lt;/b&gt; { &lt;br&gt;non-static or static-final variables; &lt;br&gt;&lt;font color=&quot;#ffff00&quot;&gt;@override&lt;br&gt;return-type&amp;nbsp;constructor-methods(arguments) {.... return x; }&lt;/font&gt;&lt;br&gt;};&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" vertex="1" parent="lKMH8qdmvzPEWP_gQ9WU-1">
+          <mxGeometry x="-250" y="415" width="240" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="83GscW87KHQAXeTJHFA0-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-10" target="83GscW87KHQAXeTJHFA0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-545" y="435" as="sourcePoint" />
+            <mxPoint x="-345" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="425" />
+              <mxPoint x="-320" y="473" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
