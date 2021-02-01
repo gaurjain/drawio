@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T16:24:12.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="oDMVwAeiWSSN55YJgunD" version="14.2.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-01T16:24:42.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="BBAa6U0BSmrDedy3kREa" version="14.2.8" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2857" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,8 +93,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-52.5" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-322" y="660" />
-              <mxPoint x="-326" y="660" />
+              <mxPoint x="-283" y="660" />
             </Array>
             <mxPoint x="-322.5" y="615" as="sourcePoint" />
           </mxGeometry>
@@ -313,7 +312,7 @@
           <mxGeometry x="-381.23" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-10" value="Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt;&amp;nbsp;&lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-460" y="725" width="460" height="70" as="geometry" />
+          <mxGeometry x="-460" y="740" width="460" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-13" value="&lt;ol style=&quot;font-size: 10px&quot;&gt;&lt;li&gt;type of parameters&lt;/li&gt;&lt;li&gt;parentheses around the parameters&lt;/li&gt;&lt;li&gt;curly braces around expression body&lt;/li&gt;&lt;li&gt;return keyword&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-260" y="290" width="162.5" height="90" as="geometry" />
