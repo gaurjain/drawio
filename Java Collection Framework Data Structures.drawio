@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T16:22:41.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="T_tYbnT5K_hT42v7jQEe" version="14.2.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-01T16:24:12.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="oDMVwAeiWSSN55YJgunD" version="14.2.8" type="github" pages="6">
   <diagram id="lYfYxuUdmsIS_NvossM9" name="Lambda Expressions">
     <mxGraphModel dx="2857" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-21" value="is&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lKMH8qdmvzPEWP_gQ9WU-15" vertex="1" connectable="0">
           <mxGeometry x="-0.0378" y="-3" relative="1" as="geometry">
-            <mxPoint x="3" y="26.000000000000007" as="offset" />
+            <mxPoint x="15" y="51.50000000000001" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lKMH8qdmvzPEWP_gQ9WU-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="lKMH8qdmvzPEWP_gQ9WU-19" edge="1">
@@ -121,14 +121,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-0" value="process each data object stored &lt;br&gt;in a collection instance&lt;br&gt;&amp;nbsp;in parallel" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-757.47" y="855" width="210" height="50" as="geometry" />
+          <mxGeometry x="-757.47" y="900" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="tfWovZTcKI60pbMcjAeG-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-857.5" y="600" as="sourcePoint" />
             <mxPoint x="-707.5" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-895" y="880" />
+              <mxPoint x="-895" y="925" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -138,7 +138,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-3" value="collection.foreach(lambda expression)" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-492.46000000000004" y="860" width="250" height="40" as="geometry" />
+          <mxGeometry x="-492.46000000000004" y="905" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-10" target="lKMH8qdmvzPEWP_gQ9WU-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -170,24 +170,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-16" value="a regular object" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-712.47" y="760" width="120" height="30" as="geometry" />
+          <mxGeometry x="-712.47" y="815" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="lKMH8qdmvzPEWP_gQ9WU-10" target="tfWovZTcKI60pbMcjAeG-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-882.5" y="575" as="sourcePoint" />
             <mxPoint x="-707.5" y="460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-895" y="775" />
+              <mxPoint x="-895" y="830" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-18" value="Should not &lt;br&gt;be used as" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tfWovZTcKI60pbMcjAeG-17" vertex="1" connectable="0">
           <mxGeometry x="0.2621" y="-17" relative="1" as="geometry">
-            <mxPoint x="71" y="-61.999999999999986" as="offset" />
+            <mxPoint x="92" y="-60.999999999999986" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-19" value="calling methods of object class on lambda expression" style="ellipse;whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;fillColor=#5294CF;strokeColor=none;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-472.46000000000004" y="810" width="210" height="40" as="geometry" />
+          <mxGeometry x="-472.46000000000004" y="845" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tfWovZTcKI60pbMcjAeG-28" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" source="tfWovZTcKI60pbMcjAeG-23" target="tfWovZTcKI60pbMcjAeG-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -313,7 +313,7 @@
           <mxGeometry x="-381.23" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-10" value="Get memory --&amp;gt;&amp;nbsp;Clean memory --&amp;gt;&amp;nbsp;&lt;br&gt;execute the static initializer --&amp;gt; execute the static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute the non-static initializer--&amp;gt; execute the non-static blocks --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructor from object class&amp;nbsp; --&amp;gt;&amp;nbsp;&lt;br&gt;execute constructors from other inherited class all the way to the anonymous class." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
-          <mxGeometry x="-460" y="715" width="460" height="70" as="geometry" />
+          <mxGeometry x="-460" y="725" width="460" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9M1BDlYYb-8mz-A4pKfN-13" value="&lt;ol style=&quot;font-size: 10px&quot;&gt;&lt;li&gt;type of parameters&lt;/li&gt;&lt;li&gt;parentheses around the parameters&lt;/li&gt;&lt;li&gt;curly braces around expression body&lt;/li&gt;&lt;li&gt;return keyword&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;dashed=0;verticalAlign=top;strokeColor=none;fillColor=#5294CF;align=left;" parent="lKMH8qdmvzPEWP_gQ9WU-1" vertex="1">
           <mxGeometry x="-260" y="290" width="162.5" height="90" as="geometry" />
