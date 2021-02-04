@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T21:17:09.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ywCFCNuEeKgtkNMMCv_I" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T21:21:18.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="IrJU-P5CjQ41pJvVr1VS" version="14.2.9" type="github">
   <diagram id="Td9-mndeDh_23hXxGDzK" name="Page-1">
     <mxGraphModel dx="883" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -630,7 +630,7 @@
         <mxCell id="uS7YmoTxu2O8jpIXmc0K-29" value="HTTP&lt;br&gt;Server&lt;br&gt;(MVC backend)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1590" y="327.88" width="80" height="72.12" as="geometry" />
         </mxCell>
-        <mxCell id="uS7YmoTxu2O8jpIXmc0K-31" value="Compute&lt;br&gt;Transformer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="uS7YmoTxu2O8jpIXmc0K-31" value="Compute" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1530" y="499.5" width="80" height="72.12" as="geometry" />
         </mxCell>
         <mxCell id="uS7YmoTxu2O8jpIXmc0K-34" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -648,10 +648,10 @@
         <mxCell id="uS7YmoTxu2O8jpIXmc0K-36" value="DataHub&lt;br&gt;Enricher&lt;br&gt;/Blender" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1462" y="540.2499999999999" width="80" height="72.12" as="geometry" />
         </mxCell>
-        <mxCell id="uS7YmoTxu2O8jpIXmc0K-37" value="Message&lt;br&gt;Quality&lt;br&gt;Checker" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="uS7YmoTxu2O8jpIXmc0K-37" value="Message-lvl&lt;br&gt;Quality&lt;br&gt;Checker" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1395" y="500" width="80" height="71.62" as="geometry" />
         </mxCell>
-        <mxCell id="uS7YmoTxu2O8jpIXmc0K-39" value="Message&lt;br&gt;Formatter" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="uS7YmoTxu2O8jpIXmc0K-39" value="Variable-lvl&lt;br&gt;Quality&lt;br&gt;Checker" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1462" y="459.88" width="80" height="72.12" as="geometry" />
         </mxCell>
         <mxCell id="uS7YmoTxu2O8jpIXmc0K-42" value="Export" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
@@ -672,6 +672,9 @@
             <mxPoint x="1190" y="439.1200000000001" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uS7YmoTxu2O8jpIXmc0K-57" value="Transform&lt;br&gt;Format" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#C73500;sketch=1;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1597" y="461.88" width="80" height="72.12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
