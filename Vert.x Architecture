@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T16:30:10.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="E_sKfgEVSCXtGRwTaSj1" version="14.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-16T16:45:45.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="CCmaot536Gztb7y4kKjj" version="14.3.1" type="github" pages="3">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="2797" dy="4045" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -479,10 +479,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="n-6Ts9lApfL_Nkq_khbV" name="Page-1">
-    <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="1473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8F6MPDod4EB0na26JG8g-3" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-449" y="250" width="1839" height="469" as="geometry" />
+        </mxCell>
         <mxCell id="Oyn7uP1S4NA_B6-OdjAn-39" value="Vert.x" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#d79b00;fillColor=#ffe6cc;width=103;height=22;" vertex="1" parent="1">
           <mxGeometry x="1749" y="-433" width="626" height="299" as="geometry" />
         </mxCell>
@@ -496,7 +499,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-7" value="&lt;b&gt;&lt;font color=&quot;#3c3c3b&quot; face=&quot;roboto, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Your application&lt;br&gt;organized as&lt;br&gt;verticles&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="397" y="278" width="1022" height="424" as="geometry" />
+          <mxGeometry x="423" y="306" width="945" height="357" as="geometry" />
         </mxCell>
         <mxCell id="9hoXlTvfVnLauFPq8Z32-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/adventure-and-camping-colored-lineal-style/512/ropeadventurecamping-128.png" parent="1" vertex="1">
           <mxGeometry x="1880" y="-59.5" width="54" height="54" as="geometry" />
@@ -1301,31 +1304,28 @@
           <mxGeometry x="296.5" y="-324" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8F6MPDod4EB0na26JG8g-2" value="&lt;span style=&quot;text-align: left ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&lt;b&gt;Events&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;ul style=&quot;text-align: left ; box-sizing: inherit ; padding-left: 1.1rem ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;a timer has fired&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;some data has arrived on a socket,&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;some data has been read from disk&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;an exception has occurred&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;an HTTP server has received a request&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-21" y="383" width="400" height="222" as="geometry" />
-        </mxCell>
-        <mxCell id="8F6MPDod4EB0na26JG8g-3" value="&lt;font style=&quot;font-size: 40px&quot;&gt;&lt;b&gt;Vert.x :&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif&quot;&gt;will call verticles by sending them events.&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-647.5" y="474" width="586" height="172" as="geometry" />
+          <mxGeometry x="-209" y="379" width="400" height="222" as="geometry" />
         </mxCell>
         <mxCell id="8F6MPDod4EB0na26JG8g-4" value="&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;Verticle handle events by providing&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;handlers&lt;/em&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&amp;nbsp;to the Vert.x APIs.&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="494" y="519" width="360.5" height="104" as="geometry" />
+          <mxGeometry x="716.5" y="547" width="360.5" height="83" as="geometry" />
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;pre class=&quot;highlight&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;roboto mono&amp;quot; , , &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;liberation mono&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 0.875rem ; display: block ; overflow-x: auto ; padding: 1rem ; background: rgb(58 , 40 , 64) ; color: rgb(255 , 255 , 255) ; border-radius: 0.8rem ; margin: 1.5rem 0px ; font-style: normal ; font-weight: 300 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;code class=&quot;language-java&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;roboto mono&amp;quot; , , &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;liberation mono&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 1em&quot;&gt;vertx.setPeriodic(&lt;span class=&quot;hljs-number&quot; style=&quot;box-sizing: inherit ; color: rgb(108 , 185 , 240)&quot;&gt;1000&lt;/span&gt;, id -&amp;gt; {&#xa;  &lt;span class=&quot;hljs-comment&quot; style=&quot;box-sizing: inherit ; color: rgb(173 , 181 , 189)&quot;&gt;// This handler will get called every second&lt;/span&gt;&#xa;  System.out.println(&lt;span class=&quot;hljs-string&quot; style=&quot;box-sizing: inherit ; color: rgb(108 , 185 , 240)&quot;&gt;&quot;timer fired!&quot;&lt;/span&gt;);&#xa;});&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="486.9999694824219" y="659.9966870117188" width="439" height="147" as="geometry" />
+          <mxGeometry x="837.9999694824219" y="600.9966870117188" width="439" height="147" as="geometry" />
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-2" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;pre class=&quot;highlight&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;roboto mono&amp;quot; , , &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;liberation mono&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 0.875rem ; display: block ; overflow-x: auto ; padding: 1rem ; background: rgb(58 , 40 , 64) ; color: rgb(255 , 255 , 255) ; border-radius: 0.8rem ; margin: 1.5rem 0px ; font-style: normal ; font-weight: 300 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;code class=&quot;language-java&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;roboto mono&amp;quot; , , &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;liberation mono&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 1em&quot;&gt;server.requestHandler(request -&amp;gt; {&#xa;  &lt;span class=&quot;hljs-comment&quot; style=&quot;box-sizing: inherit ; color: rgb(173 , 181 , 189)&quot;&gt;// This handler will be called every time an HTTP request is received at the server&lt;/span&gt;&#xa;  request.response().end(&lt;span class=&quot;hljs-string&quot; style=&quot;box-sizing: inherit ; color: rgb(108 , 185 , 240)&quot;&gt;&quot;hello world!&quot;&lt;/span&gt;);&#xa;});&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="486.9999694824219" y="771.9966870117188" width="540" height="161" as="geometry" />
+          <mxGeometry x="837.9999694824219" y="715.9966870117188" width="540" height="161" as="geometry" />
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-3" value="&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;When Vert.x has an event available to pass,&amp;nbsp;&amp;nbsp;&lt;span&gt;Vert.x uses a NIO thread, called event-loop, to call the event-handler&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: inherit ; font-weight: bolder&quot;&gt;asynchronously&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-763" y="682" width="1063" height="66" as="geometry" />
+          <mxGeometry x="-752.5" y="740" width="1063" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="_UWY_-RnWUwg3JTMprNR-4" value="&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;Generally, Vert.x does not block the calling thread.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;If a result can be provided immediately, &lt;br&gt;it will be returned immediately, &lt;br&gt;otherwise calling verticle will usually provide a handler &lt;br&gt;to receive events some time later.&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-622" y="781" width="440" height="91" as="geometry" />
+        <mxCell id="_UWY_-RnWUwg3JTMprNR-4" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;Generally, Vert.x does not block the calling thread.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px ; text-align: justify&quot;&gt;&lt;span&gt;If a result can be provided immediately,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px ; text-align: justify&quot;&gt;&lt;span&gt;it will be returned immediately,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px ; text-align: justify&quot;&gt;&lt;span&gt;otherwise calling verticle will usually provide a handler&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px ; text-align: justify&quot;&gt;&lt;span&gt;to receive events some time later.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#3c3c3b&quot; face=&quot;roboto, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="-757" y="837" width="440" height="86" as="geometry" />
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-5" value="&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;Verticle handle events by providing&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;handlers&lt;/em&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&amp;nbsp;to the Vert.x APIs.&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="497" y="369" width="360.5" height="116" as="geometry" />
+          <mxGeometry x="562.83" y="352" width="360.5" height="86" as="geometry" />
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-6" value="&lt;div class=&quot;sect1&quot; style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&lt;div class=&quot;sectionbody&quot; style=&quot;box-sizing: inherit&quot;&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;text-align: left ; box-sizing: inherit&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;This means that if you want a lot of concurrency using blocking APIs then you need a lot of threads to prevent your application grinding to a halt.&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Threads have overhead in terms of the memory they require (e.g. for their stack) and in context switching.&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;For the levels of concurrency required in many modern applications, a blocking approach just doesn’t scale.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;sect1&quot; style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-606" y="943" width="1194" height="80" as="geometry" />
+          <mxGeometry x="-756.5" y="949" width="1194" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_UWY_-RnWUwg3JTMprNR-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-389" y="428" width="72" height="72" as="geometry" />
@@ -1348,35 +1348,11 @@
         <mxCell id="_UWY_-RnWUwg3JTMprNR-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_GlossyEntireSet/32/thread.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;" parent="_UWY_-RnWUwg3JTMprNR-10" vertex="1">
           <mxGeometry x="40" y="40" width="32" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="_UWY_-RnWUwg3JTMprNR-17" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="_UWY_-RnWUwg3JTMprNR-5" target="8F6MPDod4EB0na26JG8g-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-52.009548383006404" y="600.6942901697084" as="sourcePoint" />
-            <mxPoint x="500.0799999999999" y="603" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="435" y="427" />
-              <mxPoint x="435" y="299" />
-              <mxPoint x="-147" y="299" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_UWY_-RnWUwg3JTMprNR-18" value="&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;Verticle handle events by providing&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;handlers&lt;/em&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&amp;nbsp;to the Vert.x APIs.&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1002" y="442" width="340.5" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="_UWY_-RnWUwg3JTMprNR-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8F6MPDod4EB0na26JG8g-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-353.5" y="646" as="sourcePoint" />
-            <mxPoint x="495" y="571" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-147" y="684" />
-              <mxPoint x="495" y="684" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ggUYspA04yuXxP5aQSaD-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Nails-128.png;sketch=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="84" y="356" width="50" height="50" as="geometry" />
+          <mxGeometry x="-155.5" y="356" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ggUYspA04yuXxP5aQSaD-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/summer-26/512/Ball-128.png;sketch=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="219.5" y="356" width="45" height="45" as="geometry" />
+          <mxGeometry x="-97" y="358.5" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="zLWstZiQHjBcDp_SZGhJ-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;exitX=0.464;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XjBo1hRt9lNKMIXuSco-9" target="_XjBo1hRt9lNKMIXuSco-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1464,7 +1440,7 @@
         <mxCell id="Oyn7uP1S4NA_B6-OdjAn-12" value=":handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;strokeColor=#82b366;size=12;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="2295" y="-352" width="60.87" height="213" as="geometry" />
         </mxCell>
-        <mxCell id="Oyn7uP1S4NA_B6-OdjAn-44" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;strokeWidth=1;labelBackgroundColor=none;fontColor=#808080;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" edge="1" parent="1">
+        <mxCell id="Oyn7uP1S4NA_B6-OdjAn-44" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;strokeWidth=1;labelBackgroundColor=none;fontColor=#808080;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" edge="1" parent="1" target="Oyn7uP1S4NA_B6-OdjAn-49">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1878" y="-178.79" as="sourcePoint" />
             <mxPoint x="1797" y="-179" as="targetPoint" />
@@ -1490,6 +1466,9 @@
         </mxCell>
         <mxCell id="Oyn7uP1S4NA_B6-OdjAn-58" value="" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=content_router;fillColor=#f8cecc;strokeColor=#b85450;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1976.29" y="-415" width="61.42" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HqWlqSF3x_Bl8YzqjBXq-1" value="&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;Verticle handle events by providing&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;handlers&lt;/em&gt;&lt;span style=&quot;color: rgb(60 , 60 , 59) ; font-family: &amp;#34;roboto&amp;#34; , sans-serif ; font-size: 18px&quot;&gt;&amp;nbsp;to the Vert.x APIs.&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="957" y="456" width="360.5" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
