@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T20:34:15.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Rp8Fu0gfulCHHnfriPr8" version="14.3.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-18T20:34:55.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="K2UKU4MLbSL9vsiYSpSp" version="14.3.1" type="github" pages="6">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="3595" dy="4332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -656,7 +656,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="n-6Ts9lApfL_Nkq_khbV" name="Vert.x HTTPServer">
-    <mxGraphModel dx="261" dy="1705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1835" dy="2562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -667,7 +667,7 @@
           <mxGeometry x="1303" y="-544.5" width="428.5" height="161" as="geometry" />
         </mxCell>
         <mxCell id="J0PZ8fzP1nKsadgIWYR2-1" value="" style="group;fontFamily=Comic Sans MS;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="4126" y="992" width="65.5" height="60" as="geometry" />
+          <mxGeometry x="4103" y="1000" width="65.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J0PZ8fzP1nKsadgIWYR2-2" value="" style="group;fontFamily=Comic Sans MS;" parent="J0PZ8fzP1nKsadgIWYR2-1" vertex="1" connectable="0">
           <mxGeometry x="-80" y="-70" width="145.5" height="130" as="geometry" />
@@ -1113,7 +1113,7 @@
           <mxGeometry x="1672" y="-894" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-228" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Acceptor Threads&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;i style=&quot;font-size: 14px&quot;&gt;assigned to an HTTPServer Listene&lt;/i&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;r&amp;nbsp;are threads that wait for connections (aka network events.) They are a&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;lways there when HttpServer is created.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;The threads accept connections (network events aka HTTPRequest) and put them on the Event-bus where they are then picked up by Event-Loop threads in a round-robin way.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;comic=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="599" width="377.5" height="219.5" as="geometry" />
+          <mxGeometry x="1196.5" y="504" width="377.5" height="219.5" as="geometry" />
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-234" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#666666;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="LDTQbZ4eaFygSTIggesX-90" target="LDTQbZ4eaFygSTIggesX-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1134,7 +1134,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-26" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;h1 style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Asynchronous NiO Threads&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;Asynchronous I/O&lt;/b&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(also&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;non-sequential I/O&lt;/b&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;) is a form of Input/Output p&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;rocessing that permits other processing&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;to continue before the transmission&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;has finished.&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-indent: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;b style=&quot;font-size: 14px; font-style: normal; letter-spacing: normal; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;java.nio&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;&amp;nbsp;(NIO stands for Non-blocking I/O&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;) is a collection of&amp;nbsp;java programming language APIs&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;that offer features for intensive I/O&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;&amp;nbsp;operations. It was introduced with the J2SE 1.4&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;release of Java by Sun Microsystems&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;to complement an existing standard I/O. &lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;An extension to NIO that offers a new file system API, called NIO.2, was released with Java SE 7 (&quot;Dolphin&quot;)&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="1646" y="652" width="389" height="278" as="geometry" />
+          <mxGeometry x="1646" y="625" width="389" height="278" as="geometry" />
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-262" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/download-128.png;shadow=0;strokeColor=#CCCCCC;strokeWidth=1;fillColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="1923" y="-118.5" width="100.5" height="100.5" as="geometry" />
