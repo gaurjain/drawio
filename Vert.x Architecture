@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T20:42:19.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="klnzlpzuRb_J22Le346k" version="14.3.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-18T20:48:51.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="U_oAi3kAo4FKWk5yuYCM" version="14.3.1" type="github" pages="6">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="3595" dy="4332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1065,7 +1065,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-130" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 14px ; color: rgb(102 , 102 , 102) ; background-color: rgb(255 , 255 , 255)&quot;&gt;An &lt;/span&gt;&lt;b style=&quot;font-size: 14px ; color: rgb(102 , 102 , 102) ; background-color: rgb(255 , 255 , 255)&quot;&gt;event loop context&lt;/b&gt;&lt;span style=&quot;font-size: 14px ; color: rgb(102 , 102 , 102) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;guarantees to always use the same thread, however the converse is not true: the same thread can be used by different event loop contexts by the Round Robin policy.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="-890" width="277" height="113" as="geometry" />
+          <mxGeometry x="1803" y="-890" width="277" height="113" as="geometry" />
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-132" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#4D4D4D;fontColor=#CCCCCC;dashed=1;dashPattern=1 1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="LDTQbZ4eaFygSTIggesX-115">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
