@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T21:10:32.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Xrd5v6mS4-eawRH7BegT" version="14.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-02-22T21:15:12.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="uHi-PFXILd5LvfCcY7-r" version="14.3.1" type="github" pages="7">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="5880" dy="5249" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -702,7 +702,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="n-6Ts9lApfL_Nkq_khbV" name="Vert.x HTTPServer">
-    <mxGraphModel dx="5002" dy="3828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2808" dy="2805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1162,7 +1162,7 @@
           <mxGeometry x="1672" y="-894" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-228" value="&lt;h1 style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Acceptor Threads&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;i style=&quot;font-size: 14px&quot;&gt;assigned to an HTTPServer Listene&lt;/i&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;r&amp;nbsp;are threads that wait for connections (aka network events.) They are a&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;lways there when HttpServer is created.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;The threads accept connections (network events aka HTTPRequest) and put them on the Event-bus where they are then picked up by Event-Loop threads in a round-robin way.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;comic=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="1196.5" y="504" width="377.5" height="219.5" as="geometry" />
+          <mxGeometry x="1196.5" y="504" width="377.5" height="155" as="geometry" />
         </mxCell>
         <mxCell id="LDTQbZ4eaFygSTIggesX-234" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#666666;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="LDTQbZ4eaFygSTIggesX-90" target="LDTQbZ4eaFygSTIggesX-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
