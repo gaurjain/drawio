@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T18:28:29.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="bIOWnKFRk6MKH2cOlfwX" version="14.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-02-23T18:48:31.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="zFRQnboCpyWK1AZ4Kiqf" version="14.3.1" type="github" pages="7">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
-    <mxGraphModel dx="3054" dy="4002" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="3495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0uA7_dlgTEhDihHVL7zL-0" />
         <mxCell id="0uA7_dlgTEhDihHVL7zL-1" parent="0uA7_dlgTEhDihHVL7zL-0" />
@@ -17,10 +17,10 @@
           <mxGeometry x="382.4593530143649" y="222.57878654541904" width="13.22860765831055" height="13.22860765831055" as="geometry" />
         </mxCell>
         <mxCell id="nDktv3DpwgMYrLJom36--3" value="Event-loop&amp;nbsp;&lt;br&gt;thread used" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#d6b656;strokeWidth=1;fontFamily=Comic Sans MS;align=center;fillColor=none;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="77.31930400030164" y="20.170661239855285" width="201.74603174603178" height="50.23178840324632" as="geometry" />
+          <mxGeometry x="49" y="18" width="247" height="43" as="geometry" />
         </mxCell>
         <mxCell id="9ydpYUwQqVzOrc1V6WPb-0" value=":eventProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=24;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="5.154394299287412" y="194.2497900166227" width="76.28503562945369" height="46.76752713405692" as="geometry" />
+          <mxGeometry x="7" y="192.29" width="84.29" height="59.71" as="geometry" />
         </mxCell>
         <mxCell id="0AIhybsjH3-FPDcnxdHe-24" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3399FF;strokeWidth=12;fillColor=none;comic=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="375" y="-1974" width="384" height="568" as="geometry" />
@@ -619,17 +619,17 @@
         <mxCell id="sdIPIovJT20u80kAZH6s-7" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 30px&quot;&gt;&lt;font color=&quot;#7f00ff&quot; style=&quot;font-size: 30px&quot;&gt;Vert.x follows &lt;b&gt;a &#39;multi-threaded reactor&#39; &lt;/b&gt;design pattern&lt;b&gt;. WHAT !!!&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#7f00ff&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: left ; text-indent: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;ul style=&quot;font-size: 18px ; letter-spacing: normal ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-style: normal&quot;&gt;&lt;b&gt;Reactor design pattern&lt;/b&gt; is an event handling&amp;nbsp;design&amp;nbsp;pattern for handling &#39;&lt;/span&gt;&lt;i&gt;service-requests&lt;/i&gt;&#39; delivered concurrently&amp;nbsp;to A single &#39;service-handler&#39; (Demultiplexer and dispatcher) by one or more input-events.&amp;nbsp;&lt;/li&gt;&lt;li&gt;This single &lt;i&gt;service-handler&lt;/i&gt;&amp;nbsp;uses a single core thread called the &#39;event-loop thread.&#39; The &#39;&lt;i&gt;service-handler&lt;/i&gt;&#39; runs in a loop and demultiplexes&amp;nbsp;the incoming requests (as they arrive in succession) and dispatches them &lt;u&gt;synchronously &lt;/u&gt;to the associated, different &#39;&lt;i&gt;request-handlers&lt;/i&gt;&#39;.&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 18px ; letter-spacing: normal ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;li&gt;&lt;b&gt;Vert.x rather follows a &lt;i&gt;multi-threaded reactor pattern&lt;/i&gt; &lt;/b&gt;where instead of a single &lt;i&gt;service-handler&lt;/i&gt; event-loop, each Vertx instance maintains several event-loops for the service-handling (demultiplexing and dispatching) purposes.&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 18px ; letter-spacing: normal ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;li style=&quot;font-weight: 400&quot;&gt;&lt;span style=&quot;font-style: normal&quot;&gt;In spite of maintaining multiple event-loops, any particular &lt;/span&gt;&lt;i&gt;request-handler&lt;/i&gt; will never be executed concurrently and in most cases will be called using the exact same event-loop thread that is being used for dispatching the event.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 18px ; font-style: normal ; letter-spacing: normal ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;Mind you!!! &lt;/b&gt;it is&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;a pattern that asynchronously queues events, &lt;b&gt;but&amp;nbsp;unlike Proacter pattern,&lt;/b&gt;&lt;b style=&quot;font-weight: 400&quot;&gt; &lt;/b&gt;it&amp;nbsp;demultiplexes and dispatches events synchronously.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="1959" y="-1732.29" width="540" height="603" as="geometry" />
         </mxCell>
-        <mxCell id="DnLwF9LTj5ysab_OE89t-1" value=":Demultiplexer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1580" y="-1418.79" width="86" height="171.79" as="geometry" />
+        <mxCell id="DnLwF9LTj5ysab_OE89t-1" value=":Demultiplexer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=28;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
+          <mxGeometry x="1580" y="-1418.79" width="86" height="182.79" as="geometry" />
         </mxCell>
-        <mxCell id="DnLwF9LTj5ysab_OE89t-2" value=":Dispatcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1666" y="-1418.79" width="82" height="175.79" as="geometry" />
+        <mxCell id="DnLwF9LTj5ysab_OE89t-2" value=":Dispatcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=28;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
+          <mxGeometry x="1666" y="-1418.79" width="82" height="181.79" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-3" value=":Event-handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="1770" y="-1592" width="100" height="346" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="DnLwF9LTj5ysab_OE89t-3">
-          <mxGeometry x="45" y="273" width="10" height="44" as="geometry" />
+          <mxGeometry x="45" y="273" width="10" height="38" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-4" value="Resource&lt;br&gt;(HTTPPort&lt;br&gt;/Eb)" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="1434" y="-1492" width="72" height="68" as="geometry" />
@@ -640,10 +640,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-9" value=":Event-handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1780" y="-1576" width="100" height="340" as="geometry" />
+          <mxGeometry x="1780" y="-1576" width="100" height="334" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-11" value=":Event-handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1790" y="-1555" width="100" height="329" as="geometry" />
+          <mxGeometry x="1790" y="-1555" width="100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-20" value=":eventProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="1420" y="-1418.79" width="100" height="174.79" as="geometry" />
@@ -676,9 +676,9 @@
             <mxPoint x="1706.5" y="-1323.79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9ydpYUwQqVzOrc1V6WPb-2" value="publish" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Comic Sans MS;fontColor=#4C0099;sketch=1;" edge="1" parent="0uA7_dlgTEhDihHVL7zL-1" source="DnLwF9LTj5ysab_OE89t-5" target="9ydpYUwQqVzOrc1V6WPb-0">
-          <mxGeometry x="-0.6335" y="3" relative="1" as="geometry">
-            <mxPoint x="1578.5899999999992" y="-1275.9699999999998" as="targetPoint" />
+        <mxCell id="9ydpYUwQqVzOrc1V6WPb-2" value="publish" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Comic Sans MS;fontColor=#4C0099;sketch=1;entryX=1.026;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0uA7_dlgTEhDihHVL7zL-1" source="DnLwF9LTj5ysab_OE89t-5" target="9ydpYUwQqVzOrc1V6WPb-0">
+          <mxGeometry x="-0.4385" relative="1" as="geometry">
+            <mxPoint x="1608" y="-1270" as="targetPoint" />
             <mxPoint x="1815" y="-1277.1999999999998" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
