@@ -1,53 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T20:16:00.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="P3FM6uvKfA4I_k1Shmkh" version="14.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-02-23T20:24:49.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="JEi0muDnmBO2UcSz7mWp" version="14.3.1" type="github" pages="7">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
-    <mxGraphModel dx="3634" dy="4303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2242" dy="3581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0uA7_dlgTEhDihHVL7zL-0" />
         <mxCell id="0uA7_dlgTEhDihHVL7zL-1" parent="0uA7_dlgTEhDihHVL7zL-0" />
-        <mxCell id="nDktv3DpwgMYrLJom36--5" value="" style="group" vertex="1" connectable="0" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1535" y="-1466.5" width="424" height="354.29" as="geometry" />
-        </mxCell>
-        <mxCell id="nDktv3DpwgMYrLJom36--3" value="Event-loop&amp;nbsp;&lt;br&gt;thread used" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#d6b656;strokeWidth=1;fontFamily=Comic Sans MS;align=center;fillColor=none;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="80.19" y="31.71" width="205.81" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2IUANvxrljT1TUyMGnZK-4" value="vert.x" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;fontFamily=Comic Sans MS;align=left;width=84;height=33;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="-17" width="426" height="265" as="geometry" />
-        </mxCell>
-        <mxCell id="9ydpYUwQqVzOrc1V6WPb-0" value=":eventProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=17;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="-9" y="190.29" width="89.19" height="49.71" as="geometry" />
-        </mxCell>
-        <mxCell id="oFRcbcW89ChLdWKI6dam-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="106" y="33.02" width="20.42" height="20.42" as="geometry" />
-        </mxCell>
-        <mxCell id="DnLwF9LTj5ysab_OE89t-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;fontFamily=Comic Sans MS;align=left;glass=0;rounded=0;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="281" y="173.5" width="7" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="7GVnT8nP9TEP4h9Oz-Im-2" value="" style="group" vertex="1" connectable="0" parent="nDktv3DpwgMYrLJom36--5">
-          <mxGeometry x="340" y="6.5" width="56.58" height="46.94" as="geometry" />
-        </mxCell>
-        <mxCell id="oFRcbcW89ChLdWKI6dam-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="7GVnT8nP9TEP4h9Oz-Im-2">
-          <mxGeometry width="18.142000006649234" height="18.142000006649234" as="geometry" />
-        </mxCell>
-        <mxCell id="9ydpYUwQqVzOrc1V6WPb-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="7GVnT8nP9TEP4h9Oz-Im-2">
-          <mxGeometry x="17.44168697418671" y="14.334160215516826" width="18.57183188803186" height="18.57183188803186" as="geometry" />
-        </mxCell>
-        <mxCell id="9ydpYUwQqVzOrc1V6WPb-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="7GVnT8nP9TEP4h9Oz-Im-2">
-          <mxGeometry x="34.293940486944486" y="28.37012263470337" width="18.569877365296623" height="18.569877365296623" as="geometry" />
-        </mxCell>
-        <mxCell id="0AIhybsjH3-FPDcnxdHe-24" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3399FF;strokeWidth=12;fillColor=none;comic=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="375" y="-1974" width="384" height="568" as="geometry" />
-        </mxCell>
         <mxCell id="0AIhybsjH3-FPDcnxdHe-0" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;&lt;b&gt;&lt;br&gt;Vert.x&lt;br&gt;Instance&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#eeeeee;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="-176" y="-2002" width="1373" height="609" as="geometry" />
+        </mxCell>
+        <mxCell id="0AIhybsjH3-FPDcnxdHe-1" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;&lt;br&gt;Your application&lt;br&gt;organized as&lt;br&gt;verticle instances&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffcd28;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
+          <mxGeometry x="-10" y="-1780" width="1099" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="nDktv3DpwgMYrLJom36--5" value="" style="group" vertex="1" connectable="0" parent="0uA7_dlgTEhDihHVL7zL-1">
+          <mxGeometry x="1547" y="-1465" width="416" height="354.29" as="geometry" />
+        </mxCell>
+        <mxCell id="2IUANvxrljT1TUyMGnZK-4" value="vert.x" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;fontFamily=Comic Sans MS;align=left;width=76;height=31;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
+          <mxGeometry x="-28" width="429.28" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="nDktv3DpwgMYrLJom36--3" value="Event-loop&amp;nbsp;&lt;br&gt;thread used" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#d6b656;strokeWidth=1;fontFamily=Comic Sans MS;align=center;fillColor=none;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
+          <mxGeometry x="61" y="31.71" width="214" height="38.29" as="geometry" />
+        </mxCell>
+        <mxCell id="9ydpYUwQqVzOrc1V6WPb-0" value=":eventProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=17;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
+          <mxGeometry x="-12" y="203.5" width="87.51" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oFRcbcW89ChLdWKI6dam-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
+          <mxGeometry x="93" y="35" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DnLwF9LTj5ysab_OE89t-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;fontFamily=Comic Sans MS;align=left;glass=0;rounded=0;" vertex="1" parent="nDktv3DpwgMYrLJom36--5">
+          <mxGeometry x="268" y="168.5" width="7.3" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="7GVnT8nP9TEP4h9Oz-Im-2" value="" style="group" vertex="1" connectable="0" parent="nDktv3DpwgMYrLJom36--5">
+          <mxGeometry x="336.52830188679246" y="6.5" width="55.51245283018868" height="46.94" as="geometry" />
+        </mxCell>
+        <mxCell id="oFRcbcW89ChLdWKI6dam-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="7GVnT8nP9TEP4h9Oz-Im-2">
+          <mxGeometry width="17.799698119731325" height="17.799698119731325" as="geometry" />
+        </mxCell>
+        <mxCell id="9ydpYUwQqVzOrc1V6WPb-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="7GVnT8nP9TEP4h9Oz-Im-2">
+          <mxGeometry x="17.11259854071149" y="14.334160215516826" width="18.221419965616164" height="18.221419965616164" as="geometry" />
+        </mxCell>
+        <mxCell id="9ydpYUwQqVzOrc1V6WPb-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;shadow=0;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;" vertex="1" parent="7GVnT8nP9TEP4h9Oz-Im-2">
+          <mxGeometry x="33.64688500605874" y="28.37012263470337" width="18.219502320668386" height="18.219502320668386" as="geometry" />
+        </mxCell>
+        <mxCell id="0AIhybsjH3-FPDcnxdHe-24" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#3399FF;strokeWidth=12;fillColor=none;comic=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
+          <mxGeometry x="375" y="-1974" width="384" height="562" as="geometry" />
         </mxCell>
         <mxCell id="0AIhybsjH3-FPDcnxdHe-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="743.5" y="-1751.5" width="70.5" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="0IipyStDdzxp7VJvh7Ry-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/arrows-348/100/Arrows_1-22-128.png;strokeColor=#000000;rotation=-30;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="936" y="-1635" width="70.5" height="70.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0AIhybsjH3-FPDcnxdHe-1" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;&lt;br&gt;Your application&lt;br&gt;organized as&lt;br&gt;verticle instances&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffcd28;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="-10" y="-1780" width="1099" height="353" as="geometry" />
         </mxCell>
         <mxCell id="6x5OngUKleiqyAXyhp6w-0" value="&lt;div class=&quot;listingblock&quot; style=&quot;box-sizing: inherit ; color: rgb(60 , 60 , 59) ; font-size: 18px ; font-weight: 300 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;div class=&quot;content&quot; style=&quot;box-sizing: inherit&quot;&gt;&lt;div style=&quot;box-sizing: inherit ; font-size: 0.875rem ; display: block ; overflow-x: auto ; padding: 1rem ; background: rgb(58 , 40 , 64) ; color: rgb(255 , 255 , 255) ; border-radius: 0.8rem ; margin: 1.5rem 0px&quot; class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-java&quot; style=&quot;box-sizing: inherit ; font-size: 1em&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Vertx vertx = Vertx.vertx();&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: inherit ; font-size: 0.875rem ; display: block ; overflow-x: auto ; padding: 1rem ; background: rgb(58 , 40 , 64) ; color: rgb(255 , 255 , 255) ; border-radius: 0.8rem ; margin: 1.5rem 0px&quot; class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-java&quot; style=&quot;box-sizing: inherit ; font-size: 1em&quot;&gt;&lt;div style=&quot;box-sizing: inherit ; font-size: 0.875rem ; overflow-x: auto ; padding: 1rem ; border-radius: 0.8rem ; margin-top: 1.5rem ; margin-bottom: 1.5rem&quot; class=&quot;highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;code class=&quot;language-java&quot; style=&quot;box-sizing: inherit ; font-size: 1em&quot;&gt;Vertx vertx &lt;/code&gt;= Vertx.vertx( new&lt;span style=&quot;font-size: 1em ; white-space: normal&quot;&gt; VertxOptions().setWorkerPoolSize(&lt;/span&gt;&lt;span class=&quot;hljs-number&quot; style=&quot;font-size: 1em ; white-space: normal ; box-sizing: inherit ; color: rgb(108 , 185 , 240)&quot;&gt;40&lt;/span&gt;&lt;span style=&quot;font-size: 1em ; white-space: normal&quot;&gt;));&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF6666;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="-376" y="-3022.21" width="299" height="136" as="geometry" />
@@ -371,7 +371,7 @@
           <mxGeometry x="0.2599999999999909" y="-2284.21" width="449.17" height="268.46" as="geometry" />
         </mxCell>
         <mxCell id="-e6cO6g6VIMD7RvrtqLD-109" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Verticles-instance&lt;/font&gt;&lt;span style=&quot;font-size: 30px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;div class=&quot;paragraph&quot; style=&quot;box-sizing: border-box ; font-size: 20px&quot;&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;A loaded instance of a verticle class is a &#39;verticle instance&#39;.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;A verticle-instance &lt;b&gt;(run-time entity)&lt;/b&gt; processes incoming events over an event-loop or other non-event-loop contexts.&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;&lt;b&gt;A Verticle-instance is always associated with a context.&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;Any event-handler registered within a verticle - &lt;i&gt;whether it be an event bus consumer, HTTP server handler, or any other asynchronous operation&lt;/i&gt; - will be registered using the verticle-instance’s context.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;When Vert.x provides an event to a event-handler OR calls the start or stop methods of a Verticle-instance, &lt;i&gt;the execution of that handler (or method)&lt;/i&gt; is associated with a Context.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;When a verticle-instance opens a network-server and is deployed more than once, then the events gets distributed to the verticle-instances in a round-robin fashion, thus, maximizing CPU usage with lots of concurrent networked requests.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;Multiple verticles-instance can share the same TCP ports. Incoming connections are simply distributed in a round-robin fashion from accepting threads.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;&lt;b&gt;An application would typically be composed of many verticle-instances running in the same (or more) Vert.x instance at the same time.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#666666&quot;&gt;The different verticle-instances communicate with each other by sending messages on the event bus.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;/p&gt;&lt;p style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;fontFamily=Comic Sans MS;" parent="0uA7_dlgTEhDihHVL7zL-1" vertex="1">
-          <mxGeometry x="-687" y="-1863" width="627" height="701.47" as="geometry" />
+          <mxGeometry x="-686" y="-1898.74" width="627" height="688.74" as="geometry" />
         </mxCell>
         <mxCell id="-e6cO6g6VIMD7RvrtqLD-110" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Event&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: justify ; font-size: 18px&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;can be anything like receiving network buffers, timing events, or messages sent by other verticles.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;ul style=&quot;box-sizing: inherit; padding-left: 1.1rem; font-size: 18px;&quot;&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;a timer has fired&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;some data has arrived on a socket,&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;some data has been read from disk&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;an exception has occurred&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit&quot;&gt;&lt;p style=&quot;box-sizing: inherit&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;an HTTP server has received a request&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;fontFamily=Comic Sans MS;" parent="0uA7_dlgTEhDihHVL7zL-1" vertex="1">
           <mxGeometry x="2715.5" y="-3076.25" width="551.5" height="312" as="geometry" />
@@ -611,7 +611,7 @@
           <mxGeometry x="2628" y="-1919" width="171" height="17" as="geometry" />
         </mxCell>
         <mxCell id="UWVu_l6UaSju__0Tplsa-0" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;pre class=&quot;highlight&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;roboto mono&amp;quot; , , &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;liberation mono&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 0.875rem ; display: block ; overflow-x: auto ; padding: 1rem ; background: rgb(58 , 40 , 64) ; color: rgb(255 , 255 , 255) ; border-radius: 0.8rem ; margin: 1.5rem 0px ; font-style: normal ; font-weight: 300 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;code class=&quot;language-java&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;roboto mono&amp;quot; , , &amp;quot;menlo&amp;quot; , &amp;quot;monaco&amp;quot; , &amp;quot;consolas&amp;quot; , &amp;quot;liberation mono&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 1em&quot;&gt;Verticle myVerticle = &lt;span class=&quot;hljs-keyword&quot; style=&quot;box-sizing: inherit ; color: rgb(210 , 168 , 224)&quot;&gt;new&lt;/span&gt; MyVerticle();&#xa;vertx.deployVerticle(myVerticle);&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#FF6666;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="-582" y="-1974" width="514" height="121" as="geometry" />
+          <mxGeometry x="-582" y="-2002" width="514" height="121" as="geometry" />
         </mxCell>
         <mxCell id="-e6cO6g6VIMD7RvrtqLD-119" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=none;strokeWidth=1;fontFamily=Comic Sans MS;" parent="0uA7_dlgTEhDihHVL7zL-1" vertex="1">
           <mxGeometry x="-855.0040054988799" y="-1768.458936399983" width="146.39" height="73.42" as="geometry" />
@@ -632,10 +632,10 @@
           <mxGeometry x="1974" y="-1750.79" width="546" height="603" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-1" value=":Demultiplexer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=18;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1580" y="-1396.79" width="86" height="167.79" as="geometry" />
+          <mxGeometry x="1580" y="-1396.79" width="86" height="180.79" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-2" value=":Dispatcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=18;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1666" y="-1396" width="82" height="169" as="geometry" />
+          <mxGeometry x="1666" y="-1396" width="82" height="182" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-3" value=":Event-handler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=19;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry x="1770" y="-1570" width="100" height="343" as="geometry" />
@@ -655,10 +655,10 @@
           <mxGeometry x="1790" y="-1533" width="100" height="316" as="geometry" />
         </mxCell>
         <mxCell id="DnLwF9LTj5ysab_OE89t-20" value=":eventProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontColor=#4C0099;align=left;size=20;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="1422" y="-1397.79" width="88" height="174.79" as="geometry" />
+          <mxGeometry x="1422" y="-1397.79" width="88" height="188.79" as="geometry" />
         </mxCell>
         <mxCell id="2IUANvxrljT1TUyMGnZK-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;fontFamily=Comic Sans MS;align=left;rounded=0;" vertex="1" parent="DnLwF9LTj5ysab_OE89t-20">
-          <mxGeometry x="39" y="61.79" width="10" height="30" as="geometry" />
+          <mxGeometry x="39" y="61.79" width="10" height="25.21" as="geometry" />
         </mxCell>
         <mxCell id="2IUANvxrljT1TUyMGnZK-2" value="request for event" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Comic Sans MS;fontColor=#4C0099;sketch=1;" edge="1" target="2IUANvxrljT1TUyMGnZK-1" parent="0uA7_dlgTEhDihHVL7zL-1" source="DnLwF9LTj5ysab_OE89t-1">
           <mxGeometry relative="1" as="geometry">
@@ -674,21 +674,21 @@
           <mxGeometry x="18" y="-1438" width="316.5" height="218.33" as="geometry" />
         </mxCell>
         <mxCell id="Qtfri7Lj8qG-miEDHPtk-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;What is Event-loop ?&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#4d4d4d&quot;&gt;At a high level, &lt;b&gt;the event-loop is a design pattern or a programming construct that waits for and dispatches events or messages in a program.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#4d4d4d&quot;&gt;Event-loop works by making a &#39;request&#39; to some internal or external &quot;eventProvider&quot; (that generally blocks the &#39;request&#39; until the event has arrived), then calls the relevant eventHandler (dispatches the event) Synchronously.&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#4d4d4d&quot;&gt;Also called as message-pump, message-loop, message-dispatcher, or a run-loop.&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;align=left;fontFamily=Comic Sans MS;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="941" y="-1474.5" width="462" height="326.71" as="geometry" />
+          <mxGeometry x="941" y="-1492.19" width="462" height="326.71" as="geometry" />
         </mxCell>
         <mxCell id="Qtfri7Lj8qG-miEDHPtk-3" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;pre style=&quot;line-height: 1.3; margin: 0px; font-family: monospace, monospace; color: rgb(0, 0, 0); background-color: rgb(248, 249, 250); border: 1px solid rgb(234, 236, 240); padding: 1em; overflow-x: hidden; overflow-wrap: break-word; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;b&gt;function&lt;/b&gt; main&#xa;    initialize()&#xa;    &lt;b&gt;while&lt;/b&gt; message&amp;nbsp;!= quit&#xa;        message&amp;nbsp;:= get_next_message()&#xa;        process_message(message)&#xa;    &lt;b&gt;end&lt;/b&gt; &lt;b&gt;while&lt;/b&gt;&#xa;&lt;b&gt;end&lt;/b&gt; &lt;b&gt;function&lt;/b&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="0uA7_dlgTEhDihHVL7zL-1">
-          <mxGeometry x="576.004580078125" y="-1332.9989567057291" width="361" height="166" as="geometry" />
+          <mxGeometry x="558.004580078125" y="-1349.9989567057291" width="361" height="166" as="geometry" />
         </mxCell>
         <mxCell id="2IUANvxrljT1TUyMGnZK-13" value="dispatch &lt;br&gt;resource" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Comic Sans MS;fontColor=#4C0099;sketch=1;" edge="1" parent="0uA7_dlgTEhDihHVL7zL-1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="1622.810344827587" y="-1299.79" as="sourcePoint" />
-            <mxPoint x="1706.5" y="-1299.79" as="targetPoint" />
+            <mxPoint x="1623.1666666666665" y="-1304.79" as="sourcePoint" />
+            <mxPoint x="1706.5" y="-1304.79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9ydpYUwQqVzOrc1V6WPb-2" value="publish" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Comic Sans MS;fontColor=#4C0099;sketch=1;startArrow=oval;startFill=1;" edge="1" parent="0uA7_dlgTEhDihHVL7zL-1" source="DnLwF9LTj5ysab_OE89t-5">
+        <mxCell id="9ydpYUwQqVzOrc1V6WPb-2" value="publish" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Comic Sans MS;fontColor=#4C0099;sketch=1;startArrow=oval;startFill=1;" edge="1" parent="0uA7_dlgTEhDihHVL7zL-1" target="DnLwF9LTj5ysab_OE89t-1">
           <mxGeometry x="-0.4385" relative="1" as="geometry">
-            <mxPoint x="1616" y="-1264" as="targetPoint" />
-            <mxPoint x="1815" y="-1255.1999999999998" as="sourcePoint" />
+            <mxPoint x="1624" y="-1264" as="targetPoint" />
+            <mxPoint x="1811" y="-1264" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
