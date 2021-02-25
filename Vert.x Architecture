@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T19:35:07.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="c-qxWiF7Y3MEqcxiY9iJ" version="14.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-02-25T20:08:29.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="xKH_JGoAl4aDjMIDiwVI" version="14.3.1" type="github" pages="7">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="2242" dy="3581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -2470,35 +2470,43 @@
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-7" value="&lt;h6&gt;&lt;font&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ea6b66&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 30px&quot;&gt;In Java 8&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h6&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;a &lt;/i&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;&lt;b&gt;Future&amp;lt;T&amp;gt; interface&lt;/b&gt;&lt;/span&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt; represents&amp;nbsp; &lt;/i&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;&lt;i&gt;&lt;u&gt;a result of an asynchronous computation.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;&lt;i&gt;a &lt;/i&gt;&lt;b&gt;Future&amp;lt;T&amp;gt;&lt;/b&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;&lt;b&gt;interface&lt;/b&gt;&lt;i&gt; provides methods&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;to check if the computation has completed or not.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;to wait for its completion, and&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;to retrieve the result of the computation. This result can only be retrieved using the get() method when the computation is completed blocking if necessary until it is completed.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;to cancel a computation, once a computation has completed it cannot be cancelled.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;other methods to check whether the computation completed with success or was cancelled.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;i&gt;a &lt;/i&gt;&lt;b&gt;CompletionStage&amp;lt;T&amp;gt; inteface &lt;/b&gt;&lt;i&gt;defines&amp;nbsp;a stage of a possibly asynchronous computation, that performs an action or computes&amp;nbsp; a value when another CompletionStage completes.&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;i&gt;in other words a &lt;b&gt;CompletionStage&amp;lt;T&amp;gt;&lt;/b&gt; represents a commutation task(either synchronous or asynchronous)&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;a stage completes upon termination but this may in turn trigger another stage.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;all methods of this interface returns an instance of CompletionStage&amp;lt;T&amp;gt; , thus multiple CompletionStage&amp;lt;T&amp;gt; can be chained together in multiple ways to complete a group of tasks.&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;a &lt;b&gt;CompletableFuture&amp;lt;T&amp;gt; class&lt;/b&gt; implements the Future&amp;lt;T&amp;gt; and CompletionStage&amp;lt;T&amp;gt; interfaces, defining a future which can also be composed/chained together&amp;nbsp;&lt;/span&gt;supporting dependent functions and actions that trigger upon its completion.&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;b&gt;a CompletableFuture&amp;lt;T&amp;gt; &lt;i&gt;&lt;u&gt;is a promise&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;i&gt;&lt;u&gt;, a single assignment writeable container,&lt;/u&gt;&lt;/i&gt; that may be explicitly completed (setting its value or status using the public set method, like complete(), which the caller (or anybody else) can use to set the value of the future. )&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;An instance of CompletableFuture&amp;lt;T&amp;gt; can be created in a producer class with a no-arg constructor to represent some Future result, and later this can be handed out to the consumer (passed as an argument), and&amp;nbsp;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;the producer class (or someone else) can complete this CompletableFuture at some time in the future using the complete() method.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;The consumers may use the get() method to block the current consumer thread until this CompletableFuture result is provided.&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;p style=&quot;font-size: 13px&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontFamily=Comic Sans MS;fontSize=13;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
           <mxGeometry x="1030" y="-1840" width="530" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-8" value="main flow" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="810" y="-2940" width="100" height="540" as="geometry" />
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-8" value="&lt;b&gt;main flow&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="811" y="-2930" width="130" height="530" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-13" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" vertex="1" parent="zj1Q-s2DjjA8QUwu4jfU-8">
           <mxGeometry x="65" y="25" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-9" value="Task 1&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-46" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;align=left;" vertex="1" parent="zj1Q-s2DjjA8QUwu4jfU-8">
+          <mxGeometry x="10" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" edge="1" source="zj1Q-s2DjjA8QUwu4jfU-46" parent="zj1Q-s2DjjA8QUwu4jfU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-9" value="Task 1&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
           <mxGeometry x="1210" y="-2785" width="60" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-10" value="Task 2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-10" value="Task 2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
           <mxGeometry x="1270" y="-2785" width="50" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-11" value="Task n" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1600" y="-2785" width="60" height="160" as="geometry" />
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-11" value="Task n implements Callable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="1480" y="-2785" width="180" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-15" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="830" y="-2770" width="120" height="40" as="geometry" />
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-15" value="&lt;b&gt;for 1...n &lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;executorService.submit()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="800" y="-2774.8" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zj1Q-s2DjjA8QUwu4jfU-15" parent="jzlO5-WYaifbpOypLcBT-1" target="zj1Q-s2DjjA8QUwu4jfU-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="890" y="-2680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-17" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;future.get();&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-17" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;for 1...n&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;/b&gt;future[i].get();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
           <mxGeometry x="830" y="-2620" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-18" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#001DBC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240" y="-2695" as="sourcePoint" />
+            <mxPoint x="1200" y="-2695" as="sourcePoint" />
             <mxPoint x="890" y="-2695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -2508,13 +2516,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1450" y="-2770" width="10" height="10" as="geometry" />
+          <mxGeometry x="1330" y="-2774.8" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1490" y="-2770" width="10" height="10" as="geometry" />
+          <mxGeometry x="1370" y="-2774.8" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1533" y="-2770" width="10" height="10" as="geometry" />
+          <mxGeometry x="1413" y="-2774.8" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-23" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#001DBC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;entryX=0.001;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" target="zj1Q-s2DjjA8QUwu4jfU-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2522,29 +2530,35 @@
             <mxPoint x="1259.4999999999998" y="-2720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-26" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#001DBC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="zj1Q-s2DjjA8QUwu4jfU-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1259.5" y="-2690" as="sourcePoint" />
-            <mxPoint x="890" y="-2690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-27" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#001DBC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1609.5" y="-2685.24" as="sourcePoint" />
-            <mxPoint x="890" y="-2685.24" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-32" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.ram;rounded=0;glass=0;labelBackgroundColor=none;sketch=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;fillColor=#0050ef;strokeColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
           <mxGeometry x="1040" y="-2800" width="48.4" height="25.2" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-38" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1030" y="-2697" width="20" height="20" as="geometry" />
+          <mxGeometry x="1026" y="-2690" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-39" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1040" y="-2703" width="20" height="20" as="geometry" />
+          <mxGeometry x="1054.2" y="-2690" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-41" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="1050" y="-2710" width="20" height="20" as="geometry" />
+          <mxGeometry x="1080" y="-2690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-45" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="1105" y="-2690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-48" value="//blocking sequentially &lt;br&gt;for each iteration based upon the" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="950" y="-2620" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-52" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="1054.2" y="-2580" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-53" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="1080" y="-2580" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-54" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="1105" y="-2580" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-55" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="1026" y="-2583.5" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
