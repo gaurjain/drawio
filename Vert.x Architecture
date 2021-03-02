@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T19:24:47.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="M9c1jzdKEL5jylnLgrTw" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T19:26:05.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="r1RY7IlYFAna8hphfVlZ" version="14.4.3" type="github" pages="6">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="3107" dy="3969" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -2439,7 +2439,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FoUf9BQanTUK1ur2z_mo" name="Page-4">
-    <mxGraphModel dx="973" dy="3858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="3858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="jzlO5-WYaifbpOypLcBT-0" />
         <mxCell id="jzlO5-WYaifbpOypLcBT-1" parent="jzlO5-WYaifbpOypLcBT-0" />
@@ -2549,8 +2549,8 @@
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-45" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
           <mxGeometry x="345.3" y="-3020" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-48" value="//blocking sequentially &lt;br&gt;for each iteration based upon the" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="205" y="-2898.25" width="220" height="40" as="geometry" />
+        <mxCell id="zj1Q-s2DjjA8QUwu4jfU-48" value="//blocking sequentially &lt;br&gt;for each iteration based upon the&lt;br&gt;completion of the futures" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
+          <mxGeometry x="205" y="-2898.25" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-52" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
           <mxGeometry x="294.50000000000006" y="-2914.75" width="20" height="16.5" as="geometry" />
