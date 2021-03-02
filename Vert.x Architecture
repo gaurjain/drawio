@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T20:36:55.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="XyEN0nFsghFbtUjNKw8H" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T20:53:00.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="819eTAEvqE4EnxPTnNLt" version="14.4.3" type="github" pages="6">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="3107" dy="3969" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -2439,39 +2439,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FoUf9BQanTUK1ur2z_mo" name="Page-4">
-    <mxGraphModel dx="1655" dy="5226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2023" dy="3885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="jzlO5-WYaifbpOypLcBT-0" />
         <mxCell id="jzlO5-WYaifbpOypLcBT-1" parent="jzlO5-WYaifbpOypLcBT-0" />
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-12" value="thread-pool" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;width=90;height=30;fontStyle=1" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="440" y="-3165" width="480" height="285" as="geometry" />
+          <mxGeometry x="450" y="-2745" width="480" height="285" as="geometry" />
         </mxCell>
         <mxCell id="jzlO5-WYaifbpOypLcBT-2" value="&lt;pre style=&quot;box-sizing: border-box ; overflow: auto ; font-size: 17px ; border-radius: 4px ; line-height: 1.42857 ; display: block ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; padding: 12px ; margin: 0px 0px 12.5px ; word-break: break-all ; overflow-wrap: break-word ; background-color: rgb(245 , 245 , 245) ; border: none ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;public class MainVerticle extends AbstractVerticle {&lt;br&gt;&amp;nbsp; @Override&lt;br&gt;&amp;nbsp; public void start(Promise promise) { &lt;br&gt;&amp;nbsp;     promise.complete();&lt;br&gt;&amp;nbsp; } &lt;br&gt;}&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#EA6B66;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="800" y="-3500" width="560" height="178" as="geometry" />
+          <mxGeometry x="800" y="-3080" width="560" height="178" as="geometry" />
         </mxCell>
         <mxCell id="jzlO5-WYaifbpOypLcBT-3" value="&lt;h1&gt;&lt;font color=&quot;#ea6b66&quot; style=&quot;font-size: 36px&quot;&gt;Futures and Promises&lt;/font&gt;&lt;/h1&gt;&lt;ol style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#6666ff&quot;&gt;&lt;b&gt;Generally they refer to the construct used for synchronizing program execution in some concurrent programming languages.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#6666ff&quot;&gt;They both describe objects that &lt;b&gt;acts as a proxy for a result(value)&lt;/b&gt; that is initially &lt;i&gt;unknown&lt;/i&gt;, usually because the computation of its value is not yet complete, but will eventually become available.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#6666ff&quot;&gt;They represent to serve as a result of any asynchronous computation.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ea6b66&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;span&gt;In certain languages [Scala, Java, Dart, etc.], &lt;b&gt;a &lt;i&gt;F&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;i&gt;&lt;b&gt;uture&lt;/b&gt;&lt;/i&gt;&lt;span&gt;&amp;nbsp;is defined as &lt;b&gt;a read-only placeholder/reference view&lt;/b&gt; of a variable (that does not yet exist),&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ea6b66&quot;&gt;while &lt;b&gt;a &lt;i&gt;P&lt;span&gt;romise (CompletableFuture/Completer)&amp;nbsp;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span&gt;is a &lt;b&gt;writable, single assignment container&lt;/b&gt; which sets the value of the Future i.e. &#39;completes&#39; the Future or something - like a status - which the Future refers to.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="43" y="-3600" width="677" height="350" as="geometry" />
+          <mxGeometry x="53" y="-3180" width="677" height="350" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;&lt;font&gt;&lt;font style=&quot;font-size: 24px&quot; color=&quot;#ea6b66&quot;&gt;io.vertx.core.Promise&amp;lt;T&amp;gt;&lt;/font&gt;&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ea6b66&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 18px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(71 , 71 , 71)&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 18px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#333333&quot;&gt;Represents&lt;b&gt; the writable side of an action&lt;/b&gt; that may, or may not, have occurred yet.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;is a writable, single assignment container which sets the value of the Future&amp;lt;T&amp;gt; i.e. &#39;completes&#39; the Future or something which the Future refers to.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#6666ff&quot;&gt;a Promise can complete the Future with a result to indicate success, or with an exception to indicate failure.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;vert.x Promises&amp;lt;T&amp;gt; can be composed /chained together.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px&quot;&gt;&lt;span style=&quot;text-align: justify&quot;&gt;A vert.x Promise&amp;lt;T&amp;gt; is equivalent to Java8 CompletableFuture or Completer.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#333333&quot;&gt;A promise&amp;lt;T&amp;gt; interface extends&amp;nbsp;&lt;code style=&quot;padding-top: 4px ; margin-top: 8px ; line-height: 1.4em&quot;&gt;Handler&amp;lt;AsyncResult&amp;lt;T&amp;gt;&amp;gt;&lt;/code&gt;&amp;nbsp;so it can be used as a callback.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#6666ff&quot;&gt;The Future associated with a Promise can be accessed by calling the &#39;future&#39; method on it, but, conversion in another direction is not possible.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;The&amp;nbsp;future()&amp;nbsp;method returns the Future&amp;lt;T&amp;gt;&amp;nbsp;associated with a promise&amp;lt;T&amp;gt;, the future() method can be used for getting notified of the promise completion and retrieve its value.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#4C0099;fontSize=16;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="1150" y="-2840" width="520" height="530" as="geometry" />
+          <mxGeometry x="1160" y="-2420" width="520" height="530" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-1" value="&lt;div style=&quot;text-align: justify ; font-size: 24px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot; style=&quot;font-size: 24px&quot;&gt;io.vertx.core.Future&amp;lt;T&amp;gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#474747&quot; style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px&quot;&gt;&lt;span style=&quot;font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;Represents &lt;b&gt;the result of an action&lt;/b&gt; that may, or may not, have occurred yet.&amp;nbsp;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;span style=&quot;text-align: justify&quot;&gt;Vert.x futures are not JDK-6 futures:&lt;/span&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;text-align: justify&quot;&gt;they can be composed and queried in a non-blocking fashion.&lt;/i&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;span style=&quot;text-align: justify&quot;&gt;They shall be used for simple coordination of asynchronous tasks, and especially those of deploying verticles and checking if they were successfully deployed or not.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#6666ff&quot;&gt;Notably, a Future&amp;nbsp;may be defined without specifying which specific Promise will set its value, and different possible Promises may set the value of a given Future, though this can be done only once for a given future.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#6666ff&quot;&gt;In other words, a Future is a read-only window to a value written into a Promise.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: justify ; font-size: 20px&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#4C0099;fontSize=16;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="480" y="-2840" width="480" height="480" as="geometry" />
+          <mxGeometry x="490" y="-2420" width="480" height="480" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 80px&quot;&gt;VS.&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontColor=#4C0099;fontSize=16;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="1010" y="-2380" width="160" height="140" as="geometry" />
+          <mxGeometry x="1020" y="-1960" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-5" value="&lt;p style=&quot;box-sizing: border-box; font-size: 16px; margin: 0px 0px 10px; color: rgb(0, 0, 0); line-height: 1.334; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Comic Sans MS;fontColor=#4C0099;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="880" y="-2745" width="20" height="40" as="geometry" />
+          <mxGeometry x="890" y="-2325" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-6" value="&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; font-size: 18px ; margin: 0px 0px 10px ; color: rgb(0 , 0 , 0) ; line-height: 1.334 ; background-color: rgb(255 , 255 , 255)&quot;&gt;Asynchronous computation is difficult to reason about.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; font-size: 18px ; margin: 0px 0px 10px ; color: rgb(0 , 0 , 0) ; line-height: 1.334 ; background-color: rgb(255 , 255 , 255)&quot;&gt;Usually we want to think of any computation as a series of steps, but in the case of asynchronous computation,&amp;nbsp;&lt;span style=&quot;box-sizing: border-box ; font-weight: 700&quot;&gt;actions represented as callbacks tend to be either scattered across the code or deeply nested inside each other&lt;/span&gt;.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; font-size: 18px ; margin: 0px 0px 10px ; color: rgb(0 , 0 , 0) ; line-height: 1.334 ; background-color: rgb(255 , 255 , 255)&quot;&gt;Things get even worse when we need to handle errors that might occur during one of the steps.&lt;/p&gt;&lt;p style=&quot;text-align: justify ; box-sizing: border-box ; font-size: 18px ; margin: 0px 0px 10px ; color: rgb(0 , 0 , 0) ; line-height: 1.334 ; background-color: rgb(255 , 255 , 255)&quot;&gt;The&amp;nbsp;&lt;em style=&quot;box-sizing: border-box&quot;&gt;Future&lt;/em&gt;&amp;nbsp;interface was added in Java 5 &lt;b&gt;to serve as a result of an asynchronous computation&lt;/b&gt;, BUT it did not have any methods to combine these computations or handle possible errors.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="960" y="-3160" width="670" height="280" as="geometry" />
+          <mxGeometry x="970" y="-2740" width="670" height="280" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-7" value="&lt;h6&gt;&lt;font&gt;&lt;span style=&quot;text-align: justify&quot;&gt;&lt;font color=&quot;#ea6b66&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 24px&quot;&gt;In Java 8&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h6&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;a &lt;/i&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;Future&amp;lt;T&amp;gt; interface&lt;/b&gt;&lt;/span&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt; represents&amp;nbsp; &lt;/i&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&lt;u style=&quot;font-size: 16px&quot;&gt;a result of an asynchronous computation.&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;a &lt;/i&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;Future&amp;lt;T&amp;gt;&lt;/b&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&amp;nbsp;&lt;/i&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;interface&lt;/b&gt;&lt;i style=&quot;font-size: 16px&quot;&gt; provides methods&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;to check if the computation has completed or not.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;to wait for its completion, and&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;to retrieve the result of the computation. This result can only be retrieved using the get() method when the computation is completed blocking if necessary until it is completed.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;to cancel a computation, once a computation has completed it cannot be cancelled.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px&quot;&gt;other methods to check whether the computation completed with success or was cancelled.&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;a &lt;/i&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;CompletionStage&amp;lt;T&amp;gt; inteface &lt;/b&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;defines&amp;nbsp;a stage of a possibly asynchronous computation, that performs an action or computes&amp;nbsp; a value when another CompletionStage completes.&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;in other words a &lt;b style=&quot;font-size: 16px&quot;&gt;CompletionStage&amp;lt;T&amp;gt;&lt;/b&gt; represents a commutation task(either synchronous or asynchronous)&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;a stage completes upon termination but this may in turn trigger another stage.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;all methods of this interface returns an instance of CompletionStage&amp;lt;T&amp;gt; , thus multiple CompletionStage&amp;lt;T&amp;gt; can be chained together in multiple ways to complete a group of tasks.&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;a &lt;b style=&quot;font-size: 16px&quot;&gt;CompletableFuture&amp;lt;T&amp;gt; class&lt;/b&gt; implements the Future&amp;lt;T&amp;gt; and CompletionStage&amp;lt;T&amp;gt; interfaces, defining a future which can also be composed/chained together&amp;nbsp;&lt;/span&gt;supporting dependent functions and actions that trigger upon its completion.&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;a CompletableFuture&amp;lt;T&amp;gt; &lt;i style=&quot;font-size: 16px&quot;&gt;&lt;u style=&quot;font-size: 16px&quot;&gt;is a promise&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&lt;u style=&quot;font-size: 16px&quot;&gt;, a single assignment writeable container,&lt;/u&gt;&lt;/i&gt; that may be explicitly completed (setting its value or status using the public set method, like complete(), which the caller (or anybody else) can use to set the value of the future. )&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;An instance of CompletableFuture&amp;lt;T&amp;gt; can be created in a producer class with a no-arg constructor to represent some Future result, and later this can be handed out to the consumer (passed as an argument), and&amp;nbsp;&lt;/li&gt;&lt;ol style=&quot;font-size: 16px&quot;&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;the producer class (or someone else) can complete this CompletableFuture at some time in the future using the complete() method.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify ; font-size: 16px&quot;&gt;The consumers may use the get() method to block the current consumer thread until this CompletableFuture result is provided.&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontFamily=Comic Sans MS;fontSize=16;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="560" y="-2280" width="1060" height="470" as="geometry" />
+          <mxGeometry x="570" y="-1860" width="1060" height="470" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-8" value="&lt;b&gt;main flow&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="51" y="-3240" width="130" height="530" as="geometry" />
+          <mxGeometry x="61" y="-2820" width="130" height="530" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-13" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" parent="zj1Q-s2DjjA8QUwu4jfU-8" vertex="1">
           <mxGeometry x="65" y="25" width="30" height="30" as="geometry" />
@@ -2486,128 +2486,277 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-9" value="Task 1&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="450" y="-3095" width="60" height="160" as="geometry" />
+          <mxGeometry x="460" y="-2675" width="60" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-10" value="Task 2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="520" y="-3095" width="50" height="160" as="geometry" />
+          <mxGeometry x="530" y="-2675" width="50" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-11" value="Task n implements Callable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="720" y="-3095" width="180" height="160" as="geometry" />
+          <mxGeometry x="730" y="-2675" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-15" value="&lt;b&gt;for 1...n &lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;executorService.submit()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="40" y="-3060.0000000000005" width="180" height="40" as="geometry" />
+          <mxGeometry x="50" y="-2640.0000000000005" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jzlO5-WYaifbpOypLcBT-1" source="zj1Q-s2DjjA8QUwu4jfU-15" target="zj1Q-s2DjjA8QUwu4jfU-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="-2990" as="targetPoint" />
+            <mxPoint x="140" y="-2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-17" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;for 1...n&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;/b&gt;future[i].get();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="70" y="-2928.25" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="-2508.25" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-18" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;exitX=-0.005;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#6600CC;" parent="jzlO5-WYaifbpOypLcBT-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="439.9999999999999" y="-3010.29" as="sourcePoint" />
-            <mxPoint x="132.4" y="-3010.23" as="targetPoint" />
+            <mxPoint x="449.9999999999999" y="-2590.29" as="sourcePoint" />
+            <mxPoint x="142.4" y="-2590.23" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jzlO5-WYaifbpOypLcBT-1" source="zj1Q-s2DjjA8QUwu4jfU-13" target="zj1Q-s2DjjA8QUwu4jfU-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="-3135" as="targetPoint" />
+            <mxPoint x="140" y="-2715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="600" y="-3087.4" width="10" height="10" as="geometry" />
+          <mxGeometry x="610" y="-2667.4" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="640" y="-3087.4" width="10" height="10" as="geometry" />
+          <mxGeometry x="650" y="-2667.4" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="683" y="-3087.4" width="10" height="10" as="geometry" />
+          <mxGeometry x="693" y="-2667.4" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-23" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#001DBC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;entryX=0.001;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="jzlO5-WYaifbpOypLcBT-1" target="zj1Q-s2DjjA8QUwu4jfU-12" edge="1" source="zj1Q-s2DjjA8QUwu4jfU-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="-3030" as="sourcePoint" />
-            <mxPoint x="499.4999999999998" y="-3030" as="targetPoint" />
+            <mxPoint x="140" y="-2610" as="sourcePoint" />
+            <mxPoint x="509.4999999999998" y="-2610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-32" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.ram;rounded=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#b1ddf0;strokeColor=#10739e;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="240" y="-3002.85" width="150" height="75.2" as="geometry" />
+          <mxGeometry x="250" y="-2582.85" width="150" height="75.2" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-38" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="265.5" y="-3030" width="20" height="20" as="geometry" />
+          <mxGeometry x="275.5" y="-2610" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-39" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="293.70000000000005" y="-3030" width="20" height="20" as="geometry" />
+          <mxGeometry x="303.70000000000005" y="-2610" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-41" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="319.5" y="-3030" width="20" height="20" as="geometry" />
+          <mxGeometry x="329.5" y="-2610" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-45" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="344.5" y="-3030" width="20" height="20" as="geometry" />
+          <mxGeometry x="354.5" y="-2610" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-48" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#99004d&quot;&gt;//blocking sequentially &lt;br&gt;for each iteration based upon the&lt;br&gt;completion of the futures&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="150" y="-2879.13" width="200" height="50" as="geometry" />
+          <mxGeometry x="160" y="-2459.13" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-52" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="294.50000000000006" y="-2914.75" width="20" height="16.5" as="geometry" />
+          <mxGeometry x="304.50000000000006" y="-2494.75" width="20" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-53" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="320.3" y="-2914.75" width="20" height="16.5" as="geometry" />
+          <mxGeometry x="330.3" y="-2494.75" width="20" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-54" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="345.3" y="-2914.75" width="20" height="16.5" as="geometry" />
+          <mxGeometry x="355.3" y="-2494.75" width="20" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="zj1Q-s2DjjA8QUwu4jfU-55" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="jzlO5-WYaifbpOypLcBT-1" vertex="1">
-          <mxGeometry x="266.3" y="-2918.5" width="20" height="20" as="geometry" />
+          <mxGeometry x="276.3" y="-2498.5" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="471" y="-3120" width="18" height="18" as="geometry" />
+          <mxGeometry x="481" y="-2700" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="540" y="-3120" width="18" height="18" as="geometry" />
+          <mxGeometry x="550" y="-2700" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="810" y="-3120" width="18" height="18" as="geometry" />
+          <mxGeometry x="820" y="-2700" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-5" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#e1d5e7;exitX=-0.005;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.908;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;startArrow=oval;startFill=1;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" target="J-Lc7sUvIBnGwKNRpXXT-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="477.5999999999999" y="-2982" as="sourcePoint" />
-            <mxPoint x="370" y="-2982" as="targetPoint" />
+            <mxPoint x="487.5999999999999" y="-2562" as="sourcePoint" />
+            <mxPoint x="380" y="-2562" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="294.2" y="-2990" width="20" height="16.5" as="geometry" />
+          <mxGeometry x="304.2" y="-2570" width="20" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-7" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#e1d5e7;entryX=0.908;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;startArrow=oval;startFill=1;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" target="J-Lc7sUvIBnGwKNRpXXT-8" source="zj1Q-s2DjjA8QUwu4jfU-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="503.69999999999993" y="-2965.5" as="sourcePoint" />
-            <mxPoint x="396.1" y="-2965.5" as="targetPoint" />
+            <mxPoint x="513.6999999999999" y="-2545.5" as="sourcePoint" />
+            <mxPoint x="406.1" y="-2545.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-8" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="320.3" y="-2973.5" width="20" height="16.5" as="geometry" />
+          <mxGeometry x="330.3" y="-2553.5" width="20" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-9" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#e1d5e7;entryX=0.908;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;startArrow=oval;startFill=1;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" target="J-Lc7sUvIBnGwKNRpXXT-10" source="zj1Q-s2DjjA8QUwu4jfU-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="-2943.0355" as="sourcePoint" />
-            <mxPoint x="421.6" y="-2943.5" as="targetPoint" />
+            <mxPoint x="580" y="-2523.0355" as="sourcePoint" />
+            <mxPoint x="431.6" y="-2523.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-10" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="345.8" y="-2951.5" width="20" height="16.5" as="geometry" />
+          <mxGeometry x="355.8" y="-2531.5" width="20" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="197" y="-3230" width="23" height="23" as="geometry" />
+          <mxGeometry x="207" y="-2810" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="zj1Q-s2DjjA8QUwu4jfU-17" target="J-Lc7sUvIBnGwKNRpXXT-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="131" y="-2820" as="targetPoint" />
-            <mxPoint x="140" y="-3034.8" as="sourcePoint" />
+            <mxPoint x="141" y="-2400" as="targetPoint" />
+            <mxPoint x="150" y="-2614.8" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J-Lc7sUvIBnGwKNRpXXT-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.block;sketch=1;fontSize=16;fontColor=#ffffff;strokeColor=#FF0000;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
-          <mxGeometry x="118.5" y="-2868.25" width="23" height="28.25" as="geometry" />
+          <mxGeometry x="128.5" y="-2448.25" width="23" height="28.25" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-17" value="&lt;ul&gt;&lt;li&gt;Independent flows are program flows where,&amp;nbsp;&lt;/li&gt;&lt;li&gt;Within One flow, tasks (methods) are dependent on each other; &lt;/li&gt;&lt;li&gt;however, one flow is not at all dependent on another flows.&lt;/li&gt;&lt;li&gt;For designing such flows and have them executed independently, without blocking/bothering the main threads,&lt;/li&gt;&lt;li&gt;using threads from a threadpool (default -ForkJoinPool.commonPool() or provided),&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;in Java 8, objects of CompletableFuture&amp;lt;T&amp;gt; class are used.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-460" y="-2255" width="880" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-18" value="thread-pool" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;width=90;height=30;fontStyle=1" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-160" y="-2015" width="480" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-20" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-529" y="-1660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-21" value="Task 1&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-150" y="-1945" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-22" value="Task 2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-80" y="-1945" width="50" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-23" value="Task n implements Callable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="120" y="-1945" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-24" value="&lt;b&gt;CompletableFuture&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-560" y="-1910.0000000000005" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="J-Lc7sUvIBnGwKNRpXXT-24" target="J-Lc7sUvIBnGwKNRpXXT-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="-1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-26" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;for 1...n&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;/b&gt;future[i].get();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-530" y="-1778.25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-27" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;exitX=-0.005;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#6600CC;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="-1860.29" as="sourcePoint" />
+            <mxPoint x="-467.5999999999999" y="-1860.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-28" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" target="J-Lc7sUvIBnGwKNRpXXT-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="-1985" as="targetPoint" />
+            <mxPoint x="-469" y="-2035" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry y="-1937.4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-30" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="40" y="-1937.4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#3700CC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#ffffff;align=left;fillColor=#6a00ff;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="83" y="-1937.4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-32" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeColor=#001DBC;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;entryX=0.001;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="J-Lc7sUvIBnGwKNRpXXT-24" target="J-Lc7sUvIBnGwKNRpXXT-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-470" y="-1880" as="sourcePoint" />
+            <mxPoint x="-100.50000000000023" y="-1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-33" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.ram;rounded=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-360" y="-1852.85" width="150" height="75.2" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-34" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-334.5" y="-1880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-35" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-306.29999999999995" y="-1880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-36" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-280.5" y="-1880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-37" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-255.5" y="-1880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-38" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#99004d&quot;&gt;//blocking sequentially &lt;br&gt;for each iteration based upon the&lt;br&gt;completion of the futures&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-450" y="-1729.13" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-39" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-305.49999999999994" y="-1764.75" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-40" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-279.7" y="-1764.75" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-41" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-254.7" y="-1764.75" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-42" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-333.7" y="-1768.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-129" y="-1970" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-44" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-60" y="-1970" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="210" y="-1970" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-46" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#e1d5e7;exitX=-0.005;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.908;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;startArrow=oval;startFill=1;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" target="J-Lc7sUvIBnGwKNRpXXT-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-122.40000000000009" y="-1832" as="sourcePoint" />
+            <mxPoint x="-230" y="-1832" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-47" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-305.8" y="-1840" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-48" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#e1d5e7;entryX=0.908;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;startArrow=oval;startFill=1;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="J-Lc7sUvIBnGwKNRpXXT-22" target="J-Lc7sUvIBnGwKNRpXXT-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-96.30000000000007" y="-1815.5" as="sourcePoint" />
+            <mxPoint x="-203.89999999999998" y="-1815.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-49" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-279.7" y="-1823.5" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-50" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#e1d5e7;entryX=0.908;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;startArrow=oval;startFill=1;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="J-Lc7sUvIBnGwKNRpXXT-23" target="J-Lc7sUvIBnGwKNRpXXT-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="-1793.0355" as="sourcePoint" />
+            <mxPoint x="-178.39999999999998" y="-1793.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-51" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-254.2" y="-1801.5" width="20" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-403" y="-2080" width="23" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jzlO5-WYaifbpOypLcBT-1" source="J-Lc7sUvIBnGwKNRpXXT-26" target="J-Lc7sUvIBnGwKNRpXXT-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-469" y="-1670" as="targetPoint" />
+            <mxPoint x="-460" y="-1884.8000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-54" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.block;sketch=1;fontSize=16;fontColor=#ffffff;strokeColor=#FF0000;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-481.5" y="-1718.25" width="23" height="28.25" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-55" value="&lt;b&gt;main flow&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" vertex="1" parent="jzlO5-WYaifbpOypLcBT-1">
+          <mxGeometry x="-550" y="-2090" width="130" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-56" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;" vertex="1" parent="J-Lc7sUvIBnGwKNRpXXT-55">
+          <mxGeometry x="65" y="25" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-57" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="J-Lc7sUvIBnGwKNRpXXT-55">
+          <mxGeometry x="20" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Lc7sUvIBnGwKNRpXXT-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;" edge="1" parent="J-Lc7sUvIBnGwKNRpXXT-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="530" as="targetPoint" />
+            <mxPoint x="78" y="470" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
