@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T18:39:12.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="OuwsW1x6y6B97qPhOOz8" version="14.4.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-03T18:42:01.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="ZTOxKN2kiN-ePB_9pw-J" version="14.4.3" type="github" pages="7">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="4693" dy="4820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -2761,11 +2761,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ojg0jjXSgJT2XiugMuDP" name="Page-8">
-    <mxGraphModel dx="569" dy="3664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1348" dy="3907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WglciRy2GOzlCehPyRYt-0" />
         <mxCell id="WglciRy2GOzlCehPyRYt-1" parent="WglciRy2GOzlCehPyRYt-0" />
-        <mxCell id="WglciRy2GOzlCehPyRYt-2" value="thread-pool" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;width=90;height=30;fontStyle=1" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
+        <mxCell id="WglciRy2GOzlCehPyRYt-2" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;width=90;height=30;fontStyle=1" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
           <mxGeometry x="535" y="-3165" width="480" height="285" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-3" value="&lt;p style=&quot;box-sizing: border-box; font-size: 16px; margin: 0px 0px 10px; color: rgb(0, 0, 0); line-height: 1.334; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
@@ -2778,7 +2778,7 @@
           <mxGeometry x="65" y="25" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-6" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="WglciRy2GOzlCehPyRYt-4">
-          <mxGeometry x="20" y="340" width="120" height="40" as="geometry" />
+          <mxGeometry x="20" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WglciRy2GOzlCehPyRYt-4" source="WglciRy2GOzlCehPyRYt-6">
           <mxGeometry relative="1" as="geometry">
@@ -2798,7 +2798,7 @@
         <mxCell id="WglciRy2GOzlCehPyRYt-10" value="Task n implements Callable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;strokeColor=#6600CC;strokeWidth=1;fillColor=none;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;align=left;fontStyle=1;size=25;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
           <mxGeometry x="815" y="-3095" width="180" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WglciRy2GOzlCehPyRYt-11" value="executorService.submit()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
+        <mxCell id="WglciRy2GOzlCehPyRYt-11" value="Caller.request()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
           <mxGeometry x="135" y="-3077.4000000000005" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WglciRy2GOzlCehPyRYt-1" source="WglciRy2GOzlCehPyRYt-41" target="WglciRy2GOzlCehPyRYt-6">
@@ -2847,8 +2847,8 @@
         <mxCell id="WglciRy2GOzlCehPyRYt-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
           <mxGeometry x="292" y="-3230" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="WglciRy2GOzlCehPyRYt-42" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font color=&quot;#6600cc&quot;&gt;//main-flow thread is blocked &lt;br&gt;until the Task 1 is completed and &lt;br&gt;the response-result is received&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
-          <mxGeometry x="236.5" y="-3000" width="200" height="50" as="geometry" />
+        <mxCell id="WglciRy2GOzlCehPyRYt-42" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(102 , 0 , 204) ; font-size: 12px&quot;&gt;//main-flow thread is blocked&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(102 , 0 , 204)&quot;&gt;until the Task 1 is completed and&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#6600cc&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;the response-result is received&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
+          <mxGeometry x="235" y="-3020" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-44" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
           <mxGeometry x="156" y="-3142" width="120" height="40" as="geometry" />
@@ -2860,7 +2860,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-41" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.block;sketch=1;fontSize=16;fontColor=#ffffff;strokeColor=#FF0000;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
-          <mxGeometry x="213.5" y="-2989.12" width="23" height="28.25" as="geometry" />
+          <mxGeometry x="213.5" y="-3009.13" width="23" height="28.25" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WglciRy2GOzlCehPyRYt-1" source="WglciRy2GOzlCehPyRYt-11" target="WglciRy2GOzlCehPyRYt-41">
           <mxGeometry relative="1" as="geometry">
@@ -2872,7 +2872,7 @@
           <mxGeometry x="315" y="-3060" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-49" value="&lt;font color=&quot;#6600cc&quot;&gt;receive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
-          <mxGeometry x="490" y="-3060" width="50" height="20" as="geometry" />
+          <mxGeometry x="490" y="-3057.4" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WglciRy2GOzlCehPyRYt-50" value="&lt;font color=&quot;#6600cc&quot;&gt;reply&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WglciRy2GOzlCehPyRYt-1">
           <mxGeometry x="495" y="-2970" width="40" height="20" as="geometry" />
