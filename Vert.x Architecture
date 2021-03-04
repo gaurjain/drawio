@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T19:30:47.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="--VgrIxywJpqMMZiq5MT" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-04T19:31:33.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="sTz-LuR6wugLV9O8ZlLt" version="14.4.3" type="github" pages="10">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="2556" dy="3664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -3276,7 +3276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HOdaaC7w2qTtz1-2PMLI" name="Page-11">
-    <mxGraphModel dx="713" dy="2853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1712" dy="3278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="-Cba2YdGMMtnTPEi-0kE-0" />
         <mxCell id="-Cba2YdGMMtnTPEi-0kE-1" parent="-Cba2YdGMMtnTPEi-0kE-0" />
@@ -3379,7 +3379,7 @@
           <mxGeometry x="437.15" y="-2319.6699999999996" width="22.85" height="22.85" as="geometry" />
         </mxCell>
         <mxCell id="-Cba2YdGMMtnTPEi-0kE-8" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;CompletableFuture&amp;lt;T&amp;gt; cF =&amp;nbsp;&lt;/b&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;CompletableFuture&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;.supplyAsync(process B)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;.thenApply(process C)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;.thenApply(process D)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;.thenAccept(process E)&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;align=left;" parent="-Cba2YdGMMtnTPEi-0kE-1" vertex="1">
-          <mxGeometry x="100" y="-2370" width="240" height="88" as="geometry" />
+          <mxGeometry x="110" y="-2370" width="230" height="88" as="geometry" />
         </mxCell>
         <mxCell id="-Cba2YdGMMtnTPEi-0kE-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="-Cba2YdGMMtnTPEi-0kE-1" source="-Cba2YdGMMtnTPEi-0kE-5" target="-Cba2YdGMMtnTPEi-0kE-8" edge="1">
           <mxGeometry relative="1" as="geometry">
