@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T18:10:40.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="6I4JmLhqHta8inqW4YuI" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-04T18:15:39.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="3u3UWtJ-gZPRYhB6V0vD" version="14.4.3" type="github" pages="10">
   <diagram id="pejIdkPUkLA2lgJB0ia5" name="Vert.x Introduction">
     <mxGraphModel dx="2556" dy="3664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -3322,9 +3322,6 @@
         <mxCell id="-Cba2YdGMMtnTPEi-0kE-20" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#99004d&quot;&gt;&lt;b&gt;// blocking sequentially &lt;br&gt;based upon the completion of the &lt;br&gt;CompletableFuture&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fontFamily=Comic Sans MS;fontColor=#4C0099;" parent="-Cba2YdGMMtnTPEi-0kE-1" vertex="1">
           <mxGeometry x="115.5" y="-2060" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-Cba2YdGMMtnTPEi-0kE-21" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" parent="-Cba2YdGMMtnTPEi-0kE-1" vertex="1">
-          <mxGeometry x="449.5" y="-2147.4300000000003" width="20" height="16.5" as="geometry" />
-        </mxCell>
         <mxCell id="-Cba2YdGMMtnTPEi-0kE-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;dashed=1;dashPattern=1 2;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="-Cba2YdGMMtnTPEi-0kE-1" source="-Cba2YdGMMtnTPEi-0kE-10" edge="1" target="-Cba2YdGMMtnTPEi-0kE-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="235" y="-2068.25" as="targetPoint" />
@@ -3476,10 +3473,10 @@
         <mxCell id="xHHjheVG07yqj6gfTrzl-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/developer-set-3/128/sc1-128.png;strokeColor=#99004D;sketch=1;" vertex="1" parent="-Cba2YdGMMtnTPEi-0kE-1">
           <mxGeometry x="426.65" y="-2210" width="22.85" height="22.85" as="geometry" />
         </mxCell>
-        <mxCell id="xHHjheVG07yqj6gfTrzl-15" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;strokeColor=#6600CC;startArrow=oval;startFill=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1.087;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-Cba2YdGMMtnTPEi-0kE-1" source="-Cba2YdGMMtnTPEi-0kE-28" target="-Cba2YdGMMtnTPEi-0kE-21">
+        <mxCell id="xHHjheVG07yqj6gfTrzl-15" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 2;labelBackgroundColor=none;strokeWidth=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;fillColor=#0050ef;strokeColor=#6600CC;startArrow=oval;startFill=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1.087;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-Cba2YdGMMtnTPEi-0kE-1" source="-Cba2YdGMMtnTPEi-0kE-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="576" y="-2219.85" as="sourcePoint" />
-            <mxPoint x="495.5" y="-2169" as="targetPoint" />
+            <mxPoint x="471.24" y="-2138.5200000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xHHjheVG07yqj6gfTrzl-16" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;Future&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="-Cba2YdGMMtnTPEi-0kE-1">
@@ -3524,6 +3521,9 @@
             <mxPoint x="481.24" y="-2188.52" as="sourcePoint" />
             <mxPoint x="590" y="-2196.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MwpeqJj0gof_Czq_WZaY-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.envelope_(empty);rounded=0;glass=0;sketch=0;gradientColor=none;fontFamily=Comic Sans MS;fontSize=13;fontColor=#4C0099;strokeColor=#6600CC;fillColor=none;" vertex="1" parent="-Cba2YdGMMtnTPEi-0kE-1">
+          <mxGeometry x="449.5" y="-2150.61" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
