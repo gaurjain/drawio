@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T20:54:34.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gSPeFhp0Y5poY5Wi8uCo" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T21:09:32.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="15WOHqEMIbnOUitJ3JPs" version="14.7.0" type="github">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="2245" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#B20000;fontColor=#ffffff;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="481" width="660" height="70" as="geometry" />
+          <mxGeometry x="-450" y="481" width="510" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="IhgBcBhz6YpeUrunEe0w-3">
           <mxGeometry relative="1" as="geometry" />
@@ -227,8 +227,8 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-95" value="act as" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-96" target="IhgBcBhz6YpeUrunEe0w-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-90" value="WHEN AN HTML page is rendered (ie being loaded) in browsers, the browser downloads the HTML document into local memory, creates an internal DOM-like model of the page, and automatically parses thru this internal model to display the page on screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="890.5" width="320" height="110" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-90" value="WHEN AN HTML page is rendered (ie being loaded) in browsers, the browser downloads the HTML document into local memory, creates an internal DOM-like model of the page, and automatically parses thru this internal model to display(render) the page on screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="880" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-94" value="an API interface between JS page scripts and the document itself, allowing the creation of &quot;dyanmic web pages&quot;, because the JS Engine (scripts) can&amp;nbsp;&lt;br&gt;&lt;br&gt;1. interact(ACR) with any HTML element and attributes&lt;br&gt;2. react to all the existing events (with event-handlers defined)&lt;br&gt;3. create new events" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="877.5" width="410" height="125" as="geometry" />
@@ -240,13 +240,13 @@
           <mxGeometry x="470" y="670" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-100" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="470" y="144.05" width="370" height="383.45" as="geometry" />
+          <mxGeometry x="390" y="61.14" width="450" height="466.36" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="680" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="890" width="290" height="85" as="geometry" />
+          <mxGeometry x="95" y="877.5" width="290" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103">
           <mxGeometry relative="1" as="geometry" />
@@ -265,37 +265,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-108" value="JS Engine" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-90" y="670" width="120" height="30" as="geometry" />
+          <mxGeometry x="-90" y="680" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-111" value="layout" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="1002.5" width="80" height="20" as="geometry" />
+          <mxGeometry x="95" y="1037.5" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-114" value="rendering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1002.5" width="120" height="20" as="geometry" />
+          <mxGeometry x="95" y="1060" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-115" value="enforce security policies b/n documents" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="1032.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="530" y="1050" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-117" value="handles navigation thru hyperlinks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="1032.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="225" y="1050" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-118" value="handles data submitted thru forms" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="1032.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="380" y="1050" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-119" value="implements DOM-like structure exposed to JS Engine and page scripts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1032.5" width="240" height="30" as="geometry" />
+          <mxGeometry x="95" y="1000" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-120" value="Apple Safari - WebKit&lt;br&gt;Google Chrome - Blink&lt;br&gt;Microsoft IE - Trident and EdgeHtml&lt;br&gt;Mozilla Firefox&amp;nbsp; - Gecko" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="290" y="578.73" width="210" height="101.27" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-122" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="67.5" y="653.54" width="80" height="82.91" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-166" value="concerts with&lt;br&gt;via" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-122" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="707.5" width="80" height="82.91" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-131" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/27-128.png" vertex="1" parent="1">
-          <mxGeometry x="-600" y="450" width="50" height="50" as="geometry" />
+          <mxGeometry x="-510" y="622.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-134" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" vertex="1" parent="1">
-          <mxGeometry x="-480" y="450" width="50" height="50" as="geometry" />
+          <mxGeometry x="-510" y="491.03999999999996" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-140" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
           <mxGeometry x="67.5" y="490" width="65" height="52" as="geometry" />
@@ -304,28 +307,34 @@
           <mxGeometry x="-420" y="530" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-145" value="Executes the Javascript code&lt;br&gt;some support JIT Compilation of JS code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="888.5" width="120" height="89.5" as="geometry" />
+          <mxGeometry x="-110" y="880.5" width="160" height="89.5" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-148" value="Apple Safari - Nitro&lt;br&gt;Google Chrome - V8 Engine&lt;br&gt;Microsoft IE - Chakra&lt;br&gt;Mozilla Firefox&amp;nbsp; - SpiderMonkey" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-290" y="568.73" width="210" height="111.27" as="geometry" />
+          <mxGeometry x="-290" y="585" width="210" height="111.27" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-150" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;HTML documents describe the structure of a web page semantically&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;and originally included cues for the appearance of the document.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="574.36" width="190" height="110" as="geometry" />
+          <mxGeometry x="-710" y="461.86" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-135" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" vertex="1" parent="1">
-          <mxGeometry x="-540" y="450" width="50" height="50" as="geometry" />
+          <mxGeometry x="-510" y="378.5" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-151" value="The layout engine combines all relevant CSS rules to calculate precise graphical coordinates for the visual representation. that the rendering engine will paint on the screen.&amp;nbsp;&lt;br&gt;Both are tightly coupled as one software aka browser engine" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-151" value="The &#39;layout engine&#39; combines all relevant CSS rules to calculate precise graphical coordinates for the visual representation that the &#39;rendering engine&#39; will paint on the screen.&amp;nbsp;&lt;br&gt;Both are tightly coupled as one software aka browser engine" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-270" y="1000.5" width="350" height="79.5" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-158" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.web_server_orange;" vertex="1" parent="1">
-          <mxGeometry x="-384" y="485" width="48" height="57" as="geometry" />
+          <mxGeometry x="-384" y="460" width="64" height="82" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-160" value="The layout of a web page is specified by a CSS document. Each stylesheet is a series of rules which the browser engine interprets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="700" width="190" height="110" as="geometry" />
+          <mxGeometry x="-710" y="340" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-161" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;JavaScript is the dominant client-side&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;scripting language of the Web. These s&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;cripts are embedded in or included from&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;HTML documents and interact with the so created DOM on the browser side&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="830" width="190" height="120" as="geometry" />
+          <mxGeometry x="-710" y="587.5" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-168" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-169" value="&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A web framework or WAF - like ReactJS, AngularJS, Vue.Js - are software frameworks designed to support the development of web applications including web services, web resources and web APIs.&amp;nbsp;&lt;br&gt;They provide a standard way to build or deploy web applications on WWW. They aim to automate the overhead associated with common activities performed in web development by providing libraries for common things like database access, templating frameworks, and session management.&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="760" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
