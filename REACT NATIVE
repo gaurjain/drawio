@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T21:45:17.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gC39Q42xgJAIYZl5I-0j" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T21:48:10.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="A6Cw4QEOngwidEqNWqzv" version="14.7.0" type="github">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1668" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -228,9 +228,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-90" value="WHEN AN HTML page is rendered (ie being loaded) in browsers, the browser downloads the HTML document into local memory, creates an internal DOM-like model of the page, and automatically parses thru this internal model to display(render) the page on screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="880" width="260" height="110" as="geometry" />
+          <mxGeometry x="400" y="874" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-94" value="an API interface between JS page scripts and the document itself, allowing the creation of &quot;dyanmic web pages&quot;, because the JS Engine (scripts) can&amp;nbsp;&lt;br&gt;&lt;br&gt;1. interact(ACR) with any HTML element and attributes&lt;br&gt;2. react to all the existing events (with event-handlers defined)&lt;br&gt;3. create new events" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-94" value="an API interface between JS Engine( and JS page scripts) and the document itself, allowing the creation of &quot;dyanmic web pages&quot;, because the JS Engine (scripts) can&amp;nbsp;&lt;br&gt;&lt;br&gt;1. interact(ACR) with any HTML element and attributes&lt;br&gt;2. react to all the existing events (with event-handlers defined)&lt;br&gt;3. create new events" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="877.5" width="410" height="125" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-98" value="is" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-96" target="IhgBcBhz6YpeUrunEe0w-85">
@@ -246,7 +246,7 @@
           <mxGeometry x="1140" y="680" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="877.5" width="290" height="85" as="geometry" />
+          <mxGeometry x="95" y="874.5" width="290" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103">
           <mxGeometry relative="1" as="geometry" />
@@ -289,7 +289,7 @@
           <mxGeometry x="290" y="578.73" width="210" height="101.27" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-166" value="concerts &lt;br&gt;with via" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-108">
-          <mxGeometry x="0.0769" relative="1" as="geometry">
+          <mxGeometry x="-0.2308" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -309,7 +309,7 @@
           <mxGeometry x="-420" y="530" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-145" value="Executes the Javascript code&lt;br&gt;some support JIT Compilation of JS code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="870.5" width="160" height="89.5" as="geometry" />
+          <mxGeometry x="-110" y="869.5" width="160" height="89.5" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-148" value="Apple Safari - Nitro&lt;br&gt;Google Chrome - V8 Engine&lt;br&gt;Microsoft IE - Chakra&lt;br&gt;Mozilla Firefox&amp;nbsp; - SpiderMonkey" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-270" y="574.36" width="210" height="111.27" as="geometry" />
@@ -340,6 +340,9 @@
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-171" value="&lt;div&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;In an SPA Application, page refresh never occurs;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;instead, all necessary HTML, JS, CSS documents&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;is either retrieved by the browser with a single page load; or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions (via event handling).&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="-240" y="190" width="400" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="631.96" width="56" height="58.04" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
