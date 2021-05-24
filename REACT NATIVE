@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T20:24:24.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZwR5dqUa62CDtdo3tptM" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T20:28:23.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YwtZ3JO23aL6IyvpnGd9" version="14.7.0" type="github">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="1963" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2245" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,7 +230,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-90" value="WHEN AN HTML page is rendered (ie being loaded) in browsers, the browser downloads the HTML document into local memory, creates an internal DOM-like model of the page, and automatically parses thru this internal model to display the page on screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="892.5" width="260" height="110" as="geometry" />
+          <mxGeometry x="400" y="890.5" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-94" value="an API interface between JS page scripts and the document itself, allowing the creation of &quot;dyanmic web pages&quot;, because the JS Engine (scripts) can&amp;nbsp;&lt;br&gt;&lt;br&gt;1. interact(ACR) with any HTML element and attributes&lt;br&gt;2. react to all the existing events (with event-handlers defined)&lt;br&gt;3. create new events" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="877.5" width="410" height="125" as="geometry" />
@@ -242,13 +242,13 @@
           <mxGeometry x="470" y="670" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-100" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="530" y="206.23" width="310" height="321.27" as="geometry" />
+          <mxGeometry x="470" y="144.05" width="370" height="383.45" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="680" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into an interactive visual representation in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="917.5" width="320" height="85" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="890" width="290" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103">
           <mxGeometry relative="1" as="geometry" />
@@ -261,44 +261,47 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-106" value="Browser Engine&lt;br&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;(aka layout engine or rendering engine)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="160" y="662.5" width="160" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-108" value="JS Engine" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="690" width="120" height="30" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-108" value="JS Engine" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-90" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-111" value="layout" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1020" width="80" height="20" as="geometry" />
+          <mxGeometry x="95" y="1002.5" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-114" value="rendering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1020" width="120" height="20" as="geometry" />
+          <mxGeometry x="195" y="1002.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-115" value="enforce security policies b/n documents" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1050" width="130" height="30" as="geometry" />
+          <mxGeometry x="95" y="1032.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-117" value="handles navigation thru hyperlinks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1050" width="110" height="30" as="geometry" />
+          <mxGeometry x="235" y="1032.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-118" value="handles data submitted thru forms" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1050" width="120" height="30" as="geometry" />
+          <mxGeometry x="355" y="1032.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-119" value="implements DOM-like structure exposed to JS page scripts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1050" width="170" height="30" as="geometry" />
+          <mxGeometry x="485" y="1032.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-120" value="Apple Safari - WebKit&lt;br&gt;Google Chrome - Blink&lt;br&gt;Microsoft IE - Trident and EdgeHtml&lt;br&gt;Mozilla Firefox&amp;nbsp; - Gecko" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="578.73" width="210" height="101.27" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-122" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="60" y="657.09" width="80" height="82.91" as="geometry" />
+          <mxGeometry x="67.5" y="653.54" width="80" height="82.91" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-131" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/27-128.png" vertex="1" parent="1">
-          <mxGeometry x="-820" y="764.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="-580" y="547.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-134" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" vertex="1" parent="1">
-          <mxGeometry x="-820" y="592" width="80" height="80" as="geometry" />
+          <mxGeometry x="-460" y="547.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-135" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" vertex="1" parent="1">
-          <mxGeometry x="-820" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="-520" y="547.5" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-139" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.web_browser;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="650" width="50" height="35.5" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-140" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="490" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-141" value="Web Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="550" width="120" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
