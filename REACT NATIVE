@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T18:48:15.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="yrRNHUaRpjU3HMyQWjqm" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T18:50:22.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="f7Q73UEOPUbsBm7RHdsQ" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2036" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -539,11 +539,23 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-59" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-56" target="nZzBTqbJdsIMzUFjVoys-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-56" value="follows a &lt;b&gt;&quot;HTML&quot; in a JS&lt;/b&gt; file pattern with JSX (opp. of Angular)" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-61" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-56" target="nZzBTqbJdsIMzUFjVoys-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-63" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-56" target="nZzBTqbJdsIMzUFjVoys-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-56" value="follows a fake&amp;nbsp;&lt;b&gt;&quot;HTML&quot; in a JS&lt;/b&gt; file pattern with JSX (opp. of Angular)" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="290" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-58" value="JSX compiles into JS Code" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="90" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-60" value="create-react-app appName&lt;br&gt;npm start&lt;br&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="90" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-62" value="Each component is atomic&amp;nbsp;&lt;br&gt;can be worked upon independently" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="290" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
