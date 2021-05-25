@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T18:50:22.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="f7Q73UEOPUbsBm7RHdsQ" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T18:52:51.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PjEfsWcW33EBsWXsLmtz" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2036" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCOXEyCJTzpBLqBSQZNM" name="Page-2">
-    <mxGraphModel dx="535" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ADLDLL64pX6PP5YeEKHg-0" />
         <mxCell id="ADLDLL64pX6PP5YeEKHg-1" parent="ADLDLL64pX6PP5YeEKHg-0" />
@@ -518,7 +518,7 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-37" value="Migrate from Server-side rendered app to React, portion by portion" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="900" y="400" width="120" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-53" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-50" target="nZzBTqbJdsIMzUFjVoys-52">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-53" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-50" target="nZzBTqbJdsIMzUFjVoys-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-50" value="Developer eXperience" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
@@ -528,13 +528,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-52" value="Simple API&lt;br&gt;Easy to learn&lt;br&gt;Lightweight" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="490" y="427" width="120" height="60" as="geometry" />
+          <mxGeometry x="278" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-57" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-52" target="nZzBTqbJdsIMzUFjVoys-56">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-57" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" target="nZzBTqbJdsIMzUFjVoys-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="440" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-54" value="basically a function that returns HTML" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="290" y="427" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="427" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-59" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-56" target="nZzBTqbJdsIMzUFjVoys-58">
           <mxGeometry relative="1" as="geometry" />
@@ -542,20 +544,22 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-61" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-56" target="nZzBTqbJdsIMzUFjVoys-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-63" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-56" target="nZzBTqbJdsIMzUFjVoys-62">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-63" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-52" target="nZzBTqbJdsIMzUFjVoys-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="457" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-56" value="follows a fake&amp;nbsp;&lt;b&gt;&quot;HTML&quot; in a JS&lt;/b&gt; file pattern with JSX (opp. of Angular)" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="290" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-58" value="JSX compiles into JS Code" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="90" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="675" y="520" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-60" value="create-react-app appName&lt;br&gt;npm start&lt;br&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="90" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-60" value="&lt;b&gt;create-react-app appName&lt;br&gt;npm start&lt;/b&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="675" y="580" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-62" value="Each component is atomic&amp;nbsp;&lt;br&gt;can be worked upon independently" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="290" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
