@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T21:55:14.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aue_XRnspEP_rIdaRUgQ" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:57:33.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7q49VMcAn91OJY8NQQsz" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1951" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -601,7 +601,7 @@
           <mxGeometry x="1280" y="158" width="120" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-36" value="Phenomic" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1280" y="196" width="120" height="22" as="geometry" />
+          <mxGeometry x="1280" y="206" width="120" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-37" value="Migrate from Server-side rendered app to React, portion by portion" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="1280" y="406" width="120" height="64" as="geometry" />
@@ -662,12 +662,12 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-66" value="4. Community" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="692" y="763" width="168" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-79" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" target="nZzBTqbJdsIMzUFjVoys-78">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-79" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-67" target="nZzBTqbJdsIMzUFjVoys-78">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880.0000000000005" y="910" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-92" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" target="nZzBTqbJdsIMzUFjVoys-91">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-92" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-67" target="nZzBTqbJdsIMzUFjVoys-91">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880.0000000000005" y="910" as="sourcePoint" />
           </mxGeometry>
@@ -742,24 +742,27 @@
           <mxGeometry x="1300" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-95" value="Little to no config required" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="432" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="432" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-103" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-97" target="nZzBTqbJdsIMzUFjVoys-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-97" value="test with NO browser&lt;br&gt;in VM memory using Node" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="432" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="432" y="1278" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-98" value="Fast (every time you hit save)" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="432" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="432" y="1356" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-99" value="Reliable, deterministic unit tests per component in isolation" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="432" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="432" y="1434" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-100" value="write quickly using jest, enzyme and update quickly with a key stroke" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="432" y="1500" width="120" height="60" as="geometry" />
+          <mxGeometry x="432" y="1512" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-5" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-101" target="zj_q7LJ1Qb5rtL8FvTv6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-14" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-101" target="zj_q7LJ1Qb5rtL8FvTv6-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-101" value="Components are Pure functions&lt;br&gt;no side effects" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
@@ -830,7 +833,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-1" value="faciliate faster, reliable and deterministic testing" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="232" y="1670" width="120" height="60" as="geometry" />
+          <mxGeometry x="232" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="zj_q7LJ1Qb5rtL8FvTv6-2" target="nZzBTqbJdsIMzUFjVoys-102">
           <mxGeometry relative="1" as="geometry">
@@ -838,7 +841,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-2" value="Testing&amp;nbsp;&lt;br&gt;Frameworks" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="90" y="1130" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="1180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-68" target="nZzBTqbJdsIMzUFjVoys-97">
           <mxGeometry relative="1" as="geometry">
@@ -881,6 +884,9 @@
             <mxPoint x="869.9999999999991" y="1060" as="sourcePoint" />
             <mxPoint x="750" y="1300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-13" value="really on no global state" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="232" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
