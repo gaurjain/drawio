@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T21:57:33.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7q49VMcAn91OJY8NQQsz" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:59:41.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="cSo9F3LFUJNPGj_bORXP" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1951" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -455,7 +455,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCOXEyCJTzpBLqBSQZNM" name="Page-2">
-    <mxGraphModel dx="1337" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ADLDLL64pX6PP5YeEKHg-0" />
         <mxCell id="ADLDLL64pX6PP5YeEKHg-1" parent="ADLDLL64pX6PP5YeEKHg-0" />
@@ -609,7 +609,7 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-53" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-50" target="nZzBTqbJdsIMzUFjVoys-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-50" value="2. Developer eXperience" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-50" value="2. Feedback Developer eXperience" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="692" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-55" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-52" target="nZzBTqbJdsIMzUFjVoys-54">
@@ -768,6 +768,9 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-101" value="Components are Pure functions&lt;br&gt;no side effects" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="432" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-16" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-102" target="zj_q7LJ1Qb5rtL8FvTv6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-102" value="Mocha&lt;br&gt;Jasmine&lt;br&gt;Tape&lt;br&gt;QUnit&lt;br&gt;AVA&lt;br&gt;Jest" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="232" y="1240" width="120" height="100" as="geometry" />
         </mxCell>
@@ -887,6 +890,9 @@
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-13" value="really on no global state" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="232" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-15" value="Snapshot testing&lt;br&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="140" y="1452" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
