@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T01:16:01.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_yhnSmHWi4WJZGEScQlZ" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:00:28.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="8dYo4glVOrscD61FIFPE" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="1385" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2410" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -380,11 +380,20 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
           <mxGeometry x="567" y="627.59" width="56" height="58.04" as="geometry" />
         </mxCell>
+        <mxCell id="3gasO5IHLwn9Dk4auXZz-1" value="Heart of modern interactive web" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3gasO5IHLwn9Dk4auXZz-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="3gasO5IHLwn9Dk4auXZz-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="680" as="targetPoint" />
+            <mxPoint x="670" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="NCOXEyCJTzpBLqBSQZNM" name="Page-2">
-    <mxGraphModel dx="1101" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="936" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ADLDLL64pX6PP5YeEKHg-0" />
         <mxCell id="ADLDLL64pX6PP5YeEKHg-1" parent="ADLDLL64pX6PP5YeEKHg-0" />
@@ -646,8 +655,8 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-80" value="Minimizes the DOM updates &lt;b&gt;with Virtual DOM&lt;/b&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="1280" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-82" value="Compare with Real DOM in-memory, finds the changes to be made and update only the changes EFFICIENTLY" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1480" y="990" width="120" height="110" as="geometry" />
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-82" value="&lt;ul&gt;&lt;li&gt;Compare with Real DOM in-memory.&amp;nbsp;&lt;/li&gt;&lt;li&gt;finds the changes to be made and&amp;nbsp;&lt;/li&gt;&lt;li&gt;update only the changes EFFICIENTLY&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=left;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="1480" y="940" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-84" value="Avoid Layout Thrashing" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="1480" y="1110" width="120" height="60" as="geometry" />
@@ -690,6 +699,14 @@
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-102" value="Mocha&lt;br&gt;Jasmine&lt;br&gt;Tape&lt;br&gt;QUnit&lt;br&gt;AVA&lt;br&gt;Jest" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="510" y="1220" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MbivPQRaBa_nWxPG3Edv-2" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="MbivPQRaBa_nWxPG3Edv-0" target="nZzBTqbJdsIMzUFjVoys-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbivPQRaBa_nWxPG3Edv-0" value="JS is fast&amp;nbsp;&lt;br&gt;DOM makes it feel slow" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+          <mxGeometry x="510" y="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
