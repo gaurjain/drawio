@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T21:44:00.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="szeZ3Or0qZddCunTRBkj" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:45:14.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MVLhnn0AYVzycuYN1GP4" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1951" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -718,7 +718,7 @@
           <mxGeometry x="1280" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-82" value="When a REACT Components is updated,&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;All corresponding Virtual-DOMs(n-th instance) gets updated in entirety very quickly. in other words a new instance of virtual DOM gets created (the n-th instances)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Diffing -&lt;/b&gt; These updated DOMs are compared with the last snapshot of the same Virtual DOM to identify the changed objects.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Reconciliation -&lt;/b&gt; React only update the changed objects on the real DOM EFFICIENTLY.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=left;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1480" y="930" width="360" height="150" as="geometry" />
+          <mxGeometry x="1480" y="920" width="360" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-84" value="Avoid Layout Thrashing" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
           <mxGeometry x="1480" y="1110" width="120" height="60" as="geometry" />
