@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T21:16:24.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PNgF2bz0pKzewSizoW_G" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-27T21:44:00.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="szeZ3Or0qZddCunTRBkj" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1951" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -455,7 +455,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCOXEyCJTzpBLqBSQZNM" name="Page-2">
-    <mxGraphModel dx="2674" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="936" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ADLDLL64pX6PP5YeEKHg-0" />
         <mxCell id="ADLDLL64pX6PP5YeEKHg-1" parent="ADLDLL64pX6PP5YeEKHg-0" />
@@ -791,31 +791,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-0" value="&lt;b&gt;Virtual DOM&lt;br&gt;(React DOM)&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1590" y="670" width="120" height="80" as="geometry" />
+          <mxGeometry x="1020" y="1490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-1" value="virtual representation &lt;br&gt;Corresponding (identical) to every JS DOM object" style="whiteSpace=wrap;html=1;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1840" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-6" value="can&#39;t decide what&#39;s on the screen" style="whiteSpace=wrap;html=1;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1840" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-11" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="IeRlQNqAGTMErbRg-TtJ-8" target="IeRlQNqAGTMErbRg-TtJ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-8" value="just a lightweight blueprint of the real JS DOM object" style="whiteSpace=wrap;html=1;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1840" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-10" value="props and methods like the JS DOM" style="whiteSpace=wrap;html=1;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="2040" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="1470" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-15" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ADLDLL64pX6PP5YeEKHg-1" source="IeRlQNqAGTMErbRg-TtJ-12" target="IeRlQNqAGTMErbRg-TtJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-12" value="Manipulating it is much faster" style="whiteSpace=wrap;html=1;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="1840" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-14" value="Quickerrr updates" style="whiteSpace=wrap;html=1;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
-          <mxGeometry x="2040" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="1470" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
