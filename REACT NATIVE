@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T01:08:56.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TBkM1nrkaKFjYmya7hW0" version="14.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-27T01:13:00.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="mYT9Py-vOYDzLKwV6CjX" version="14.7.0" type="github" pages="2">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1496" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -221,14 +221,14 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-109" value="has" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-86" target="IhgBcBhz6YpeUrunEe0w-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-86" value="Web Browser" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="40" y="530" width="120" height="35" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-86" value="Web Browser" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="40" y="520" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-95" value="act as" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-96" target="IhgBcBhz6YpeUrunEe0w-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-90" value="WHEN AN HTML page is rendered (ie being loaded) in browsers, the browser downloads the HTML document into local memory, creates an internal DOM-like model of the page, and automatically parses thru this internal model to display(render) the page on screen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="874" width="260" height="110" as="geometry" />
+          <mxGeometry x="400" y="869.5" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-94" value="an API interface between JS Engine( and JS page scripts) and the document itself, allowing the creation of &quot;dyanmic web pages&quot;, because the JS Engine (scripts) can&amp;nbsp;&lt;br&gt;&lt;br&gt;1. interact(ACR) with any HTML element and attributes&lt;br&gt;2. react to all the existing events (with event-handlers defined)&lt;br&gt;3. create new events" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="877.5" width="410" height="125" as="geometry" />
@@ -246,7 +246,7 @@
           <mxGeometry x="1140" y="680" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="874.5" width="290" height="85" as="geometry" />
+          <mxGeometry x="95" y="869.5" width="295" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -257,7 +257,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-106" value="Browser Engine&lt;br&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;(aka layout engine or rendering engine)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="160" y="662.5" width="160" height="65" as="geometry" />
+          <mxGeometry x="162.5" y="662.5" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-147" value="is a computer program that" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="IhgBcBhz6YpeUrunEe0w-145" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -278,7 +278,7 @@
           <mxGeometry x="-90" y="680" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-111" value="layout" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="1017.5" width="80" height="20" as="geometry" />
+          <mxGeometry x="95" y="1015.5" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-114" value="rendering" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="1040" width="120" height="20" as="geometry" />
@@ -290,10 +290,10 @@
           <mxGeometry x="225" y="1030" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-118" value="handles data submitted thru forms" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1030" width="120" height="30" as="geometry" />
+          <mxGeometry x="360" y="1030" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-119" value="implements DOM-like structure exposed to JS Engine and page scripts" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="983" width="240" height="30" as="geometry" />
+          <mxGeometry x="95" y="980.5" width="295" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-120" value="Apple Safari - WebKit&lt;br&gt;Google Chrome - Blink&lt;br&gt;Microsoft IE - Trident and EdgeHtml&lt;br&gt;Mozilla Firefox&amp;nbsp; - Gecko" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="290" y="578.73" width="210" height="101.27" as="geometry" />
@@ -310,7 +310,7 @@
           <mxGeometry x="-510" y="600.63" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-134" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" parent="1" vertex="1">
-          <mxGeometry x="-510" y="475.43999999999994" width="50" height="50" as="geometry" />
+          <mxGeometry x="-510" y="481.25999999999993" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-140" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Browser.svg;" parent="1" vertex="1">
           <mxGeometry x="67.5" y="480" width="65" height="52" as="geometry" />
@@ -320,7 +320,7 @@
             <mxPoint x="-360" y="632.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-141" value="Web Server" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-141" value="Web Server" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-425" y="520" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-145" value="Executes the Javascript code&lt;br&gt;some support JIT Compilation of JS code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -330,10 +330,10 @@
           <mxGeometry x="-270" y="574.36" width="210" height="111.27" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-150" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;HTML documents describe the structure of a web page semantically&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;and originally included cues for the appearance of the document.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="451.26" width="190" height="110" as="geometry" />
+          <mxGeometry x="-720" y="451.26" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-135" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" parent="1" vertex="1">
-          <mxGeometry x="-510" y="362.9" width="50" height="50" as="geometry" />
+          <mxGeometry x="-510" y="369.4" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-151" value="The &#39;layout engine&#39; combines all relevant CSS rules to calculate precise graphical coordinates for the visual representation that the &#39;rendering engine&#39; will paint on the screen.&amp;nbsp;&lt;br&gt;Both are tightly coupled as one software aka browser engine" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-270" y="980.5" width="350" height="79.5" as="geometry" />
@@ -342,22 +342,19 @@
           <mxGeometry x="-384" y="448" width="64" height="82" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-160" value="The layout of a web page is specified by a CSS document. Each stylesheet is a series of rules which the browser engine interprets" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="339.4" width="190" height="110" as="geometry" />
+          <mxGeometry x="-720" y="339.4" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-161" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;JavaScript is the dominant client-side&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;scripting language of the Web. These s&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;cripts are embedded in or included from&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;HTML documents and interact with the so created DOM on the browser side&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="565.63" width="190" height="120" as="geometry" />
+          <mxGeometry x="-720" y="565.63" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-169" value="&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Web frameworks or WAF&lt;/b&gt; - like Spring MVC, ReactJS, AngularJS, Vue.Js - are software frameworks designed to support the development of web applications including &lt;b&gt;web services, web resources and web APIs.&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;They provide a standard way to build or deploy web applications on WWW.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;They aim to automate the overhead associated with common activities performed in web development by providing libraries for common things like database access, templating frameworks, and session management.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Webpages are Either served up by a server or/and&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;can then be dynamically modified by the browser using&amp;nbsp;a JavaScript. Accordingly the WAF could be Service-side(Django,Ruby on rails, Spring MVC) or Client-side (&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ReactJS, AngularJS, Vue.Js)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-820" y="860" width="530" height="200" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-170" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;single-page application&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;(&lt;/span&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SPA&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;) is a &lt;i&gt;web application or website&lt;/i&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;that interacts with the user by dynamically rewriting the current web page&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;with new data from the web server&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;, instead of the default method of a&amp;nbsp;web browser&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;loading entire new pages. The goal is faster transitions that make the website feel&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;more like a native app.&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SPAs make heavy use of client side JS WAFs.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="200" width="430" height="130" as="geometry" />
+          <mxGeometry x="-720" y="200" width="440" height="130" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-171" value="&lt;div&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;In an SPA Application, page refresh never occurs;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;instead, all necessary HTML + JS + CSS documents&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;is either retrieved by the browser with a single page load; or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions (via event handling).&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="200" width="430" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="631.96" width="56" height="58.04" as="geometry" />
+          <mxGeometry x="-240" y="200" width="400" height="130" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-174" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;software (and hardware) that accepts requests via HTTP or HTTPS, the stateless protocols created to distribute web pages. A user agent&amp;nbsp; like a web browser or a web crawler, initiates communication by making an HTTP-request for a specific resource, and the server HTTP-responds with the content of that resource or an error message.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;The server can also accept and store resources sent from the user agent if configured to do so.&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-710" y="710" width="590" height="120" as="geometry" />
@@ -377,7 +374,10 @@
           <mxGeometry x="-350" y="348.73" width="130" height="111.27" as="geometry" />
         </mxCell>
         <mxCell id="EXpIYGEiLqRTaq-IhmrR-2" value="ECMAScript Engine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="12.5" y="820" width="120" height="20" as="geometry" />
+          <mxGeometry x="20" y="820" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="567" y="627.59" width="56" height="58.04" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
