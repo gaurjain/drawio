@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T23:31:23.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="uoFzUPa9Z7aUBArbC4Ei" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-07T23:32:35.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="O79AcV1okVXe0HgRIARP" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1824" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="&lt;font color=&quot;#6600cc&quot;&gt;&lt;b&gt;HTTP Response&lt;/b&gt; (CSS + HTML + JS) Binary stream format&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="&lt;font color=&quot;#6600cc&quot;&gt;&lt;b&gt;HTTP Response&lt;/b&gt; (HTML + CSS + JS) Binary stream format&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
           <mxGeometry x="-310" y="498" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="IhgBcBhz6YpeUrunEe0w-3" edge="1">
@@ -273,7 +273,7 @@
         <mxCell id="Dyu9WglcppKTmGrHaXKb-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-103" target="IhgBcBhz6YpeUrunEe0w-151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; used to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation (and a DOM tree + CSSOM + render Tree )&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; used to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation (HTML + CSS + JS =&amp;gt; DOM tree + CSSOM =&amp;gt; render Tree =&amp;gt; Layout )&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="869.5" width="295" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103" edge="1">
