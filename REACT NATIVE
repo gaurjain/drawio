@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:23:07.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="CYN4luJGhqh6KN6yoVxm" version="14.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:25:24.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="QdrXWcUyow6rIhpuaZ5A" version="14.7.2" type="github" pages="3">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="1224" dy="205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1619" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,7 +217,7 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-80" value="W3C&lt;br&gt;WHATWG" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-85" value="internal model similar to DOM for rendering an HTML/XML document.&lt;br&gt;with the top most object named as the &quot;Document OBJECT&quot;." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-85" value="internal model similar to DOM &lt;br&gt;for rendering an HTML/XML document.&lt;br&gt;with the top most object named as the &quot;Document OBJECT&quot;." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="760" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-88" value="create and Use" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-96" edge="1">
@@ -235,8 +235,8 @@
             <mxPoint x="90" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-124" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IhgBcBhz6YpeUrunEe0w-105" vertex="1" connectable="0">
-          <mxGeometry x="0.0063" y="-3" relative="1" as="geometry">
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-15" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhgBcBhz6YpeUrunEe0w-105">
+          <mxGeometry x="0.2588" y="-12" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -318,7 +318,7 @@
           <mxGeometry x="95" y="980.5" width="295" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-120" value="Apple Safari - WebKit&lt;br&gt;Google Chrome - Blink&lt;br&gt;Microsoft IE - Trident and EdgeHtml&lt;br&gt;Mozilla Firefox&amp;nbsp; - Gecko" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="290" y="578.73" width="210" height="101.27" as="geometry" />
+          <mxGeometry x="300" y="555" width="180" height="125" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-166" value="concerts &lt;br&gt;with via" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-108" edge="1">
           <mxGeometry x="-0.2308" relative="1" as="geometry">
@@ -400,6 +400,9 @@
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
           <mxGeometry x="567" y="627.59" width="56" height="58.04" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="Dyu9WglcppKTmGrHaXKb-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3gasO5IHLwn9Dk4auXZz-1" value="Heart of modern interactive web" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="530" y="70" width="370" height="80" as="geometry" />
@@ -494,6 +497,9 @@
         </mxCell>
         <mxCell id="Dyu9WglcppKTmGrHaXKb-10" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;one can interact(ADC) with the structure, style or content of a document.&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="645" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-13" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;object oriented representation of an HTML document that acts as an interface between JavaScript and the document itself.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="250" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
