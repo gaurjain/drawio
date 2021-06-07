@@ -1,21 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T22:17:49.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="sLAHyDOy8vmoXkQgXOdL" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:16:24.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="bcLlmeTCGZbeRnshDEXE" version="14.7.2" type="github" pages="3">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="1669" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="&lt;font color=&quot;#ff0000&quot;&gt;HTTP Response&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#B20000;fontColor=#ffffff;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="500" width="520" height="50" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="&lt;font color=&quot;#ff0000&quot;&gt;HTTP Response&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#B20000;fontColor=#ffffff;fillColor=#80FF00;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="500" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="IhgBcBhz6YpeUrunEe0w-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-3" target="IhgBcBhz6YpeUrunEe0w-14" edge="1">
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-2" value="is" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhgBcBhz6YpeUrunEe0w-4">
+          <mxGeometry x="0.5378" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-3" target="IhgBcBhz6YpeUrunEe0w-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-21" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;used for&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IhgBcBhz6YpeUrunEe0w-15" vertex="1" connectable="0">
           <mxGeometry x="-0.5033" y="8" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-81" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="IhgBcBhz6YpeUrunEe0w-80" edge="1">
@@ -53,7 +58,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-3" value="is an API" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-3" value="an API" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="910" y="385" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-7" target="IhgBcBhz6YpeUrunEe0w-29" edge="1">
@@ -83,15 +88,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-14" value="interacting with the objects of web pages programmatically, on-the-fly while the web page is being loaded by the browser" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="449.4" width="180" height="80" as="geometry" />
+          <mxGeometry x="1080" y="446.26" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-16" target="IhgBcBhz6YpeUrunEe0w-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1490" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1670" y="110" />
-              <mxPoint x="1670" y="490" />
-              <mxPoint x="1438" y="490" />
+              <mxPoint x="1670" y="70" />
+              <mxPoint x="1670" y="489" />
+              <mxPoint x="1438" y="489" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -101,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-16" value="can Add content&lt;br&gt;can Delete content&lt;br&gt;can Change content" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-25" target="IhgBcBhz6YpeUrunEe0w-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -117,10 +122,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-25" value="anything we can interact within a HTML/XML document i.e on the webpage" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-27" value="Element Tags&lt;br&gt;+ Texts within the tags + HTML attributes (HREF)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-29" target="IhgBcBhz6YpeUrunEe0w-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -142,6 +147,9 @@
           <mxGeometry x="-0.4305" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-4" value="representing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-33" target="Dyu9WglcppKTmGrHaXKb-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-33" value="object" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1365" y="340" width="70" height="30" as="geometry" />
@@ -169,6 +177,11 @@
             <mxPoint x="1350.0000000000002" y="545" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-1" value="have" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhgBcBhz6YpeUrunEe0w-68">
+          <mxGeometry x="-0.8428" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-71" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-69" target="IhgBcBhz6YpeUrunEe0w-75" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1225.0000000000002" y="250" as="targetPoint" />
@@ -191,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-75" value="how objects are laid out in a tree structure" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-80" value="W3C&lt;br&gt;WHATWG" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="680" width="120" height="60" as="geometry" />
@@ -241,10 +254,10 @@
           <mxGeometry x="470" y="670" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-100" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;" parent="1" vertex="1">
-          <mxGeometry x="510" y="240" width="284.65" height="295" as="geometry" />
+          <mxGeometry x="510" y="230" width="294.3" height="305" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="600.63" width="180" height="150" as="geometry" />
+          <mxGeometry x="1080" y="561.26" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="869.5" width="295" height="85" as="geometry" />
@@ -265,12 +278,12 @@
             <mxPoint x="-30" y="765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EXpIYGEiLqRTaq-IhmrR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="EXpIYGEiLqRTaq-IhmrR-2">
+        <mxCell id="EXpIYGEiLqRTaq-IhmrR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="EXpIYGEiLqRTaq-IhmrR-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EXpIYGEiLqRTaq-IhmrR-3" value="also &lt;br&gt;called" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EXpIYGEiLqRTaq-IhmrR-1">
+        <mxCell id="EXpIYGEiLqRTaq-IhmrR-3" value="also &lt;br&gt;called" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EXpIYGEiLqRTaq-IhmrR-1" vertex="1" connectable="0">
           <mxGeometry x="-0.2092" y="8" relative="1" as="geometry">
             <mxPoint x="18" y="3" as="offset" />
           </mxGeometry>
@@ -342,7 +355,7 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-158" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.web_server_orange;" parent="1" vertex="1">
           <mxGeometry x="-384" y="448" width="64" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-160" value="The layout of a web page is specified by a CSS document. Each stylesheet is a series of rules which the browser engine interprets" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-160" value="CSS stylesheet documents specify the layout of a web page. Each stylesheet is a series of rules which the browser engine interprets" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-720" y="339.4" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-161" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;JavaScript is the dominant client-side&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;scripting language of the Web. These s&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;cripts are embedded in or included from&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;HTML documents and interact with the so created DOM on the browser side&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -351,7 +364,7 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-169" value="&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Web frameworks or WAF&lt;/b&gt; - like Spring MVC, ReactJS, AngularJS, Vue.Js - are software frameworks designed to support the development of web applications including &lt;b&gt;web services, web resources and web APIs.&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;They provide a standard way to build or deploy web applications on WWW.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;They aim to automate the overhead associated with common activities performed in web development by providing libraries for common things like database access, templating frameworks, and session management.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Webpages are Either served up by a server or/and&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;can then be dynamically modified by the browser using&amp;nbsp;a JavaScript. Accordingly the WAF could be Service-side(Django,Ruby on rails, Spring MVC) or Client-side (&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ReactJS, AngularJS, Vue.Js)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-820" y="860" width="530" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-170" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;single-page application&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;(&lt;/span&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SPA&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;) is a &lt;i&gt;web application or website&lt;/i&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;that interacts with the user by dynamically rewriting the current web page&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;with new data from the web server&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;, instead of the default method of a&amp;nbsp;web browser&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;loading entire new pages. The goal is faster transitions that make the website feel&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;more like a native app.&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SPAs make heavy use of client side JS WAFs.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-170" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;A&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;single-page application&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;(&lt;/span&gt;&lt;b style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SPA&lt;/b&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;) is a &lt;i&gt;web application or website&lt;/i&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;that interacts with the user by dynamically rewriting the current web page&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;with new data from the web server&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;, instead of the default method of a&amp;nbsp;web browser&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;loading entire new pages. The goal is faster transitions that make the website feel&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;more like a native app.&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SPAs make heavy use of client-side JS WAFs.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-720" y="200" width="440" height="130" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-171" value="&lt;div&gt;&lt;font color=&quot;#202122&quot; face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;In an SPA Application, page refresh never occurs;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;instead, all necessary HTML + JS + CSS documents&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;is either retrieved by the browser with a single page load; or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions (via event handling).&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
@@ -360,88 +373,88 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-174" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;software (and hardware) that accepts requests via HTTP or HTTPS, the stateless protocols created to distribute web pages. A user agent&amp;nbsp; like a web browser or a web crawler, initiates communication by making an HTTP-request for a specific resource, and the server HTTP-responds with the content of that resource or an error message.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;The server can also accept and store resources sent from the user agent if configured to do so.&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-720" y="710" width="590" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-177" value="" style="endArrow=classic;html=1;exitX=0.002;exitY=0.158;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=1 1;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="IhgBcBhz6YpeUrunEe0w-140" target="IhgBcBhz6YpeUrunEe0w-158" edge="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-177" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;fillColor=#d80073;strokeColor=#A50040;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-240" y="460" as="sourcePoint" />
-            <mxPoint x="-320" y="501" as="targetPoint" />
+            <mxPoint x="60" y="489" as="sourcePoint" />
+            <mxPoint x="-300" y="489" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-178" value="&lt;font color=&quot;#ff0000&quot;&gt;HTTP Request&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IhgBcBhz6YpeUrunEe0w-177" vertex="1" connectable="0">
           <mxGeometry x="-0.196" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-35" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-179" value="Nginx&lt;br&gt;Apache HTTP Server&lt;br&gt;Apache Tomcat(Java)&lt;br&gt;IIS&lt;br&gt;GWS" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-350" y="348.73" width="130" height="111.27" as="geometry" />
         </mxCell>
-        <mxCell id="EXpIYGEiLqRTaq-IhmrR-2" value="ECMAScript Engine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EXpIYGEiLqRTaq-IhmrR-2" value="ECMAScript Engine" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="820" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
           <mxGeometry x="567" y="627.59" width="56" height="58.04" as="geometry" />
         </mxCell>
-        <mxCell id="3gasO5IHLwn9Dk4auXZz-1" value="Heart of modern interactive web" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="3gasO5IHLwn9Dk4auXZz-1" value="Heart of modern interactive web" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="530" y="70" width="370" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3gasO5IHLwn9Dk4auXZz-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="3gasO5IHLwn9Dk4auXZz-1">
+        <mxCell id="3gasO5IHLwn9Dk4auXZz-2" value="is" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="3gasO5IHLwn9Dk4auXZz-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="680" as="targetPoint" />
             <mxPoint x="670" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-8">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-2" value="is a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9tdr09xfXHQrRQ1Zs_kG-1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-2" value="is a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9tdr09xfXHQrRQ1Zs_kG-1" vertex="1" connectable="0">
           <mxGeometry x="-0.029" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-3" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-8">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-3" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-9">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-5" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-11">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-5" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-14">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-7" value="&lt;b&gt;Virtual DOM&lt;br&gt;(React DOM)&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-7" value="&lt;b&gt;Virtual DOM&lt;br&gt;(React DOM)&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1110" y="780" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-8" value="virtual representation &lt;br&gt;Corresponding (identical) to every JS DOM object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-8" value="virtual representation &lt;br&gt;Corresponding (identical) to every JS DOM object" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-9" value="can&#39;t decide what&#39;s on the screen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-9" value="can&#39;t decide what&#39;s on the screen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="955.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-10" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-12">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-10" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-7" target="9tdr09xfXHQrRQ1Zs_kG-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PylyNt_VfVA2FwQSwpDs-2" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9tdr09xfXHQrRQ1Zs_kG-10">
+        <mxCell id="PylyNt_VfVA2FwQSwpDs-2" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9tdr09xfXHQrRQ1Zs_kG-10" vertex="1" connectable="0">
           <mxGeometry x="0.3089" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-11" value="just a lightweight blueprint of the real JS DOM object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-11" value="just a lightweight blueprint of the real JS DOM object" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-12" value="props and methods just like the JS DOM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-12" value="props and methods just like the JS DOM" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-13" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-14" target="9tdr09xfXHQrRQ1Zs_kG-15">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-13" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9tdr09xfXHQrRQ1Zs_kG-14" target="9tdr09xfXHQrRQ1Zs_kG-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-14" value="Manipulating it is much faster" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-14" value="Manipulating it is much faster" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-15" value="Quickerrr updates" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9tdr09xfXHQrRQ1Zs_kG-15" value="Quickerrr updates" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1540" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PylyNt_VfVA2FwQSwpDs-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-96" target="9tdr09xfXHQrRQ1Zs_kG-8">
+        <mxCell id="PylyNt_VfVA2FwQSwpDs-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-96" target="9tdr09xfXHQrRQ1Zs_kG-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="705" as="sourcePoint" />
             <mxPoint x="804.6500000000005" y="934.4999999999998" as="targetPoint" />
@@ -449,6 +462,20 @@
               <mxPoint x="720" y="695" />
               <mxPoint x="720" y="790" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-3" value="part of the document" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.537;exitY=-0.007;exitDx=0;exitDy=0;entryX=0.71;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="Dyu9WglcppKTmGrHaXKb-3" target="IhgBcBhz6YpeUrunEe0w-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="350" as="sourcePoint" />
+            <mxPoint x="1410" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-6" value="which is" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dyu9WglcppKTmGrHaXKb-5">
+          <mxGeometry x="-0.0239" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
