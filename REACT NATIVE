@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T23:03:04.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ePLeITDb2Ssb2lElyXhn" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-07T23:31:23.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="uoFzUPa9Z7aUBArbC4Ei" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1824" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -267,9 +267,6 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-96" value="DOM-like&lt;br&gt;internal Model" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="670" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-100" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;" parent="1" vertex="1">
-          <mxGeometry x="616.71" y="343.26" width="176.58" height="183" as="geometry" />
-        </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="550" width="180" height="150" as="geometry" />
         </mxCell>
@@ -347,9 +344,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-122" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
-          <mxGeometry x="67.5" y="662.5" width="77.19" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-131" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/27-128.png" parent="1" vertex="1">
           <mxGeometry x="-510" y="600.63" width="50" height="50" as="geometry" />
         </mxCell>
@@ -422,9 +416,6 @@
         </mxCell>
         <mxCell id="EXpIYGEiLqRTaq-IhmrR-2" value="ECMAScript Engine" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="830" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png;flipH=0;" parent="1" vertex="1">
-          <mxGeometry x="567" y="627.59" width="56" height="58.04" as="geometry" />
         </mxCell>
         <mxCell id="Dyu9WglcppKTmGrHaXKb-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="Dyu9WglcppKTmGrHaXKb-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -539,7 +530,16 @@
           <mxGeometry x="821.5999999999999" y="30" width="218.4" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ljtoIq0LZElX6hFBuiCp-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/3428/1*bL8cBbr37sv43WW3EfnOKA.png;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="1190" width="1072.16" height="600" as="geometry" />
+          <mxGeometry x="-820" y="1130" width="786.25" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ljtoIq0LZElX6hFBuiCp-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="538" y="275.58000000000004" width="242" height="250.68" as="geometry" />
+        </mxCell>
+        <mxCell id="ljtoIq0LZElX6hFBuiCp-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="665.35" width="60" height="62.15" as="geometry" />
+        </mxCell>
+        <mxCell id="ljtoIq0LZElX6hFBuiCp-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="560" y="623.48" width="60" height="62.15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
