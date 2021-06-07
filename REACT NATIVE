@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:25:24.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="QdrXWcUyow6rIhpuaZ5A" version="14.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:27:44.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mO4WLZP-nZBpC_rJpKXo" version="14.7.2" type="github" pages="3">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1619" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -267,7 +267,7 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="561.26" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation (and a DOM tree)&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="869.5" width="295" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103" edge="1">
@@ -403,6 +403,11 @@
         </mxCell>
         <mxCell id="Dyu9WglcppKTmGrHaXKb-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="Dyu9WglcppKTmGrHaXKb-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-16" value="is an" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dyu9WglcppKTmGrHaXKb-14">
+          <mxGeometry x="0.297" y="-71" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3gasO5IHLwn9Dk4auXZz-1" value="Heart of modern interactive web" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="530" y="70" width="370" height="80" as="geometry" />
