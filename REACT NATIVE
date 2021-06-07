@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T18:13:00.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="UPnNc8-DU76yFfz-Bee_" version="14.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-07T18:35:04.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="HRYm_7bCSQRtS8NzXQ3F" version="14.7.2" type="github" pages="3">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="1388" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2019" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="&lt;font color=&quot;#ff0000&quot;&gt;HTTP Response (CSS + HTML + JS)&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#B20000;fontColor=#ffffff;fillColor=#80FF00;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="500" width="360" height="50" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-159" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;HTTP Response&lt;/b&gt; (CSS + HTML + JS) Binary stream format&lt;/font&gt;" style="html=1;shadow=0;dashed=1;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;dashPattern=1 1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="490" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-2" target="IhgBcBhz6YpeUrunEe0w-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -151,7 +151,7 @@
         <mxCell id="Dyu9WglcppKTmGrHaXKb-4" value="representing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-33" target="Dyu9WglcppKTmGrHaXKb-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-33" value="object" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-33" value="JS object" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1365" y="340" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dyu9WglcppKTmGrHaXKb-9" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-57" target="Dyu9WglcppKTmGrHaXKb-8">
@@ -396,13 +396,13 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-174" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;software (and hardware) that accepts requests via HTTP or HTTPS, the stateless protocols created to distribute web pages. A user agent&amp;nbsp; like a web browser or a web crawler, initiates communication by making an HTTP-request for a specific resource, and the server HTTP-responds with the content of that resource or an error message.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;The server can also accept and store resources sent from the user agent if configured to do so.&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="-720" y="710" width="600" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-177" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;fillColor=#d80073;strokeColor=#A50040;" parent="1" edge="1">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-177" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="489" as="sourcePoint" />
+            <mxPoint x="50" y="489" as="sourcePoint" />
             <mxPoint x="-300" y="489" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-178" value="&lt;font color=&quot;#ff0000&quot;&gt;HTTP Request&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IhgBcBhz6YpeUrunEe0w-177" vertex="1" connectable="0">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-178" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;HTTP Request&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IhgBcBhz6YpeUrunEe0w-177" vertex="1" connectable="0">
           <mxGeometry x="-0.196" y="-1" relative="1" as="geometry">
             <mxPoint x="-35" y="1" as="offset" />
           </mxGeometry>
