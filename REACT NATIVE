@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:27:44.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mO4WLZP-nZBpC_rJpKXo" version="14.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:31:54.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="CxUtD53HYAvsg83Ztmpb" version="14.7.2" type="github" pages="3">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1619" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
           <mxGeometry x="400" y="869.5" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-94" value="an API interface between JS Engine( and JS page scripts) and the document itself, allowing the creation of &quot;dyanmic web pages&quot;, because the JS Engine (scripts) can&amp;nbsp;&lt;br&gt;&lt;br&gt;1. interact(ACR) with any HTML element and attributes&lt;br&gt;2. react to all the existing events (with event-handlers defined)&lt;br&gt;3. create new events" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="935" width="410" height="125" as="geometry" />
+          <mxGeometry x="780" y="933" width="410" height="125" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-98" value="is" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-96" target="IhgBcBhz6YpeUrunEe0w-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -267,7 +267,10 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="561.26" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation (and a DOM tree)&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IhgBcBhz6YpeUrunEe0w-103" target="IhgBcBhz6YpeUrunEe0w-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; used to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation (and a DOM tree)&lt;/b&gt; in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="869.5" width="295" height="85" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-110" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-103" edge="1">
@@ -281,12 +284,21 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-106" value="Browser Engine&lt;br&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;(aka layout engine or rendering engine)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="162.5" y="662.5" width="160" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-147" value="is a computer program that" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="IhgBcBhz6YpeUrunEe0w-145" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-147" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="IhgBcBhz6YpeUrunEe0w-145" edge="1">
+          <mxGeometry x="-0.3373" relative="1" as="geometry">
             <mxPoint x="-30" y="765" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="905" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EXpIYGEiLqRTaq-IhmrR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="EXpIYGEiLqRTaq-IhmrR-2" edge="1">
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-18" value="is a&lt;br&gt;computer program &lt;br&gt;that" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhgBcBhz6YpeUrunEe0w-147">
+          <mxGeometry x="-0.5055" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXpIYGEiLqRTaq-IhmrR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.757;exitY=0.953;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IhgBcBhz6YpeUrunEe0w-108" target="EXpIYGEiLqRTaq-IhmrR-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="750" as="targetPoint" />
           </mxGeometry>
@@ -317,8 +329,8 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-119" value="implements DOM-like structure exposed to JS Engine and page scripts" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="980.5" width="295" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-120" value="Apple Safari - WebKit&lt;br&gt;Google Chrome - Blink&lt;br&gt;Microsoft IE - Trident and EdgeHtml&lt;br&gt;Mozilla Firefox&amp;nbsp; - Gecko" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="300" y="555" width="180" height="125" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-120" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Apple Safari - &lt;/span&gt;WebKit&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Google Chrome -&lt;/span&gt; Blink&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Microsoft IE -&lt;/span&gt; Trident and EdgeHtml&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Mozilla Firefox -&lt;/span&gt; Gecko&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=0;fontStyle=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="290" y="555" width="180" height="125" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-166" value="concerts &lt;br&gt;with via" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-106" target="IhgBcBhz6YpeUrunEe0w-108" edge="1">
           <mxGeometry x="-0.2308" relative="1" as="geometry">
@@ -346,7 +358,7 @@
           <mxGeometry x="-425" y="520" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-145" value="Executes the Javascript code&lt;br&gt;some support JIT Compilation of JS code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="869.5" width="160" height="89.5" as="geometry" />
+          <mxGeometry x="-280" y="860" width="160" height="89.5" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-148" value="Apple Safari - &lt;span style=&quot;font-weight: normal&quot;&gt;Nitro&lt;/span&gt;&lt;br&gt;Google Chrome - &lt;span style=&quot;font-weight: normal&quot;&gt;V8 Engine&lt;/span&gt;&lt;br&gt;Microsoft IE - &lt;span style=&quot;font-weight: normal&quot;&gt;Chakra&lt;/span&gt;&lt;br&gt;Mozilla Firefox&amp;nbsp; - &lt;span style=&quot;font-weight: normal&quot;&gt;SpiderMonkey&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.61;position2=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-270" y="574.36" width="210" height="111.27" as="geometry" />
@@ -357,8 +369,8 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-135" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" parent="1" vertex="1">
           <mxGeometry x="-510" y="369.4" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IhgBcBhz6YpeUrunEe0w-151" value="The &#39;layout engine&#39; combines all relevant CSS rules to calculate precise graphical coordinates for the visual representation that the &#39;rendering engine&#39; will paint on the screen.&amp;nbsp;&lt;br&gt;Both are tightly coupled as one software aka browser engine" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="980.5" width="350" height="79.5" as="geometry" />
+        <mxCell id="IhgBcBhz6YpeUrunEe0w-151" value="&lt;ul&gt;&lt;li&gt;The &#39;layout engine&#39; combines all relevant CSS rules to calculate precise graphical coordinates for the visual representation that&amp;nbsp;&lt;/li&gt;&lt;li&gt;the &#39;rendering engine&#39; will paint on the screen.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Both are tightly coupled as one software aka browser engine&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="960" width="350" height="99" as="geometry" />
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-158" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.web_server_orange;" parent="1" vertex="1">
           <mxGeometry x="-384" y="448" width="64" height="82" as="geometry" />
