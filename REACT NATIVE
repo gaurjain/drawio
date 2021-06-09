@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T23:18:19.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="d3497_Og2BDyjHvd51ms" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-09T23:45:49.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="V2ZRr0F2GogpWP7-zaLn" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1779" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -546,7 +546,7 @@
           <mxGeometry x="197.42" y="80" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ljtoIq0LZElX6hFBuiCp-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/3428/1*bL8cBbr37sv43WW3EfnOKA.png;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="1280" width="505.8" height="283.05" as="geometry" />
+          <mxGeometry x="-810" y="1300" width="482.48" height="270" as="geometry" />
         </mxCell>
         <mxCell id="ljtoIq0LZElX6hFBuiCp-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png;" parent="1" vertex="1">
           <mxGeometry x="480" y="174.06" width="340" height="352.2" as="geometry" />
@@ -600,37 +600,46 @@
           <mxGeometry x="-490" y="270" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-4" value="&lt;b&gt;DOM construction&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : HTML in Binary stream format response&lt;br&gt;Output : DOM in memory" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="1190" width="550" height="80" as="geometry" />
+          <mxGeometry x="-810" y="1190" width="520" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-5" value="&lt;b&gt;CSSOM construction (Render blocking)&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : CSS styles from all sources (external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM (with elements that does not get printed like title, link, script)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1190" width="610" height="80" as="geometry" />
+          <mxGeometry x="-309.99" y="1190" width="520" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-6" value="&lt;b&gt;Render Tree construction&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : DOM + CSSOM&lt;br&gt;Output : Render Tree, with only visible (display-able) nodes" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="777" y="1190" width="533" height="80" as="geometry" />
+          <mxGeometry x="190" y="1190" width="480" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" vertex="1" parent="1">
-          <mxGeometry x="-101.5" y="1120" width="50" height="50" as="geometry" />
+          <mxGeometry x="-571.5" y="1120" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" vertex="1" parent="1">
-          <mxGeometry x="394.99999999999994" y="1120" width="50" height="50" as="geometry" />
+          <mxGeometry x="-75.00000000000006" y="1120" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1758/1*DqHhp1A0I981zDW9ZJQarQ.png;" vertex="1" parent="1">
-          <mxGeometry x="197.42" y="1280" width="563.33" height="260" as="geometry" />
+          <mxGeometry x="-309.99" y="1300" width="476.66" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/essentials-pack/96/code_coding_html_css_programming-128.png" vertex="1" parent="1">
-          <mxGeometry x="465.5" y="1115.5" width="59" height="59" as="geometry" />
+          <mxGeometry x="-4.5" y="1115.5" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699766-icon-12-file-css-128.png" vertex="1" parent="1">
-          <mxGeometry x="542" y="1121" width="48" height="48" as="geometry" />
+          <mxGeometry x="72" y="1121" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/UltimateGnome/128x128/mimetypes/text-css.png" vertex="1" parent="1">
-          <mxGeometry x="600" y="1121" width="48" height="48" as="geometry" />
+          <mxGeometry x="130" y="1121" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2833/1*-ffAB0BPwrt-AQHIea4kWQ.png;" vertex="1" parent="1">
-          <mxGeometry x="783.5" y="1280" width="520" height="262" as="geometry" />
+          <mxGeometry x="197.42" y="1300" width="436.65" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-18" value="&lt;b&gt;Layout Operation&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1190" width="350" height="80" as="geometry" />
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-18" value="&lt;b&gt;Layout Operation (Browser Reflow)&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;When : at event like scroll, rotate the phone,&lt;br&gt;resize the window, or DOM interactions(ADC)&lt;br&gt;Input : Each render Tree + meta tags&lt;br&gt;Output : Layout (The box model) with size of each node in pixels" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1190" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2665/1*OLC_4tYWtsAAsBpyq_WUnA.png;" vertex="1" parent="1">
+          <mxGeometry x="654.29" y="1300" width="408.57" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="1">
+          <mxGeometry x="930.5" y="1360" width="109" height="84.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-21" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : on the screen&lt;br&gt;Input : Final Render Tree with layout&amp;nbsp;&lt;br&gt;Output : Layers&amp;nbsp;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1190" width="400" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
