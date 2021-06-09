@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T23:04:13.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mox-kpRizblKEXoMb-tG" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-09T23:05:17.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Ref7GOBAOINVOgdFPCbz" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1350" dy="240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -599,10 +599,10 @@
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-2" value="&lt;ul style=&quot;font-size: 8px&quot;&gt;&lt;li&gt;using an &lt;b&gt;external &lt;/b&gt;.CSS file,&amp;nbsp;&lt;/li&gt;&lt;li&gt;with &lt;b&gt;embedded &lt;/b&gt;CSS using &amp;lt;style&amp;gt; tags.&lt;/li&gt;&lt;li&gt;with &lt;b&gt;inline&lt;/b&gt; method using &#39;style&#39; attribute on HTML elements&lt;/li&gt;&lt;li&gt;or using a JS script&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-490" y="270" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-4" value="DOM construction&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : HTML in Binary stream format response&lt;br&gt;Output : DOM in memory" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-4" value="&lt;b&gt;DOM construction&lt;/b&gt;&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : HTML in Binary stream format response&lt;br&gt;Output : DOM in memory" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
           <mxGeometry x="-340" y="1190" width="550" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-5" value="CSSOM construction (Render blocking)&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : CSS styles from all sources &lt;br&gt;(external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM (with elements that does not get printed like title, link, script)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-5" value="&lt;b&gt;CSSOM construction (Render blocking)&lt;/b&gt;&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : CSS styles from all sources (external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM (with elements that does not get printed like title, link, script)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
           <mxGeometry x="190" y="1190" width="610" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-6" value="Render Tree construction" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
