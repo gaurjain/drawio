@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T22:49:18.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="g9ZFj2Cj1TAjla2u9_lf" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-09T22:58:00.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qjQirMDiuZsgbQUmEGyH" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="2225" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -546,7 +546,7 @@
           <mxGeometry x="197.42" y="80" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ljtoIq0LZElX6hFBuiCp-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/3428/1*bL8cBbr37sv43WW3EfnOKA.png;" parent="1" vertex="1">
-          <mxGeometry x="-356.09" y="1280" width="536.09" height="300" as="geometry" />
+          <mxGeometry x="-308.80999999999995" y="1280" width="464.61" height="260" as="geometry" />
         </mxCell>
         <mxCell id="ljtoIq0LZElX6hFBuiCp-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png;" parent="1" vertex="1">
           <mxGeometry x="480" y="174.06" width="340" height="352.2" as="geometry" />
@@ -600,13 +600,13 @@
           <mxGeometry x="-490" y="270" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-4" value="DOM construction&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : HTML in Binary stream format response&lt;br&gt;Output : DOM in memory" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="-363" y="1190" width="573" height="80" as="geometry" />
+          <mxGeometry x="-340" y="1190" width="550" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-5" value="CSSOM construction&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : CSS styles from all sources &lt;br&gt;(external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1190" width="480" height="80" as="geometry" />
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-5" value="CSSOM construction (Render blocking)&lt;br&gt;Actor : Browser.layoutEngine&lt;br&gt;Input : CSS styles from all sources &lt;br&gt;(external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1190" width="610" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-6" value="Render Tree construction" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="647" y="1190" width="273" height="80" as="geometry" />
+          <mxGeometry x="777" y="1190" width="433" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" vertex="1" parent="1">
           <mxGeometry x="-101.5" y="1120" width="50" height="50" as="geometry" />
@@ -614,8 +614,8 @@
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" vertex="1" parent="1">
           <mxGeometry x="394.99999999999994" y="1120" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/446/1*DJg1yRx-AzkZposWbJKcaA.png;" vertex="1" parent="1">
-          <mxGeometry x="253" y="1280" width="107" height="149.86" as="geometry" />
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1758/1*DqHhp1A0I981zDW9ZJQarQ.png;" vertex="1" parent="1">
+          <mxGeometry x="197.42" y="1280" width="563.33" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
