@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T23:45:49.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="V2ZRr0F2GogpWP7-zaLn" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-10T00:10:19.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="r-R-pNHRLrqCo-B_oD1t" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1779" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -638,8 +638,11 @@
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="1">
           <mxGeometry x="930.5" y="1360" width="109" height="84.71" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-21" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : on the screen&lt;br&gt;Input : Final Render Tree with layout&amp;nbsp;&lt;br&gt;Output : Layers&amp;nbsp;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="1190" width="400" height="100" as="geometry" />
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-21" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : CPU/GPU + memory&lt;br&gt;Input : Final Render Tree with layouts&lt;br&gt;Output : Layers (Bitmap images) stacked on z-axis" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1190" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-22" value="&lt;b&gt;Compositing (Draw) Operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU thread&lt;br&gt;Where : Drawn On screen&lt;br&gt;Input : tiles broken out of &lt;br&gt;Layers(Bitmap images)&lt;br&gt;Output : Drawing on screen" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1190" width="280" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
