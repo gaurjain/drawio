@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T00:20:12.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qJSbgyzQrBJktIHjHdOO" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-10T00:27:44.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="pwwo3PN0HbyQ8FrtensN" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1613" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -644,8 +644,8 @@
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-22" value="&lt;b&gt;Compositing (Draw) Operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU thread&lt;br&gt;Where : Drawn On screen&lt;br&gt;Input : tiles broken out of &lt;br&gt;Layers(Bitmap images)&lt;br&gt;Output : Drawing on screen" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1190" width="280" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-23" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1640" width="460" height="130" as="geometry" />
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-23" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;li&gt;DOM tree generation is incremental ; HOWEVER, CSSOM tree generation is NOT Incremental, it is updated or constructed all at once.&amp;nbsp;&lt;/li&gt;&lt;li&gt;At the same time, downloading the external CSS files is non-CSS-parsing-blocking and can happen via a separate thread.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1600" width="1230" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
