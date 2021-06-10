@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T00:29:23.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="_JdGFy0QoTRvjporMDIk" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-10T00:34:03.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="YqTHLkV6VhGmkY_NZHbV" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="1779" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2774" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,6 +646,30 @@
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-23" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;li&gt;DOM tree generation is incremental ; HOWEVER, CSSOM tree generation is NOT Incremental, it is updated or constructed all at once.&amp;nbsp;&lt;/li&gt;&lt;li&gt;At the same time, downloading the external CSS files is non-CSS-parsing-blocking and can happen via a separate thread.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-800" y="1600" width="1230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="1">
+          <mxGeometry x="1347" y="1097.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/picol-vector/32/website-128.png" vertex="1" parent="1">
+          <mxGeometry x="1602" y="1092" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1108.87" width="80" height="62.17" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/7602/1*8HnhiojSoPaJAWkruPhDwA.png;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="1100" width="210" height="84.4" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="1">
+          <mxGeometry x="1357" y="1107.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="1">
+          <mxGeometry x="1367" y="1117.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1040/1*YSA8lCfCVPn3d6GWAVokrA.png;" vertex="1" parent="1">
+          <mxGeometry x="-407.52" y="1105.95" width="80" height="76.92" as="geometry" />
+        </mxCell>
+        <mxCell id="ynXLrzmQT7xIOg1w7DpM-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/446/1*DJg1yRx-AzkZposWbJKcaA.png;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1108.87" width="47.6" height="66.67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
