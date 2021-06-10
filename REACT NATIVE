@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T00:34:03.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="YqTHLkV6VhGmkY_NZHbV" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-10T00:34:30.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="aQ1Wha1TykItvYkCg3Ro" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2774" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -545,9 +545,6 @@
         <mxCell id="Dyu9WglcppKTmGrHaXKb-13" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400 ; background-color: rgb(255 , 255 , 255)&quot;&gt;object oriented representation of an HTML/XML document that acts as an interface between JavaScript and the document itself.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="197.42" y="80" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ljtoIq0LZElX6hFBuiCp-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/3428/1*bL8cBbr37sv43WW3EfnOKA.png;" parent="1" vertex="1">
-          <mxGeometry x="-810" y="1300" width="482.48" height="270" as="geometry" />
-        </mxCell>
         <mxCell id="ljtoIq0LZElX6hFBuiCp-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png;" parent="1" vertex="1">
           <mxGeometry x="480" y="174.06" width="340" height="352.2" as="geometry" />
         </mxCell>
@@ -598,78 +595,6 @@
         </mxCell>
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-2" value="&lt;ul style=&quot;font-size: 8px&quot;&gt;&lt;li&gt;using an &lt;b&gt;external &lt;/b&gt;.CSS file,&amp;nbsp;&lt;/li&gt;&lt;li&gt;with &lt;b&gt;embedded &lt;/b&gt;CSS using &amp;lt;style&amp;gt; tags.&lt;/li&gt;&lt;li&gt;with &lt;b&gt;inline&lt;/b&gt; method using &#39;style&#39; attribute on HTML elements&lt;/li&gt;&lt;li&gt;or using a JS script&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-490" y="270" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-4" value="&lt;b&gt;DOM construction&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : HTML in Binary stream format response&lt;br&gt;Output : DOM in memory" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="1190" width="520" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-5" value="&lt;b&gt;CSSOM construction (Render blocking)&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : CSS styles from all sources (external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM (with elements that does not get printed like title, link, script)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="-309.99" y="1190" width="520" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-6" value="&lt;b&gt;Render Tree construction&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : DOM + CSSOM&lt;br&gt;Output : Render Tree, with only visible (display-able) nodes" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1190" width="480" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1130" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" vertex="1" parent="1">
-          <mxGeometry x="-313.00000000000006" y="1125.5" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1758/1*DqHhp1A0I981zDW9ZJQarQ.png;" vertex="1" parent="1">
-          <mxGeometry x="-309.99" y="1300" width="476.66" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/essentials-pack/96/code_coding_html_css_programming-128.png" vertex="1" parent="1">
-          <mxGeometry x="-242.5" y="1121" width="59" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699766-icon-12-file-css-128.png" vertex="1" parent="1">
-          <mxGeometry x="-166" y="1126.5" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/UltimateGnome/128x128/mimetypes/text-css.png" vertex="1" parent="1">
-          <mxGeometry x="-108" y="1126.5" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2833/1*-ffAB0BPwrt-AQHIea4kWQ.png;" vertex="1" parent="1">
-          <mxGeometry x="197.42" y="1300" width="436.65" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-18" value="&lt;b&gt;Layout Operation (Browser Reflow)&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;When : at event like scroll, rotate the phone,&lt;br&gt;resize the window, or DOM interactions(ADC)&lt;br&gt;Input : Each render Tree + meta tags&lt;br&gt;Output : Layout (The box model) with size of each node in pixels" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1190" width="450" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2665/1*OLC_4tYWtsAAsBpyq_WUnA.png;" vertex="1" parent="1">
-          <mxGeometry x="654.29" y="1300" width="408.57" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="1">
-          <mxGeometry x="930.5" y="1360" width="109" height="84.71" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-21" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : CPU/GPU + memory&lt;br&gt;Input : Final Render Tree with layouts&lt;br&gt;Output : Layers (Bitmap images) stacked on z-axis" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="1190" width="350" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-22" value="&lt;b&gt;Compositing (Draw) Operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU thread&lt;br&gt;Where : Drawn On screen&lt;br&gt;Input : tiles broken out of &lt;br&gt;Layers(Bitmap images)&lt;br&gt;Output : Drawing on screen" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1190" width="280" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-23" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;li&gt;DOM tree generation is incremental ; HOWEVER, CSSOM tree generation is NOT Incremental, it is updated or constructed all at once.&amp;nbsp;&lt;/li&gt;&lt;li&gt;At the same time, downloading the external CSS files is non-CSS-parsing-blocking and can happen via a separate thread.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1600" width="1230" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="1">
-          <mxGeometry x="1347" y="1097.5" width="58" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/picol-vector/32/website-128.png" vertex="1" parent="1">
-          <mxGeometry x="1602" y="1092" width="88" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1108.87" width="80" height="62.17" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/7602/1*8HnhiojSoPaJAWkruPhDwA.png;" vertex="1" parent="1">
-          <mxGeometry x="322.5" y="1100" width="210" height="84.4" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="1">
-          <mxGeometry x="1357" y="1107.5" width="58" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="1">
-          <mxGeometry x="1367" y="1117.5" width="58" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1040/1*YSA8lCfCVPn3d6GWAVokrA.png;" vertex="1" parent="1">
-          <mxGeometry x="-407.52" y="1105.95" width="80" height="76.92" as="geometry" />
-        </mxCell>
-        <mxCell id="ynXLrzmQT7xIOg1w7DpM-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/446/1*DJg1yRx-AzkZposWbJKcaA.png;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1108.87" width="47.6" height="66.67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1186,10 +1111,85 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XSqE61MyYsMvgS7WTVkO" name="Page-4">
-    <mxGraphModel dx="1169" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="-405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PBDV2kUktg2uFq01WOaw-0" />
         <mxCell id="PBDV2kUktg2uFq01WOaw-1" parent="PBDV2kUktg2uFq01WOaw-0" />
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/3428/1*bL8cBbr37sv43WW3EfnOKA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-810" y="1348" width="482.48" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-1" value="&lt;b&gt;DOM construction&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : HTML in Binary stream format response&lt;br&gt;Output : DOM in memory" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-810" y="1238" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-2" value="&lt;b&gt;CSSOM construction (Render blocking)&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : CSS styles from all sources (external, embedded, inline, user-agents etc.)&lt;br&gt;Output : CSSOM (with elements that does not get printed like title, link, script)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-309.99" y="1238" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-3" value="&lt;b&gt;Render Tree construction&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;Where : User Agent memory&lt;br&gt;Input : DOM + CSSOM&lt;br&gt;Output : Render Tree, with only visible (display-able) nodes" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="190" y="1238" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/19-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-800" y="1178" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/33-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-313.00000000000006" y="1173.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1758/1*DqHhp1A0I981zDW9ZJQarQ.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-309.99" y="1348" width="476.66" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/essentials-pack/96/code_coding_html_css_programming-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-242.5" y="1169" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699766-icon-12-file-css-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-166" y="1174.5" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/UltimateGnome/128x128/mimetypes/text-css.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-108" y="1174.5" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2833/1*-ffAB0BPwrt-AQHIea4kWQ.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="197.42" y="1348" width="436.65" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-11" value="&lt;b&gt;Layout Operation (Browser Reflow)&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine&lt;br&gt;When : at event like scroll, rotate the phone,&lt;br&gt;resize the window, or DOM interactions(ADC)&lt;br&gt;Input : Each render Tree + meta tags&lt;br&gt;Output : Layout (The box model) with size of each node in pixels" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="650" y="1238" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/2665/1*OLC_4tYWtsAAsBpyq_WUnA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="654.29" y="1348" width="408.57" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="930.5" y="1408" width="109" height="84.71" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-14" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : CPU/GPU + memory&lt;br&gt;Input : Final Render Tree with layouts&lt;br&gt;Output : Layers (Bitmap images) stacked on z-axis" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1080" y="1238" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-15" value="&lt;b&gt;Compositing (Draw) Operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU thread&lt;br&gt;Where : Drawn On screen&lt;br&gt;Input : tiles broken out of &lt;br&gt;Layers(Bitmap images)&lt;br&gt;Output : Drawing on screen" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1410" y="1238" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-16" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;li&gt;DOM tree generation is incremental ; HOWEVER, CSSOM tree generation is NOT Incremental, it is updated or constructed all at once.&amp;nbsp;&lt;/li&gt;&lt;li&gt;At the same time, downloading the external CSS files is non-CSS-parsing-blocking and can happen via a separate thread.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-800" y="1648" width="1230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1347" y="1145.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/picol-vector/32/website-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1602" y="1140" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/460/1*Zn6GitJgGX5kZkSTBgmoIA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1030" y="1156.87" width="80" height="62.17" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/7602/1*8HnhiojSoPaJAWkruPhDwA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="322.5" y="1148" width="210" height="84.4" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1357" y="1155.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-8/512/4-128.png" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="1367" y="1165.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/1040/1*YSA8lCfCVPn3d6GWAVokrA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="-407.52" y="1153.95" width="80" height="76.92" as="geometry" />
+        </mxCell>
+        <mxCell id="gDSTM8QjRGV0ukgkDmpq-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/446/1*DJg1yRx-AzkZposWbJKcaA.png;" vertex="1" parent="PBDV2kUktg2uFq01WOaw-1">
+          <mxGeometry x="110" y="1156.87" width="47.6" height="66.67" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
