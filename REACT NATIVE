@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T00:46:14.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="O7LsGZud5cTTixK9L6OS" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-10T00:50:54.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wXMV8btO7_43lU0frzHZ" version="14.7.6" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2774" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -600,7 +600,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCOXEyCJTzpBLqBSQZNM" name="Page-2">
-    <mxGraphModel dx="1169" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="770" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ADLDLL64pX6PP5YeEKHg-0" />
         <mxCell id="ADLDLL64pX6PP5YeEKHg-1" parent="ADLDLL64pX6PP5YeEKHg-0" />
@@ -751,11 +751,11 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-37" value="Migrate from Server-side rendered app to React, portion by portion" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="1280" y="406" width="120" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-53" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-50" target="nZzBTqbJdsIMzUFjVoys-52" edge="1">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-53" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-50" target="nZzBTqbJdsIMzUFjVoys-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-50" value="2. Feedback Developer eXperience" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="692" y="450" width="160" height="60" as="geometry" />
+          <mxGeometry x="692" y="450" width="208" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-55" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-52" target="nZzBTqbJdsIMzUFjVoys-54" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -763,7 +763,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-52" value="Simple API&lt;br&gt;Easy to learn&lt;br&gt;Lightweight" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="920" y="553" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-57" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-52" target="nZzBTqbJdsIMzUFjVoys-56" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -868,7 +868,7 @@
         <mxCell id="nZzBTqbJdsIMzUFjVoys-80" value="Minimizes the DOM updates &lt;b&gt;with Virtual DOM&lt;/b&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="1300" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZzBTqbJdsIMzUFjVoys-82" value="When a REACT Components is updated,&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;All corresponding Virtual-DOMs(n-th instance) gets updated in entirety very quickly. in other words a new instance of virtual DOM gets created (the n-th instances)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Diffing -&lt;/b&gt; These updated DOMs are compared with the last snapshot of the same Virtual DOM to identify the changed objects.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Reconciliation -&lt;/b&gt; React only update the changed objects on the real DOM EFFICIENTLY.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=left;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
+        <mxCell id="nZzBTqbJdsIMzUFjVoys-82" value="When a REACT Components is updated,&amp;nbsp;&lt;br&gt;&lt;ol&gt;&lt;li&gt;All corresponding Virtual-DOMs(n-th instance) gets updated in entirety very quickly. in other words a new instance of virtual DOM gets created (the n-th instances)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Diffing -&lt;/b&gt; These updated DOMs are compared with the last snapshot of the same Virtual DOM to identify the changed objects.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Reconciliation -&lt;/b&gt; React only update the changed objects(nodes) on the real DOM EFFICIENTLY.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=left;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="1500" y="760" width="180" height="310" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-84" value="Avoid Layout Thrashing" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
@@ -927,7 +927,7 @@
             <mxPoint x="1300" y="1260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbivPQRaBa_nWxPG3Edv-0" value="JS is fast&amp;nbsp;&lt;br&gt;DOM makes it feel slow" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
+        <mxCell id="MbivPQRaBa_nWxPG3Edv-0" value="JS is fast;&amp;nbsp;&lt;br&gt;DOM parsing&lt;br&gt;makes it feel slow" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="880" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-2" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" source="IeRlQNqAGTMErbRg-TtJ-0" target="IeRlQNqAGTMErbRg-TtJ-1" edge="1">
@@ -1052,7 +1052,7 @@
           <mxGeometry x="40" y="360" width="152" height="72" as="geometry" />
         </mxCell>
         <mxCell id="GfvhslLD_pcHLL9uzI8X-1" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Components can be rendered to a particular element in the DOM&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;using the React-DOM library.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;When rendering a component, one can pass in values that are known as &quot;props&quot;.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="260" y="373" width="212" height="130" as="geometry" />
+          <mxGeometry x="260" y="373" width="310" height="137" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
