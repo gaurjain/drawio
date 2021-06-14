@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T20:42:53.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="k_MHS3cNC5hYMke7ResY" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-14T20:49:49.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="g3LSlp3s4jYTFJebUlLi" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2197" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1160,7 +1160,7 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-111" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-5" target="qUHdYQ3gqwffgzUwqx9y-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="REpzqDYQXd0AK713AtoL-5" value="Separate template&amp;nbsp;&lt;br&gt;versus&lt;br&gt;single file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
+        <mxCell id="REpzqDYQXd0AK713AtoL-5" value="Separate template&amp;nbsp;&lt;br&gt;versus&lt;br&gt;single file per component" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
           <mxGeometry x="150" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-90" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-89">
@@ -1436,14 +1436,14 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-117" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-110" target="qUHdYQ3gqwffgzUwqx9y-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-110" value="MVC&lt;br&gt;prescribes separating Model , view and Controller JS in separate files" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-110" value="MVC&lt;br&gt;prescribes separating Model JS , view HTML and Controller JS in separate files" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="350" y="1070" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-115" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-112" target="qUHdYQ3gqwffgzUwqx9y-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-112" value="In React, &lt;br&gt;Markup and logic are colocated in the same file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="1180" width="120" height="60" as="geometry" />
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-112" value="In React, Each component contains&amp;nbsp;&lt;br&gt;Markup, Styling and logic colocated in the same file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="350" y="1180" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-113" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.002;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-5" target="qUHdYQ3gqwffgzUwqx9y-112">
           <mxGeometry relative="1" as="geometry">
@@ -1463,8 +1463,8 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-116" value="Separate technologies (HTML + CSS + JS) in separate files but intertwined concerns" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="550" y="1070" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-118" value="Nested &lt;br&gt;Components" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1180" width="120" height="40" as="geometry" />
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-118" value="Components can be Nested" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="750" y="1205" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-120" value="Button&lt;br&gt;TextInput&lt;br&gt;Datepicker&lt;br&gt;ContactForm&lt;br&gt;Customer" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="750" y="1260" width="120" height="70" as="geometry" />
@@ -1540,6 +1540,18 @@
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-214" value="One component per file" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="qUHdYQ3gqwffgzUwqx9y-212">
           <mxGeometry x="145" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-217" value="Community versus Corporate support" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="150" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-218" value="Styling yet can be in separate CSS file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="750" y="1150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-219" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-114" target="qUHdYQ3gqwffgzUwqx9y-218">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1270" as="sourcePoint" />
+            <mxPoint x="760" y="1210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
