@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T20:09:13.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="fQOPEWTxIVOOEa_lwuDi" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-14T20:15:11.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="21lUZejBOI49Nly8kFU1" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2197" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1166,6 +1166,9 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-92" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-106" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-6" value="Template-centric (Angular/ember/vue) versus JS-centric (react)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
           <mxGeometry x="150" y="830" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1366,7 +1369,7 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-94" value="conditional" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-89" target="qUHdYQ3gqwffgzUwqx9y-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-89" value="&quot;JS&quot; in HTML" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-89" value="Learn their unique syntax&lt;br&gt;&quot;JS&quot; in HTML" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="350" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-96" value="conditional" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-91" target="qUHdYQ3gqwffgzUwqx9y-95">
@@ -1408,7 +1411,7 @@
             <mxPoint x="560" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-103" value="&amp;lt;button onClick={delete}&amp;gt;Delete&amp;lt;/button&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-103" value="&amp;lt;button &lt;b&gt;onClick={delete}&lt;/b&gt;&amp;gt;Delete&amp;lt;/button&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="550" y="1020" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-104" value="Event handling :button click" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-91" target="qUHdYQ3gqwffgzUwqx9y-103">
@@ -1417,6 +1420,9 @@
             <mxPoint x="560" y="920" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-105" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Little JS knowledge required&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Avoid confusion with JS Binding&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Rule of least power (less misuse)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Little framework-specific syntax&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fewer concepts ot learn; it&#39;s JS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="80" y="905" width="190" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
