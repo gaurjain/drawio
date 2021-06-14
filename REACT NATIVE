@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T20:50:17.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="VQzQlAhq0LZUwuFDA0m-" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-14T20:55:27.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="MEw4p854y8cDrXuhNWOM" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2197" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1144,24 +1144,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SY6ArObaWbKwrG9fabgl" name="Page-3">
-    <mxGraphModel dx="1212" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2118" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="REpzqDYQXd0AK713AtoL-0" />
         <mxCell id="REpzqDYQXd0AK713AtoL-1" parent="REpzqDYQXd0AK713AtoL-0" />
         <mxCell id="REpzqDYQXd0AK713AtoL-2" value="Trade-offs" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="150" y="100" width="120" height="80" as="geometry" />
+          <mxGeometry x="-420" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-3" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-4" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="-180" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-111" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-5" target="qUHdYQ3gqwffgzUwqx9y-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-5" value="Separate template&amp;nbsp;&lt;br&gt;versus&lt;br&gt;single file per component" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="150" y="1100" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-90" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-89">
           <mxGeometry relative="1" as="geometry" />
@@ -1173,36 +1173,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-6" value="Template-centric (Angular/ember/vue) versus JS-centric (react)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="150" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-80" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-7" target="qUHdYQ3gqwffgzUwqx9y-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-7" value="Concise (Angular) versus&lt;br&gt;Explicit (React)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="150" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-10" value="Library" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-8" target="REpzqDYQXd0AK713AtoL-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-8" value="&lt;ol&gt;&lt;li&gt;Framework vs Library&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="150" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-76" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-9" target="qUHdYQ3gqwffgzUwqx9y-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-9" value="&lt;ol&gt;&lt;li&gt;lean (35k gzipped) &amp;amp; component-focused&amp;nbsp;&lt;/li&gt;&lt;li&gt;small &amp;amp; lightweight&lt;/li&gt;&lt;li&gt;sprinkle on existing apps&lt;/li&gt;&lt;li&gt;pick what you need&lt;/li&gt;&lt;li&gt;Free to select best tech&lt;/li&gt;&lt;li&gt;Popular boilerplates (create-react-app) exists&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="490" y="200" width="190" height="130" as="geometry" />
+          <mxGeometry x="-80" y="260" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-78" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-11" target="qUHdYQ3gqwffgzUwqx9y-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-11" value="&lt;ol&gt;&lt;li&gt;clean opinions&amp;nbsp;&lt;/li&gt;&lt;li&gt;Less decision fatigue&lt;/li&gt;&lt;li&gt;Less setup overhead&lt;/li&gt;&lt;li&gt;More cross-team consistency&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="490" y="340" width="190" height="120" as="geometry" />
+          <mxGeometry x="-80" y="400" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-12" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-8" target="REpzqDYQXd0AK713AtoL-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="270" as="sourcePoint" />
-            <mxPoint x="360" y="270" as="targetPoint" />
+            <mxPoint x="-290" y="330" as="sourcePoint" />
+            <mxPoint x="-210" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-0" value="Framework" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="REpzqDYQXd0AK713AtoL-12">
@@ -1211,16 +1211,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fc9kAmefuCRaISENPbuq-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/111_Ember-128.png;align=left;direction=east;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="615" y="410" width="58" height="58" as="geometry" />
+          <mxGeometry x="45" y="470" width="58" height="58" as="geometry" />
         </mxCell>
         <mxCell id="fc9kAmefuCRaISENPbuq-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/logos-3/250/angular-128.png;align=left;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="636.5" y="340" width="43" height="43" as="geometry" />
+          <mxGeometry x="66.5" y="400" width="43" height="43" as="geometry" />
         </mxCell>
         <mxCell id="fc9kAmefuCRaISENPbuq-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-128.png;align=left;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="636.5" y="220" width="43.5" height="43.5" as="geometry" />
+          <mxGeometry x="66.5" y="280" width="43.5" height="43.5" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-29" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="890" y="150" width="340" height="314" as="geometry" />
+          <mxGeometry x="320" y="210" width="340" height="314" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-30" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUHdYQ3gqwffgzUwqx9y-29">
           <mxGeometry width="340" height="31" as="geometry" />
@@ -1349,78 +1349,78 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-79" value="Two-way binding (Angular) versus&lt;br&gt;One-way binding(React)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="-220" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-88" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-81" target="qUHdYQ3gqwffgzUwqx9y-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-81" value="&lt;ol&gt;&lt;li&gt;More control&lt;/li&gt;&lt;li&gt;More Explicit&lt;/li&gt;&lt;li&gt;Easy to debug&lt;/li&gt;&lt;li&gt;more typing of code&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="500" width="190" height="60" as="geometry" />
+          <mxGeometry x="-20" y="560" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-86" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-83" target="qUHdYQ3gqwffgzUwqx9y-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-83" value="&lt;ol&gt;&lt;li&gt;less coding&lt;/li&gt;&lt;li&gt;JS Values and inputs are auto synced&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="690" width="190" height="60" as="geometry" />
+          <mxGeometry x="-20" y="750" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-85" value="let user = &#39;Gaurav&#39;&lt;br&gt;&lt;br&gt;&amp;lt;input&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;type=&quot;text&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;value={user}&lt;br&gt;/&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="820" y="720" width="140" height="110" as="geometry" />
+          <mxGeometry x="250" y="780" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-87" value="state = { user:&#39;Gaurav&#39;};&lt;br&gt;&lt;br&gt;function handleChange(event) {&lt;br&gt;this.setState({user: event.target.value});&lt;br&gt;}&lt;br&gt;&lt;br&gt;&amp;lt;input&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;type=&quot;text&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;value={this.state.user}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;onChange={this.handleChange}&lt;br&gt;/&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="820" y="470" width="230" height="180" as="geometry" />
+          <mxGeometry x="250" y="530" width="230" height="180" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-94" value="conditional" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-89" target="qUHdYQ3gqwffgzUwqx9y-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-89" value="Learn their unique syntax&lt;br&gt;&quot;JS&quot; in HTML" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="-220" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-96" value="conditional" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-91" target="qUHdYQ3gqwffgzUwqx9y-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-91" value="Learn JS&lt;br&gt;JSX : &quot;HTML&quot; in JS&lt;br&gt;(Autocomplete and error support in editor)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="930" width="120" height="70" as="geometry" />
+          <mxGeometry x="-220" y="990" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-93" value="&amp;lt;h1 &lt;b&gt;*ngIf=&quot;isAdmin&quot;&lt;/b&gt;&amp;gt;Hi Admin&amp;lt;/h1&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="830" width="210" height="20" as="geometry" />
+          <mxGeometry x="-20" y="890" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-95" value="{isAdmin &lt;b&gt;&amp;amp;&amp;amp;&lt;/b&gt; &amp;lt;h1&amp;gt;Hi Admin&amp;lt;/h1&amp;gt;}" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="940" width="210" height="20" as="geometry" />
+          <mxGeometry x="-20" y="1000" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-97" value="&amp;lt;div &lt;b&gt;*ngFor=&quot;let user of users&quot;&lt;/b&gt;&amp;gt;{&lt;b&gt;{user.name}&lt;/b&gt;}&amp;lt;/div&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="860" width="300" height="20" as="geometry" />
+          <mxGeometry x="-20" y="920" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-98" value="loop" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-89" target="qUHdYQ3gqwffgzUwqx9y-97">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="870" as="sourcePoint" />
-            <mxPoint x="560" y="850" as="targetPoint" />
+            <mxPoint x="-90" y="930" as="sourcePoint" />
+            <mxPoint x="-10" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-99" value="&lt;b&gt;users.map&lt;/b&gt;(user&amp;nbsp; =&amp;gt;&amp;nbsp; &amp;lt;div&amp;gt;&lt;b&gt;{&lt;/b&gt;user.name&lt;b&gt;}&lt;/b&gt;&amp;lt;/div&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="980" width="300" height="20" as="geometry" />
+          <mxGeometry x="-20" y="1040" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-100" value="loop" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-91" target="qUHdYQ3gqwffgzUwqx9y-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="885" as="sourcePoint" />
-            <mxPoint x="560" y="890" as="targetPoint" />
+            <mxPoint x="-90" y="945" as="sourcePoint" />
+            <mxPoint x="-10" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-101" value="&amp;lt;button (click)=&quot;delete()&quot;&amp;gt;Delete&amp;lt;/button&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="900" width="300" height="20" as="geometry" />
+          <mxGeometry x="-20" y="960" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-102" value="Event handling :button click" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-89" target="qUHdYQ3gqwffgzUwqx9y-101">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="870" as="sourcePoint" />
-            <mxPoint x="560" y="890" as="targetPoint" />
+            <mxPoint x="-90" y="930" as="sourcePoint" />
+            <mxPoint x="-10" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-103" value="&amp;lt;button &lt;b&gt;onClick={delete}&lt;/b&gt;&amp;gt;Delete&amp;lt;/button&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="1020" width="300" height="20" as="geometry" />
+          <mxGeometry x="-20" y="1080" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-104" value="Event handling :button click" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-91" target="qUHdYQ3gqwffgzUwqx9y-103">
           <mxGeometry x="0.1867" y="-4" relative="1" as="geometry">
-            <mxPoint x="480" y="885" as="sourcePoint" />
-            <mxPoint x="560" y="920" as="targetPoint" />
+            <mxPoint x="-90" y="945" as="sourcePoint" />
+            <mxPoint x="-10" y="980" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1428,27 +1428,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-105" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Little JS knowledge required&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Avoid confusion with JS Binding&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Rule of least power (less misuse)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="-100" y="880" width="190" height="105" as="geometry" />
+          <mxGeometry x="-670" y="940" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-107" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Little framework-specific syntax&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fewer concepts to learn; it&#39;s JS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Less code&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Easy to read&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Encourages improving JS skills&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="-100" y="740" width="190" height="130" as="geometry" />
+          <mxGeometry x="-670" y="800" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-117" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-110" target="qUHdYQ3gqwffgzUwqx9y-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-110" value="MVC&lt;br&gt;prescribes separating Model JS , view HTML and Controller JS in separate files" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="1070" width="120" height="90" as="geometry" />
+          <mxGeometry x="-220" y="1130" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-115" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-112" target="qUHdYQ3gqwffgzUwqx9y-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-112" value="In React, Each component contains&amp;nbsp;&lt;br&gt;Markup, Styling and logic colocated in the same file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="1180" width="120" height="90" as="geometry" />
+          <mxGeometry x="-220" y="1240" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-113" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.002;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-5" target="qUHdYQ3gqwffgzUwqx9y-112">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="1140" as="sourcePoint" />
-            <mxPoint x="360" y="1125" as="targetPoint" />
+            <mxPoint x="-290" y="1200" as="sourcePoint" />
+            <mxPoint x="-210" y="1185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-119" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-114" target="qUHdYQ3gqwffgzUwqx9y-118">
@@ -1458,16 +1458,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-114" value="Each &lt;b&gt;Component&lt;/b&gt; is a separate concern." style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="1230" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-116" value="Separate technologies (HTML + CSS + JS) in separate files but intertwined concerns" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="550" y="1070" width="120" height="90" as="geometry" />
+          <mxGeometry x="-20" y="1130" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-118" value="Components can be Nested" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1205" width="120" height="40" as="geometry" />
+          <mxGeometry x="180" y="1265" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-120" value="Button&lt;br&gt;TextInput&lt;br&gt;Datepicker&lt;br&gt;ContactForm&lt;br&gt;Customer" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1260" width="120" height="70" as="geometry" />
+          <mxGeometry x="180" y="1320" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-124" value="Web components" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-122" target="qUHdYQ3gqwffgzUwqx9y-123">
           <mxGeometry relative="1" as="geometry" />
@@ -1478,23 +1478,23 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-216" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-122" target="qUHdYQ3gqwffgzUwqx9y-206">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-122" value="Standard (Web components)&lt;br&gt;versus &lt;br&gt;non-standard (react, Angular, Vue)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="150" y="1355" width="120" height="105" as="geometry" />
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-122" value="Standard (Web components)&lt;br&gt;versus &lt;br&gt;non-standard (react, Angular, Vue)&lt;br&gt;libraries" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="-420" y="1470" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-123" value="&lt;ol&gt;&lt;li&gt;Templates (inert HTML fragments, to hold reusable markup)&lt;/li&gt;&lt;li&gt;Custom Elements (Define our own elements)&lt;/li&gt;&lt;li&gt;Shadow DOM (Encapsulated styling with scoping with subtrees)&lt;/li&gt;&lt;li&gt;Imports (Bundle HTML, JS and CSS)&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="380" y="1340" width="290" height="90" as="geometry" />
+          <mxGeometry x="-190" y="1400" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-195" value="spotty browser support (polyfills required)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1380" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-197" value="Doesn&#39;t enable anything new" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1460" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-198" value="Doesn&#39;t enable anything new" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1540" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-199" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="380" y="1440" width="290" height="200" as="geometry" />
+          <mxGeometry x="-190" y="1500" width="290" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-200" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUHdYQ3gqwffgzUwqx9y-199">
           <mxGeometry width="290" height="40" as="geometry" />
@@ -1542,16 +1542,19 @@
           <mxGeometry x="145" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-217" value="Community versus Corporate support" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="150" y="1640" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-218" value="Styling yet can be in separate CSS file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="750" y="1150" width="120" height="40" as="geometry" />
+          <mxGeometry x="180" y="1210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-219" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-114" target="qUHdYQ3gqwffgzUwqx9y-218">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="1270" as="sourcePoint" />
-            <mxPoint x="760" y="1210" as="targetPoint" />
+            <mxPoint x="110" y="1330" as="sourcePoint" />
+            <mxPoint x="190" y="1270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-220" value="Web components are set of APIs that allow one to create new custom, reusable, encapsulated HTML Tags, to use in web pages and web apps." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="-310" y="1340" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
