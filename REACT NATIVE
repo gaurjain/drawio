@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T21:46:17.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="dFfzcRq5igDwWH-g1Jbu" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-14T21:46:45.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="sJfh79eyEOkkmpcwh3fy" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2197" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-0" value="" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-128.png" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="240" y="40" width="128" height="128" as="geometry" />
+          <mxGeometry x="260" y="30" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="nZzBTqbJdsIMzUFjVoys-8" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-1" target="nZzBTqbJdsIMzUFjVoys-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1037,19 +1037,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-0" value="&lt;b&gt;Virtual DOM&lt;br&gt;(React DOM)&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="60" y="754" width="120" height="80" as="geometry" />
+          <mxGeometry x="40" y="710" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-1" value="virtual representation &lt;br&gt;Corresponding (identical) to every JS DOM object" style="whiteSpace=wrap;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="250" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-6" value="can&#39;t decide what&#39;s on the screen" style="whiteSpace=wrap;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="250" y="764" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-11" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" source="IeRlQNqAGTMErbRg-TtJ-8" target="IeRlQNqAGTMErbRg-TtJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-8" value="just a lightweight blueprint of the real JS DOM object" style="whiteSpace=wrap;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="250" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-10" value="props and methods like the JS DOM" style="whiteSpace=wrap;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="440" y="720" width="120" height="60" as="geometry" />
@@ -1061,7 +1061,7 @@
           <mxGeometry x="250" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IeRlQNqAGTMErbRg-TtJ-14" value="Quickerrr updates" style="whiteSpace=wrap;html=1;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
-          <mxGeometry x="440" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="885" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zj_q7LJ1Qb5rtL8FvTv6-0" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ADLDLL64pX6PP5YeEKHg-1" source="nZzBTqbJdsIMzUFjVoys-1" target="nZzBTqbJdsIMzUFjVoys-67" edge="1">
           <mxGeometry relative="1" as="geometry">
