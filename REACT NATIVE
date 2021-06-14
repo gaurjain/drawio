@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T20:15:11.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="21lUZejBOI49Nly8kFU1" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-14T20:28:49.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="fMln6mrGEbLZTzxNdXth" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="2197" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1144,7 +1144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SY6ArObaWbKwrG9fabgl" name="Page-3">
-    <mxGraphModel dx="302" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1212" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="REpzqDYQXd0AK713AtoL-0" />
         <mxCell id="REpzqDYQXd0AK713AtoL-1" parent="REpzqDYQXd0AK713AtoL-0" />
@@ -1157,8 +1157,11 @@
         <mxCell id="REpzqDYQXd0AK713AtoL-4" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
           <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="REpzqDYQXd0AK713AtoL-5" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
-          <mxGeometry x="150" y="620" width="120" height="60" as="geometry" />
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-111" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-5" target="qUHdYQ3gqwffgzUwqx9y-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REpzqDYQXd0AK713AtoL-5" value="Separate template&amp;nbsp;&lt;br&gt;versus&lt;br&gt;single file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
+          <mxGeometry x="150" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-90" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-89">
           <mxGeometry relative="1" as="geometry" />
@@ -1166,7 +1169,7 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-92" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-106" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-105">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-106" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REpzqDYQXd0AK713AtoL-6" value="Template-centric (Angular/ember/vue) versus JS-centric (react)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="REpzqDYQXd0AK713AtoL-1" vertex="1">
@@ -1370,21 +1373,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-89" value="Learn their unique syntax&lt;br&gt;&quot;JS&quot; in HTML" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-96" value="conditional" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-91" target="qUHdYQ3gqwffgzUwqx9y-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-91" value="JSX : &quot;HTML&quot; in JS&lt;br&gt;(Autocomplete and error support in editor)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="350" y="920" width="120" height="60" as="geometry" />
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-91" value="Learn JS&lt;br&gt;JSX : &quot;HTML&quot; in JS&lt;br&gt;(Autocomplete and error support in editor)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="350" y="930" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-93" value="&amp;lt;h1 *ngIf=&quot;isAdmin&quot;&amp;gt;Hi Admin&amp;lt;/h1&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-93" value="&amp;lt;h1 &lt;b&gt;*ngIf=&quot;isAdmin&quot;&lt;/b&gt;&amp;gt;Hi Admin&amp;lt;/h1&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="550" y="830" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-95" value="{isAdmin &lt;b&gt;&amp;amp;&amp;amp;&lt;/b&gt; &amp;lt;h1&amp;gt;Hi Admin&amp;lt;/h1&amp;gt;}" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="550" y="940" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-97" value="&amp;lt;div *ngFor=&quot;let user of users&quot;&amp;gt;{&lt;b&gt;{user.name}&lt;/b&gt;}&amp;lt;/div&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-97" value="&amp;lt;div &lt;b&gt;*ngFor=&quot;let user of users&quot;&lt;/b&gt;&amp;gt;{&lt;b&gt;{user.name}&lt;/b&gt;}&amp;lt;/div&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="550" y="860" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-98" value="loop" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-89" target="qUHdYQ3gqwffgzUwqx9y-97">
@@ -1421,8 +1424,50 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-105" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Little JS knowledge required&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Avoid confusion with JS Binding&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Rule of least power (less misuse)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Little framework-specific syntax&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fewer concepts ot learn; it&#39;s JS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
-          <mxGeometry x="80" y="905" width="190" height="170" as="geometry" />
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-109" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-6" target="qUHdYQ3gqwffgzUwqx9y-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-105" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Little JS knowledge required&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Avoid confusion with JS Binding&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Rule of least power (less misuse)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="-100" y="880" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-107" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Little framework-specific syntax&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fewer concepts to learn; it&#39;s JS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Less code&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Easy to read&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Encourages improving JS skills&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="-100" y="740" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-117" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-110" target="qUHdYQ3gqwffgzUwqx9y-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-110" value="MVC&lt;br&gt;prescribes separating Model , view and Controller JS in separate files" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="350" y="1070" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-115" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-112" target="qUHdYQ3gqwffgzUwqx9y-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-112" value="In React, &lt;br&gt;Markup and logic are colocated in the same file" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="350" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-113" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.002;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="REpzqDYQXd0AK713AtoL-5" target="qUHdYQ3gqwffgzUwqx9y-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1140" as="sourcePoint" />
+            <mxPoint x="360" y="1125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-119" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-114" target="qUHdYQ3gqwffgzUwqx9y-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-121" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-114" target="qUHdYQ3gqwffgzUwqx9y-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-114" value="Each &lt;b&gt;Component&lt;/b&gt; is a separate concern." style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="550" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-116" value="Separate technologies (HTML + CSS + JS) in separate files but intertwined concerns" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="550" y="1070" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-118" value="Nested Components" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="750" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-120" value="Button&lt;br&gt;TextInput&lt;br&gt;Datepicker&lt;br&gt;ContactForm&lt;br&gt;Customer" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+          <mxGeometry x="750" y="1250" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
