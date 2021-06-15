@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T22:01:32.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="DzAIJo1GWWU_KbvXemdd" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-15T19:25:56.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="xBbBrkGEEsr7tFB-zwEX" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
-    <mxGraphModel dx="2197" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3095" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -600,7 +600,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XSqE61MyYsMvgS7WTVkO" name="CRP">
-    <mxGraphModel dx="1491" dy="-769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="-446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PBDV2kUktg2uFq01WOaw-0" />
         <mxCell id="PBDV2kUktg2uFq01WOaw-1" parent="PBDV2kUktg2uFq01WOaw-0" />
@@ -647,10 +647,10 @@
           <mxGeometry x="913" y="1630" width="109" height="84.71" as="geometry" />
         </mxCell>
         <mxCell id="gDSTM8QjRGV0ukgkDmpq-14" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : CPU/GPU + memory&lt;br&gt;Input : Final Render Tree with layouts&lt;br&gt;Output : Layers (Bitmap images) stacked on z-axis" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="PBDV2kUktg2uFq01WOaw-1" vertex="1">
-          <mxGeometry x="1075" y="1438" width="350" height="100" as="geometry" />
+          <mxGeometry x="1075" y="1438" width="335" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gDSTM8QjRGV0ukgkDmpq-15" value="&lt;b&gt;Compositing (Draw) Operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU thread&lt;br&gt;Where : Drawn On screen&lt;br&gt;Input : tiles broken out of &lt;br&gt;Layers(Bitmap images)&lt;br&gt;Output : Drawing on screen" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="PBDV2kUktg2uFq01WOaw-1" vertex="1">
-          <mxGeometry x="1405" y="1438" width="280" height="100" as="geometry" />
+          <mxGeometry x="1390" y="1438" width="295" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gDSTM8QjRGV0ukgkDmpq-16" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;li&gt;DOM tree generation is incremental ; HOWEVER, CSSOM tree generation is NOT Incremental, it is updated or constructed all at once.&amp;nbsp;&lt;/li&gt;&lt;li&gt;At the same time, downloading the external CSS files is non-CSS-parsing-blocking and can happen via a separate thread.&lt;/li&gt;&lt;li&gt;Every External file download script such as pdf, css, image, video do not block the main thread doing the DOM-parsing except the script (.js) file requests.&lt;/li&gt;&lt;li&gt;JSEngine and BrowserEngine share the main thread.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="PBDV2kUktg2uFq01WOaw-1" vertex="1">
           <mxGeometry x="-805" y="1848" width="1230" height="130" as="geometry" />
@@ -686,7 +686,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NCOXEyCJTzpBLqBSQZNM" name="Page-2">
-    <mxGraphModel dx="883" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1347" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="ADLDLL64pX6PP5YeEKHg-0" />
         <mxCell id="ADLDLL64pX6PP5YeEKHg-1" parent="ADLDLL64pX6PP5YeEKHg-0" />
@@ -1140,7 +1140,7 @@
         <mxCell id="GfvhslLD_pcHLL9uzI8X-1" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-family: sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;Components can be rendered to a particular element in the DOM&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;using the React-DOM library.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;When rendering a component, one can pass in values that are known as &quot;props&quot;.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;strokeColor=#FF8000;fontColor=#FF8000;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="256.5" y="420" width="303.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="qGlfOCH4yJFHw7Z67uit-0" value="Declaratively describe &lt;br&gt;STATEFUL UI in terms of Functions&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF8000;strokeColor=#FF8000;align=center;" vertex="1" parent="ADLDLL64pX6PP5YeEKHg-1">
+        <mxCell id="qGlfOCH4yJFHw7Z67uit-0" value="Declaratively describe &lt;br&gt;STATEFUL UI in terms of Functions&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF8000;strokeColor=#FF8000;align=center;" parent="ADLDLL64pX6PP5YeEKHg-1" vertex="1">
           <mxGeometry x="610" y="40" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -1366,10 +1366,10 @@
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-83" value="&lt;ol&gt;&lt;li&gt;less coding&lt;/li&gt;&lt;li&gt;JS Values and inputs are auto synced&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="-20" y="750" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-85" value="let user = &#39;Gaurav&#39;&lt;br&gt;&lt;br&gt;&amp;lt;input&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;type=&quot;text&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;value={user}&lt;br&gt;/&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-85" value="let user = &#39;Gaurav&#39;&lt;br&gt;&lt;br&gt;&amp;lt;input&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;type=&quot;text&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;value={user}&lt;br&gt;/&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="250" y="780" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="qUHdYQ3gqwffgzUwqx9y-87" value="state = { user:&#39;Gaurav&#39;};&lt;br&gt;&lt;br&gt;function handleChange(event) {&lt;br&gt;this.setState({user: event.target.value});&lt;br&gt;}&lt;br&gt;&lt;br&gt;&amp;lt;input&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;type=&quot;text&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;value={this.state.user}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;onChange={this.handleChange}&lt;br&gt;/&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
+        <mxCell id="qUHdYQ3gqwffgzUwqx9y-87" value="state = { user:&#39;Gaurav&#39;};&lt;br&gt;&lt;br&gt;function handleChange(event) {&lt;br&gt;this.setState({user: event.target.value});&lt;br&gt;}&lt;br&gt;&lt;br&gt;&amp;lt;input&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;type=&quot;text&quot;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;value={this.state.user}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;onChange={this.handleChange}&lt;br&gt;/&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="REpzqDYQXd0AK713AtoL-1">
           <mxGeometry x="250" y="530" width="230" height="180" as="geometry" />
         </mxCell>
         <mxCell id="qUHdYQ3gqwffgzUwqx9y-94" value="conditional" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="REpzqDYQXd0AK713AtoL-1" source="qUHdYQ3gqwffgzUwqx9y-89" target="qUHdYQ3gqwffgzUwqx9y-93">
