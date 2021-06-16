@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T19:25:56.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="xBbBrkGEEsr7tFB-zwEX" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-16T22:58:50.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="ClJcdGEY6Mof4AbAme27" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="3095" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -600,7 +600,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XSqE61MyYsMvgS7WTVkO" name="CRP">
-    <mxGraphModel dx="2197" dy="-446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1586" dy="-714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PBDV2kUktg2uFq01WOaw-0" />
         <mxCell id="PBDV2kUktg2uFq01WOaw-1" parent="PBDV2kUktg2uFq01WOaw-0" />
@@ -647,10 +647,10 @@
           <mxGeometry x="913" y="1630" width="109" height="84.71" as="geometry" />
         </mxCell>
         <mxCell id="gDSTM8QjRGV0ukgkDmpq-14" value="&lt;b&gt;painting, rasterizing, repainting operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU&lt;br&gt;When : post reflow&amp;nbsp;&lt;br&gt;Where : CPU/GPU + memory&lt;br&gt;Input : Final Render Tree with layouts&lt;br&gt;Output : Layers (Bitmap images) stacked on z-axis" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="PBDV2kUktg2uFq01WOaw-1" vertex="1">
-          <mxGeometry x="1075" y="1438" width="335" height="100" as="geometry" />
+          <mxGeometry x="1075" y="1438" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gDSTM8QjRGV0ukgkDmpq-15" value="&lt;b&gt;Compositing (Draw) Operation&lt;/b&gt;&lt;br&gt;Actor : BrowserEngine + GPU/CPU thread&lt;br&gt;Where : Drawn On screen&lt;br&gt;Input : tiles broken out of &lt;br&gt;Layers(Bitmap images)&lt;br&gt;Output : Drawing on screen" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="PBDV2kUktg2uFq01WOaw-1" vertex="1">
-          <mxGeometry x="1390" y="1438" width="295" height="100" as="geometry" />
+          <mxGeometry x="1405" y="1438" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gDSTM8QjRGV0ukgkDmpq-16" value="&lt;ul&gt;&lt;li&gt;Embedded scripts (in HTML) are DOM-parsing-blocking (execute script first and than continue with DOM parsing)&lt;/li&gt;&lt;li&gt;External scripts (.js) are DOM-parsing-blocking( download first, execute the script next than continue with DOM-parsing)&lt;/li&gt;&lt;li&gt;Async scripts do not block parsing until they are downloaded, once downloaded these scripts are parser-blocking&lt;/li&gt;&lt;li&gt;Defer scripts are non-parsing-blocking even after downloading and these scripts are executed after the DOM is fully constructed.&lt;/li&gt;&lt;li&gt;DOM tree generation is incremental ; HOWEVER, CSSOM tree generation is NOT Incremental, it is updated or constructed all at once.&amp;nbsp;&lt;/li&gt;&lt;li&gt;At the same time, downloading the external CSS files is non-CSS-parsing-blocking and can happen via a separate thread.&lt;/li&gt;&lt;li&gt;Every External file download script such as pdf, css, image, video do not block the main thread doing the DOM-parsing except the script (.js) file requests.&lt;/li&gt;&lt;li&gt;JSEngine and BrowserEngine share the main thread.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="PBDV2kUktg2uFq01WOaw-1" vertex="1">
           <mxGeometry x="-805" y="1848" width="1230" height="130" as="geometry" />
