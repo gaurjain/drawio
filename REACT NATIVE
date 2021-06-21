@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T19:09:36.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="y1Nw9KzJbqxGjIK5t74C" version="14.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-21T16:21:19.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="TJ2e9bZHOcWLrHtF1soK" version="14.7.7" type="github" pages="4">
   <diagram id="p856JP5AHNBe7XUTPwP8" name="Page-1">
     <mxGraphModel dx="1733" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -280,8 +280,13 @@
         <mxCell id="IhgBcBhz6YpeUrunEe0w-101" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, so an implementation must at least buffer the document that has been read so far (or some parsed form of it)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="560" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Dyu9WglcppKTmGrHaXKb-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IhgBcBhz6YpeUrunEe0w-103" target="IhgBcBhz6YpeUrunEe0w-151" edge="1">
+        <mxCell id="Dyu9WglcppKTmGrHaXKb-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hKrUUJOAGLYyJ9_A-53V-1" target="hKrUUJOAGLYyJ9_A-53V-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKrUUJOAGLYyJ9_A-53V-6" value="managed by a committee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dyu9WglcppKTmGrHaXKb-17">
+          <mxGeometry x="-0.2185" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IhgBcBhz6YpeUrunEe0w-103" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp; used to transform HTML documents and other resources of a web page into &lt;b&gt;an interactive visual representation &lt;br&gt;(HTML + CSS + JS =&amp;gt; DOM tree + CSSOM =&amp;gt; render Tree =&amp;gt; Layout =&amp;gt; Web doc)&lt;/b&gt; &lt;br&gt;in the user&#39;s device.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="840" width="295" height="114.5" as="geometry" />
@@ -599,8 +604,11 @@
         <mxCell id="ynXLrzmQT7xIOg1w7DpM-2" value="&lt;ul style=&quot;font-size: 8px&quot;&gt;&lt;li&gt;using an &lt;b&gt;external &lt;/b&gt;.CSS file,&amp;nbsp;&lt;/li&gt;&lt;li&gt;with &lt;b&gt;embedded &lt;/b&gt;CSS using &amp;lt;style&amp;gt; tags.&lt;/li&gt;&lt;li&gt;with &lt;b&gt;inline&lt;/b&gt; method using &#39;style&#39; attribute on HTML elements&lt;/li&gt;&lt;li&gt;or using a JS script&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-490" y="270" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hKrUUJOAGLYyJ9_A-53V-1" value="ECMAScript&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hKrUUJOAGLYyJ9_A-53V-1" value="ECMAScript (ES6+)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="840" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hKrUUJOAGLYyJ9_A-53V-5" value="TC39" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="894.75" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
