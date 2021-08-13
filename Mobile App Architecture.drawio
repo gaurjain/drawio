@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T18:37:34.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="s3ChfXiaQB_sJ5LOt-Qr" version="14.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-13T18:39:08.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="i1al6_VyqHDN5V0RWk4w" version="14.9.6" type="github" pages="2">
   <diagram id="DnRKNAlyavGe1cbxTtQc" name="Page-1">
     <mxGraphModel dx="1073" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#4D4D4D" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-118" value="initiate&lt;br&gt;TLI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bb-JRKUj-AsNrQs1qoLK-117">
           <mxGeometry x="-0.2864" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="31" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-7" value="Login&amp;nbsp;Screen&lt;br&gt;(Re)Enter&lt;br&gt;User ID : Email&lt;br&gt;PWD : xxxx&lt;br&gt;OR&amp;nbsp;&lt;br&gt;Select TL Options" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
@@ -408,7 +408,7 @@
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-86" value="Customer CPay&lt;br&gt;Home Page&lt;br&gt;Screen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-130" y="1137" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bb-JRKUj-AsNrQs1qoLK-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#001DBC;fillColor=#0050ef;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fm5dFOUGuLzLAVo9jq5W-1" source="bb-JRKUj-AsNrQs1qoLK-88" target="bb-JRKUj-AsNrQs1qoLK-7">
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#001DBC;fillColor=#0050ef;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fm5dFOUGuLzLAVo9jq5W-1" source="bb-JRKUj-AsNrQs1qoLK-88" target="bb-JRKUj-AsNrQs1qoLK-122">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-580" y="1282" as="targetPoint" />
           </mxGeometry>
@@ -457,6 +457,9 @@
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-120" value="&lt;font color=&quot;#ff0080&quot;&gt;short circuiting after one time login&amp;nbsp;&lt;br&gt;&lt;br&gt;with FaceID and client saved credentials other mechanisms&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-2010" y="590" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-122" value="Failure Notification&lt;br&gt;on&amp;nbsp;UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
+          <mxGeometry x="-660" y="1237" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
