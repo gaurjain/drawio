@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T18:14:05.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="OFpxGl0gVEkWfg-Bu-nV" version="14.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-13T18:16:30.783Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="G2ZSKYWwoubqpmAOqNFx" version="14.9.6" type="github" pages="2">
   <diagram id="DnRKNAlyavGe1cbxTtQc" name="Page-1">
     <mxGraphModel dx="1073" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#4D4D4D" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X3ZZHyVfVXFaHEZbnPhk" name="Page-2">
-    <mxGraphModel dx="4009" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="6045" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="fm5dFOUGuLzLAVo9jq5W-0" />
         <mxCell id="fm5dFOUGuLzLAVo9jq5W-1" parent="fm5dFOUGuLzLAVo9jq5W-0" />
@@ -392,7 +392,7 @@
           <mxGeometry x="-500" y="1032" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-86" value="Customer CPay&lt;br&gt;Home Page&lt;br&gt;Screen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
-          <mxGeometry x="-30" y="1017" width="120" height="90" as="geometry" />
+          <mxGeometry x="-130" y="1017" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#001DBC;fillColor=#0050ef;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fm5dFOUGuLzLAVo9jq5W-1" source="bb-JRKUj-AsNrQs1qoLK-88" target="bb-JRKUj-AsNrQs1qoLK-7">
           <mxGeometry relative="1" as="geometry">
@@ -412,13 +412,22 @@
           <mxGeometry x="-640" y="100" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-95" value="Post Log In CPAY UI Experience" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
-          <mxGeometry x="-140" y="100" width="780" height="50" as="geometry" />
+          <mxGeometry x="-140" y="100" width="540" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-97" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillColor=#3399FF;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-2137" y="175" width="40" height="75" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-103" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.web_browser;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-2150" y="300" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-104" value="Trouble Logging In experience" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
+          <mxGeometry x="-650" y="1240" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-105" value="Transition" style="triangle;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
+          <mxGeometry x="420" y="80" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-106" value="Signing Out Experience" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
+          <mxGeometry x="510" y="100" width="540" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
