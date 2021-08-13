@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T18:36:14.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="6cFc3RfIIs0A0h0YTr77" version="14.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-13T18:37:04.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ZPz2bLFD-lAoKWlBIyet" version="14.9.6" type="github" pages="2">
   <diagram id="DnRKNAlyavGe1cbxTtQc" name="Page-1">
     <mxGraphModel dx="1073" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#4D4D4D" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
             <mxPoint x="-990" y="335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bb-JRKUj-AsNrQs1qoLK-17" value="Check fIServ&lt;br&gt;for this combination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-17" value="Check FiServ&lt;br&gt;for this combination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-1230" y="305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#3399FF;strokeColor=#333333;" edge="1" parent="fm5dFOUGuLzLAVo9jq5W-1" source="bb-JRKUj-AsNrQs1qoLK-20" target="bb-JRKUj-AsNrQs1qoLK-4">
@@ -302,9 +302,9 @@
           <mxGeometry x="-1400.06" y="1000" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-58" value="transition over to&lt;br&gt;login experience&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="fm5dFOUGuLzLAVo9jq5W-1" source="bb-JRKUj-AsNrQs1qoLK-42" target="bb-JRKUj-AsNrQs1qoLK-7">
-          <mxGeometry x="0.5001" relative="1" as="geometry">
+          <mxGeometry x="-0.2219" y="1" relative="1" as="geometry">
             <mxPoint x="-875" y="1190" as="targetPoint" />
-            <mxPoint x="-1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-42" value="Create OUD/UM profile attached to CPAY Role" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
@@ -455,7 +455,7 @@
         <mxCell id="bb-JRKUj-AsNrQs1qoLK-119" value="&lt;font color=&quot;#ff0080&quot;&gt;What if Phone Number given is not a mobile number ???&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-890" y="600" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bb-JRKUj-AsNrQs1qoLK-120" value="&lt;font color=&quot;#ff0080&quot;&gt;Can this be short circuited after one time login&amp;nbsp;&lt;br&gt;&lt;br&gt;with FaceID and client saved credentials other mechanisms&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
+        <mxCell id="bb-JRKUj-AsNrQs1qoLK-120" value="&lt;font color=&quot;#ff0080&quot;&gt;short circuiting after one time login&amp;nbsp;&lt;br&gt;&lt;br&gt;with FaceID and client saved credentials other mechanisms&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fm5dFOUGuLzLAVo9jq5W-1">
           <mxGeometry x="-2010" y="590" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
