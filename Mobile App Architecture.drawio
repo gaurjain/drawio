@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T21:47:32.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="pw5IF8m-Uiw75kgkekVu" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-16T21:51:23.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="LKt2zDSAA5tuUyS8r4Cj" version="14.9.6" type="github" pages="3">
   <diagram id="DnRKNAlyavGe1cbxTtQc" name="Page-1">
     <mxGraphModel dx="1910" dy="1145" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#4D4D4D" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Level 1 Process Experience" id="_jVDEDRHRn3VSAYTtdAn">
-    <mxGraphModel dx="3966" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="5506" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="Ku-aUkDqTBkbqcznY4jv-0" />
         <mxCell id="Ku-aUkDqTBkbqcznY4jv-1" parent="Ku-aUkDqTBkbqcznY4jv-0" />
@@ -193,7 +193,7 @@
           <mxGeometry x="150" y="933.5" width="370" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Ku-aUkDqTBkbqcznY4jv-104" value="&quot;by BnPl Merchant Account&quot; eXperience" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#FF0080;fontStyle=1" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
-          <mxGeometry x="150" y="430" width="370" height="482" as="geometry" />
+          <mxGeometry x="150" y="430" width="370" height="490" as="geometry" />
         </mxCell>
         <mxCell id="Ku-aUkDqTBkbqcznY4jv-2" value="Signing Out Experience" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="710" y="380" width="290" height="210" as="geometry" />
@@ -684,10 +684,10 @@
         <mxCell id="Ku-aUkDqTBkbqcznY4jv-102" value="Online User Profile Management&#xa;Profile and Settings" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#FF0080;fontStyle=1" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="150" y="1080" width="370" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="oKp8oq4ZkHQ6eS6icvfw-0" value="Buy Now Pay Later Non-Digital Experience" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#23445d;fillColor=#bac8d3;verticalAlign=middle;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
+        <mxCell id="oKp8oq4ZkHQ6eS6icvfw-0" value="Buy Now Pay Later CPay Non-Digital Experience" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#23445d;fillColor=#bac8d3;verticalAlign=middle;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="-2720" y="40" width="569" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oKp8oq4ZkHQ6eS6icvfw-1" value="Buy Now Pay Later Non-Digital Experience" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#23445d;fillColor=#bac8d3;verticalAlign=middle;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
+        <mxCell id="oKp8oq4ZkHQ6eS6icvfw-1" value="Set up CPay Merchant relationship" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#23445d;fillColor=#bac8d3;verticalAlign=middle;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="-2720" y="140" width="569" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oKp8oq4ZkHQ6eS6icvfw-2" value="Setup CPAY account with Merchant" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
@@ -695,6 +695,11 @@
         </mxCell>
         <mxCell id="oKp8oq4ZkHQ6eS6icvfw-3" value="Transition" style="triangle;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="-2250" y="260" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oKp8oq4ZkHQ6eS6icvfw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ku-aUkDqTBkbqcznY4jv-1" source="oKp8oq4ZkHQ6eS6icvfw-4" target="oKp8oq4ZkHQ6eS6icvfw-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2249.9999999999995" y="609" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oKp8oq4ZkHQ6eS6icvfw-4" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="-2700" y="380" width="400" height="330" as="geometry" />
@@ -710,6 +715,9 @@
         </mxCell>
         <mxCell id="oKp8oq4ZkHQ6eS6icvfw-8" value="go Paperless" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#FF0080;fontStyle=1" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
           <mxGeometry x="170" y="861" width="330" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="oKp8oq4ZkHQ6eS6icvfw-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;fillColor=#ffffff;" vertex="1" parent="Ku-aUkDqTBkbqcznY4jv-1">
+          <mxGeometry x="-2259" y="478.5" width="79" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
