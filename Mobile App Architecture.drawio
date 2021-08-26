@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-26T17:28:17.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="_AdEqt5apRnFn24WHdtn" version="14.9.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-26T17:34:10.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Xah9dQbKn6K3u2gkvXkH" version="14.9.6" type="github" pages="5">
   <diagram id="DnRKNAlyavGe1cbxTtQc" name="Page-1">
     <mxGraphModel dx="1470" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#4D4D4D" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Level 3" id="8UmjNXk6oLPZNzWDibBa">
-    <mxGraphModel dx="8220" dy="2748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4525" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="Xfb2_yaIw36vQRBS44CI-0" />
         <mxCell id="Xfb2_yaIw36vQRBS44CI-1" parent="Xfb2_yaIw36vQRBS44CI-0" />
@@ -469,6 +469,14 @@
         <mxCell id="Xfb2_yaIw36vQRBS44CI-115" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#666666;fontStyle=1;fontColor=#333333;" parent="Xfb2_yaIw36vQRBS44CI-1" vertex="1">
           <mxGeometry x="-2700" y="360" width="380" height="330" as="geometry" />
         </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=32;fontColor=#FF0080;strokeColor=#000000;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Xfb2_yaIw36vQRBS44CI-1" source="Xfb2_yaIw36vQRBS44CI-116" target="Xfb2_yaIw36vQRBS44CI-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1176" />
+              <mxPoint x="260" y="1655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Xfb2_yaIw36vQRBS44CI-116" value="Personal Details" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#FF0080;" parent="Xfb2_yaIw36vQRBS44CI-1" vertex="1">
           <mxGeometry x="305" y="1131" width="170" height="89" as="geometry" />
         </mxCell>
@@ -729,7 +737,7 @@
           <mxGeometry x="-430" y="1255.5" width="140" height="83" as="geometry" />
         </mxCell>
         <mxCell id="nWYoJijYlozL5foAmXkv-38" value="" style="group" parent="Xfb2_yaIw36vQRBS44CI-1" vertex="1" connectable="0">
-          <mxGeometry x="-1490" y="360" width="530" height="340" as="geometry" />
+          <mxGeometry x="-1490" y="357" width="530" height="340" as="geometry" />
         </mxCell>
         <mxCell id="nWYoJijYlozL5foAmXkv-20" value="" style="group" parent="nWYoJijYlozL5foAmXkv-38" vertex="1" connectable="0">
           <mxGeometry width="530" height="340" as="geometry" />
@@ -885,6 +893,9 @@
         </mxCell>
         <mxCell id="Xfb2_yaIw36vQRBS44CI-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#3399FF;strokeColor=#333333;" parent="nWYoJijYlozL5foAmXkv-20" source="Xfb2_yaIw36vQRBS44CI-166" target="Xfb2_yaIw36vQRBS44CI-162" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="nWYoJijYlozL5foAmXkv-20">
+          <mxGeometry x="490" y="293" width="28" height="28" as="geometry" />
         </mxCell>
         <mxCell id="Xfb2_yaIw36vQRBS44CI-14" value="               MFA Experience. (Sending OTP to Mobile Phone and verify )" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=transaction;verticalAlign=top;strokeColor=#006600;fontStyle=1" parent="Xfb2_yaIw36vQRBS44CI-1" vertex="1">
           <mxGeometry x="-1490" y="720" width="530" height="370" as="geometry" />
@@ -1119,7 +1130,7 @@
           <mxGeometry x="110" y="1075" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F_z-ctPtZvAXTzVWhT6x-2" value="What will be the role of &lt;br&gt;TS + TM&amp;nbsp;&lt;br&gt;when profile change &lt;br&gt;is initiated &lt;br&gt;(Email change/Pwd change) ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
-          <mxGeometry x="90" y="1157.5" width="180" height="80" as="geometry" />
+          <mxGeometry x="90" y="1195" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F_z-ctPtZvAXTzVWhT6x-3" value="What to do if TM &lt;br&gt;says Medium risk ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
           <mxGeometry x="-170" y="994.75" width="120" height="30" as="geometry" />
@@ -1135,6 +1146,30 @@
         </mxCell>
         <mxCell id="F_z-ctPtZvAXTzVWhT6x-7" value="Level 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF0080;fontStyle=1;fontSize=32;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
           <mxGeometry x="-3135" y="434.75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="-1650" y="660" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="-1000" y="1050" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="-1000" y="1220" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="-40" y="1562" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="-148" y="1640" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="623.25" y="1187" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="646" y="1044.25" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="F_z-ctPtZvAXTzVWhT6x-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_shape_shield_antivirus_protect_safe-128.png;fontSize=32;fontColor=#FF0080;" vertex="1" parent="Xfb2_yaIw36vQRBS44CI-1">
+          <mxGeometry x="640" y="1361" width="28" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
