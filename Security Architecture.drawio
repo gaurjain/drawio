@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T22:55:51.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="w0XChXf83Gncs6YE9Mcs" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-02T23:07:38.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="cJVGz2JqBDAS2UhyT0YI" version="14.9.6" type="github" pages="3">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1225" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1240,7 +1240,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WZHPO3XhIFQs8qqxYc0q" name="Page-3">
-    <mxGraphModel dx="1729" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1025" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-0" />
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-1" parent="3gdkKiJKjJVCQDNNwzCK-0" />
@@ -1259,11 +1259,14 @@
         <mxCell id="d_9JYaNV3DofH__7JMI9-5" value=": User Agent&lt;br&gt;(Browser)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=60;rounded=1;sketch=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="200" y="30" width="110" height="1600" as="geometry" />
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="d_9JYaNV3DofH__7JMI9-5">
-          <mxGeometry x="50" y="190" width="10" height="770" as="geometry" />
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="d_9JYaNV3DofH__7JMI9-5">
+          <mxGeometry x="50" y="190" width="10" height="850" as="geometry" />
         </mxCell>
         <mxCell id="d_9JYaNV3DofH__7JMI9-7" value=": Akamai Edge&lt;br&gt;(SPA static web resources)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=60;rounded=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="360" y="30" width="110" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="d_9JYaNV3DofH__7JMI9-7">
+          <mxGeometry x="50" y="140" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d_9JYaNV3DofH__7JMI9-10" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=30;rounded=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="740" y="470" width="100" height="920" as="geometry" />
@@ -1359,7 +1362,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-11" value="Pass Profile data and UI Session ID (non-blocking, return void)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;exitX=1.083;exitY=0.184;exitDx=0;exitDy=0;exitPerimeter=0;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-11" value="Pass Profile data and UI Session ID (non-blocking, return void)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;exitX=1.083;exitY=0.184;exitDx=0;exitDy=0;exitPerimeter=0;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="f-SmsWgkTxacQaWyHuAd-12">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="260.83000000000015" y="372.8399999999999" as="sourcePoint" />
             <mxPoint x="614.5000000000002" y="373" as="targetPoint" />
@@ -1367,7 +1370,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-12" value=": Threat Metrix" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=30;rounded=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="560" y="260" width="110" height="150" as="geometry" />
+          <mxGeometry x="1060" y="260" width="110" height="150" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-16" value="generate TMX Session ID" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry relative="1" as="geometry">
@@ -1389,18 +1392,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-20" value="Test BOT" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.057;entryY=0.194;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;entryDx=0;entryDy=0;entryPerimeter=0;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-20" value="Test BOT" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.124;entryY=0.569;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;entryDx=0;entryDy=0;entryPerimeter=0;sketch=0;exitX=1.12;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-3" target="FtCo_E8GTfpXYTeBD1Bg-3">
           <mxGeometry x="-0.0541" y="10" relative="1" as="geometry">
             <mxPoint x="410.43000000000006" y="500" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="421" y="500" />
               <mxPoint x="449" y="500" />
-              <mxPoint x="449" y="525" />
+              <mxPoint x="449" y="528" />
+              <mxPoint x="421" y="528" />
             </Array>
             <mxPoint x="410" y="525.2199999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-21" value=": Resource Server&lt;br&gt;(FIS)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-21" value=": Resource Server&lt;br&gt;(?)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="1480" y="470" width="100" height="610" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-22" value="LDAP Bind" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="d_9JYaNV3DofH__7JMI9-10" target="d_9JYaNV3DofH__7JMI9-13">
@@ -1454,12 +1459,13 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-29" value="Validate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-29" value="Validate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=0.976;exitY=0.272;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.045;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-5" target="FtCo_E8GTfpXYTeBD1Bg-5">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
             <mxPoint x="1132.4300000000003" y="710" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="1135" y="710" />
               <mxPoint x="1171" y="710" />
-              <mxPoint x="1171" y="735" />
+              <mxPoint x="1171" y="739" />
             </Array>
             <mxPoint x="1132" y="735" as="targetPoint" />
             <mxPoint as="offset" />
@@ -1500,7 +1506,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-35" value="Respond with Enriched JWT" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="d_9JYaNV3DofH__7JMI9-10" target="d_9JYaNV3DofH__7JMI9-5">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-35" value="Respond with Enriched JWT having the Ping_Ref_Id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="d_9JYaNV3DofH__7JMI9-10" target="d_9JYaNV3DofH__7JMI9-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="990" y="960" as="sourcePoint" />
             <mxPoint x="710" y="960.4200000000001" as="targetPoint" />
@@ -1509,10 +1515,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-40" value="redirected to PING" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=1;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="f-SmsWgkTxacQaWyHuAd-39" target="f-SmsWgkTxacQaWyHuAd-0">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-40" value="redirected to Authorization Code + Code Challenge + Scope + State + Ping_Ref_Id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=1.048;exitY=0.885;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="f-SmsWgkTxacQaWyHuAd-39" target="f-SmsWgkTxacQaWyHuAd-0">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="257.5" y="980" as="sourcePoint" />
             <mxPoint x="572.5" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="970" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
@@ -1527,6 +1536,24 @@
             </Array>
             <mxPoint x="260" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+          <mxGeometry x="410" y="500" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-4" value="Respond with Enriched JWT having the Ping_Ref_Id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="f-SmsWgkTxacQaWyHuAd-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1274.69" y="1019.9999999999998" as="sourcePoint" />
+            <mxPoint x="740.0003448275861" y="1019.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="975.19" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+          <mxGeometry x="1125" y="700" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+          <mxGeometry x="1265" y="840" width="10" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
