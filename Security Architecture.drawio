@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T18:00:35.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="823TMHTAY611ygXnc9BY" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-03T18:02:57.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ke6MXqXoMbtWDzRn6OmQ" version="14.9.6" type="github" pages="3">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1225" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1244,7 +1244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WZHPO3XhIFQs8qqxYc0q" name="Page-3">
-    <mxGraphModel dx="1230" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2050" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-0" />
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-1" parent="3gdkKiJKjJVCQDNNwzCK-0" />
@@ -1279,7 +1279,7 @@
           <mxGeometry x="1950" y="470" width="100" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="d_9JYaNV3DofH__7JMI9-13" value=": Unified Directory Server&lt;br&gt;(OUD)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1350" y="470" width="100" height="610" as="geometry" />
+          <mxGeometry x="1350" y="470" width="100" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-0" value=": Identity Provider&lt;br&gt;(PingFederate)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=40;rounded=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="1220" y="650" width="100" height="1000" as="geometry" />
@@ -1400,7 +1400,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-21" value=": Resource Server&lt;br&gt;(CFG-App-Vpc)&lt;br&gt;Cpay API&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1580" y="470" width="100" height="1090" as="geometry" />
+          <mxGeometry x="1580" y="470" width="100" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-22" value="LDAP Bind" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="d_9JYaNV3DofH__7JMI9-10" target="d_9JYaNV3DofH__7JMI9-13">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1549,10 +1549,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-12" value=": NGINX +&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=30;rounded=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-12" value=": NGINX +&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=30;rounded=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="540" y="470" width="110" height="1160" as="geometry" />
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="FtCo_E8GTfpXYTeBD1Bg-12">
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="FtCo_E8GTfpXYTeBD1Bg-12">
           <mxGeometry x="50" y="590" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-15" value="Cache the&amp;nbsp;&lt;br&gt;Tokens &amp;amp; generate NGINX Session ID" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="FtCo_E8GTfpXYTeBD1Bg-17">
@@ -1576,7 +1576,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="590" y="1210" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-21" value="Look up for&amp;nbsp;&lt;br&gt;Tokens in local cache&lt;br&gt;and validate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.057;entryY=0.194;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;entryDx=0;entryDy=0;entryPerimeter=0;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
@@ -1637,20 +1637,11 @@
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="1995" y="600" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1505" y="1340" width="10" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="1635" y="1340" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-36" value="Get&lt;br&gt;User profiles" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="dPfkoXA-CjCOftM4Ueqj-0">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1536" y="1354.25" as="sourcePoint" />
-            <mxPoint x="2000" y="1354" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management &lt;br&gt;API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1460" y="470" width="100" height="1110" as="geometry" />
+          <mxGeometry x="1460" y="470" width="100" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="dPfkoXA-CjCOftM4Ueqj-0">
           <mxGeometry x="45" y="150" width="10" height="20" as="geometry" />
@@ -1736,6 +1727,9 @@
             <mxPoint x="789.810344827586" y="707" as="sourcePoint" />
             <mxPoint x="1130" y="707" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+          <mxGeometry x="1505" y="1340" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
