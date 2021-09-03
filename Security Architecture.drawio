@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T22:15:49.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="XIT0titLZIDqUkK_7LKc" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-03T22:17:15.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="FgCAEV-tPsKpoUdmAgGl" version="14.9.6" type="github" pages="3">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1225" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1372,7 +1372,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-12" value=": ThreatMetrix&lt;br&gt;ProfilingServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1075" y="310" width="110" height="180" as="geometry" />
+          <mxGeometry x="1075" y="310" width="110" height="170" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-16" value="generate TMX Session ID (tx)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="f-SmsWgkTxacQaWyHuAd-39">
           <mxGeometry relative="1" as="geometry">
@@ -1475,7 +1475,7 @@
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#e51400;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="1125" y="420" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-8" value="Save the profiling information with TMX id as key !" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=1;entryY=0.657;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-7" target="FtCo_E8GTfpXYTeBD1Bg-7">
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-8" value="Save the profiling information &lt;br&gt;with TMX id as key !" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=1;entryY=0.657;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-7" target="FtCo_E8GTfpXYTeBD1Bg-7">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
             <mxPoint x="1144.7600000000002" y="773.5999999999999" as="sourcePoint" />
             <Array as="points">
@@ -1614,7 +1614,7 @@
         <mxCell id="dPfkoXA-CjCOftM4Ueqj-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="600" y="220" width="10" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dPfkoXA-CjCOftM4Ueqj-7" value="4. Generate an &#39;Auth Code verifier&#39; (x)&lt;br&gt;&amp;amp; Hash it to generate &#39;Code Challenge&#39; ($)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=1.16;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="dPfkoXA-CjCOftM4Ueqj-6" target="dPfkoXA-CjCOftM4Ueqj-6">
+        <mxCell id="dPfkoXA-CjCOftM4Ueqj-7" value="4. Generate an &#39;Auth Code verifier&#39; (x)&lt;br&gt;&amp;amp; Hash &#39;x&#39; to generate &#39;Code Challenge&#39; ($)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=1.16;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="dPfkoXA-CjCOftM4Ueqj-6" target="dPfkoXA-CjCOftM4Ueqj-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="225" as="sourcePoint" />
             <Array as="points">
