@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T19:09:24.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="M3b1Qo4X3MXFFup6SiIu" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-07T19:26:40.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="O356ePnCsKF74XuUK-GP" version="14.9.6" type="github" pages="3">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="879" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -667,7 +667,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jvs51l1V45tJkmODO8oU" name="Page-2">
-    <mxGraphModel dx="2563" dy="3090" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1809" dy="2681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="TZ_pqtzIffZ0TPU53WzU-0" />
         <mxCell id="TZ_pqtzIffZ0TPU53WzU-1" parent="TZ_pqtzIffZ0TPU53WzU-0" />
@@ -991,8 +991,7 @@
             <mxPoint x="904" y="186" as="sourcePoint" />
             <mxPoint x="951.53" y="136.48999999999984" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="909" y="85" />
-              <mxPoint x="997" y="85" />
+              <mxPoint x="909" y="123" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1049,8 +1048,7 @@
             <mxPoint x="919" y="193" as="sourcePoint" />
             <mxPoint x="981" y="140.17000000000007" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="919" y="95" />
-              <mxPoint x="997" y="95" />
+              <mxPoint x="919" y="135" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1256,11 +1254,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-6" value="CITIZENS&#xa;ON-PREM" style="group;fontStyle=1;verticalAlign=middle;" vertex="1" connectable="0" parent="TZ_pqtzIffZ0TPU53WzU-1">
+          <mxGeometry x="1103" y="-793.0000000000001" width="793.9999999999998" height="371.33" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-7" value="" style="group" vertex="1" connectable="0" parent="odpV9KtgsTvbkPMlf1No-6">
+          <mxGeometry width="500" height="274.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-8" value="&lt;br&gt;CFG&lt;br&gt;On-prem&lt;br&gt;DC" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#ffffff;verticalAlign=top;fillColor=#008a00;strokeColor=none;rounded=1;shadow=1;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-7">
+          <mxGeometry width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-9" value="" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#ffffff;verticalAlign=top;fillColor=#008a00;strokeColor=none;rounded=1;shadow=1;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-7">
+          <mxGeometry x="139" y="84.99999999999994" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-10" value="API Connect" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.customerGateway;fillColor=#0050ef;aspect=fixed;rounded=1;shadow=0;sketch=0;fontSize=14;flipV=0;flipH=1;strokeColor=#001DBC;horizontal=1;fontColor=#ffffff;gradientColor=#ffffff;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-7">
+          <mxGeometry x="241" y="142.03" width="44.65" height="39.33" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-11" value="OUD Service" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.oracleServer;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;fontColor=#FFFFFF;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-7">
+          <mxGeometry x="136.99999999999997" y="62.029999999999994" width="29.97" height="34.6" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-12" value="" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontColor=#ffffff;verticalAlign=top;fillColor=#008a00;strokeColor=none;rounded=1;shadow=1;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-6">
+          <mxGeometry x="280" y="171" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://www.logotaglines.com/wp-content/uploads/2016/11/Citizen-Financial-logo.png;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-6">
+          <mxGeometry x="401" y="283.7" width="58.33" height="58.33" as="geometry" />
+        </mxCell>
+        <mxCell id="odpV9KtgsTvbkPMlf1No-15" value="" style="rhombus;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;verticalAlign=top;fillColor=#e1d5e7;rounded=1;shadow=1;strokeColor=none;" vertex="1" parent="odpV9KtgsTvbkPMlf1No-6">
+          <mxGeometry x="483.9999999999998" y="39.770000000000095" width="310" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="WZHPO3XhIFQs8qqxYc0q" name="Page-3">
-    <mxGraphModel dx="2398" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2638" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-0" />
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-1" parent="3gdkKiJKjJVCQDNNwzCK-0" />
@@ -1608,9 +1633,6 @@
         <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management &lt;br&gt;API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="1460" y="550" width="100" height="1120" as="geometry" />
         </mxCell>
-        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="dPfkoXA-CjCOftM4Ueqj-0">
-          <mxGeometry x="45" y="200" width="10" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="dPfkoXA-CjCOftM4Ueqj-2" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;entryX=0;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.978;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-2" target="dPfkoXA-CjCOftM4Ueqj-6">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="420" y="230" as="sourcePoint" />
@@ -1720,7 +1742,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-24" value="GET User Profile&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=1.02;exitY=0.191;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-0" target="dPfkoXA-CjCOftM4Ueqj-0">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-24" value="GET User Profile&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=1.02;exitY=0.191;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-0" target="FtCo_E8GTfpXYTeBD1Bg-30">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="990" y="740" as="sourcePoint" />
             <mxPoint x="989.83" y="750" as="targetPoint" />
@@ -1816,6 +1838,9 @@
         </mxCell>
         <mxCell id="Mfw7g_S5suKP8NX43ILY-15" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;box-sizing: border-box; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;We are not storing any thing in session or local storage. We are using State param of ping url to pass require details which is required to proceed once Ping server redirect back to App with Auth Code &amp;amp; State (which we pass).&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1A1A1A;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="-730" y="590" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FtCo_E8GTfpXYTeBD1Bg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+          <mxGeometry x="1395" y="750" width="10" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
