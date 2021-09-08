@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T20:50:48.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mhYsFNTLW0HwiMMb-SrI" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-08T20:55:24.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Cdjk5Wha5wjyHbIrEABD" version="14.9.6" type="github" pages="4">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1331,12 +1331,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WZHPO3XhIFQs8qqxYc0q" name="Page-3">
-    <mxGraphModel dx="1809" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-0" />
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-1" parent="3gdkKiJKjJVCQDNNwzCK-0" />
         <mxCell id="ZkFMVc8syr9xWa5wlsGr-7" value="Enrollment&lt;br&gt;process" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=40;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
-          <mxGeometry x="60" y="1610" width="2060" height="1070" as="geometry" />
+          <mxGeometry x="60" y="1600" width="2060" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-38" value="Login In process" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=40;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
           <mxGeometry x="60" y="520" width="2060" height="1020" as="geometry" />
@@ -1676,7 +1676,7 @@
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;arcSize=50;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
           <mxGeometry x="1835" y="1470" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management&lt;br&gt;API (CPAY User Store)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
+        <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management&lt;br&gt;API (? User Store)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
           <mxGeometry x="1680" y="530" width="100" height="2190" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-10" value="6. Collect Creds&amp;nbsp;&lt;br&gt;&amp;amp;&lt;br&gt;Send Params,Login Creds, &lt;br&gt;TMX Session ID, &lt;br&gt;AKA-Telemetry&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;" style="html=1;verticalAlign=top;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.133;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.08;exitY=0.254;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3gdkKiJKjJVCQDNNwzCK-1" edge="1">
@@ -1920,18 +1920,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-3" value="&lt;br&gt;&lt;br&gt;8. Forwards Params, Form inputs, TMX session ID (tx)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-3" value="&lt;br&gt;&lt;br&gt;8. Invoke Transmit Security Anonymous Journey &lt;br&gt;Forwards Params, Form inputs, TMX session ID (tx)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
+          <mxGeometry x="-0.037" y="-38" width="160" relative="1" as="geometry">
             <mxPoint x="444" y="1802" as="sourcePoint" />
             <mxPoint x="789" y="1802.8200000000002" as="targetPoint" />
             <Array as="points">
               <mxPoint x="452" y="1802" />
               <mxPoint x="524" y="1802" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MbdtEsQ9sBZlBhqRK4IW-6" value=": Threat Metrix&lt;br&gt;Session Query API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=40;rounded=1;sketch=0;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1079" y="1920" width="110" height="120" as="geometry" />
+          <mxGeometry x="1079" y="1923" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MbdtEsQ9sBZlBhqRK4IW-7" value="Trigger&lt;br&gt;TM &lt;br&gt;Rules Engine" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=0.976;exitY=0.272;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.045;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
@@ -1981,7 +1982,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-14" value="POST Session Query API {User profile + TMX session id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.044;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.917;exitY=0.482;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-10">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-14" value="POST Session Query API {User profile + TMX session id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.044;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.055;exitY=0.493;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-10" source="MbdtEsQ9sBZlBhqRK4IW-31">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="798.1700000000001" y="1984.98" as="sourcePoint" />
             <mxPoint x="1134" y="1964" as="targetPoint" />
@@ -1990,20 +1991,20 @@
         <mxCell id="MbdtEsQ9sBZlBhqRK4IW-15" value="Transmit AuthN&lt;br&gt;Journey" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="99" y="1917" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-16" value="11. Validate if&amp;nbsp; CPay User Exists {EmailID}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-23">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-16" value="11. get&amp;nbsp; CPay User Exists {EmailID}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-23">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="790" y="1809" as="sourcePoint" />
             <mxPoint x="993.83" y="1864" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-17" value="12. Respond with PII User Profile Data (Encrypted)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=0.429;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="MbdtEsQ9sBZlBhqRK4IW-23">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-17" value="12. Response" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=0.429;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="MbdtEsQ9sBZlBhqRK4IW-23">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1534" y="1884" as="sourcePoint" />
             <mxPoint x="790" y="1837" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-18" value="respond with codes for&lt;br&gt;fraud assessment" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=-0.072;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="MbdtEsQ9sBZlBhqRK4IW-10">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-18" value="respond with codes for&lt;br&gt;fraud assessment" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;exitX=-0.072;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.055;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" source="MbdtEsQ9sBZlBhqRK4IW-10" target="MbdtEsQ9sBZlBhqRK4IW-31">
           <mxGeometry x="0.1625" width="160" relative="1" as="geometry">
             <mxPoint x="1133.5" y="2007" as="sourcePoint" />
             <mxPoint x="799" y="2021.32" as="targetPoint" />
@@ -2094,9 +2095,9 @@
         <mxCell id="MbdtEsQ9sBZlBhqRK4IW-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#647687;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
           <mxGeometry x="785" y="1790" width="10" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-32" value="11. Validate if&amp;nbsp; CPay User Exists {EmailID}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-34">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-32" value="11. Validate if&amp;nbsp; CPay User Exists {SSN}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.986;exitY=0.185;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-34" source="MbdtEsQ9sBZlBhqRK4IW-31">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="791" y="1862" as="sourcePoint" />
+            <mxPoint x="800" y="1862" as="sourcePoint" />
             <mxPoint x="994.83" y="1917" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
@@ -2108,7 +2109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MbdtEsQ9sBZlBhqRK4IW-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#e1d5e7;arcSize=0;strokeColor=none;" vertex="1" parent="3gdkKiJKjJVCQDNNwzCK-1">
-          <mxGeometry x="1616" y="1860" width="10" height="30" as="geometry" />
+          <mxGeometry x="1725" y="1860" width="10" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
