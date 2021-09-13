@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T20:14:11.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bGA3jGwf7e_-SzUsNnFV" version="15.2.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-09-13T20:18:51.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="IStbEUXTpIqzRY1HvJSN" version="15.2.1" type="github" pages="5">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -670,7 +670,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jvs51l1V45tJkmODO8oU" name="Page-2">
-    <mxGraphModel dx="1298" dy="2534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="2534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="TZ_pqtzIffZ0TPU53WzU-0" />
         <mxCell id="TZ_pqtzIffZ0TPU53WzU-1" parent="TZ_pqtzIffZ0TPU53WzU-0" />
@@ -1331,7 +1331,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WZHPO3XhIFQs8qqxYc0q" name="Page-3">
-    <mxGraphModel dx="1282" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-0" />
         <mxCell id="3gdkKiJKjJVCQDNNwzCK-1" parent="3gdkKiJKjJVCQDNNwzCK-0" />
@@ -1371,7 +1371,7 @@
         <mxCell id="f-SmsWgkTxacQaWyHuAd-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" parent="d_9JYaNV3DofH__7JMI9-5" vertex="1">
           <mxGeometry x="50" y="220" width="10" height="1290" as="geometry" />
         </mxCell>
-        <mxCell id="ZkFMVc8syr9xWa5wlsGr-26" value="Record&lt;br&gt;Telemetry" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeWidth=2;sketch=0;horizontal=0;fillColor=#647687;strokeColor=#808080;" parent="d_9JYaNV3DofH__7JMI9-5" edge="1">
+        <mxCell id="ZkFMVc8syr9xWa5wlsGr-26" value="Record&lt;br&gt;Telemetry" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeWidth=3;sketch=0;horizontal=0;fillColor=#647687;strokeColor=#808080;" parent="d_9JYaNV3DofH__7JMI9-5" edge="1">
           <mxGeometry x="-0.0811" y="-20" relative="1" as="geometry">
             <mxPoint x="50" y="318" as="sourcePoint" />
             <Array as="points">
@@ -1614,7 +1614,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management&lt;br&gt;API (? User Store)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
+        <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management&lt;br&gt;API (? CPAY User Store)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
           <mxGeometry x="1680" y="530" width="100" height="270" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-10" value="6. Collect Login Creds&amp;nbsp;&lt;br&gt;&amp;amp; Send Params,&lt;br&gt;Login Creds,&lt;br&gt;TMX Session ID, &lt;br&gt;AKA-Telemetry&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;" style="html=1;verticalAlign=top;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;entryX=0.44;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#647687;exitX=1.08;exitY=0.304;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3gdkKiJKjJVCQDNNwzCK-1" edge="1">
@@ -2504,7 +2504,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CCJcYN3TKWEDrs4Jnm_A" name="Page-5">
-    <mxGraphModel dx="895" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="CPoDgNfkW9hrBPhTC17e-0" />
         <mxCell id="CPoDgNfkW9hrBPhTC17e-1" parent="CPoDgNfkW9hrBPhTC17e-0" />
@@ -3104,7 +3104,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cmIq6no8PProofFY_kBF-93" value="Step up sequence" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=110;height=23;rounded=1;strokeWidth=1;swimlaneFillColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="CPoDgNfkW9hrBPhTC17e-1" vertex="1">
+        <mxCell id="cmIq6no8PProofFY_kBF-93" value="OTP Journey" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=110;height=23;rounded=1;strokeWidth=1;swimlaneFillColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="CPoDgNfkW9hrBPhTC17e-1" vertex="1">
           <mxGeometry x="240" y="910" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cmIq6no8PProofFY_kBF-94" value="Pass : 302 Redirect to Token Service { AuthZ Code (&amp;amp;) + state } in JWT" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;dashed=1;fillColor=#647687;startArrow=none;startFill=0;exitX=0.502;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="CPoDgNfkW9hrBPhTC17e-1" source="cmIq6no8PProofFY_kBF-103" target="cmIq6no8PProofFY_kBF-9" edge="1">
