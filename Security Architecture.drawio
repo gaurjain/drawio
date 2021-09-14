@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T17:09:46.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="qmm5hfVDzS-3KHr9gUB8" version="15.2.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-09-14T17:12:58.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="g8jNMa0ilDNxFH9DTcfa" version="15.2.1" type="github" pages="5">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1511,7 +1511,7 @@
             <mxPoint x="260" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-21" value=": Resource Server&lt;br&gt;/Accounts&lt;br&gt;(CFG-App-Vpc)&lt;br&gt;Cpay API&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-21" value=": Resource Server&lt;br&gt;Cpay Services&lt;br&gt;(CFG-App-Vpc)&lt;br&gt;Cpay API&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
           <mxGeometry x="1900" y="530" width="100" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-22" value="&lt;span&gt;&lt;span style=&quot;text-align: left&quot;&gt;Authenticate Creds&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;against the OUD; fetch UUID&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;entryX=0.033;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.048;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#647687;labelBackgroundColor=none;" parent="3gdkKiJKjJVCQDNNwzCK-1" source="FtCo_E8GTfpXYTeBD1Bg-0" target="8PuZuCQW3QAmiQCKpWEb-2" edge="1">
@@ -1609,7 +1609,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dPfkoXA-CjCOftM4Ueqj-0" value=": User Management&lt;br&gt;API (? CPAY User Store)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
-          <mxGeometry x="1680" y="530" width="100" height="270" as="geometry" />
+          <mxGeometry x="1790" y="530" width="100" height="270" as="geometry" />
         </mxCell>
         <mxCell id="f-SmsWgkTxacQaWyHuAd-10" value="6. Collect Login Creds&amp;nbsp;&lt;br&gt;&amp;amp; Send Params,&lt;br&gt;Login Creds,&lt;br&gt;TMX Session ID, &lt;br&gt;AKA-Telemetry&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;" style="html=1;verticalAlign=top;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;entryX=0.44;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#647687;exitX=1.08;exitY=0.304;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3gdkKiJKjJVCQDNNwzCK-1" edge="1">
           <mxGeometry x="-0.2996" y="4" width="160" relative="1" as="geometry">
@@ -1661,14 +1661,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-24" value="11. GET User Profile using {UUID}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;exitX=0.932;exitY=0.492;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;fillColor=#647687;" parent="3gdkKiJKjJVCQDNNwzCK-1" source="8PuZuCQW3QAmiQCKpWEb-89" edge="1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-24" value="11. GET User Profile using {UUID}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;exitX=0.932;exitY=0.492;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;fillColor=#647687;" parent="3gdkKiJKjJVCQDNNwzCK-1" source="8PuZuCQW3QAmiQCKpWEb-89" edge="1" target="dPfkoXA-CjCOftM4Ueqj-0">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="795" y="749.95" as="sourcePoint" />
             <mxPoint x="1727.5" y="749.95" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f-SmsWgkTxacQaWyHuAd-25" value="12. Respond with PII User Profile Data (Encrypted)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#647687;edgeStyle=orthogonalEdgeStyle;" parent="3gdkKiJKjJVCQDNNwzCK-1" target="8PuZuCQW3QAmiQCKpWEb-90" edge="1">
+        <mxCell id="f-SmsWgkTxacQaWyHuAd-25" value="12. Respond with PII User Profile Data (Encrypted)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#314354;strokeWidth=1;sketch=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#647687;edgeStyle=orthogonalEdgeStyle;" parent="3gdkKiJKjJVCQDNNwzCK-1" target="8PuZuCQW3QAmiQCKpWEb-90" edge="1" source="FtCo_E8GTfpXYTeBD1Bg-30">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1730" y="770" as="sourcePoint" />
             <mxPoint x="800" y="772" as="targetPoint" />
@@ -1713,7 +1713,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#1ba1e2;arcSize=0;strokeColor=none;fontColor=#ffffff;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
-          <mxGeometry x="1725" y="750" width="10" height="20" as="geometry" />
+          <mxGeometry x="1835" y="750" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FtCo_E8GTfpXYTeBD1Bg-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#fa6800;fontColor=#000000;strokeColor=none;" parent="3gdkKiJKjJVCQDNNwzCK-1" vertex="1">
           <mxGeometry x="1125" y="422" width="10" height="50" as="geometry" />
@@ -1837,7 +1837,7 @@
             <mxPoint x="1123.45" y="1954" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-16" value="11. Check CPay User Exists {EmailID}&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-23" edge="1">
+        <mxCell id="MbdtEsQ9sBZlBhqRK4IW-16" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;POST /profiles { first name, last name, email, phone, ssn}&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:58}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;POST /profiles { first name, last name, email, phone, ssn}&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=4;sketch=0;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3gdkKiJKjJVCQDNNwzCK-1" target="MbdtEsQ9sBZlBhqRK4IW-23" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="790" y="2062" as="sourcePoint" />
             <mxPoint x="993.83" y="2117" as="targetPoint" />
