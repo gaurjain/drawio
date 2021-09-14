@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T23:56:31.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="tHJppkA89FOJu6xqIIGw" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-14T23:57:26.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="0JNWM9Zpxs2f9JBg7ejm" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2724,10 +2724,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-124" value="Return JWT with a XSM id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;dashed=1;fillColor=#60a917;exitX=0.1;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.159;entryY=0.737;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-114">
+        <mxCell id="rCgsRlorD6VoRk10va_P-124" value="302 Redirect : Return JWT with a XSM id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;dashed=1;fillColor=#60a917;exitX=0.1;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-114" target="rCgsRlorD6VoRk10va_P-11">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="780" y="1191" as="sourcePoint" />
-            <mxPoint x="261.59000000000015" y="1177.06" as="targetPoint" />
+            <mxPoint x="280" y="1177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
@@ -2892,7 +2892,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-154" value="identity DropOff : Send {Login_Id} as Attributes-value pairs&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;entryX=0.012;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.239;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-125" target="rCgsRlorD6VoRk10va_P-129">
+        <mxCell id="rCgsRlorD6VoRk10va_P-154" value="identity DropOff : Send {Login_Id} as Attributes-value pairs&amp;nbsp;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;entryX=0.012;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.312;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-125" target="rCgsRlorD6VoRk10va_P-129">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="788.8333333333335" y="1233.3000000000002" as="sourcePoint" />
             <mxPoint x="1365.7099999999996" y="1233.3000000000002" as="targetPoint" />
@@ -2959,7 +2959,7 @@
             <mxPoint x="1365.9999999999995" y="1415.6000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-163" value="&lt;br&gt;Invoke Transmit Security User Journey &lt;br&gt;with XSM id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;exitX=1.014;exitY=0.76;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-163" value="&lt;br&gt;Redirect to &#39;Transmit Security User Journey&#39;&lt;br&gt;with XSM id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;exitX=1.014;exitY=0.76;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="-0.037" y="-38" width="160" relative="1" as="geometry">
             <mxPoint x="260.1399999999999" y="1193.8000000000002" as="sourcePoint" />
             <mxPoint x="785" y="1195" as="targetPoint" />
