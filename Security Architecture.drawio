@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T21:46:56.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="E8JjWzMHKhQgOlliGB5p" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-14T21:47:42.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="KOVIDy6J_TkuOE9kpm6r" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2508,8 +2508,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Page-3" id="GuEs80JTdCBlK7_mIT3a">
-    <mxGraphModel dx="2197" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram name="Enrollment Journey" id="GuEs80JTdCBlK7_mIT3a">
+    <mxGraphModel dx="2563" dy="1390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
@@ -3110,12 +3110,12 @@
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-18" value="&lt;span style=&quot;font-size: 11px&quot;&gt;Exists ?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="760.25" y="1103.34" width="61" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-20" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;POST /profiles { first name, last name, email, phone, ssn}&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:58}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Exists == Yes : Delete /CPay/Profiles: {UUID}&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-18">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-20" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;POST /profiles { first name, last name, email, phone, ssn}&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:58}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Exists == Yes : Delete /CPay/Profiles: {UUID}&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-18">
           <mxGeometry x="-0.655" width="160" relative="1" as="geometry">
             <mxPoint x="800.7499999999998" y="1151.34" as="sourcePoint" />
             <mxPoint x="1949.75" y="1149.3988235294116" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="806.25" y="1149.34" />
+              <mxPoint x="791" y="1149" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3123,13 +3123,12 @@
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#fff2cc;arcSize=50;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1615.25" y="1180" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-19" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;POST /profiles { first name, last name, email, phone, ssn}&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:58}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Exists == No : Create User in OUD : {Email, FName, LName, Phone, CPAY UUID}&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-18">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-19" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;POST /profiles { first name, last name, email, phone, ssn}&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:58}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Exists == No : Create User in OUD : {Email, FName, LName, Phone, CPAY UUID}&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;exitX=0;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-18">
           <mxGeometry x="-0.3628" width="160" relative="1" as="geometry">
             <mxPoint x="795.2499999999998" y="1151.3399999999997" as="sourcePoint" />
             <mxPoint x="1620" y="1180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="791" y="1180" />
-              <mxPoint x="1620" y="1180" />
+              <mxPoint x="776" y="1180" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
