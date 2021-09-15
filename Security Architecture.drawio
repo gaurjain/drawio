@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T13:47:07.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="cJ9BcJrsufrNC2_lVfCw" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:48:41.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="52htR8OE2OYvypnttELX" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2824,7 +2824,7 @@
             <mxPoint x="-3" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-138" value="validate &lt;br&gt;{Code_Challenge + Challenge_id + ping_ref_id}&lt;br&gt;combination&amp;nbsp;&lt;br&gt;and issue AuthZ Code" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;entryX=1;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-138" value="validate &lt;br&gt;{Code_Challenge + Challenge_id + ping_ref_id}&lt;br&gt;combination&amp;nbsp;&lt;br&gt;and issue AuthZ Code (&amp;amp;)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;entryX=1;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
             <mxPoint x="2474.9999999999995" y="1632" as="sourcePoint" />
             <Array as="points">
@@ -2876,7 +2876,7 @@
         <mxCell id="rCgsRlorD6VoRk10va_P-147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="3045" y="1711" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-148" value="Cache the&amp;nbsp;&lt;br&gt;Tokens &amp;amp; &lt;br&gt;generate &lt;br&gt;App_Session_ID" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-148" value="Cache the&amp;nbsp;&lt;br&gt;Tokens &amp;amp; &lt;br&gt;generate &lt;br&gt;App_Session_ID (z)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="-0.2063" relative="1" as="geometry">
             <mxPoint x="3055" y="1787" as="sourcePoint" />
             <Array as="points">
@@ -2923,7 +2923,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-157" value="Send App Session_Id" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;entryX=0.52;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-157" value="Send App Session_Id (z)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;entryX=0.52;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1360" y="1862" as="sourcePoint" />
             <mxPoint x="3050.2" y="1861.8400000000001" as="targetPoint" />
@@ -2949,13 +2949,13 @@
             <mxPoint x="1359.79" y="1570.2400000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-160" value="Redirect to Token Service { AuthZ Code (&amp;amp;) + state } in JWT" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;exitX=0.493;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.048;entryY=0.732;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-160" value="302 Redirect to Token Service { AuthZ Code (&amp;amp;) + state } in JWT" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;exitX=0.493;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.048;entryY=0.732;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2469.93" y="1681.4" as="sourcePoint" />
             <mxPoint x="1360.48" y="1679.6799999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-161" value="Send the App Session_Id&lt;br&gt;{ No Tokens }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;dashed=1;exitX=0.183;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-161" value="Send the App Session_Id (z)&lt;br&gt;{ No Tokens }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;dashed=1;exitX=0.183;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="3046.83" y="1811.2000000000003" as="sourcePoint" />
             <mxPoint x="1360" y="1811.2000000000003" as="targetPoint" />
