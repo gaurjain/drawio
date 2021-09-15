@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T12:43:13.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="qB3hRYwxzlV4lAmNzgsj" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T12:47:28.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ndar-AC-q5L451orMVzQ" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2513,6 +2513,18 @@
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-46" value="IdaaS Services" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=28;opacity=50;verticalAlign=top;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1830" y="200" width="980" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-45" value=": Unified Directory Server&lt;br&gt;(OUD)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="2670" y="240" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-44" value=": Identity Provider&lt;br&gt;(PingFederate)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="2410" y="240" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-43" value=": ThreatMetrix&lt;br&gt;ProfilingServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="2168.45" y="240" width="110" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-6" value="Enrollment&lt;br&gt;process" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=40;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1160" y="730" width="2100" height="1380" as="geometry" />
         </mxCell>
@@ -2701,14 +2713,25 @@
         <mxCell id="rCgsRlorD6VoRk10va_P-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1885" y="940" width="10" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-117" value=": Resource Server&lt;br&gt;(FiServ)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="3140" y="820" width="100" height="1197" as="geometry" />
+        <mxCell id="rCgsRlorD6VoRk10va_P-117" value=": Resource Server&lt;br&gt;(FiServ Services)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="3140" y="240" width="100" height="1777" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-121" value=": Resource Server&lt;br&gt;/Accounts&lt;br&gt;(CFG-App-Vpc)&lt;br&gt;Cpay API&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="3000" y="820" width="100" height="1197" as="geometry" />
+        <mxCell id="rCgsRlorD6VoRk10va_P-121" value=": Resource Server&lt;br&gt;(CFG-App-Vpc)&lt;br&gt;Cpay Services" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="3000" y="240" width="100" height="1777" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#1ba1e2;arcSize=0;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-121">
-          <mxGeometry x="45" y="667" width="10" height="18" as="geometry" />
+          <mxGeometry x="45" y="1247" width="10" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="rCgsRlorD6VoRk10va_P-153" value="Generate an&lt;br&gt;&amp;nbsp;&#39;Auth Code verifier&#39; (x)&lt;br&gt;&amp;amp; Hash &#39;x&#39; &lt;br&gt;to generate &lt;br&gt;&#39;Code Challenge&#39; ($)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;exitX=0.856;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-121" source="rCgsRlorD6VoRk10va_P-127" target="rCgsRlorD6VoRk10va_P-127">
+          <mxGeometry x="1" y="35" relative="1" as="geometry">
+            <mxPoint x="56" y="1248" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="83" y="1248" />
+              <mxPoint x="83" y="1258" />
+            </Array>
+            <mxPoint x="57" y="1258" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-123" value="Save {Login Id, OUD UUID, CPay UUID etc} ; pass on a XSM id" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;entryX=0.971;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
@@ -2875,17 +2898,6 @@
             <mxPoint x="3055" y="2006" as="sourcePoint" />
             <mxPoint x="3159" y="2006" as="targetPoint" />
             <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-153" value="Generate an&lt;br&gt;&amp;nbsp;&#39;Auth Code verifier&#39; (x)&lt;br&gt;&amp;amp; Hash &#39;x&#39; &lt;br&gt;to generate &lt;br&gt;&#39;Code Challenge&#39; ($)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;exitX=0.856;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-127">
-          <mxGeometry x="1" y="35" relative="1" as="geometry">
-            <mxPoint x="3056" y="1488" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="3083" y="1488" />
-              <mxPoint x="3083" y="1498" />
-            </Array>
-            <mxPoint x="3057" y="1498" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -3182,6 +3194,9 @@
               <mxPoint x="1906" y="1270" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-42" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1840.75" y="240" width="100" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
