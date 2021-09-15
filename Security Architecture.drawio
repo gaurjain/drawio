@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T13:08:04.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yBE0427ybvpjyxeqf-yl" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:09:23.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="W_TXqSxnaU4zHr39VfRB" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2509,7 +2509,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Enrollment Journey" id="GuEs80JTdCBlK7_mIT3a">
-    <mxGraphModel dx="198" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2145" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
@@ -2541,7 +2541,7 @@
           <mxGeometry x="1300" y="240" width="110" height="1780" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-10">
-          <mxGeometry x="50" y="220" width="10" height="1380" as="geometry" />
+          <mxGeometry x="50" y="220" width="10" height="1520" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-12" value="Record&lt;br&gt;Telemetry" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeWidth=3;sketch=0;horizontal=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="rCgsRlorD6VoRk10va_P-10">
           <mxGeometry x="-0.0811" y="-20" relative="1" as="geometry">
@@ -2577,7 +2577,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-16" value=": Akamai Edge&lt;br&gt;(SPA related web resources)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1480" y="240" width="110" height="1600" as="geometry" />
+          <mxGeometry x="1480" y="240" width="110" height="1790" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-16">
           <mxGeometry x="50" y="190" width="10" height="30" as="geometry" />
@@ -2642,7 +2642,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-42" value=": Ingress Service&lt;br&gt;DMZ&lt;br&gt;(NGINX)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1640" y="240" width="110" height="1600" as="geometry" />
+          <mxGeometry x="1640" y="240" width="110" height="1790" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-55" value="5. Post User-Agent Profile data and TMX related Session ID (non-blocking, return void)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;exitX=1.3;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;sketch=0;entryX=-0.005;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-11" target="rCgsRlorD6VoRk10va_P-64">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -2702,7 +2702,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-103" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1840" y="830" width="100" height="970" as="geometry" />
+          <mxGeometry x="1840" y="830" width="100" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1530" y="790" width="10" height="30" as="geometry" />
@@ -2717,7 +2717,7 @@
           <mxGeometry x="3140" y="240" width="100" height="1777" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-121" value=": Resource Server&lt;br&gt;Cpay Services" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="3000" y="240" width="100" height="1777" as="geometry" />
+          <mxGeometry x="3000" y="240" width="100" height="1810" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;arcSize=0;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-121">
           <mxGeometry x="45" y="1247" width="10" height="18" as="geometry" />
@@ -2757,7 +2757,7 @@
           <mxGeometry x="1531" y="907" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-128" value=": Identity Provider&lt;br&gt;(PingFederate)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=40;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="2420" y="1390" width="100" height="658" as="geometry" />
+          <mxGeometry x="2420" y="1390" width="100" height="640" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="2465" y="1450" width="10" height="92" as="geometry" />
@@ -3189,37 +3189,37 @@
           <mxGeometry x="1840.75" y="240" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-47" value="IdaaS Services" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=28;opacity=50;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1820" y="2048" width="1000" height="120" as="geometry" />
+          <mxGeometry x="1820" y="2060" width="1000" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-48" value=": Unified Directory Server&lt;br&gt;(OUD)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="2680" y="2088" width="100" height="110" as="geometry" />
+          <mxGeometry x="2680" y="2100" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-49" value=": Identity Provider&lt;br&gt;(PingFederate)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="2420" y="2088" width="100" height="110" as="geometry" />
+          <mxGeometry x="2420" y="2100" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-50" value=": ThreatMetrix&lt;br&gt;ProfilingServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="2178.45" y="2088" width="110" height="100" as="geometry" />
+          <mxGeometry x="2178.45" y="2100" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-51" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1850.75" y="2088" width="100" height="110" as="geometry" />
+          <mxGeometry x="1850.75" y="2100" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-52" value=": Resource Server&lt;br&gt;(FiServ Services)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="3130" y="2088" width="100" height="132" as="geometry" />
+          <mxGeometry x="3130" y="2100" width="100" height="132" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-53" value=": Resource Server&lt;br&gt;(CFG-App-Vpc)&lt;br&gt;Cpay Services" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="2990" y="2088" width="100" height="132" as="geometry" />
+          <mxGeometry x="2990" y="2100" width="100" height="132" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-56" value=": User Agent&lt;br&gt;(Browser)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;glass=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1320" y="2088" width="110" height="102" as="geometry" />
+          <mxGeometry x="1320" y="2100" width="110" height="102" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-61" value=": Akamai Edge&lt;br&gt;(SPA related web resources)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1500" y="2088" width="110" height="112" as="geometry" />
+          <mxGeometry x="1500" y="2100" width="110" height="112" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-63" value=": Ingress Service&lt;br&gt;DMZ&lt;br&gt;(NGINX)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1660" y="2088" width="110" height="112" as="geometry" />
+          <mxGeometry x="1660" y="2100" width="110" height="112" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-64" value="&lt;font color=&quot;#808080&quot;&gt;User&amp;nbsp;&lt;br&gt;(Resource Owner)&lt;br&gt;&lt;/font&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1240" y="2088" width="20" height="102" as="geometry" />
+          <mxGeometry x="1240" y="2100" width="20" height="102" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-20" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;POST /profiles { first name, last name, email, phone, ssn}&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:58}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Exists == Yes : DELETE /CPay/Profiles: {UUID}&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#FF0000;strokeWidth=1;sketch=0;fillColor=#f8cecc;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-18" target="rCgsRlorD6VoRk10va_P-121">
           <mxGeometry x="-0.655" width="160" relative="1" as="geometry">
