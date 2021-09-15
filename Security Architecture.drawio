@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T16:26:54.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="NJzWQaUr-6BL8AOH6Urf" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T16:29:45.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="qvlHOab5L6ZmoT3b3y-6" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2509,7 +2509,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Enrollment Journey" id="GuEs80JTdCBlK7_mIT3a">
-    <mxGraphModel dx="4027" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="709" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
@@ -2688,7 +2688,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-101" value="2. fetch Cpay Enroll&lt;br&gt;web resource" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;entryX=0.08;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.057;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" target="rCgsRlorD6VoRk10va_P-109">
+        <mxCell id="rCgsRlorD6VoRk10va_P-101" value="2. Fetch Cpay Enroll&lt;br&gt;web resource" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;entryX=0.08;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.057;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" target="rCgsRlorD6VoRk10va_P-109">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1360.5700000000002" y="850.4000000000001" as="sourcePoint" />
             <mxPoint x="1534" y="898" as="targetPoint" />
@@ -2750,10 +2750,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-124" value="22. 302 Redirect : Return JWT { XSM id }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeWidth=1;sketch=0;dashed=1;exitX=0.1;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.61;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry width="160" relative="1" as="geometry">
+        <mxCell id="rCgsRlorD6VoRk10va_P-124" value="22. 302 Redirect : with JWT { XSM id }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeWidth=1;sketch=0;dashed=1;exitX=0.1;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.61;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="-0.1809" y="2" width="160" relative="1" as="geometry">
             <mxPoint x="1885" y="1519.9999999999995" as="sourcePoint" />
             <mxPoint x="1360" y="1523.0499999999997" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
@@ -2975,7 +2976,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-163" value="&lt;br&gt;23. Redirect to &#39;Transmit Security User Journey&#39;&lt;br&gt;with JWT {XSM id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;fillColor=#f5f5f5;exitX=1.2;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="-0.037" y="-38" width="160" relative="1" as="geometry">
+          <mxGeometry x="0.1845" y="-38" width="160" relative="1" as="geometry">
             <mxPoint x="1360" y="1554.4799999999996" as="sourcePoint" />
             <mxPoint x="1883" y="1551" as="targetPoint" />
             <mxPoint as="offset" />
@@ -2984,7 +2985,7 @@
         <mxCell id="rCgsRlorD6VoRk10va_P-189" value="Transmit &lt;br&gt;Auth orchestration&lt;br&gt;Flow Starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1140" y="1000" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-192" value="1.selects &lt;br&gt;Enroll option " style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;startArrow=diamondThin;startFill=1;entryX=0.44;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-192" value="1.Selects &lt;br&gt;Enroll option " style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;startArrow=diamondThin;startFill=1;entryX=0.44;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="0.029" y="-31" width="160" relative="1" as="geometry">
             <mxPoint x="1246.5" y="830" as="sourcePoint" />
             <mxPoint x="1354.3999999999996" y="830" as="targetPoint" />
@@ -3037,7 +3038,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-75" value="&lt;br&gt;&lt;br&gt;9. Invoke Transmit Security Anonymous Journey &lt;br&gt;Forwards Params, Form inputs, TMX session ID (tx)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;entryX=0.114;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-2" target="rCgsRlorD6VoRk10va_P-114">
+        <mxCell id="rCgsRlorD6VoRk10va_P-75" value="&lt;br&gt;&lt;br&gt;9. On Pass : Invoke &#39;Transmit Security Anonymous Journey&#39;&lt;br&gt;Forwards Params, Form inputs, TMX session ID (tx)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;fillColor=#60a917;entryX=0.114;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-2" target="rCgsRlorD6VoRk10va_P-114">
           <mxGeometry x="-0.037" y="-38" width="160" relative="1" as="geometry">
             <mxPoint x="1544" y="1002" as="sourcePoint" />
             <mxPoint x="1889" y="1002.8200000000002" as="targetPoint" />
