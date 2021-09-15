@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T13:04:48.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="tMW40-AE0PXaU0i1sWJS" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:08:04.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yBE0427ybvpjyxeqf-yl" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2509,7 +2509,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Enrollment Journey" id="GuEs80JTdCBlK7_mIT3a">
-    <mxGraphModel dx="-18" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="198" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
@@ -2813,7 +2813,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-137" value="Save attributes&lt;br&gt;&amp;nbsp;{Ping_ref_id + &lt;br&gt;&amp;lt;Challenge_ID, Code_Challenge, Code_Verifier&amp;gt;&lt;br&gt;+ Login_Id + UUID}&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;entryX=1.2;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-137" value="Save attributes&lt;br&gt;&amp;nbsp;{Ping_ref_id + &lt;br&gt;&amp;lt;Challenge_ID, Code_Challenge&amp;gt;&lt;br&gt;+ Login_Id + UUID}&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;sketch=0;entryX=1.2;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="0.1844" y="13" relative="1" as="geometry">
             <mxPoint x="2474.9999999999995" y="1512" as="sourcePoint" />
             <Array as="points">
@@ -2854,8 +2854,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-141" value="Respond with&lt;br&gt;code challenge ($)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;dashed=1;entryX=1.06;entryY=0.576;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;exitX=-0.033;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-127" target="rCgsRlorD6VoRk10va_P-129">
-          <mxGeometry x="-0.4423" y="33" width="160" relative="1" as="geometry">
+        <mxCell id="rCgsRlorD6VoRk10va_P-141" value="Respond with&lt;br&gt;{ Challenge_ID +&lt;br&gt;code challenge ($) }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;dashed=1;entryX=1.06;entryY=0.576;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;exitX=-0.033;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-127" target="rCgsRlorD6VoRk10va_P-129">
+          <mxGeometry x="-0.6674" y="47" width="160" relative="1" as="geometry">
             <mxPoint x="3049.5" y="1499.6" as="sourcePoint" />
             <mxPoint x="2480" y="1499" as="targetPoint" />
             <mxPoint as="offset" />
@@ -2870,7 +2870,7 @@
         <mxCell id="rCgsRlorD6VoRk10va_P-145" value="/pf/JWKS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;strokeWidth=2;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="2475" y="1911" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;arcSize=50;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;arcSize=50;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="3185" y="2001" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
