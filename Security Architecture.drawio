@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T13:25:59.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="OlT5Jx6tp35zrkKrvP2P" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:31:46.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="fuD2F3mH2Oo5RuQFZhfr" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2509,30 +2509,30 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Enrollment Journey" id="GuEs80JTdCBlK7_mIT3a">
-    <mxGraphModel dx="427" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="438" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
+        <mxCell id="rCgsRlorD6VoRk10va_P-6" value="Enrollment&lt;br&gt;Journey" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=40;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1130" y="730" width="2130" height="1390" as="geometry" />
+        </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-46" value="IdaaS Services" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=28;opacity=50;verticalAlign=top;fontColor=#CCCCCC;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1800" y="200" width="1010" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-45" value=": Unified Directory Server&lt;br&gt;(OUD)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="2670" y="240" width="100" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-44" value=": Identity Provider&lt;br&gt;(PingFederate)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-44" value=": Federated Identity Provider&lt;br&gt;(PingFederate)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="2410" y="240" width="100" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-43" value=": ThreatMetrix&lt;br&gt;ProfilingServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-43" value=": Risk Assessor&lt;br&gt;(ThreatMetrix&lt;br&gt;ProfilingServer)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="2168.45" y="240" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-6" value="Enrollment&lt;br&gt;Journey" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=40;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1160" y="730" width="2100" height="1390" as="geometry" />
-        </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-7" value="Landing Page Load" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=40;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1160" y="491" width="2100" height="220" as="geometry" />
+          <mxGeometry x="1130" y="491" width="2130" height="220" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-8" value="Initiate" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;width=80;height=30;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1160" y="340" width="2100" height="140" as="geometry" />
+          <mxGeometry x="1130" y="340" width="2130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-9" value="&lt;font color=&quot;#808080&quot;&gt;User&amp;nbsp;&lt;br&gt;(Resource Owner)&lt;br&gt;&lt;/font&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1240" y="240" width="20" height="1780" as="geometry" />
@@ -2576,7 +2576,7 @@
             <mxPoint x="62" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-16" value=": Akamai Edge&lt;br&gt;(SPA related web resources)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-16" value=": CDN Edge (Akamai Edge)&lt;br&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1480" y="240" width="110" height="1790" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-16">
@@ -2707,7 +2707,7 @@
         <mxCell id="rCgsRlorD6VoRk10va_P-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1530" y="790" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-110" value=": Unified Directory Server&lt;br&gt;(OUD)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-110" value=": Unified Directory Server&lt;br&gt;(OUD)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=60;rounded=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="2670" y="1150" width="100" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
@@ -2975,7 +2975,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-189" value="Transmit AuthN&lt;br&gt;Journey Starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-189" value="Transmit &lt;br&gt;Auth orchestration&lt;br&gt;Flow Starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1160" y="940" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-192" value="1.selects &lt;br&gt;Enroll option " style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;startArrow=diamondThin;startFill=1;entryX=0.44;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
@@ -3183,7 +3183,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-42" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-42" value=": Auth Orchestrato &lt;br&gt;(Transmit Server)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1840.75" y="240" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-47" value="IdaaS Services" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=28;opacity=50;verticalAlign=top;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
@@ -3259,6 +3259,15 @@
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-73" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1840.75" y="1153.3400000000001" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-74" value="OIDC/OAuth Flow&lt;br&gt;Starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1160" y="1590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-75" value="Protected&lt;br&gt;Session&amp;nbsp;&lt;br&gt;Starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1170" y="1811" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-76" value="Federated identity&lt;br&gt;Flow starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1160" y="1420" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
