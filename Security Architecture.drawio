@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T14:50:14.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="LUerHhsoHRpsCoGNL0gE" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T14:54:21.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="VP7I7zBTR6wmqr9MCHUb" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2509,7 +2509,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Enrollment Journey" id="GuEs80JTdCBlK7_mIT3a">
-    <mxGraphModel dx="709" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="438" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="rCgsRlorD6VoRk10va_P-0" />
         <mxCell id="rCgsRlorD6VoRk10va_P-1" parent="rCgsRlorD6VoRk10va_P-0" />
@@ -2770,7 +2770,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-131" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="3045" y="1861" width="10" height="160" as="geometry" />
+          <mxGeometry x="3045" y="1861" width="10" height="199" as="geometry" />
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-132" value="Look up &lt;br&gt;for ID_Tokens &lt;br&gt;in local cache&lt;br&gt;and validate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.057;entryY=0.194;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;entryDx=0;entryDy=0;entryPerimeter=0;sketch=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
@@ -2792,7 +2792,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-134" value="Returns 200 OK with KeySet JSON" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;exitX=0.722;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.014;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-135" target="rCgsRlorD6VoRk10va_P-131">
+        <mxCell id="rCgsRlorD6VoRk10va_P-134" value="Returns 200 OK with KeySet JSON" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;exitX=0.722;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.106;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-135" target="rCgsRlorD6VoRk10va_P-131">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2369.17" y="1956.6599999999999" as="sourcePoint" />
             <mxPoint x="2944.43" y="1955.6399999999999" as="targetPoint" />
@@ -3019,7 +3019,7 @@
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-3" value="Relevant UI message" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=130;height=20;rounded=1;strokeWidth=1;swimlaneFillColor=#ffffff;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1340" y="1038" width="240" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-4" value="&lt;br&gt;15.a : Fail : 4xx Response : { Error message }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#b85450;strokeWidth=1;dashed=1;startArrow=diamondThin;startFill=0;fillColor=#f8cecc;exitX=0.488;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-1" target="GTip7iMc3Sk4Ihn7IrVb-3">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-4" value="&lt;br&gt;15.a : On Fail : 4xx Response : { Error message }" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#b85450;strokeWidth=1;dashed=1;startArrow=diamondThin;startFill=0;fillColor=#f8cecc;exitX=0.488;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-1" target="GTip7iMc3Sk4Ihn7IrVb-3">
           <mxGeometry x="-0.1398" y="-20" width="160" relative="1" as="geometry">
             <mxPoint x="1693.18" y="1250.01" as="sourcePoint" />
             <mxPoint x="1420" y="1270.29" as="targetPoint" />
@@ -3142,7 +3142,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-25" value="15.b : Pass" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;dashed=1;startArrow=diamondThin;startFill=0;fillColor=#60a917;entryX=0.133;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.003;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-1" target="rCgsRlorD6VoRk10va_P-114">
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-25" value="15.b : On Pass" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#2D7600;strokeWidth=1;dashed=1;startArrow=diamondThin;startFill=0;fillColor=#60a917;entryX=0.133;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.003;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="GTip7iMc3Sk4Ihn7IrVb-1" target="rCgsRlorD6VoRk10va_P-114">
           <mxGeometry x="-0.0962" y="-19" width="160" relative="1" as="geometry">
             <mxPoint x="1583" y="1211" as="sourcePoint" />
             <mxPoint x="1467.12" y="1160.6" as="targetPoint" />
@@ -3257,8 +3257,8 @@
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-72" value=": Resource Server&lt;br&gt;(FiServ Services)&amp;nbsp;&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=70;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="3140" y="1150" width="100" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-73" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=50;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="1840.75" y="1153.3400000000001" width="100" height="110" as="geometry" />
+        <mxCell id="GTip7iMc3Sk4Ihn7IrVb-73" value=": Transmit Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;verticalAlign=top;size=27;rounded=1;sketch=0;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="1840.75" y="1165.01" width="100" height="76.66" as="geometry" />
         </mxCell>
         <mxCell id="GTip7iMc3Sk4Ihn7IrVb-74" value="OIDC/OAuth Flow&lt;br&gt;Starts" style="html=1;rounded=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeWidth=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="1160" y="1590" width="110" height="50" as="geometry" />
@@ -3318,6 +3318,46 @@
         <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-90">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
             <mxGeometry x="3005" y="1821" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-91">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="1885" y="910" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-92">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="1885" y="1370" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-95">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="2465" y="1590" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-96">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="2465" y="1420" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;API YAML to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-97">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="2225" y="600" width="145" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-98">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="2375" y="1880" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-99">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="2383" y="1702" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 12px&quot;&gt;to be added&lt;/font&gt;" link="https://www.draw.io" id="GTip7iMc3Sk4Ihn7IrVb-100">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;fontSize=28;opacity=50;" vertex="1" parent="rCgsRlorD6VoRk10va_P-1">
+            <mxGeometry x="1885" y="1183.34" width="90" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
