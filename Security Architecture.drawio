@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T16:04:56.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Z4QZGHo_mbhibVRZEje-" version="15.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-15T16:06:55.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ad2M8AfvLhS3gVgPpFrX" version="15.2.1" type="github" pages="6">
   <diagram id="wZ5m5fd0sFRycb3nMDRE" name="Page-1">
     <mxGraphModel dx="1538" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -2725,7 +2725,7 @@
         <mxCell id="rCgsRlorD6VoRk10va_P-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=1;verticalAlign=top;fillColor=#d5e8d4;arcSize=0;strokeColor=none;" vertex="1" parent="rCgsRlorD6VoRk10va_P-121">
           <mxGeometry x="45" y="1337" width="10" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-153" value="Generate an&lt;br&gt;&amp;nbsp;&#39;Auth Code verifier&#39; (x)&lt;br&gt;&amp;amp; Hash &#39;x&#39; &lt;br&gt;to generate &lt;br&gt;&#39;Code Challenge&#39; ($)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;fillColor=#f5f5f5;exitX=0.856;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-121" source="rCgsRlorD6VoRk10va_P-127" target="rCgsRlorD6VoRk10va_P-127">
+        <mxCell id="rCgsRlorD6VoRk10va_P-153" value="27. Generate an&lt;br&gt;&amp;nbsp;&#39;Auth Code verifier&#39; (x)&lt;br&gt;&amp;amp; Hash &#39;x&#39; &lt;br&gt;to generate &lt;br&gt;&#39;Code Challenge&#39; ($)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;fillColor=#f5f5f5;exitX=0.856;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-121" source="rCgsRlorD6VoRk10va_P-127" target="rCgsRlorD6VoRk10va_P-127">
           <mxGeometry x="1" y="35" relative="1" as="geometry">
             <mxPoint x="56" y="1338" as="sourcePoint" />
             <Array as="points">
@@ -2819,15 +2819,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-137" value="Save attributes&lt;br&gt;&amp;nbsp;{Ping_ref_id + &lt;br&gt;&amp;lt;Challenge_ID, Code_Challenge&amp;gt;&lt;br&gt;+ Login_Id + UUID}&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;entryX=1.2;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
-          <mxGeometry x="0.1844" y="13" relative="1" as="geometry">
+        <mxCell id="rCgsRlorD6VoRk10va_P-137" value="28. Save attributes&lt;br&gt;&amp;nbsp;{Ping_ref_id + &lt;br&gt;&amp;lt;Challenge_ID, Code_Challenge&amp;gt;&lt;br&gt;+ Login_Id + UUID}&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;entryX=1.2;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+          <mxGeometry x="0.1852" y="16" relative="1" as="geometry">
             <mxPoint x="2474.9999999999995" y="1602" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="2530" y="1602" />
               <mxPoint x="2530" y="1624" />
             </Array>
             <mxPoint x="2477" y="1624" as="targetPoint" />
-            <mxPoint x="-3" y="9" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rCgsRlorD6VoRk10va_P-138" value="validate &lt;br&gt;{Code_Challenge + Challenge_id + ping_ref_id}&lt;br&gt;combination&amp;nbsp;&lt;br&gt;and issue AuthZ Code (&amp;amp;)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#E6E6E6;strokeWidth=2;sketch=0;entryX=1;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
@@ -2853,7 +2853,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-140" value="Get /CPay/Code_Challenge" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;entryX=0.32;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.152;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-129" target="rCgsRlorD6VoRk10va_P-127">
+        <mxCell id="rCgsRlorD6VoRk10va_P-140" value="26. Get /CPay/Code_Challenge" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;entryX=0.32;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.152;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1" source="rCgsRlorD6VoRk10va_P-129" target="rCgsRlorD6VoRk10va_P-127">
           <mxGeometry x="-0.6817" width="160" relative="1" as="geometry">
             <mxPoint x="2159.5000000000005" y="1212.6499999999996" as="sourcePoint" />
             <mxPoint x="2939" y="1552" as="targetPoint" />
@@ -2914,7 +2914,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-155" value="Respond with {Ping_ref_id, Code_challenge, challenge_id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;exitX=0.31;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.96;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-155" value="29. Respond with {Ping_ref_id, Code_challenge, challenge_id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;exitX=0.31;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.96;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2468.1" y="1631.4" as="sourcePoint" />
             <mxPoint x="1894.6" y="1629.8500000000004" as="targetPoint" />
@@ -2938,7 +2938,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-158" value="Enrich JWT&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;entryX=0.971;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-158" value="30. Enrich JWT&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;entryX=0.971;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry x="0.0231" y="9" relative="1" as="geometry">
             <mxPoint x="1895.0100000000002" y="1642.1999999999998" as="sourcePoint" />
             <Array as="points">
@@ -2949,7 +2949,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCgsRlorD6VoRk10va_P-159" value="302 Redirect&amp;nbsp; to OAuth service JWT with&amp;nbsp; {Ping_Ref_Id(%), Code_challenge, challenge_id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;exitX=-0.057;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.979;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
+        <mxCell id="rCgsRlorD6VoRk10va_P-159" value="31. 302 Redirect&amp;nbsp; to OAuth service JWT with&amp;nbsp; {Ping_Ref_Id(%), Code_challenge, challenge_id}" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;shadow=0;fontColor=#1A1A1A;strokeColor=#666666;strokeWidth=1;sketch=0;exitX=-0.057;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.979;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#f5f5f5;" edge="1" parent="rCgsRlorD6VoRk10va_P-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1884.4299999999998" y="1661.44" as="sourcePoint" />
             <mxPoint x="1359.79" y="1660.2400000000002" as="targetPoint" />
