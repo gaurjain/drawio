@@ -1,6 +1,6 @@
-<mxfile modified="2020-05-19T20:32:12.127Z" host="www.draw.io" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="8nkKa9wG0vzmkdLcKi3o" version="13.1.2" type="github" pages="6">
+<mxfile modified="2022-08-25T18:21:05.584Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lU2MeFab38p_IvWDmg1u" version="20.2.7" type="github" pages="6">
   <diagram id="bdf2a893-cfdd-2118-b845-c5bb8644dd1f" name="Container layers">
-    <mxGraphModel dx="2198" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,7 +283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4fce0f1b-c320-00e1-ce2b-305aff9628e1" name="Akka model">
-    <mxGraphModel dx="2032" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,7 +510,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="de411bfe-b317-71ce-4578-31d7b845832b" name="Thread concurrency model">
-    <mxGraphModel dx="815" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1491" dy="654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -642,37 +642,37 @@
         <mxCell id="68" value="&lt;div style=&quot;text-align: justify&quot;&gt;A thread &lt;b&gt;is one of many workers which performs a &lt;i&gt;Task&lt;/i&gt;&lt;/b&gt;, which you want to be done.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A thread&amp;nbsp;&lt;b&gt;is an execution context&lt;/b&gt; that can run a set of instructions within a process aka a running program.&amp;nbsp;&lt;i&gt;A thread&lt;b&gt; is a basic unit of CPU utilization&lt;/b&gt;, consisting of a process counter, a stack, and a set of registers.&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;A&amp;nbsp;&lt;/span&gt;&lt;b&gt;thread&amp;nbsp;of execution&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;the smallest sequence of programmed instructions that&amp;nbsp;&lt;/span&gt;&lt;b&gt;can&amp;nbsp;be managed independently by a scheduler&lt;/b&gt;&lt;span&gt;, which&amp;nbsp;&lt;/span&gt;is&amp;nbsp;&lt;span&gt;typically a part of the operating system or a (J)Virtual Machine.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="96.5" y="28" width="403.5" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-99" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/318_Stack_Overflow_logo-128.png;fontColor=#4D4D4D;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-99" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/318_Stack_Overflow_logo-128.png;fontColor=#4D4D4D;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="26.5" y="112.68999999999991" width="16.5" height="16.5" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-100" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/fatcow/32x32/counter.png;fontColor=#4D4D4D;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-100" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/fatcow/32x32/counter.png;fontColor=#4D4D4D;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="6.12" y="111.87999999999991" width="18.12" height="18.12" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-102" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/memory.png;fontColor=#4D4D4D;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-102" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/memory.png;fontColor=#4D4D4D;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="44.5" y="110.94000000000007" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-106" value="कर्ता" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF3333;" vertex="1" parent="DPsUhYud49FchwlEQ9zj-96">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-106" value="कर्ता" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF3333;" parent="DPsUhYud49FchwlEQ9zj-96" vertex="1">
           <mxGeometry x="416.5" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-94" value="Task" style="swimlane;fillColor=#0050ef;strokeColor=#001DBC;rounded=1;startSize=23;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-94" value="Task" style="swimlane;fillColor=#0050ef;strokeColor=#001DBC;rounded=1;startSize=23;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="12" y="542" width="518.5" height="80" as="geometry">
             <mxRectangle x="12" y="542" width="518.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-96" value="&lt;div style=&quot;text-align: justify&quot;&gt;A task is what you want to be done.&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;It represents an asynchronous operation, It is &lt;b&gt;a set of instructions that get loaded into memory.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-96" value="&lt;div style=&quot;text-align: justify&quot;&gt;A task is what you want to be done.&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;It represents an asynchronous operation, It is &lt;b&gt;a set of instructions that get loaded into memory.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="lZ_eRcYEnkGoCs-2lRhE-94" vertex="1">
           <mxGeometry x="97" y="23" width="405" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-97" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/Rounded_32px/32/pool_blue_two_ball.png;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-97" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/Rounded_32px/32/pool_blue_two_ball.png;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#999999;gradientColor=none;fontColor=#000000;" parent="lZ_eRcYEnkGoCs-2lRhE-94" vertex="1">
           <mxGeometry x="18" y="32" width="32" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-107" value="कार्य" style="text;whiteSpace=wrap;html=1;fontColor=#FFFF33;" vertex="1" parent="lZ_eRcYEnkGoCs-2lRhE-94">
+        <mxCell id="lZ_eRcYEnkGoCs-2lRhE-107" value="कार्य" style="text;whiteSpace=wrap;html=1;fontColor=#FFFF33;" parent="lZ_eRcYEnkGoCs-2lRhE-94" vertex="1">
           <mxGeometry x="316.5" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="8480b256-5245-aeb5-d4a0-cdb4484a2c64" name="Threads and containers">
-    <mxGraphModel dx="498" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="641" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -828,34 +828,34 @@
         <mxCell id="11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/128/drawing_pen.png;rounded=0;glass=0;comic=1;strokeColor=#97D077;strokeWidth=1;fillColor=#B9E0A5;gradientColor=none;fontColor=#333333;" parent="9" vertex="1">
           <mxGeometry width="33" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-49" value="&#39;Thread of Execution&#39; aka Thread" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-49" value="&#39;Thread of Execution&#39; aka Thread" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="937.5" y="800" width="530" height="190" as="geometry">
             <mxRectangle x="13.5" y="630" width="536.5" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;rounded=1;shadow=0;glass=0;dashed=1;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#CC0066;gradientColor=none;fontColor=#000000;opacity=40;" vertex="1" parent="HQNWtrreXf5BRkY2UKth-49">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/141/f-thread_128-128.png;rounded=1;shadow=0;glass=0;dashed=1;comic=0;strokeColor=#000033;strokeWidth=1;fillColor=#CC0066;gradientColor=none;fontColor=#000000;opacity=40;" parent="HQNWtrreXf5BRkY2UKth-49" vertex="1">
           <mxGeometry x="16.5" y="61" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-51" value="&lt;div style=&quot;text-align: justify&quot;&gt;A thread &lt;b&gt;is one of many workers which performs a &lt;i&gt;Task&lt;/i&gt;&lt;/b&gt;, which you want to be done.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A thread&amp;nbsp;&lt;b&gt;is an execution context&lt;/b&gt; that can run a set of instructions within a process aka a running program.&amp;nbsp;&lt;span&gt;A thread&lt;/span&gt;&lt;b&gt; is a basic unit of CPU utilization&lt;/b&gt;&lt;span&gt;, consisting of a process counter, a stack, and a set of registers.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;A&amp;nbsp;&lt;/span&gt;&lt;b&gt;thread&amp;nbsp;of execution&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;the smallest sequence of programmed instructions that&amp;nbsp;&lt;/span&gt;&lt;b&gt;can&amp;nbsp;be managed independently by a scheduler&lt;/b&gt;&lt;span&gt;, which&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;typically a part of the operating system or a (J)Virtual Machine.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="HQNWtrreXf5BRkY2UKth-49">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-51" value="&lt;div style=&quot;text-align: justify&quot;&gt;A thread &lt;b&gt;is one of many workers which performs a &lt;i&gt;Task&lt;/i&gt;&lt;/b&gt;, which you want to be done.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;A thread&amp;nbsp;&lt;b&gt;is an execution context&lt;/b&gt; that can run a set of instructions within a process aka a running program.&amp;nbsp;&lt;span&gt;A thread&lt;/span&gt;&lt;b&gt; is a basic unit of CPU utilization&lt;/b&gt;&lt;span&gt;, consisting of a process counter, a stack, and a set of registers.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;A&amp;nbsp;&lt;/span&gt;&lt;b&gt;thread&amp;nbsp;of execution&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;the smallest sequence of programmed instructions that&amp;nbsp;&lt;/span&gt;&lt;b&gt;can&amp;nbsp;be managed independently by a scheduler&lt;/b&gt;&lt;span&gt;, which&amp;nbsp;&lt;/span&gt;&lt;b&gt;is&amp;nbsp;&lt;/b&gt;&lt;span&gt;typically a part of the operating system or a (J)Virtual Machine.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;labelBackgroundColor=none;fontColor=#000000;" parent="HQNWtrreXf5BRkY2UKth-49" vertex="1">
           <mxGeometry x="96.5" y="28" width="413.5" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/318_Stack_Overflow_logo-128.png;fontColor=#4D4D4D;" vertex="1" parent="HQNWtrreXf5BRkY2UKth-49">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/318_Stack_Overflow_logo-128.png;fontColor=#4D4D4D;" parent="HQNWtrreXf5BRkY2UKth-49" vertex="1">
           <mxGeometry x="26.5" y="112.68999999999991" width="16.5" height="16.5" as="geometry" />
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/fatcow/32x32/counter.png;fontColor=#4D4D4D;" vertex="1" parent="HQNWtrreXf5BRkY2UKth-49">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/fatcow/32x32/counter.png;fontColor=#4D4D4D;" parent="HQNWtrreXf5BRkY2UKth-49" vertex="1">
           <mxGeometry x="6.12" y="111.87999999999991" width="18.12" height="18.12" as="geometry" />
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/memory.png;fontColor=#4D4D4D;" vertex="1" parent="HQNWtrreXf5BRkY2UKth-49">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Momentum_MatteEntireSet/32/memory.png;fontColor=#4D4D4D;" parent="HQNWtrreXf5BRkY2UKth-49" vertex="1">
           <mxGeometry x="44.5" y="110.94000000000007" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HQNWtrreXf5BRkY2UKth-55" value="कर्ता" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF3333;" vertex="1" parent="HQNWtrreXf5BRkY2UKth-49">
+        <mxCell id="HQNWtrreXf5BRkY2UKth-55" value="कर्ता" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF3333;" parent="HQNWtrreXf5BRkY2UKth-49" vertex="1">
           <mxGeometry x="416.5" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="7af431b2-d2dd-68c7-9170-6937825b54d4" name="K8s models">
-    <mxGraphModel dx="2032" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1228,7 +1228,7 @@
         </mxCell>
         <mxCell id="156" value="Kubernetes Pod" style="swimlane;rounded=1;strokeColor=#0066CC;fillColor=#007FFF;swimlaneLine=0;comic=0;startSize=20;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="344.5" y="1048.5" width="109" height="23" as="geometry">
-            <mxRectangle x="-433" y="-160" width="640" height="400" as="alternateBounds" />
+            <mxRectangle x="344.5" y="1048.5" width="640" height="400" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="157" value="Shared Resources&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4D4D4D;fillColor=#1A3300;fontColor=#FFFFFF;" parent="156" vertex="1">
@@ -1306,7 +1306,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b632dc22-db38-ed7d-77b5-1560fd5098a4" name="K8s and threads">
-    <mxGraphModel dx="1182" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1491" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
